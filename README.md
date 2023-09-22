@@ -57,5 +57,5 @@ Within the terminal instance running the Development Server send a kill command 
 ## 3 - How to Contribute
 
 ## 4 - License
-Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [MIT License](LICENSE).
+Unless otherwise noted, the source code of this project is covered under Crown Copyright, Government of Canada, and is distributed under the [ISC](LICENSE).
 

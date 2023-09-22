@@ -1,7 +1,14 @@
-import { defineUserConfig } from 'vuepress'
+module.exports = {
+  title: 'Open Science Portal',
+  description: 'Welcome to the user documentation site for the EOS Open Science Portal',
+  themeConfig: {
+    logo: '/logos/logo.png',
+    nav: [
+      {
+        text: 'Guide',
+        link: '/guide/',
+      }
+    ]
+  }
 
-export default defineUserConfig({
-  lang: 'en-US',
-  title: 'OSP User Documentation Site',
-  description: 'User Documentation for the usage of the Fisheries and Oceans Canada Open Science Portal.',
-})
+}
