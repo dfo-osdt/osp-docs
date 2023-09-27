@@ -1,8 +1,10 @@
 ---
 home: true
 heroImage: /logos/logo.png
-actionText: Getting Started
-actionLink: /guide/
+actions:
+    - text: Get Started
+      link: /guide/getting-started.html
+      type: primary
 footer:  Crown Copyright & ISC | Copyright © 2023 Fisheries and Oceans Canada
 ---
 
