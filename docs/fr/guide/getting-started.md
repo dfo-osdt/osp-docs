@@ -1,6 +1,6 @@
 ---
-lang: en-us
-title: Getting Started
-description: How to get started with the OSP 
+lang: Français
+title: Démarrage
+description: Comment commencer avec l'OSP
 ---
-# Hello!
+# Bonjour !

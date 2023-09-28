@@ -1,10 +1,10 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
-//import { path } from '@vuepress/utils'
-//import { theme-default } from '@vuepress/theme-default'
-//import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
+import {
+  sidebarEn, 
+  sidebarFr,
+} from './configs/index.js'
 
 export default
   {
@@ -38,7 +38,7 @@ export default
               // NavbarItem
               {
                 text: 'User Guide',
-                link: '/guide/',
+                link: '/guide/introduction',
               },
               // NavbarGroup
               {
@@ -56,38 +56,17 @@ export default
                 ]
               },
             ],
-            sidebar:
-            {
-              '/guide/':
-              [
-                {
-                  text: 'Guide',
-                  children: [
-                    '/guide/getting-started.md',
-                    '/guide/user-interface-overview.md',
-                    '/guide/using-the-application.md',
-                    '/guide/customization-and-security.md',
-                    '/guide/advanced-features.md',
-                    '/guide/troubleshooting.md',
-                    '/guide/support-and-contact.md',
-                    '/guide/updates-and-version-history.md',
-                    '/guide/appendices.md',
-                    '/guide/legal-and-compliance.md',
-                    '/guide/acknowledgments.md',
-                  ],
-                },
-              ]
-            },
+            sidebar: sidebarEn,
           },
-          },
+        
           '/fr/':
           {
             selectLangugaeName: 'Français',
             navbar: [
               // NavbarItem
               {
-                text: 'Guide de l\'utilisateur',
-                link: 'fr/guide/',
+                text: 'Guide de l utilisateur',
+                link: '/introduction',
               },
               // NavbarGroup
               {
@@ -104,8 +83,10 @@ export default
                 ]
               }
             ],
+            sidebar: sidebarFr,
           }
-        }
+        },
+      }
     ),
     plugins:
     [
@@ -120,7 +101,7 @@ export default
             },
             '/fr/':
             {
-              placeholder: 'Rechercher'
+              placeholder: 'Rechercher',
             }
           }
         }

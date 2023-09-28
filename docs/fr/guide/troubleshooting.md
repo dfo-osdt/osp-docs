@@ -1,5 +1,5 @@
 ---
 lang: Français
-title: Légal et Conformité
+title: Dépannage
 description:
 ---
