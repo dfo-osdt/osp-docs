@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 import {
+  head,
   sidebarEn, 
   sidebarFr,
 } from './configs/index.js'
@@ -9,6 +10,8 @@ import {
 export default
   {
     base: '/',
+
+    head,
 
     locales: 
     {
@@ -66,7 +69,7 @@ export default
               // NavbarItem
               {
                 text: 'Guide de l utilisateur',
-                link: '/introduction',
+                link: '/fr/guide/introduction',
               },
               // NavbarGroup
               {
