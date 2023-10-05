@@ -54,6 +54,17 @@ VuePress will start a hot-reloading development server at http://localhost:8080.
 ### Stop the Development Server
 Within the terminal instance running the Development Server send a kill command by pressing the keys **Control + c**.
 
+## Documentation
+The documentation site is built using the Vuepress 2 source code contained within this repository. Each page on this site is written in (Markdown)[https://www.markdownguide.org/] and saved as a .md file. VuePress 2 will automatically convert the Markdown files to (HTML)[https://developer.mozilla.org/en-US/docs/Web/HTML]. If you are running the (Local Development Server)[#Start-Local-Development-Server] you will see these changes upon saving the file.
+
+All the Markdown source files are placed in the `docs` directory. There are two translations being maintained:
+- English (en-US) in `/docs/guide` path
+- French (Français) in `/docs/fr/guide` path
+
+Whenever a new page file is created, the following steps should be taken:
+1) A new page file with the identical name should be created in the other language guide 
+2) The new page should be added to the  
+
 ## Project Structure
 
 ```md

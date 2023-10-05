@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /assets/logos/logo.png
+heroImage: /logos/logo.png
 actions:
     - text: Démarrer
       link: guide/getting-started.html

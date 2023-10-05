@@ -76,11 +76,11 @@ export default
                 text: 'GitHub',
                 children: [
                   {
-                    text: 'Application OSP',
+                    text: 'Application PSO',
                     link: 'https://github.com/dfo-osdt/osp'
                   },
                   {
-                    text: 'Documentation Utilisateur OSP',
+                    text: 'Documentation Utilisateur PSO',
                     link: 'https://github.com/dfo-osdt/osp-docs'
                   }
                 ]
