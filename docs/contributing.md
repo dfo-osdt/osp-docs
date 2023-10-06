@@ -9,12 +9,13 @@ lang: en-US
 ### Software
 - git v2.30.2+ [Install Guide](https://github.com/git-guides/install-git#debianubuntu)
 - Node.js v16.19+ [Install Guide](https://github.com/nodesource/distributions#debian-and-ubuntu-based-distributions)
-- pnpm v8.7.5+ [Install Guide](https://pnpm.io/installation#using-npm)
 ## Installation
 
 ### Windows 10
 
 Coming Soon!
+
+
 ---
 ### Unix - MacOS & Debian/Ubuntu Linux
 All steps are taken using a bash terminal.
@@ -55,15 +56,80 @@ VuePress will start a hot-reloading development server at http://localhost:8080.
 Within the terminal instance running the Development Server send a kill command by pressing the keys **Control + c**.
 
 ## Documentation
-The documentation site is built using the Vuepress 2 source code contained within this repository. Each page on this site is written in (Markdown)[https://www.markdownguide.org/] and saved as a .md file. VuePress 2 will automatically convert the Markdown files to (HTML)[https://developer.mozilla.org/en-US/docs/Web/HTML]. If you are running the (Local Development Server)[#Start-Local-Development-Server] you will see these changes upon saving the file.
+The documentation site is built using the Vuepress 2 source code contained within this repository. Each page on this site is written in [Markdown](https://www.markdownguide.org/) and saved as a .md file. VuePress 2 will automatically convert the Markdown files to [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML). If you are running the (Local Development Server)[#Start-Local-Development-Server] you will see these changes upon saving the file.
 
 All the Markdown source files are placed in the `docs` directory. There are two translations being maintained:
 - English (en-US) in `/docs/guide` path
 - French (Français) in `/docs/fr/guide` path
-
+### Steps for Creating a New Page
 Whenever a new page file is created, the following steps should be taken:
-1) A new page file with the identical name should be created in the other language guide 
-2) The new page should be added to the  
+1) A new page file with the identical name should be created in the other language guide
+2) *Optional* - Translate the page using [ChatGPT](chat.openai.com) to create second language copy \*
+3) Save the page and check `localhost:8080/guide/<NewPage>.html` and `localhost:8080/fr/guide/<NewPage>.html` to ensure proper rendering
+4) Add the new pages to the side-bar for both languages
+5) Git add, commit, and push changes to `git@github.com:dfo-osdt/osp-docs.git` repository
+
+\* **NOTE**: Using ChatGPT to translate the content is simply a quick way to provide accessibility in both official languages. All translations *must* be approved by the [Translation Bureau](https://www.tpsgc-pwgsc.gc.ca/bt-tb/index-eng.html)!
+
+### How to Add New Page to Side-Bar
+To add a new page to the side-bar you must add the path to the English `en.ts` and French `fr.ts` side-bar configuration file. This file can be found [here](https://github.com/dfo-osdt/osp-docs/tree/main/docs/.vuepress/configs/sidebar):
+```
+docs
+├──.vuepress
+|   ├── configs
+|   │   ├── head.ts
+|   │   ├── index.js
+|   │   ├── sidebar
+|   │   |   ├── en.ts
+|   │   |   ├── fr.ts
+|   │   |   └── index.js
+```
+For example, if you wish to add a new page between the `getting-started.md` and the `user-interface-overview.md` pages, you would add the following code to the English `en.ts` file:
+```
+export const sidebarEn: SidebarConfig = 
+{
+    '/guide/':
+              [
+                {
+                  text: 'Guide',
+                  children: [
+                    '/guide/introduction.md',
+                    '/guide/getting-started.md',
+                    '/guide/<new-page>.md',
+                    '/guide/user-interface-overview.md',
+                    ...
+                    '/guide/acknowledgments.md',
+                  ],
+                }
+              ]
+}
+```
+and to the Français `fr.ts` file:
+
+```
+export const sidebarFr: SidebarConfig = 
+{
+  '/fr/guide/':
+            [
+              {
+                text: 'Guide',
+                children: [
+                  '/fr/guide/introduction.md',
+                  '/fr/guide/getting-started.md',
+                  '/fr/guide/<new-page>.md',
+                  '/fr/guide/user-interface-overview.md',
+                  ...
+                  '/fr/guide/acknowledgments.md',
+                ],
+              }
+            ]
+}                  
+```
+
+## Style Guide
+All pages and content should have the same style consistancy with the OSP-PSO App. A link to the style guide containing appropriate logos, colour hex-codes, and fonts can be found below.
+
+[OSP-PSO Style Guide](/style-guide.html)
 
 ## Project Structure
 
@@ -199,9 +265,9 @@ docs
 docs
 ├──guide
 ```
-/docs/guide is the directory which contain all the guidance documents written in the English language.
+/docs/guide is the directory which contain all the guidance documents written in the English language.\
 
+## Troubleshooting
 
-## Style Guide
-See Style Guide
-[OSP-PSO Style Guide](/style-guide.html)
+### My Text is not Formatting Properly
+This is typically caused by the use of the \<Tab\> keyboard character. Markdown does not recognize the \<Tab\> character and cannot render it. The \<Tab\> character can be replaced by four \<Spacebar\> spaces. 

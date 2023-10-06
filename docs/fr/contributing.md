@@ -7,8 +7,7 @@ lang: Français
 ## Requis 
 ### Logiciels
 - git v2.30.2+ [Guide d'Installation](https://github.com/git-guides/install-git#debianubuntu)
-- Node.js v16.19+ [Guide d'Installation](https://github.com/nodesource/distributions#distributions-baser-sur-debian-et-ubuntu)
-- pnpm v8.7.5+ [Guide d'Installation](https://pnpm.io/installation#utilisation-de-npm)
+- Node.js v16.19+ [Guide d'Installation](https://github.com/nodesource/distributions#debian-and-ubuntu-based-distributions)
 
 ## Installation
 
@@ -54,6 +53,82 @@ VuePress démarrera un serveur de développement avec rechargement automatique s
 
 ### Arrêt du Serveur de Développement
 Dans l'instance de terminal exécutant le Serveur de Développement, envoyez une commande d'arrêt en appuyant sur les touches **Control + c**.
+
+## Documentation
+Le site de documentation est construit à l'aide du code source de Vuepress 2 contenu dans ce dépôt. Chaque page de ce site est rédigée en [Markdown](https://www.markdownguide.org/) et enregistrée sous la forme d'un fichier .md. VuePress 2 convertira automatiquement les fichiers Markdown en [HTML](https://developer.mozilla.org/fr/docs/Web/HTML). Si vous exécutez le (serveur de développement local)[#Démarrage-du-serveur-de-développement-local], vous verrez ces modifications dès que vous enregistrez le fichier.
+
+Tous les fichiers sources Markdown sont placés dans le répertoire `docs`. Deux traductions sont maintenues :
+- Anglais (en-US) dans le chemin `/docs/guide`
+- Français (Français) dans le chemin `/docs/fr/guide`
+### Étapes pour Créer une Nouvelle Page
+Lorsqu'un nouveau fichier de page est créé, les étapes suivantes doivent être suivies :
+1) Un nouveau fichier de page avec le même nom doit être créé dans le guide de l'autre langue
+2) *Facultatif* - Traduisez la page à l'aide de [ChatGPT](chat.openai.com) pour créer une copie dans la deuxième langue \*
+3) Enregistrez la page et vérifiez `localhost:8080/guide/<NouvellePage>.html` et `localhost:8080/fr/guide/<NouvellePage>.html` pour vous assurer du rendu approprié
+4) Ajoutez les nouvelles pages à la barre latérale pour les deux langues
+5) Ajoutez, commettez et poussez les modifications dans le référentiel `git@github.com:dfo-osdt/osp-docs.git`
+
+\* **REMARQUE**: L'utilisation de ChatGPT pour traduire le contenu est simplement un moyen rapide de fournir une accessibilité dans les deux langues officielles. Toutes les traductions *doivent* être approuvées par le [Bureau de la traduction](https://www.tpsgc-pwgsc.gc.ca/bt-tb/index-fra.html)!
+
+### Comment Ajouter une Nouvelle Page à la Barre Latérale
+Pour ajouter une nouvelle page à la barre latérale, vous devez ajouter le chemin dans le fichier de configuration de la barre latérale en anglais `en.ts` et en français `fr.ts`. Ce fichier se trouve [ici](https://github.com/dfo-osdt/osp-docs/tree/main/docs/.vuepress/configs/sidebar):
+```
+docs
+├──.vuepress
+|   ├── configs
+|   │   ├── head.ts
+|   │   ├── index.js
+|   │   ├── sidebar
+|   │   |   ├── en.ts
+|   │   |   ├── fr.ts
+|   │   |   └── index.js
+```
+Par exemple, si vous souhaitez ajouter une nouvelle page entre les pages `getting-started.md` et `user-interface-overview.md`, vous
+```
+export const sidebarEn: SidebarConfig = 
+{
+    '/guide/':
+              [
+                {
+                  text: 'Guide',
+                  children: [
+                    '/guide/introduction.md',
+                    '/guide/getting-started.md',
+                    '/guide/<new-page>.md',
+                    '/guide/user-interface-overview.md',
+                    ...
+                    '/guide/acknowledgments.md',
+                  ],
+                }
+              ]
+}
+```
+Par exemple, si vous souhaitez ajouter une nouvelle page entre les pages `getting-started.md` et `user-interface-overview.md`, vous devrez ajouter le code suivant dans le fichier français `fr.ts` :
+```
+export const sidebarFr: SidebarConfig = 
+{
+  '/fr/guide/':
+            [
+              {
+                text: 'Guide',
+                children: [
+                  '/fr/guide/introduction.md',
+                  '/fr/guide/getting-started.md',
+                  '/fr/guide/<new-page>.md',
+                  '/fr/guide/user-interface-overview.md',
+                  ...
+                  '/fr/guide/acknowledgments.md',
+                ],
+              }
+            ]
+}                  
+```
+
+## Guide de style
+Toutes les pages et le contenu doivent respecter la même cohérence de style que l'application OSP-PSO. Un lien vers le guide de style contenant les logos appropriés, les codes hexadécimaux des couleurs et les polices se trouve ci-dessous.
+
+[Guide de style OSP-PSO](/style-guide.html)
+
 
 ## Structure du Projet
 ```md
@@ -191,6 +266,8 @@ docs
 ```
 /docs/guide est le répertoire qui contient tous les documents de guidage rédigés en anglais.
 
-## Guide de Style
-Voir le Guide de Style
-[Guide de Style OSP-PSO](/fr/style-guide.html)
+## Dépannage
+
+### Mon texte ne se formate pas correctement
+Cela est généralement dû à l'utilisation du caractère de touche \<Tab\>. Markdown ne reconnaît pas le caractère \<Tab\> et ne peut pas le rendre correctement. Vous pouvez remplacer le caractère de \<Tab\> par quatre espaces de la touche \<Espace\>.
+
