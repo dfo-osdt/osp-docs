@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { externalLinkIconPlugin } from '@vuepress/plugin-external-link-icon'
 import {
   head,
   sidebarEn, 
@@ -38,10 +39,15 @@ export default
             selectLanguageName: 'English',
             navbar: 
             [
-              // NavbarItem
+              // User Guide
               {
                 text: 'User Guide',
                 link: '/guide/introduction',
+              },
+              // OSP-PSO
+              {
+                text: 'OSP-PSO',
+                link: 'https://osp-pso.ca/'
               },
               // NavbarGroup
               {
@@ -66,10 +72,15 @@ export default
           {
             selectLangugaeName: 'Français',
             navbar: [
-              // NavbarItem
+              // User Guide
               {
                 text: 'Guide de l utilisateur',
                 link: '/fr/guide/introduction',
+              },
+              // PSO-OSP
+              {
+                text: 'PSO-OSP',
+                link: 'https://osp-pso.ca/'
               },
               // NavbarGroup
               {
@@ -108,6 +119,22 @@ export default
             }
           }
         }
-      )
+      ),
+      externalLinkIconPlugin
+      (
+        {
+          locales:
+          {
+            '/':
+            {
+              externalLinkIconPlugin: false,
+            },
+            '/fr/':
+            {
+              externalLinkIconPlugin: false,
+            },
+          }
+        }
+      ),
     ]
   }

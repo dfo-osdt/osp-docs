@@ -25,3 +25,13 @@ Black
 ```
 #000000
 ```
+## Buttons
+Primary
+```
+#26A69A
+```
+
+Secondary/Hover
+```
+#26a699ce
+```
