@@ -31,7 +31,8 @@ export default
     },
     theme: defaultTheme
     (
-      {
+	{
+	    logo: '/logos/logo.png',
         locales:
         {
           '/':
