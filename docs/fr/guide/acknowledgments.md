@@ -1,8 +1,8 @@
 ---
 lang: fr-CA
-title: Remerciements
+title: 12.0 - Remerciements
 description:
 ---
-12) Remerciements
+# 12.0 - Remerciements
 
-- Remerciez les utilisateurs d'avoir choisi votre application et reconnaissez les contributeurs si cela s'applique.
+- Remerciez les utilisateurs d'avoir choisi votre application et reconnaissez les contributeurs le cas échéant.

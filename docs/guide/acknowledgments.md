@@ -1,8 +1,8 @@
 ---
 lang: en-US
-title: Acknowledgments
+title: 12.0 - Acknowledgments
 description:
 ---
-12) Acknowledgments
+# 12.0 - Acknowledgments
 
 - Thank users for choosing your application and acknowledge contributors if applicable.

@@ -1,10 +1,15 @@
 ---
 lang: fr-CA
-title: Dépannage
+title: 7.0 - Dépannage
 description:
 ---
-7) Dépannage
+# 7.0 - Dépannage
 
-- Problèmes Courants : Énumérez et décrivez les problèmes courants que les utilisateurs peuvent rencontrer.
+- Problèmes Courants : Liste et description des problèmes courants que les utilisateurs peuvent rencontrer.
 - Messages d'Erreur : Expliquez les messages d'erreur et comment résoudre les problèmes associés.
-- FAQ : Incluez des questions fréquemment posées et leurs réponses.
+- FAQ : Incluez les questions fréquemment posées et leurs réponses.
+## 7.1 - Mots de Passe
+### 7.1.1 - Exigences
+Les mots de passe doivent :
+- Avoir au moins 12 caractères
+- Ne pas figurer dans la liste des mots de passe compromis connus

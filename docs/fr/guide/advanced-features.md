@@ -1,11 +1,11 @@
 ---
 lang: fr-CA
-title: Fonctionnalités Avancées
+title: 6.0 - Fonctionnalités Avancées
 description:
 ---
-6) Fonctionnalités Avancées
+# 6.0 - Fonctionnalités Avancées
 
-- Intégration : Si votre application s'intègre avec d'autres outils ou services, fournissez des instructions pour l'intégration.
-    - Intégration ORCID : Fournissez des directives pour lier/créer un ORCID.
-    - Synchronisation des Profils Scientifiques du GC : Cette fonctionnalité.
-- [Priorité inférieure] Documentation de l'API : Si applicable, incluez une documentation pour les développeurs sur la manière d'utiliser votre API.
+- Intégration : Si votre application s'intègre à d'autres outils ou services, fournissez des instructions pour l'intégration.
+    - Intégration ORCID : Fournissez des conseils sur la liaison/création d'un identifiant ORCID.
+    - Synchronisation des profils scientifiques du GC : Cette fonctionnalité.
+- [Priorité inférieure] Documentation de l'API : Si applicable, incluez la documentation pour les développeurs sur la manière d'utiliser votre API.

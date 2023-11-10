@@ -1,9 +1,9 @@
 ---
 lang: en-US
-title: Appendices
+title: 10.0 - Appendices
 description:
 ---
-10) Appendices
+# 10.0 - Appendices
 
 - Glossary: Include a glossary of terms used in the application.
 - References: Provide links to additional resources or related documentation (publication policy, guide, acts and legislations...).

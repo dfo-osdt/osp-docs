@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Troubleshooting
+title: 7.0 - Troubleshooting
 description:
 ---
 # 7.0 - Troubleshooting

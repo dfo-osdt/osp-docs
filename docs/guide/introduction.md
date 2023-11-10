@@ -1,9 +1,9 @@
 ---
 lang: en-US
-title: Introduction
+title: 1.0 - Introduction
 description:
 ---
-1) Introduction
+# 1.0 - Introduction
 
 - Welcome: A brief welcoming message introducing the user to the guide.
 - Purpose: Explain the purpose and importance of the user guide.

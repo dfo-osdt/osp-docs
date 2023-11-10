@@ -1,9 +1,9 @@
 ---
 lang: en-US
-title: Using the Application
+title: 4.0 - Using the Application
 description:
 ---
-4) Using the Application
+# 4.0 -  Using the Application
 
 - Core Features: Detail the primary functions and features of the application.
 - Step-by-Step Tutorials: Offer tutorials or walkthroughs for common tasks or workflows (divided by type of user: author, manager, comms...)

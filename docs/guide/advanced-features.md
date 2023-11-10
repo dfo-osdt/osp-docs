@@ -1,9 +1,9 @@
 ---
 lang: en-US
-title: Advanced Features
+title: 6.0 - Advanced Features
 description:
 ---
-6) Advanced Features
+# 6.0 - Advanced Features
 
 - Integration: If your application integrates with other tools or services, provide instructions for integration.
     - ORCID integration: Provide guidance on linking/creating an ORCID.

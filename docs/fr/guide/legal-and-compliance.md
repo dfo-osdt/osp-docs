@@ -1,9 +1,9 @@
 ---
 lang: fr-CA
-title: Légal et Conformité
+title: 11.0 - Légal et Conformité
 description:
 ---
-11) Légal et Conformité
+# 11.0 - Légal et Conformité
 
-- Conditions d'utilisation : Lien vers les conditions d'utilisation de votre application ou accord de l'utilisateur.
+- Conditions d'utilisation : Lien vers les conditions d'utilisation ou l'accord de l'utilisateur de votre application.
 - Politique de confidentialité : Lien vers la politique de confidentialité de votre application.

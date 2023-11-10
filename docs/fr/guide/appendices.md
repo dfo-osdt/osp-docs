@@ -1,10 +1,10 @@
 ---
 lang: fr-CA
-title: Annexes
+title: 10.0 - Annexes
 description:
 ---
-10) Annexes
+# 10.0 - Annexes
 
-- Glossaire : Inclure un glossaire des termes utilisés dans l'application.
-- Références : Fournir des liens vers des ressources supplémentaires ou une documentation connexe (politique de publication, guide, lois et législations...).
-- Index : Créer un index pour une référence rapide.
+- Glossaire : Incluez un glossaire des termes utilisés dans l'application.
+- Références : Fournissez des liens vers des ressources supplémentaires ou une documentation connexe (politique de publication, guide, lois et législations...).
+- Index : Créez un index pour une référence rapide.
