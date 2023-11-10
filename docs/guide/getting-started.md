@@ -65,10 +65,29 @@ If any changes are made ensure they are saved by left-clicking on the *Save* but
 From the *Settings* menu on the left side of the screen, left-click on *Author Profile*.
 
 #### 2.3.2(a) - Author Profile
+##### Current Affiliation
+
 Verify that your *Current Affiliation* organization is correct. If the *Current Affilication* is incorrect or not populated you can update with the following steps:
 1) Left-click on the text box to select it
 2) Backspace the existing afflication
 3) Begin typing the name of your current affilication. The system will suggest organizations based upon your input
 4) If your organization appears, you can select it by left-clicking on the name from the drop-down search
 5) If you organization does not appear, you can add it by left-clicking on the *Plus (+)* button located on the bottom-right side of the drop-down search
-6) The *Create new Organization* pop-up window will appear. Input the organization's English name, French name, English abbreviation (optional), and French abbreviation (optional)
+6) The *Create new Organization* pop-up window will appear. Input the organization's
+    - English name
+    - French name
+    - English abbreviation (optional)
+    - French abbreviation (optional)
+
+##### ORCID
+If you have your ORCID you can enter it now. If you do not have your ORCID you can register or apply for one in the [next step](#_2-3-2-c-manage-orcid).
+
+#### 2.3.2(b) - Areas of Expertise
+Improve your experience and improve collaboration by adding your *Area of Expertise* tags. To do this:
+1) Left-click on the *EDIT* button on the top-right side of the Area of Expertise box
+2) Left-click on the text box to select it
+3) Begin typing your area of expertise. The system will suggest all areas containing your key word
+4) Left-click on the expertise you would like to add
+5) Repeat steps 3 and 4 until you 
+
+#### 2.3.2(c) - Manage ORCID
