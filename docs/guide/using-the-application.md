@@ -17,10 +17,19 @@ description:
 The purpose of the Open Science Portal application is to simplify the process of publishing research.
 
 ### 4.1.2 - Features
+#### Primary
+- Centralization of the Publication creation and submission process
+- Manuscript Record Form digitization
+- Peer-review streamlining
+- Division Manager review streamlining
+- Publication metrics tracking
+- Add externally completed Manuscript Record Forms
+- Add previously submitted publications
 
-#### Manuscript Creation
-
-#### Manuscript
+#### Secondary
+- Inviting users to the Open Science Portal
+- Publication search
+- Author search
 
 ## 4.2 - Author Walkthroughs
 All walkthroughs will assume you are logged in with a verified account and will start from the Open Science Portal Dashboard homepage.
@@ -342,6 +351,9 @@ To mark your publication as published, scroll to the bottom of the page and left
 4. Scroll down to the bottom of the page and left-click on the "SAVE" button to save the changes.
 
 ### 4.2.9 - Publication Create a New Entry
+::: tip
+This is important if you have previously published publications.
+:::
 
 #### Create a Publication Entry
 
