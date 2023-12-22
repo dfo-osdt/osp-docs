@@ -10,8 +10,25 @@ description:
 - Menus and Icons: Describe the purpose of menus and icons used in the interface.
 - Settings: Provide information on user settings and preferences.
 
-## 3.1 - Metrics
+## 3.1 - Dashboard
+![Dashboard](/images/dashboard_overview.png)
 
+### 1 - Home Button
+
+### 2 - Settings
+
+### 3 - Hover Menu
+
+### 4 - Explore
+
+### 5 - Status Metrics
+
+### 6 - Recent
+
+### 7 - Quick Create
+
+### 8 - Contact Us
+- 
 ## 3.2 - Recent
 
 ### 3.2.1 - Manuscripts
