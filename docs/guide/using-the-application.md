@@ -200,7 +200,7 @@ To mark the manuscript as submitted to a journal:
 1. Click on the "MARK AS SUBMITTED" button.
 2. Click on the "Submitted to Journal On" text box and type in the date in the YYYY-MM-DD (Year, Month, Day) format or Click on the Calendar icon located at the right-end of the text box and select the applicable year, month, and day.
 3. Click on the "UPDATE" box to confirm the date.
-
+	
 ##### Accepted for Publication
 
 The Author can declare whether their manuscript has been accepted for publication by the targeted journal or if they have decided to withdraw their manuscript.
@@ -393,11 +393,11 @@ To update the *Author(s) and Affiliation(s)* and provide a PDF copy of the publi
 14. Click the "Open" button to add it to the upload queue.
 15. Click on the "UPLOAD" button located on the right-side of the "Upload the publication" dialog box.
 
-For a detailed walkthrough of updating all of the Publication Details, please see [4.2.8 - Publication Update Record](#_4-2-8-publication-update-record).
+For a detailed walkthrough of updating all of the Publication Details, please see [Publication Update Record](#publication-update-record).
 
 ### 4.2.3 - My Reviews Page
 
-For instructions on managing reviews, please see [4.3.2 - Manuscript Review](#_4-3-2-manuscript-review).
+For instructions on managing reviews, please see [4.3.3 - My Reviews Page](#_4-3-3-my-reviews-page).
 
 ## 4.3 - Manager Walkthroughs
 All walkthroughs will assume you are logged in with a verified account and will start from the OSP Dashboard homepage.
@@ -406,9 +406,9 @@ All walkthroughs will assume you are logged in with a verified account and will 
 The Process of Creating and Submitting a Manuscript Record Form is the same process as a Author. Please see [4.2.1 - My Manuscripts Page](#_4-2-1-my-manuscripts-page) on how to create and submit a Manuscript Record Form.
 
 ### 4.3.2 - My Publications Page
-The Process of Viewing or Submitting a Publication is the same process as an Author. Please see [4.2.2 - My Publications Page](#_4_2_2-my-publications-page) on how to view or submit a publication.
+The Process of Viewing or Submitting a Publication is the same process as an Author. Please see [4.2.2 - My Publications Page](#_4-2-2-my-publications-page) on how to view or submit a publication.
 
-### 4.3.2 - My Reviews Page
+### 4.3.3 - My Reviews Page
 
 #### Manuscript Review Page
 You can check if you have been selected to review a manuscript or on the status of manuscripts you are reviewing on the *My Reviews* page. To navigate to the *My Reviews* page:
@@ -417,11 +417,11 @@ You can check if you have been selected to review a manuscript or on the status 
 Under the "All My Reviews" window in the middle of the page you can see all the manuscripts in which you are involved in. If you would like to search or filter for a specific manuscript review, you can type the name or keyword in the *Filter* text box located in the top-right corner of the *All My Reviews* window.
 
 #### Pending Reviews
-You can see a list of manuscripts which require action from you on the *Pending* Page. You can navigate to the *Pending* page from the [My Reviews page](#manuscript-review-page) by Clicking on the *Pending* button located in the *Reviews* menu on the left-side of the screen. A list of all manuscripts await action from you will now be listed. To take action Click on the manuscript you would like to review.
+You can see a list of manuscripts which require action from you on the *Pending* Page. You can navigate to the *Pending* page from the [Manuscript Reviews Page](#manuscript-review-page) by Clicking on the *Pending* button located in the *Reviews* menu on the left-side of the screen. A list of all manuscripts await action from you will now be listed. To take action Click on the manuscript you would like to review.
 
 ##### Review the Manuscript Form
 To review information submitted by the Author or download a copy of the submitted manuscript, Click on the *Form* button located on the left-side of the screen under the *Manuscript Record* menu.
-**NOTE**: While in the *Form* page for a manuscript you have the ability to edit and save changes to the Manuscript Record Form. For a detailed guide on making edits to the *Manuscript Record Form* please see [4.2.2 - Manuscript Record Form](#_4-2-2-manuscript-record-form).
+**NOTE**: While in the *Form* page for a manuscript you have the ability to edit and save changes to the Manuscript Record Form. For a detailed guide on making edits to the *Manuscript Record Form* please see [Manuscript Record Form](#manuscript-record-form).
 
 ##### Management Review
 Prior making a review decision, please read the *Submission for Management Review* disclaimer, *Management Review Guidelines*, and *Manager Comments*.

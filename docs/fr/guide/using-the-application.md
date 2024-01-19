@@ -245,7 +245,7 @@ Si vous avez partagé un enregistrement de manuscrit et que vous souhaitez modif
 
 ##### Supprimer un Partage de Manuscrit
 
-Si vous avez partagé un enregistrement de manuscrit et que vous souhaitez supprimer/retirer le partage :
+Si vous avez partagé un enregistrement de manuscrit et que vous souhaitez supprimer/retirer le partage:
 1. Cliquez sur l'icône "Corbeille" située sous la colonne "Actions" à droite de l'enregistrement de partage.
 2. Confirmez la suppression de cet accès de partage en cliquant sur le bouton "OK".
 
@@ -258,7 +258,7 @@ La page Mes Publications vous permet de voir toutes les publications que vous av
 
 #### Enregistrement de Mise à Jour de la Publication
 
-Si vous avez soumis un Formulaire d'Enregistrement de Manuscrit approuvé pour la publication, vous pouvez gérer son statut. Pour mettre à jour le statut de la publication :
+Si vous avez soumis un Formulaire d'Enregistrement de Manuscrit approuvé pour la publication, vous pouvez gérer son statut. Pour mettre à jour le statut de la publication:
 
 1. Cliquez sur le bouton "En Cours" dans le menu "Publications" situé sur le côté gauche de la page.
 2. Cliquez sur la publication que vous souhaitez mettre à jour.
@@ -388,21 +388,21 @@ Pour mettre à jour les *Auteur(s) et Affiliation(s)* et fournir une copie PDF d
 14. Cliquez sur le bouton "Ouvrir" pour l'ajouter à la file d'attente de téléchargement.
 15. Cliquez sur le bouton "TÉLÉCHARGER" situé à droite de la boîte de dialogue "Télécharger la publication".
 
-Pour un guide détaillé sur la mise à jour de tous les Détails de la Publication, veuillez consulter [4.2.8 - Mise à Jour de l'Enregistrement de Publication](#_4-2-8-publication-update-record).
+Pour un guide détaillé sur la mise à jour de tous les Détails de la Publication, veuillez consulter [Enregistrement de Mise à Jour de la Publication](#enregistrement-de-mise-a-jour-de-la-publication).
 
 ### 4.2.3 - Ma Page de Critiques
 
-Pour des instructions sur la gestion des critiques, veuillez consulter [4.3.2 - Examen du Manuscrit](#_4-3-2-manuscript-review).
+Pour des instructions sur la gestion des critiques, veuillez consulter [4.3.3 - Ma Page de Critiques](#_4-3-3-ma-page-de-critiques).
 ## 4.3 - Guides pour les Gestionnaires
 Toutes les instructions supposeront que vous êtes connecté avec un compte vérifié et commenceront depuis la page d'accueil du tableau de bord de l'OSP.
 
 ### 4.3.1 - Ma Page de Manuscrits
-Le processus de création et de soumission d'un Formulaire d'Enregistrement de Manuscrit est le même que pour un auteur. Veuillez consulter [4.2.1 - Ma Page de Manuscrits](#_4-2-1-my-manuscripts-page) pour savoir comment créer et soumettre un Formulaire d'Enregistrement de Manuscrit.
+Le processus de création et de soumission d'un Formulaire d'Enregistrement de Manuscrit est le même que pour un auteur. Veuillez consulter [4.2.1 - Ma Page de Manuscrits](#_4-2-1-ma-page-de-manuscrits) pour savoir comment créer et soumettre un Formulaire d'Enregistrement de Manuscrit.
 
 ### 4.3.2 - Ma Page de Publications
-Le processus de visualisation ou de soumission d'une publication est le même que pour un auteur. Veuillez consulter [4.2.2 - Ma Page de Publications](#_4_2_2-my-publications-page) pour savoir comment visualiser ou soumettre une publication.
+Le processus de visualisation ou de soumission d'une publication est le même que pour un auteur. Veuillez consulter [4.2.2 - Ma Page de Publications](#_4-2-2-page-mes-publications) pour savoir comment visualiser ou soumettre une publication.
 
-### 4.3.2 - Ma Page de Critiques
+### 4.3.3 - Ma Page de Critiques
 
 #### Page d'Examen de Manuscrit
 Vous pouvez vérifier si vous avez été sélectionné pour examiner un manuscrit ou l'état des manuscrits que vous examinez sur la page *Mes Critiques*. Pour accéder à la page *Mes Critiques* :
@@ -411,17 +411,17 @@ Vous pouvez vérifier si vous avez été sélectionné pour examiner un manuscri
 Dans la fenêtre "Toutes Mes Critiques" au milieu de la page, vous pouvez voir tous les manuscrits auxquels vous participez. Si vous souhaitez rechercher ou filtrer une critique de manuscrit spécifique, vous pouvez taper le nom ou le mot-clé dans la boîte de texte *Filtrer* située dans le coin supérieur droit de la fenêtre *Toutes Mes Critiques*.
 
 #### Critiques en Attente
-Vous pouvez voir une liste des manuscrits qui nécessitent une action de votre part sur la page *En Attente*. Vous pouvez accéder à la page *En Attente* depuis la [page Mes Critiques](#page-dexamen-de-manuscrit) en cliquant sur le bouton *En Attente* situé dans le menu *Critiques* sur le côté gauche de l'écran. Une liste de tous les manuscrits qui attendent une action de votre part sera maintenant affichée. Pour agir, cliquez sur le manuscrit que vous souhaitez examiner.
+Vous pouvez voir une liste des manuscrits qui nécessitent une action de votre part sur la page *En Attente*. Vous pouvez accéder à la page *En Attente* depuis la [Page d'Examen de Manuscrit](#page-d-examen-de-manuscrit) en cliquant sur le bouton *En Attente* situé dans le menu *Critiques* sur le côté gauche de l'écran. Une liste de tous les manuscrits qui attendent une action de votre part sera maintenant affichée. Pour agir, cliquez sur le manuscrit que vous souhaitez examiner.
 
 ##### Examen du Formulaire de Manuscrit
 Pour examiner les informations soumises par l'auteur ou télécharger une copie du manuscrit soumis, cliquez sur le bouton *Formulaire* situé sur le côté gauche de l'écran dans le menu *Enregistrement de Manuscrit*.
-**REMARQUE** : Pendant que vous êtes dans la page *Formulaire* pour un manuscrit, vous avez la possibilité de modifier et sauvegarder des modifications apportées au Formulaire d'Enregistrement de Manuscrit. Pour un guide détaillé sur la modification du *Formulaire d'Enregistrement de Manuscrit*, veuillez consulter [4.2.2 - Formulaire d'Enregistrement de Manuscrit](#_4-2-2-manuscript-record-form).
+**REMARQUE** : Pendant que vous êtes dans la page *Formulaire* pour un manuscrit, vous avez la possibilité de modifier et sauvegarder des modifications apportées au Formulaire d'Enregistrement de Manuscrit. Pour un guide détaillé sur la modification du *Formulaire d'Enregistrement de Manuscrit*, veuillez consulter [Formulaire d'Enregistrement de Manuscrit](#formulaire-d-enregistrement-du-manuscrit).
 
 ##### Examen de la Gestion
 Avant de prendre une décision de révision, veuillez lire la clause de non-responsabilité *Soumission pour Révision de Gestion*, les *Directives pour la Révision de Gestion*, et les *Commentaires du Gestionnaire*.
 
 ###### Types de Décisions de Gestion
-Il existe cinq décisions qui peuvent être prises :
+Il existe cinq décisions qui peuvent être prises:
 1. Approuver et Terminer
     - Vous approuvez ce manuscrit pour la publication et mettez fin au processus de révision de gestion.
 2. Approuver et Transmettre
@@ -434,7 +434,7 @@ Il existe cinq décisions qui peuvent être prises :
     - Vous n'êtes pas le gestionnaire approprié pour examiner ce manuscrit et réaffectez cette révision au gestionnaire approprié sans faire de recommandation.
 
 ###### Soumettre une Décision de Révision
-Pour soumettre une Décision de Révision de Gestion :
+Pour soumettre une Décision de Révision de Gestion:
 1. Cliquez dans la boîte de texte *Commentaire du Gestionnaire* pour la sélectionner. Saisissez tout commentaire qui appuie votre décision ou fournissez des commentaires utiles à l'auteur ou au gestionnaire assistant. (Cette étape est facultative si vous *Approuvez et Terminez* ce manuscrit.)
 2. Cliquez sur le bouton *ENREGISTRER LES COMMENTAIRES* pour sauvegarder vos commentaires. Si vous n'êtes pas prêt à prendre une décision de révision, vous pouvez quitter cette page en toute sécurité sans perdre vos commentaires.
 3. Cliquez sur *SOUMETTRE LA DÉCISION*. Cela ouvrira la boîte de dialogue de la Décision.
