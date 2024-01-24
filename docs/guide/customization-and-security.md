@@ -53,4 +53,4 @@ Improve your experience and collaboration by adding your *Area of Expertise* tag
 
 #### 5.1.2(c) - Manage ORCID
 
-## 5.2 - Change Password
+## 5.2 - Passwords
