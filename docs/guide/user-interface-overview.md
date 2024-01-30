@@ -13,7 +13,8 @@ description:
 Images will be explained in a left-to-right fashion.
 
 ## 3.1 - Registration Page
-![Register Page](/images/register_help.png)
+<!-- ![Register Page](/images/register_help.png)-->
+<img src="/images/register_help.png" width="500" height="500">
 
 ### 1 - First Name Text Box
 Clicking on the First Name Text Box will allow you to select it. Once selected you can type in your first name.

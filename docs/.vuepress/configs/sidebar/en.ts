@@ -5,7 +5,8 @@ export const sidebarEn: SidebarConfig =
     '/guide/':
               [
                 {
-                  text: 'Guide',
+		sidebarDepth: 0,
+                  text: 'Guide',		 
                   children: [
                     '/guide/introduction.md',
                     '/guide/getting-started.md',

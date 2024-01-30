@@ -66,7 +66,10 @@ export default
                 ]
               },
             ],
-            sidebar: sidebarEn,
+	      // Apply sidebar configs
+              sidebar: sidebarEn,
+	      // Set number of sidebar children 0:none, 1:h2, 2:h3
+	      sidebarDepth: 1,
           },
         
           '/fr/':
@@ -98,7 +101,10 @@ export default
                 ]
               }
             ],
-            sidebar: sidebarFr,
+	      // Load sidebar config
+              sidebar: sidebarFr,
+	      // Set number of children 0:none, 1:h2, 2:h3
+	      sidebarDepth:1,
           }
         },
       }
