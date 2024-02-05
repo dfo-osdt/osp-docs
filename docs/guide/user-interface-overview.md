@@ -39,7 +39,8 @@ Clicking the Eye symbol with the crossed line through it will allow you to tempo
 Clicking the Registration Button will submit the registration form to the account-creation system. If account creation is sucessful, you will be redirected to an informational page with next steps to verify your account.
 
 ## 3.2 - Login Page
-![Login Page](/images/login_help.png)
+<!-- ![Login Page](/images/login_help.png) -->
+<img src="/images/login_help.png" width="500" height="500">
 
 ### 1 - Email Text Box
 Clicking on the Email Text Box will allow you to select it. Once selected you can type in the email associated with your account.\
@@ -76,7 +77,9 @@ Left-clicking on the Triangle will take you to the Open Science Portal homepage.
 
 ### 2 - Settings
 #### Circular Initials Button
-![Settings Menu](/images/settings_menu_help.png)
+<!-- ![Settings Menu](/images/settings_menu_help.png) -->
+<img src="/images/settings_menu_help.png" width="500" height="500">
+
 Left-clicking the circular button with your initials will expand the user menu. The user menu will allow you to navigate to:
 1. [Settings](#)
 2. [Dashboard](#_3-1-dashboard)
@@ -117,12 +120,16 @@ The My Publications metric box shows the number of manuscripts that have been ac
 
 ### 6 - Recent
 #### Manuscripts
+![Dashboard Recent Manuscript](/images/dashboard_recent_manuscript_help.png)
+<!-- <img src="/images/dashboard_recent_manuscript_help.png" width="1700" height="300"> -->
 The Manuscripts tab of the Recent menu show the Manuscript Record Forms which have most recently been edited. These Manuscript Record Forms are ordered from most to least recently edited.
 
 #### Reviews
+![Dashboard Recent Reviews](/images/dashboard_recent_reviews_help.png)
 The Reviews tab of the Recent menu show the Manuscript Record Forms which have most recently changed status. These Manuscript Record Form Reviews are ordered from most to least recent status change. If there are Manuscript Record Forms awaiting your review, a small bubble with the number of pending reviews will appear to the top-right of Reviews.
 
 #### Publications
+![Dashboard Recent Publications](/images/dashboard_recent_publications_help.png)
 The Publications tab of the Recent menu show publications which have most recently changed status that you are associated with. These publications are ordered from most to least recent status change.
 
 ### 7 - Quick Create
