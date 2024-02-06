@@ -170,6 +170,8 @@ By default, when you open the User Settings Menu you will be brought to the User
 Clicking the Contact Us Hyperlink will automatically prompt you to send an email to `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca` using your default email client.
 
 ### 3.3.2 - User Profile
+![Settings User Profile](/images/settings_user_profile_help.png)
+
 #### 1 - First and Last Name
 The First and Last name associated with your account will appear in gray. If you wish to change the name associated with your account:
 1. Click on the name field to select it.
@@ -178,7 +180,7 @@ The First and Last name associated with your account will appear in gray. If you
 4. Click the [Save Button](#_4-save-button) to save the changes.
 
 #### 2 - Email
-The email associated with your account will appear in gray. This email is also used to login to your Open Science Portal account. If you would like to make changes to email please send the request to the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+The email associated with your account will appear in gray. This email is also used to login to your Open Science Portal account. If you would like to make changes to email please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 #### 3 - Default Language
 The default language for your account will appear in this box. If you would like to change your default language:
@@ -189,9 +191,17 @@ The default language for your account will appear in this box. If you would like
 #### 4 - Save Button
 The Save Button is used to save any changes made to the User Profile. Apply any changes click the Save Button.
 
+#### 5 - User Roles
+User Roles identifies what type of account you have. User Roles are generated upon account creation. If you feel your account does not have the appropriate role please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).\
+Current available roles:
+- Author
+- Director
+- Admin
 ### 3.3.3 - Author Profile
+![Settings Author Profile](/images/settings_author_profile_help.png)
+
 #### 1 - User Information
-The User Information is the same information found in the [3.3.2 - User Profile](#3-3-2-user-profile) section. If you wish to make changes to this information please navigate to the User Profile
+The User Information is the same information found in the [3.3.2 - User Profile](#3-3-2-user-profile) section. If you wish to make changes to this information please navigate to the User Profile Settings.
 #### 2 - Current Affiliation
 
 #### 3 - ORCID
@@ -206,6 +216,8 @@ The User Information is the same information found in the [3.3.2 - User Profile]
 
 
 ### 3.3.4 - Account Security
+![Settings Account Security](/images/settings_account_security_help.png)
+
 #### 1 - Current Password
 
 #### 2 - New Password
@@ -228,5 +240,6 @@ The User Information is the same information found in the [3.3.2 - User Profile]
 ##### Logout At
 
 ### 3.3.5 - Sent Invitations
+![Settings Sent Invitations](/images/settings_sent_invitations_help.png)
 
 ## 3.4 - Common Buttons
