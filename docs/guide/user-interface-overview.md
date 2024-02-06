@@ -143,5 +143,27 @@ Clicking the Add Publication button will allow you to add publications which wer
 Clicking the Contact Us Hyperlink will automatically prompt you to send an email to `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca` using your default email client.
 
 ## 3.3 - Settings
+### 3.3.1 - Settings Dashboard
+![Settings Dashboard](/images/settings_main_help.png)
+
+#### 1 - Home Button and Navigation Menu
+
+#### 2 - Settings and Language Button
+
+#### 3 - Settings Navigation Menu
+
+#### 4 - User Profile Settings
+
+#### 5 - User Roles
+
+#### 6 - Contact Us Button
+
+### 3.3.2 - User Profile
+
+### 3.3.3 - Author Profile
+
+### 3.3.4 - Account Security
+
+### 3.3.5 - Sent Invitations
 
 ## 3.4 - Common Buttons
