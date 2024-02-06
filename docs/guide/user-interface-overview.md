@@ -147,22 +147,64 @@ Clicking the Contact Us Hyperlink will automatically prompt you to send an email
 ![Settings Dashboard](/images/settings_main_help.png)
 
 #### 1 - Home Button and Navigation Menu
+Clicking the colourful Triangle button located left of the "EOS Open Science Portal" title will take the user to the Open Science Portal home page.\
+Hovering the mouse over the navigation menu on the left side of the page will expand the Open Science Portal navigation buttons.\
+For a more details please see [3.2 - Dashboard, Home Button](#_1-home-button).
 
 #### 2 - Settings and Language Button
+Clicking the circular button that contain your initials will expand the settings drop-down menu.\
+Clicking the circular FR/EN button will allow you to toggle the language setting.\
+For more details please see [3.2 - Dashboard, Settings](#_2-settings).
 
 #### 3 - Settings Navigation Menu
+The Settings Navigation Menu allows you to navigate through all the changable user settings. Clicking on the setting menu name will allow you to navigate to that specific settings menu.
+- [3.3.2 - User Profile](#_3-3-2-user-profile)
+- [3.3.3 - Author Profile](#3-3-3-author-profile)
+- [3.3.4 - Account Security](#3-3-4-account-security)
+- [3.3.5 - Sent Invitations](#3-3-5-sent-invitations)
 
 #### 4 - User Profile Settings
+By default, when you open the User Settings Menu you will be brought to the User Profile Settings. For more details on updating your User Profile please see [3.3.2 - User Profile](#3-3-2-user-profile).
 
-#### 5 - User Roles
-
-#### 6 - Contact Us Button
+#### 5 - Contact Us Button
+Clicking the Contact Us Hyperlink will automatically prompt you to send an email to `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca` using your default email client.
 
 ### 3.3.2 - User Profile
+#### 1 - First and Last Name
+
+#### 2 - Email
+
+#### 3 - Default Language
+
+#### 4 - Save Button
+
 
 ### 3.3.3 - Author Profile
+#### 1 - User Information
+
+#### 2 - Current Affiliation
+
+#### 3 - ORCID
+
+#### 4 - Save Button
+
+#### 5 - Areas of Expertise
+
+#### 6 - Edit Button
+
+#### 7 - Manage ORCID
+
 
 ### 3.3.4 - Account Security
+#### 1 - Current Password
+
+#### 2 - New Passowrd
+
+#### 3 - Reveal Password Button
+
+#### 4 - Change Password Button
+
+#### 5 - 
 
 ### 3.3.5 - Sent Invitations
 
