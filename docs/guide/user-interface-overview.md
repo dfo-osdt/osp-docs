@@ -171,17 +171,27 @@ Clicking the Contact Us Hyperlink will automatically prompt you to send an email
 
 ### 3.3.2 - User Profile
 #### 1 - First and Last Name
+The First and Last name associated with your account will appear in gray. If you wish to change the name associated with your account:
+1. Click on the name field to select it.
+2. Press the backspace key to remove the old name.
+3. Type in new name.
+4. Click the [Save Button](#_4-save-button) to save the changes.
 
 #### 2 - Email
+The email associated with your account will appear in gray. This email is also used to login to your Open Science Portal account. If you would like to make changes to email please send the request to the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 #### 3 - Default Language
+The default language for your account will appear in this box. If you would like to change your default language:
+1. Click on the Default Language box to expand the dropdown menu.
+2. Click on the language you desire.
+3. Click the [Save Button](#_4-save-button) to save the changes.
 
 #### 4 - Save Button
-
+The Save Button is used to save any changes made to the User Profile. Apply any changes click the Save Button.
 
 ### 3.3.3 - Author Profile
 #### 1 - User Information
-
+The User Information is the same information found in the [3.3.2 - User Profile](#3-3-2-user-profile) section. If you wish to make changes to this information please navigate to the User Profile
 #### 2 - Current Affiliation
 
 #### 3 - ORCID
@@ -198,13 +208,24 @@ Clicking the Contact Us Hyperlink will automatically prompt you to send an email
 ### 3.3.4 - Account Security
 #### 1 - Current Password
 
-#### 2 - New Passowrd
+#### 2 - New Password
 
 #### 3 - Reveal Password Button
 
 #### 4 - Change Password Button
 
-#### 5 - 
+#### 5 - Authentificiation History
+##### IP Address
+
+##### Agent
+
+##### Location
+
+##### Login At
+
+##### Successful
+
+##### Logout At
 
 ### 3.3.5 - Sent Invitations
 
