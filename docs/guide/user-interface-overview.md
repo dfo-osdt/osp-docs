@@ -202,11 +202,26 @@ Current available roles:
 
 #### 1 - User Information
 The User Information is the same information found in the [3.3.2 - User Profile](#3-3-2-user-profile) section. If you wish to make changes to this information please navigate to the User Profile Settings.
+
 #### 2 - Current Affiliation
+The Current Affiliation box states what organization you are currently affiliated with. If you wish to change your current affiliation:
+1. Click on the Current Affiliation field to select it.
+2. Press the backspace key to remove the old affiliation.
+3. Type in the name of your new affiliation. The system will attempt to filter down previously seen organizations. If your affiliation is not found you can add it:
+    1. Click the green "+" icon.
+    2. Populated the boxes with English then French name of the organization.
+    3. Click the "CREATE" button.
+4. Click on the organization name from the filtered list
+5. Click on the "SAVE" button.
 
 #### 3 - ORCID
+The ORCID box will display your Open Research and Contributor ID if present. If no ORCID is associated with your account then this box will be blank. To add your ORCID:
+1. Click the text box to select it.
+2. Type in your ORCID.
+3. Click the "SAVE" button.
 
 #### 4 - Save Button
+The Save button will confirm any changes made to your Author Profile section. The Save button is activated by clicking on it.
 
 #### 5 - Areas of Expertise
 
