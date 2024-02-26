@@ -243,3 +243,56 @@ The User Information is the same information found in the [3.3.2 - User Profile]
 ![Settings Sent Invitations](/images/settings_sent_invitations_help.png)
 
 ## 3.4 - Common Buttons
+### 3.4.1 - Action Buttons
+#### Black and White
+<img src="/images/button_action_clear.png" width="150" height="100">
+
+#### Green
+<img src="/images/button_green_help.png" width="150" height="100">
+
+#### Red
+<img src="/images/button_delete_help.png" width="150" height="100">
+
+### 3.4.2 - Create Buttons
+#### Action
+<img src="/images/button_action_create_help.png" width="150" height="100">
+
+#### Circular
+<img src="/images/button_circle_create_help.png" width="100" height="100">
+
+### 3.4.3 - Generate Button
+<img src="/images/button_gpt_help.png" width="150" height="100">
+
+### 3.4.4 - Contact Us Button
+<img src="/images/button_contact_help.png" width="150" height="100">
+
+### 3.4.5 - Edit Button
+<img src="/images/button_edit_help.png" width="150" height="100">
+
+### 3.4.6 - Home Button
+<img src="/images/button_home_help.png" width="150" height="150">
+
+### 3.4.7 - Language Buttons
+<img src="/images/button_language_help.png" width="150" height="100">
+
+### 3.4.8 - Login Button
+<img src="/images/button_login_help.png" width="150" height="100">
+
+### 3.4.9 - Menu Buttons
+#### Drop Down
+<img src="/images/button_dropdown_help.png" width="100" height="100">
+
+#### User Menu
+<img src="/images/button_user_menu_help.png" width="100" height="100">
+
+### 3.4.10 - Navigate Button
+<img src="/images/button_navigate_help.png" width="100" height="100">
+
+### 3.4.11 - ORCID Button
+<img src="/images/button_orcid_help.png" width="250" height="100">
+
+### 3.4.12 - Save Button
+<img src="/images/button_floppy_help.png" width="100" height="100">
+
+### 3.4.13 - Text Reveal Button
+<img src="/images/button_reveal_help.png" width="100" height="100">
