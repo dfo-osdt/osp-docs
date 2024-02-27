@@ -224,38 +224,72 @@ The ORCID box will display your Open Research and Contributor ID if present. If 
 The Save button will confirm any changes made to your Author Profile section. The Save button is activated by clicking on it.
 
 #### 5 - Areas of Expertise
+The Areas of Expertise box will show the expertise that you have selected which you feel best represent your knowledge and experience. For information on how to add or remove Areas of Expertise please see [6 - Edit Button](#_6-edit-button).
 
 #### 6 - Edit Button
+The Edit Button allows you to add or remove [Areas of Expertise](#_5-areas-of-expertise). To add or remove expertise:
+1. Click the "EDIT" button.
+2. Click the text book to select it.
+3. Begin typing your desired expertise.
+4. Click on the expertise you would like to add from the filtered list.
+5. To remove an expertise, click the "X" button located to the right of the expertise name.
+6. Clikc the "SAVE" button to save changes.
 
 #### 7 - Manage ORCID
-
+The Manage ORCID section provides you a button to register or verify your ORCID. To learn more about ORCID please see [ORCID in Section 10 - Appendices](/guide/appendices.html).
 
 ### 3.3.4 - Account Security
 ![Settings Account Security](/images/settings_account_security_help.png)
 
 #### 1 - Current Password
+The Current Password box is a text box to enter your current password if you are attempting to change your password.
 
 #### 2 - New Password
+The New Password box is a text box to enter your new desired password. This password must be entered in the Confirm New Password box as well to ensure correct spelling.
+For more information on changing your password please see [Section 5.2 - Passwords](/guide/customization-and-security.html#_5-2-passwords).
 
 #### 3 - Reveal Password Button
+The Reveal Password Button will briefly show the text that is in the Password text box the reveal button is associated with. The Reveal Password Buttons are activated by clicking on them.
 
 #### 4 - Change Password Button
+The Change Password Button is the button used to submit a password change request. This button is activated by clicking on it.
 
 #### 5 - Authentificiation History
+The Authentification History table shows all attempted login attempts to your account. For more information on the Authentification History please see [Section 5.3 - Authentification History](/guide/customization-and-security.html#_5-3-authentification-history).
+
 ##### IP Address
+The IP Address column is the internet location address associated with the computer attempting to login to your account.
 
 ##### Agent
+The Agent column is the operating system of the computer attempting to login to your account.
 
 ##### Location
+The Location coloumn is the approximate global location associated with the IP Address.
 
 ##### Login At
+The Login At column is the date and time that an attempt was made to login to your account. The time shown will be based upon your computer's time.
 
 ##### Successful
+The Successful column shows whether your account was logged in successfully or not. If successful, a green checkmark will be displayed. If unsuccessful, a red cross will be displayed.
 
 ##### Logout At
+The Logout At column shows the date and time that your account was logged out at. The time shown will be based upon your computer's time.
 
 ### 3.3.5 - Sent Invitations
 ![Settings Sent Invitations](/images/settings_sent_invitations_help.png)
+
+#### 1 - Sent Invitations
+Invitations to the Open Science Portal which you have sent to colleagues will be displayed in the Sent Invitations table.
+
+##### Status
+The Status column will show the current state of the invitation.
+##### User
+
+##### Email
+
+##### Invited At
+
+##### Registered At
 
 ## 3.4 - Common Buttons
 ### 3.4.1 - Action Buttons
