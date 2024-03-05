@@ -10,10 +10,13 @@ description:
 - Updating and maintaining information in their profile
 
 
-## 5.1 - Access User Information Menu 
-The User Information Menu can be accessed by left-clicking on the circle in the top-right side of the screen and left-clicking on *Settings*. This circle will contain the first and last initial of the author's name.
+## 5.1 - Customization
 
-### 5.1.1 - User Profile
+### 5.1.1 - Appearance
+
+#### Language
+
+### 5.1.2 - User Profile
 Ensure that the following information is correct:
 - First Name
 - Last Name
@@ -21,15 +24,19 @@ Ensure that the following information is correct:
 - Preferred Language
 
 If any changes are made, ensure they are saved by left-clicking on the *Save* button in the bottom right corner of the User Profile box. If you need to change the Email associated with this account, please contact [Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+#### First Name
 
-### 5.1.2 - Author Profile
-From the *Settings* menu on the left side of the screen, left-click on *Author Profile*.
+#### Last Name
 
-#### 5.1.2(a) - Author Profile
-##### Current Affiliation
+#### Email
 
-Verify that your *Current Affiliation* organization is correct. If the *Current Affiliation* is incorrect or not populated, you can update it with the following steps:
-1) Left-click on the text box to select it
+#### Language Preference
+
+### 5.1.3 - Author Profile
+
+#### Current Affiliation
+If you *Current Affiliation* is incorrect or not populated, you can update it with the following steps:
+1) Click on the Current Affiliation text box to select it
 2) Backspace the existing affiliation
 3) Begin typing the name of your current affiliation. The system will suggest organizations based upon your input
 4) If your organization appears, you can select it by left-clicking on the name from the drop-down search
@@ -40,17 +47,24 @@ Verify that your *Current Affiliation* organization is correct. If the *Current 
     - English abbreviation (optional)
     - French abbreviation (optional)
 
-##### ORCID
-If you have your ORCID, you can enter it now. If you do not have your ORCID, you can register or apply for one in the [next step](#_5-1-2-c-manage-orcid).
+#### ORCID
+The ORCID box will display your Open Research and Contributor ID if present. If no ORCID is associated with your account then this box will be blank. To add your ORCID:
+1. Click the text box to select it.
+2. Type in your ORCID.
+3. Click the "SAVE" button.
 
-#### 5.1.2(b) - Areas of Expertise
-Improve your experience and collaboration by adding your *Area of Expertise* tags. To do this:
-1) Left-click on the *EDIT* button on the top-right side of the Area of Expertise box
-2) Left-click on the text box to select it
-3) Begin typing your area of expertise. The system will suggest all areas containing your keyword
-4) Left-click on the expertise you would like to add
-5) Repeat steps 3 and 4 until you feel you are well-described
+#### Areas of Expertise
+The Areas of Expertise box will show the expertise that you have selected which you feel best represent your knowledge and experience. To add or remove expertise:
+1. Click the "EDIT" button.
+2. Click the text book to select it.
+3. Begin typing your desired expertise.
+4. Click on the expertise you would like to add from the filtered list.
+5. To remove an expertise, click the "X" button located to the right of the expertise name.
+6. Click the "SAVE" button to save changes.
 
-#### 5.1.2(c) - Manage ORCID
+#### Manage ORCID
 
-## 5.2 - Passwords
+## 5.2 - Account Security
+
+### 5.2.1 - Change Password
+The User Information Menu can be accessed by left-clicking on the circle in the top-right side of the screen and left-clicking on *Settings*. This circle will contain the first and last initial of the author's name.

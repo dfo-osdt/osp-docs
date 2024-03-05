@@ -197,6 +197,7 @@ Current available roles:
 - Author
 - Director
 - Admin
+
 ### 3.3.3 - Author Profile
 ![Settings Author Profile](/images/settings_author_profile_help.png)
 
@@ -233,7 +234,7 @@ The Edit Button allows you to add or remove [Areas of Expertise](#_5-areas-of-ex
 3. Begin typing your desired expertise.
 4. Click on the expertise you would like to add from the filtered list.
 5. To remove an expertise, click the "X" button located to the right of the expertise name.
-6. Clikc the "SAVE" button to save changes.
+6. Click the "SAVE" button to save changes.
 
 #### 7 - Manage ORCID
 The Manage ORCID section provides you a button to register or verify your ORCID. To learn more about ORCID please see [ORCID in Section 10 - Appendices](/guide/appendices.html).
@@ -283,65 +284,105 @@ Invitations to the Open Science Portal which you have sent to colleagues will be
 
 ##### Status
 The Status column will show the current state of the invitation.
+
 ##### User
+The User column will show the name of the user you have invited.
 
 ##### Email
+The Email column will show the email address the invitation was sent to.
 
 ##### Invited At
+The Invited At column will show the date and time the invitation was sent. The date and time will be based upon your computers clock.
 
 ##### Registered At
+The Registered At column will show the date and time the person you invited registered their Open Science Portal account. The date and time will be based upon your computer's clock.
 
 ## 3.4 - Common Buttons
 ### 3.4.1 - Action Buttons
+These buttons will perform an action upon clicking them. A brief description of their action will be displayed within the button.
+
 #### Black and White
+
 <img src="/images/button_action_clear.png" width="150" height="100">
 
 #### Green
+
 <img src="/images/button_green_help.png" width="150" height="100">
 
 #### Red
+
 <img src="/images/button_delete_help.png" width="150" height="100">
 
 ### 3.4.2 - Create Buttons
+Create Buttons will prompt you to create a new form or entry. Create buttons can come in two different styles: Action or Circular.
+
 #### Action
+
 <img src="/images/button_action_create_help.png" width="150" height="100">
 
 #### Circular
+
 <img src="/images/button_circle_create_help.png" width="100" height="100">
 
 ### 3.4.3 - Generate Button
+The Generate Button will prompt you to send the text within the associated textbox to ChatGTP.
+
 <img src="/images/button_gpt_help.png" width="150" height="100">
 
 ### 3.4.4 - Contact Us Button
+The Contact Us Button will attempt to open your preferred email client and autopopulate the "To" section with `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca`.
+
 <img src="/images/button_contact_help.png" width="150" height="100">
 
 ### 3.4.5 - Edit Button
+The Edit Button will prompt you to edit the associated form.
+
 <img src="/images/button_edit_help.png" width="150" height="100">
 
 ### 3.4.6 - Home Button
+The Home Button will return you to `osp-pso.ca/#/`.
+
 <img src="/images/button_home_help.png" width="150" height="150">
 
 ### 3.4.7 - Language Buttons
+The Language Buttons will display the current language the Open Science Portal is set to. Clicking on the Language Button will automatically toggle the application language to French or English.
+
 <img src="/images/button_language_help.png" width="150" height="100">
 
 ### 3.4.8 - Login Button
+The Login Button will attempt to authenticate your login credentials for access to the Open Science Portal.
+
 <img src="/images/button_login_help.png" width="150" height="100">
 
 ### 3.4.9 - Menu Buttons
+The Menu Buttons will provide you with additional options when clicked.
+
 #### Drop Down
+The Drop Down Menu will expand downwards to show additional options when clicked.
+
 <img src="/images/button_dropdown_help.png" width="100" height="100">
 
 #### User Menu
+The User Menu Button will expand downwards to show additional navigation buttons exclusively for changing user options.
+
 <img src="/images/button_user_menu_help.png" width="100" height="100">
 
 ### 3.4.10 - Navigate Button
+The Navigation Button will bring you to the webpage the button is associated with.
+
 <img src="/images/button_navigate_help.png" width="100" height="100">
 
 ### 3.4.11 - ORCID Button
+The ORCID Button will bring you to a ORCID login form. This form will allow you to verify and associate your ORCID account with your Open Science Portal account.
+
 <img src="/images/button_orcid_help.png" width="250" height="100">
 
 ### 3.4.12 - Save Button
+The Save Button will send the changes you made to the Open Science Portal server. The symbol on the save button is a floppy disk.
+
 <img src="/images/button_floppy_help.png" width="100" height="100">
 
 ### 3.4.13 - Text Reveal Button
+The Text Reveal Button will breifly unhide your password text so that you may verify spelling.
+
 <img src="/images/button_reveal_help.png" width="100" height="100">
