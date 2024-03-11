@@ -66,5 +66,38 @@ The Areas of Expertise box will show the expertise that you have selected which 
 
 ## 5.2 - Account Security
 
-### 5.2.1 - Change Password
-The User Information Menu can be accessed by left-clicking on the circle in the top-right side of the screen and left-clicking on *Settings*. This circle will contain the first and last initial of the author's name.
+### 5.2.1 - Email Verificaiton
+::: warning
+It may take up to two hours to recieve the verification email!
+:::
+
+All accounts are required to be verified upon creation. An email containing instructiions and a link to the Open Science Portal Verification Page is sent to the email address associated with the newly created account.
+
+If you experience issues verifying you account please contact the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+
+### 5.2.2 - Passwords
+
+#### How to Change your Password
+::: tip
+The Open Science Portal has enhanced password requirements. Passwords must:
+- contain 12 characters or more
+- not appear in the list of vulnerable passwords
+:::
+
+1. In the top-right of your screen click on the circular button containg your initials to expand the User Settings menu.
+2. Click on "Settings" button.
+3. From the Settings menu on the left-side of your screen click on the "Account Security" button.
+4. In the "Change your Password" click on the "Current Password" text box to select it. Type in your current password.
+5. Click on the "New Password" text box to select it. Type in your desired new password.
+6. Click on the "Confirm New Password" text box to select it. Type in your desired new password again to confirm the spelling.
+7. Click on the "CHANGE PASSWORD" button.
+
+#### Recover Password
+If you no longer have access to your password you can request a reset through the automatic password reset system.
+1. Go to [osp-pso.ca](https://osp-pso.ca/#/).
+2. Click the "LOGIN" button.
+3. Click the "Forgot your password?" button.
+4. Type in the email associated with your acount and click the "RESET" button.
+You will receive an email with instruction on how to reset and change your password.
+
+If you did not receive the password reset email or you no longer have access to the email associated with your account please contact the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
