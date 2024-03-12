@@ -3,34 +3,39 @@ lang: en-US
 title: 5.0 - Customization and Security
 description:
 ---
-# 5.0 - Customization and Security (User Profile)
-
-- User Preferences: Explain how users can customize their experience.
-- Security: Password resets, login history.
-- Updating and maintaining information in their profile
-
+# 5.0 - Customization and Security
 
 ## 5.1 - Customization
 
 ### 5.1.1 - Appearance
 
 #### Language
+To toggle the displayed language to French or English click on the FR/EN button in the top-right corner of the screen. To set your preferred language please see [Default Language](#default-language).
 
 ### 5.1.2 - User Profile
-Ensure that the following information is correct:
-- First Name
-- Last Name
-- Email
-- Preferred Language
 
-If any changes are made, ensure they are saved by left-clicking on the *Save* button in the bottom right corner of the User Profile box. If you need to change the Email associated with this account, please contact [Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
-#### First Name
-
-#### Last Name
+#### First and Last Name
+The First and Last name associated with your account will appear in gray. If you wish to change the name associated with your account:
+1. Click on the name field to select it.
+2. Press the backspace key to remove the old name.
+3. Type in new name.
+4. Click the Save button to save the changes.
 
 #### Email
+The email associated with your account will appear in gray. This email is also used to login to your Open Science Portal account. If you would like to make changes to email please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-#### Language Preference
+#### Default Language
+The default language for your account will appear in this box. If you would like to change your default language:
+1. Click on the Default Language box to expand the dropdown menu.
+2. Click on the language you desire.
+3. Click the Save button to save the changes.
+
+#### User Roles
+User Roles identifies what type of account you have. User Roles are generated upon account creation. If you feel your account does not have the appropriate role please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).\
+Current available roles:
+- Author
+- Director
+- Admin
 
 ### 5.1.3 - Author Profile
 
@@ -64,6 +69,7 @@ The Areas of Expertise box will show the expertise that you have selected which 
 
 #### Manage ORCID
 
+For information managing your ORCID please see section [6.1.2 - Manage ORCID](/guide/advanced-features.html#_6-1-1-manage-orcid).
 ## 5.2 - Account Security
 
 ### 5.2.1 - Email Verificaiton
@@ -104,4 +110,32 @@ If you did not receive the password reset email or you no longer have access to 
 
 ### 5.2.3 - Authentification History
 The Open Science Portal keeps a history of login attempts for each user's account. The Authentification History visualizes these login attempts to allow you to ensure that bad actors are not trying to access your account.
+
+::: danger
+If there are multiple login attemps occurring in a very short time span or other suspecious looking activities please change your Open Science Portal account password and notify the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+:::
+
+#### Authentication History Breakdown
+![Security Authentication History](/images/security_authentication_history_help.png)
+
+##### 1 - IP Address
+The IP Address column is the internet location address associated with the computer attempting to login to your account.
+
+##### 2 - Agent
+The Agent column is the operating system of the computer attempting to login to your account.
+
+##### 3 - Location
+::: tip
+If you are connecting to the Open Science Portal using a VPN then this location may be different than your current location.
+:::
+The Location coloumn is the approximate global location associated with the IP Address.
+
+##### 4 - Login At
+The Login At column is the date and time that an attempt was made to login to your account. The time shown will be based upon your computer's time.
+
+##### 5 - Successful
+The Successful column shows whether your account was logged in successfully or not. If successful, a green checkmark will be displayed. If unsuccessful, a red cross will be displayed.
+
+##### 6 - Logout At
+The Logout At column shows the date and time that your account was logged out at. The time shown will be based upon your computer's time.
 

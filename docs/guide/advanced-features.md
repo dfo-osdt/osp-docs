@@ -9,3 +9,7 @@ description:
     - ORCID integration: Provide guidance on linking/creating an ORCID.
     - GoC Science Profiles sync: This feature.
 - [Lower priority] API Documentation: If applicable, include documentation for developers on how to use your API.
+
+## 6.1 - Open Research and Contributor Identifier
+
+### 6.1.1 - Manage ORCID
