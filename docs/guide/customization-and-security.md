@@ -92,7 +92,7 @@ The Open Science Portal has enhanced password requirements. Passwords must:
 6. Click on the "Confirm New Password" text box to select it. Type in your desired new password again to confirm the spelling.
 7. Click on the "CHANGE PASSWORD" button.
 
-#### Recover Password
+#### Reset Password
 If you no longer have access to your password you can request a reset through the automatic password reset system.
 1. Go to [osp-pso.ca](https://osp-pso.ca/#/).
 2. Click the "LOGIN" button.
@@ -101,3 +101,7 @@ If you no longer have access to your password you can request a reset through th
 You will receive an email with instruction on how to reset and change your password.
 
 If you did not receive the password reset email or you no longer have access to the email associated with your account please contact the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+
+### 5.2.3 - Authentification History
+The Open Science Portal keeps a history of login attempts for each user's account. The Authentification History visualizes these login attempts to allow you to ensure that bad actors are not trying to access your account.
+
