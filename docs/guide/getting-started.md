@@ -5,9 +5,6 @@ description: How to get started with the OSP
 ---
 # 2.0 - Getting Started
 
-- **System Requirements:** Outline the browser prerequisites for using the application.
-- **Login/Registration:** Explain how to create an account or log in to the application.
-
 ## 2.1 - System Requirements
 
 ### 2.1.1 - Site Address (URL)

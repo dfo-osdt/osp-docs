@@ -6,11 +6,6 @@ description:
 
 # 4.0 - Using the Application
 
-- Core Features: Detail the primary functions and features of the application.
-- Step-by-Step Tutorials: Offer tutorials or walkthroughs for common tasks or workflows (divided by the type of user: author, manager, comms...)
-- Data Input: Explain how to input and manage data within the application.
-- Search Functionality: Describe how to search for specific information.
-
 ## 4.1 - Purpose and Features
 
 ### 4.1.1 - Purpose
