@@ -12,3 +12,4 @@ Record of updates, new features, and bug fixes.
 Previous versions of the application and their changes.
 
 ### 0.2 Beta - Current
+

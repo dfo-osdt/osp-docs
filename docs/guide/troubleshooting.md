@@ -12,12 +12,12 @@ description:
 ## 7.1 - Common Issues
 
 #### Application will not accept my desired password upon account creation or password change.
-- Ensure password is input identically in "Password" and "Confirm Password" text boxes.
-- Be at least 12 characters long
-- Cannot have appeared in the list of known compromised passwords
+- Ensure the password is input identically in the "Password" and "Confirm Password" text boxes.
+- Be at least 12 characters long.
+- Cannot have appeared in the list of known compromised passwords.
 
-#### My abstract/summary/explaination lost its formatting when I copy-pasted the text into a text-box!
-Ensure that you are copying your text from a document editting program such as Microsoft Word, Google Docs, LibreOffice, etc. If your text originates from a PDF document the copy-function will not preserve the text formatting.
+#### My abstract/summary/explanation lost its formatting when I copy-pasted the text into a text box!
+Ensure that you are copying your text from a document editing program such as Microsoft Word, Google Docs, LibreOffice, etc. If your text originates from a PDF document, the copy function will not preserve the text formatting.
 
 ## 7.2 - Error Messages
 *Coming soon*

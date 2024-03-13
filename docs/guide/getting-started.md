@@ -61,9 +61,10 @@ If any changes are made, ensure they are saved by left-clicking on the *Save* bu
 You are now ready to use the application! Check out the [3.0 - User Interface Overview](/guide/user-interface-overview.html) for information on how to navigate the application and [4.0 - Using the Application](/guide/using-the-application.html) for information on how to use the application.
 
 ## 2.5 - Logging Out
-To log out of the Open Science Portal application.
+To log out of the Open Science Portal application:
 1. Left-click on the user circle in the top-right side of the screen.
 2. Left-click on the *Logout* button.
 
 You are now successfully logged out of the Open Science Portal application.
+
 

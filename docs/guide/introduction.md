@@ -6,7 +6,7 @@ description:
 # 1.0 - Introduction
 
 ## 1.1 - Welcome
-Welcome to the Open Science Portal User Guide and Documentation Site! This user guide and documentation site have been developed by Fisheries and Oceans Canada for use by the private individuals and public servants.
+Welcome to the Open Science Portal User Guide and Documentation Site! This user guide and documentation site have been developed by Fisheries and Oceans Canada for use by private individuals and public servants.
 
 ## 1.2 - Purpose
 The purpose of this documentation site is to explain the navigation, usage, and troubleshooting of the Open Science Portal. This documentation site is dynamic and will be continuously updated to reflect changes in the Open Science Portal.
