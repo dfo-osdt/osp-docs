@@ -211,7 +211,7 @@ The Author can declare whether their manuscript has been accepted for publicatio
 1. Click on the "ACCEPTED FOR PUBLICATION" button.
 2. Confirm the date that the manuscript was submitted to the journal on.
 3. Click on the "Accepted for Publication On" text box and type in the date in the YYYY-MM-DD (Year, Month, Day) format or Click on the Calendar icon located at the right-end of the text box and select the applicable year, month, and day.
-4. Click on the "Journal" text box and begin typing the name of the journal. If the journal is in the database, their name will appear. Click on their name to select them. If their name does not appear, please send an email to [OSP Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them added.
+4. Click on the "Journal" text box and begin typing the name of the journal. If the journal is in the database, their name will appear. Click on their name to select them. If their name does not appear, please send an email to the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them added.
 5. Click on the "UPDATE" button to confirm the publication acceptance entry.
 
 ##### Withdraw Manuscript
@@ -252,7 +252,15 @@ If you have shared a manuscript record and you wish to delete/remove the share:
 1. Click on the Trash Can Icon located under the "Actions" column on the right-side of the Share Record.
 2. Confirm the deletion of this share access by Clicking on the "OK" button.
 
-### Publication Update Record
+### 4.2.2 - My Publications Page
+
+#### View All Publications
+
+To view all available publications submitted to the Open Science Portal:
+- Click on the "Publications" menu button located on the left-side of the page.
+- From within the "My Publications" page click on the "All Publications" button in the Publications menu.
+
+#### Publication Update Record
 
 If you have submitted an approved Manuscript Record Form for publication, you can manage its status. To update the publication's status:
 
@@ -296,7 +304,7 @@ To update the Journal you are submitting to:
 
 1. Click on the "Journal" text box to select it.
 2. Press the "Backspace" key on the keyboard or Click on the circular X icon located on the right-side of the "Journal" text box to remove the current Journal.
-3. Begin typing the name of the journal. If the journal is in the database, their name will appear. Click on their name to select them. If their name does not appear, please send an email to [OSP Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them added.
+3. Begin typing the name of the journal. If the journal is in the database, their name will appear. Click on their name to select them. If their name does not appear, please send an email to the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them added.
 
 ##### Digital Object Identifier (DOI)
 

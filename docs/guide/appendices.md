@@ -9,6 +9,7 @@ description:
 - A
 - B
 - C
+  - CSAS: Canadian Science Advisory Secretariat
 - D
 - E
 - F
@@ -19,6 +20,7 @@ description:
 - K
 - L
 - M
+  - MRF: Manuscript Record Form
 - N
 - O
   - ORCID: [Open Researcher and Contributor Identifier](https://orcid.org/)

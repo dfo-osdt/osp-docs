@@ -69,7 +69,7 @@ The Areas of Expertise box will show the expertise that you have selected, which
 
 #### Manage ORCID
 
-For information on managing your ORCID, please see section [6.1.2 - Manage ORCID](/guide/advanced-features.html#_6-1-1-manage-orcid).
+For information on managing your ORCID, please see section [6.1.3 - Manage ORCID](/guide/advanced-features.html#_6-1-3-manage-orcid).
 
 ## 5.2 - Account Security
 

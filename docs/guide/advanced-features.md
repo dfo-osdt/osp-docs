@@ -5,11 +5,11 @@ description:
 ---
 # 6.0 - Advanced Features
 
-## 6.1 - Open Research and Contributor Identifier
+## 6.1 - Open Researcher and Contributor Identifier
 
 ### 6.1.1 - About
 
-The Open Research and Contributor Identifier (ORCID) is a unique identifier that distinguishes individual researchers and their body of work. Much like how a passport uniquely identifies a traveler, ORCID provides a persistent digital identifier that follows researchers throughout their careers, regardless of changes in name, affiliation, or research field.
+The Open Researcher and Contributor Identifier (ORCID) is a unique identifier that distinguishes individual researchers and their body of work. Much like how a passport uniquely identifies a traveler, ORCID provides a persistent digital identifier that follows researchers throughout their careers, regardless of changes in name, affiliation, or research field.
 
 ORCID, Inc. is an independent nonprofit organization incorporated in Delaware, United States of America. ORCID began issuing identifiers in October 2012. ORCID has over 1,300 member organizations including Caltech, Cornell University, Springer, Wiley, Thomson Reuters, and the Australian Research Council.
 
