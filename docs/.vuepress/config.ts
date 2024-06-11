@@ -1,5 +1,7 @@
+import { pagesData } from '@vuepress/client'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { externalLinkIconPlugin } from '@vuepress/plugin-external-link-icon'
 import {
@@ -9,7 +11,7 @@ import {
 } from './configs/index.js'
 
 export default
-  {
+{
     base: '/',
 
     head,
@@ -29,6 +31,10 @@ export default
         description: 'Site de documentation utilisateur pour le Portail de la Science Ouverte',
       },
     },
+    bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+    }),
     theme: defaultTheme
     (
 	{
