@@ -13,6 +13,8 @@ export default
     base: '/',
 
     head,
+    
+    port:3000,
 
     locales: 
     {

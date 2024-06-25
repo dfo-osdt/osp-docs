@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "scripts": {
+	"docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.13",
-    "@vuepress/client": "^2.0.0-rc.2",
+    "@vuepress/client": "^2.0.0-rc.14",
     "@vuepress/plugin-search": "^2.0.0-beta.67",
     "@vuepress/theme-default": "^2.0.0-rc.35",
     "vue": "^3.4.27",
