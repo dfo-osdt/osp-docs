@@ -5,7 +5,7 @@
 This project is the User Documentation Static Site generator for the [Open Science Portal](https://github.com/dfo-osdt/osp). This project is created and maintained by the Ecosystems and Oceans Science Sector for Fisheries and Oceans Canada.
 
 ## User Documentation
-[https://docs.osp-pso.ca/](https://docs.osp-pso.ca/)
+[https://osp-pso-docs.mar.dfo-mpo.ca/](https://osp-pso-docs.mar.dfo-mpo.ca/)
 
 ## How to Contribute
 View guide on:\
