@@ -31,6 +31,6 @@ Voir le guide sur:\
 [Documentation](https://docs.osp-pso.ca/fr/contributing.html)
 
 ## 4 - Licence
-Sauf indication contraire, le code source de ce projet est couvert par le Droit d'auteur de la Couronne, Gouvernement du Canada, et est distribué sous la [licence ISC](LICENSE).
+Sauf indication contraire, le code source de ce projet est couvert par le Droit d'auteur de la Couronne, Gouvernement du Canada, et est distribué sous la [licence ISC](LICENSE)..
 
 
