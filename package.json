@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-	"docs:dev": "vuepress dev docs",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
@@ -22,5 +22,6 @@
     "@vue/server-renderer": "^3.4.27",
     "@vuepress/core": "^2.0.0-beta.67",
     "@vuepress/plugin-external-link-icon": "^2.0.0-rc.0"
-  }
+  },
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
 }

@@ -10,7 +10,7 @@ description: How to get started with the OSP
 ### 2.1.1 - Site Address (URL)
 The Open Science Portal web application can be accessed at the following web address:
 
-[https://www.osp-pso.ca](https://www.osp-pso.ca)
+[https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca)
 
 ### 2.1.2 - Web Browser Requirements
 The web application is optimized for all major browsers (Chrome, Firefox, Edge, and Safari) except Internet Explorer 11 and earlier versions.
@@ -18,7 +18,7 @@ The web application is optimized for all major browsers (Chrome, Firefox, Edge, 
 ## 2.2 - Logging In
 
 ### 2.2.1 - Creating an Account
-1. Navigate to the Open Science Portal, [https://www.osp-pso.ca](https://www.osp-pso.ca).
+1. Navigate to the Open Science Portal, [https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
 2. Click on the "Register" button.
 3. Populate the registration form with your:
    - First Name
@@ -48,14 +48,14 @@ If you do not receive the activation link email or the activation link is expire
 
 ### 2.2.3 - Login
 
-1. Navigate to the Open Science Portal, [https://www.osp-pso.ca](https://www.osp-pso.ca).
+1. Navigate to the Open Science Portal, [https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
 2. Click on the "Login" button.
 3. Enter the Email Address you registered your account with and your latest password.
 4. Click on the "Login" button.
 
 ## 2.3 - Update User Information
 
-The User Information Menu can be accessed by clicking on the menu circle containing your initals in the top-right side of the screen and clicking on *Settings*.
+The User Information Menu can be accessed by clicking on the menu circle containing your initials in the top-right side of the screen and clicking on *Settings*.
 
 ::: warning
 If your account was created for you by another person, it is very important that you verify your User Profile and Author Profile.

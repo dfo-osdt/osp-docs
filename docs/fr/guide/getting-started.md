@@ -10,7 +10,7 @@ description: Comment commencer avec l'OSP
 ### 2.1.1 - Adresse du Site (URL)
 L'application web du Portail de la Science Ouverte est accessible à l'adresse web suivante :
 
-[https://www.osp-pso.ca](https://www.osp-pso.ca)
+[https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca)
 
 ### 2.1.2 - Exigences du Navigateur Web
 L'application web est optimisée pour tous les principaux navigateurs (Chrome, Firefox, Edge et Safari) à l'exception d'Internet Explorer 11 et des versions antérieures.
@@ -18,7 +18,7 @@ L'application web est optimisée pour tous les principaux navigateurs (Chrome, F
 ## 2.2 - Connexion
 
 ### 2.2.1 - Création d'un Compte
-1. Accédez au Portail de la Science Ouverte, [https://www.osp-pso.ca](https://www.osp-pso.ca).
+1. Accédez au Portail de la Science Ouverte, [https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
 2. Cliquez sur le bouton "S'inscrire".
 3. Remplissez le formulaire d'inscription avec :
    - Votre Prénom
@@ -46,7 +46,7 @@ Si vous ne recevez pas l'email de lien d'activation ou si le lien d'activation a
 
 ### 2.2.3 - Connexion
 
-1. Accédez au Portail de la Science Ouverte, [https://www.osp-pso.ca](https://www.osp-pso.ca).
+1. Accédez au Portail de la Science Ouverte, [https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
 2. Cliquez sur le bouton "Connexion".
 3. Entrez l'Adresse Email avec laquelle vous avez enregistré votre compte et votre dernier mot de passe.
 4. Cliquez sur le bouton "Connexion".

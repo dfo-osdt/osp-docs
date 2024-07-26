@@ -449,7 +449,7 @@ To submit a Management Review Decision:
 4. Select the Decision you wish to make.
 5. Click on the "Next Management Reviewer" text box to select it and begin typing the first and last name of the Manager you would like to assign. If the name exists in the database, it will appear, and you can Click on it to select it. If the name **does not** appear, continue onto step 6, else continue onto step 8.
 6. To add a Manager, Click on the circular "+" button to add a new Manager.
-7. Input their First Name, Last Name, E-Mail, and their Prefered Language. Click on the "INVITE" button to invite them to the Open Science Portal application.
+7. Input their First Name, Last Name, E-Mail, and their Preferred Language. Click on the "INVITE" button to invite them to the Open Science Portal application.
 8. Click on the "NEXT" button to confirm Selected Next Manager.
 9. Review the Decision Disclaimer. If you agree with it, Click on the "Yes" check-box to select it. Then Click on the "SUBMIT" button to confirm your decision.
 An email will automatically be sent to the next selected Manager or to the Author with instructions on the next steps.

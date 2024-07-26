@@ -319,7 +319,7 @@ The Generate Button will prompt you to send the text within the associated textb
 <img src="/images/button_gpt_help.png" width="150" height="100">
 
 ### 3.4.4 - Contact Us Button
-The Contact Us Button will attempt to open your preferred email client and autopopulate the "To" section with `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca`.
+The Contact Us Button will attempt to open your preferred email client and auto-populate the "To" section with `DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca`.
 
 <img src="/images/button_contact_help.png" width="150" height="100">
 
@@ -372,6 +372,6 @@ The Save Button will send the changes you made to the Open Science Portal server
 <img src="/images/button_floppy_help.png" width="100" height="100">
 
 ### 3.4.13 - Text Reveal Button
-The Text Reveal Button will briefly unhide your password text so that you may verify spelling.
+The Text Reveal Button will briefly un-hide your password text so that you may verify spelling.
 
 <img src="/images/button_reveal_help.png" width="100" height="100">
