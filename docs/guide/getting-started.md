@@ -72,7 +72,7 @@ top-right side of the screen.
 If your account was created for you by another person, it is very important that
 you verify the information in your User Profile and Author Profile, and [Update
 your
-password](https://osp-pso-docs.mar.dfo-mpo.ca/guide/customization-and-security.html#***5-2-2-passwords).
+password](/guide/customization-and-security.html#_5-2-2-passwords).
 :::
 
 ### 2.3.1 - User Profile

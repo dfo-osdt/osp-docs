@@ -86,7 +86,7 @@ symbol.
 
 Clicking on the ***LOGIN Button*** will send the input email and password
 credentials to the login-service. If successful, you will automatically be
-forwarded to the [OSP Dashboard](#_3-2-dashboard) page.
+forwarded to the [OSP Dashboard](#_3-3-dashboard) page.
 
 ### 5 - Forgot Password and Don't Have an Account
 
@@ -108,7 +108,7 @@ Passwords](/guide/customization-and-security.html#reset-password).
 #### Don't Have an Account
 
 Clicking the ***Don't have an account? Button*** will bring you to the [account
-registration page](#_3_1-registration-page).
+registration page](#_3-1-registration-page).
 
 ## 3.3 - Dashboard
 ![Dashboard](/images/dashboard_overview.png)
@@ -148,7 +148,7 @@ language of the OSP from English to French.
 
 #### Dashboard Button
 
-Clicking the ***Dashboard Button*** will bring you to the [Dashboard](#_3-2-dashboard) page.
+Clicking the ***Dashboard Button*** will bring you to the [Dashboard](#_3-3-dashboard) page.
 
 #### My Manuscript Button
 
@@ -284,17 +284,17 @@ For more details, please see [3.3 - Dashboard, Settings](#_2-settings).
 #### 3 - Settings Sub-Menu
 
 The ***Settings Sub-Menu*** allows you to navigate through all the
-changable user settings.
-- [3.4.2 - User Profile](#_3-3-2-user-profile)
-- [3.4.3 - Author Profile](#_3-3-3-author-profile)
-- [3.4.4 - Account Security](#_3-3-4-account-security)
-- [3.4.5 - Sent Invitations](#_3-3-5-sent-invitations)
+changeable user settings.
+- [3.4.2 - User Profile](#_3-4-2-user-profile)
+- [3.4.3 - Author Profile](#_3-4-3-author-profile)
+- [3.4.4 - Account Security](#_3-4-4-account-security)
+- [3.4.5 - Sent Invitations](#_3-4-5-sent-invitations)
 
 #### 4 - User Profile Settings
 
 By default, when you open the ***User Settings Menu*** you will be brought to
 the User Profile Settings. For more details on updating your User Profile,
-please see [3.4.2 - User Profile](#_3-3-2-user-profile).
+please see [3.4.2 - User Profile](#_3-4-2-user-profile).
 
 #### 5 - Contact Us Button
 
@@ -352,7 +352,7 @@ Available roles:
 #### 1 - User Information
 
 The User Information is the same information found in the [3.4.2 - User
-Profile](#_3-3-2-user-profile) section. If you wish to make changes to this
+Profile](#_3-4-2-user-profile) section. If you wish to make changes to this
 information, please navigate to the User Profile Settings.
 
 #### 2 - Current Affiliation
