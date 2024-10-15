@@ -11,7 +11,7 @@ description: How to get started with the OSP
 
 The OSP web application can be accessed at the following web address:
 
-[https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca)
+[https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca)
 
 ### 2.1.2 - Web Browser Requirements
 
@@ -22,7 +22,7 @@ except Internet Explorer 11 and earlier versions.
 
 ### 2.2.1 - Creating an Account
 
-1. Navigate to the OSP, [https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
+1. Navigate to the OSP, [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
 2. Click on the ***Register Button***.
 3. Populate the registration form with your:
    - First Name
@@ -34,7 +34,7 @@ except Internet Explorer 11 and earlier versions.
 Password requirements:
 - must contain at least 12 characters
 - cannot appear within the list of known vulnerable passwords
-For more information please see [5.2.2 - Passwords](/guide/customization-and-security.html#_5-2-2-passwords).
+For more information please see [7.0 - Account Security](/guide/account-security).
 :::
 
 4. Click on the _Register_ button.
@@ -56,7 +56,7 @@ Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 ### 2.2.3 - Login
 
 1. Navigate to the OSP,
-[https://www.osp-pso.mar.dfo-mpo.ca](https://www.osp-pso.mar.dfo-mpo.ca).
+[https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
 2. Click on the ***Login Button***.
 3. Enter the Email Address you registered your account with and your latest password.
 4. Click on the ***Login Button***.
@@ -72,7 +72,7 @@ top-right side of the screen.
 If your account was created for you by another person, it is very important that
 you verify the information in your User Profile and Author Profile, and [Update
 your
-password](/guide/customization-and-security.html#_5-2-2-passwords).
+password](/guide/account-security).
 :::
 
 ### 2.3.1 - User Profile
@@ -87,11 +87,9 @@ the Email associated with this account, please contact the [OSP Support
 Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 ## 2.4 - Use the Application
-You are now ready to use the application! Check out the [3.0 - User Interface
-Overview](/guide/user-interface-overview.html) for information on how to
-navigate the application and [4.0 - Using the
-Application](/guide/using-the-application.html) for information on how to use
-the application.
+You are now ready to use the application! Check out the [3.0 - Portal Navigation](/guide/portal-navigation) for information on how to
+navigate the application and [4.0 - Manuscript Record Form](/guide/manuscript-record-form) for information on how to
+create your first Manuscript Record Form.
 
 ## 2.5 - Logging Out
 To log out of the Open Science Portal application:
