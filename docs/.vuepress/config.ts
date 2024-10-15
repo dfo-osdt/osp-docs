@@ -54,7 +54,7 @@ export default
               // OSP-PSO
               {
                 text: 'OSP-PSO',
-                link: 'https://osp-pso.mar.dfo-mpo.ca/'
+                link: 'https://osp-pso.ent.dfo-mpo.ca/'
               },
               // NavbarGroup
               {
@@ -90,7 +90,7 @@ export default
               // PSO-OSP
               {
                 text: 'PSO-OSP',
-                link: 'https://osp-pso.mar.dfo-mpo.ca/'
+                link: 'https://osp-pso.ent.dfo-mpo.ca/'
               },
               // NavbarGroup
               {

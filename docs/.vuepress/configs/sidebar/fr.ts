@@ -17,7 +17,6 @@ export const sidebarFr: SidebarConfig =
                   '/fr/guide/support-and-contact.md',
                   '/fr/guide/updates-and-version-history.md',
                   '/fr/guide/appendices.md',
-                  '/fr/guide/legal-and-compliance.md',
                   '/fr/guide/acknowledgments.md',
                 ],
               }
