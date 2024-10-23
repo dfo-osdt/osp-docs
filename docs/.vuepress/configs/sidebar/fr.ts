@@ -7,20 +7,20 @@ export const sidebarFr: SidebarConfig =
               {
                 text: 'Guide',
                 children: [
-		'/guide/fr/introduction.md',
-                '/guide/fr/getting-started.md',
-                '/guide/fr/portal-navigation.md',
-		'/guide/fr/manuscript-record-form.md',
-		'/guide/fr/management-review-process.md',
-		'/guide/fr/publications.md',
-                '/guide/fr/account-security.md',
-		'/guide/fr/account-customization.md',
-                '/guide/fr/orcid.md',
-                '/guide/fr/troubleshooting.md',
-                '/guide/fr/contact-support.md',
-//                '/guide/fr/updates-and-version-history.md', // comment out until launch
-                '/guide/fr/appendices.md',
-                '/guide/fr/acknowledgments.md',
+		'introduction.md',
+                'getting-started.md',
+                'portal-navigation.md',
+		'manuscript-record-form.md',
+		'management-review-process.md',
+		'publications.md',
+                'account-security.md',
+		'account-customization.md',
+                'orcid.md',
+                'troubleshooting.md',
+                'contact-support.md',
+//                'updates-and-version-history.md', // comment out until launch
+                'appendices.md',
+                'acknowledgments.md',
                 ],
               }
             ]
