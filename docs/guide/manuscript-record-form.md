@@ -1,43 +1,12 @@
 ---
 lang: en-US
-title: 4.0 - Using the Application
+title: 4.0 - Manuscript Record Form
 description:
 ---
 
-# 4.0 - Using the Application
+# 4.0 - Manuscript Record Form
 
-## 4.1 - Purpose and Features
-
-### 4.1.1 - Purpose
-
-The purpose of the OSP application is to improve the DFO scientific publication
-process through digitization, centralization, and modernization of pre-existing
-processes.
-
-### 4.1.2 - Features
-
-#### Primary
-
-- Centralization of the Publication creation and submission process
-- Manuscript Record Form digitization
-- Peer-review streamlining
-- Division Manager review streamlining
-- Publication metrics tracking
-- Add old-process completed Manuscript Record Forms
-- Add previously submitted publications
-
-#### Secondary
-
-- Inviting users to the Open Science Portal
-- Publication search
-- Author search
-
-## 4.2 - Author Walkthroughs
-
-All walkthroughs will assume you are logged in with a verified account and will
-start from the Open Science Portal Dashboard homepage.
-
-### 4.2.1 - My Manuscripts Page
+## 4.1 - My Manuscripts Page
 
 There are multiple ways for an Author to access the manuscript record page. This
 walkthrough will cover one of those ways.
@@ -50,7 +19,7 @@ have created or that have been shared with you. You can see the status of these
 records by looking at the right side of the manuscript records in the ***All
 Manuscripts Box***.
 
-#### Manuscript Record Creation
+## 4.2 - Create a New MRF
 
 1. From the ***Manuscripts Menu*** on the left, Click on the ***+ Create Manuscript Button***.
 2. Select the type of manuscript you wish to publish and Click the ***Continue Button***.
@@ -60,7 +29,7 @@ Manuscripts Box***.
 need to correct information, or ***Cancel*** to cancel the creation of the
 manuscript.
 
-### Manuscript Record Form
+## 4.3 - Populating a MRF
 
 Once the Manuscript has been created, it will be given a Unique ID and
 designated as a "Draft." The manuscript must be populated with the required
@@ -243,7 +212,7 @@ Button located to the right of the uploaded manuscript.
 Only the latest submitted manuscript can be deleted. Click on the ***Garbage Can
 Icon Button*** located to the right of the uploaded manuscript to delete it.
 
-#### Submit
+## 4.4 - Submitting an MRF for Review
 
 Once you have populated all the required information, you can then submit your
 manuscript. To do this:
@@ -280,6 +249,8 @@ submission status of the manuscript. To do this navigate to the ***Manuscript
 Progress Page*** by Clicking on the ***Manuscript Progress Button*** located in
 the ***Manuscript Record Menu*** in the top-left of the ***Manuscript Record
 Page***.
+
+## 4.5 - Managing MRF's
 
 #### Mark as Submitted
 
@@ -367,303 +338,24 @@ If you have shared a manuscript record and you wish to delete/remove the share:
 on the right-side of the Share Record.
 2. Confirm the deletion of this share access by Clicking on the ***OK Button***.
 
-### 4.2.2 - My Publications Page
 
-#### View All Publications
+<!---
+/* Headings for guidance restructure */
 
-To view all available publications submitted to the OSP:
-- Click on the ***Publications Menu Button*** located on the left-side of the
-page.
-- From within the ***My Publications Page*** click on the ***All Publications
-Button*** in the ***Publications Menu***.
+# 4.0 - Manuscript Record Form 
 
-#### Publication Update Record
+## 4.1 - Create a New Manuscript Record
 
-If you have submitted an approved Manuscript Record Form for publication, you
-can manage its status. To update the publication's status:
+## 4.2 - Populating a Manuscript Record Form
 
-1. Click on the ***In Progress Button*** in the ***Publications Menu*** located
-on the left-side of the page.
-2. Click on the publication you wish to update.
+## 4.3 - Submitting an MRF for Review
 
-#### Author(s) and Affiliations(s)
+## 4.4 - Managing Manuscript Records
 
-##### Adding Author(s) and Affiliation(s)
+### 4.4.1 - Editing
 
-1. Click on the circular ***+ Button***.
-2. Click on the ***Author Dialog Box***to select it.
-3. Begin typing the name of the Author or Affiliate you would like to add. If
-the name exists in the database, it will appear, and you can Click on it to
-select it. If the name does not appear, continue onto step 4, else continue to
-step 6.
-4. Click on the circular ***+ Button*** to add a new Author or Affiliate record.
-5. Add their First Name, Last Name, Organization Affiliation, E-Mail, ORCID
-(Optional). Click the ***Create Button*** to add the new Author Record.
-6. Click on whether this Author is the *Corresponding Author* or not.
-7. Click on the ***Add Button*** to add this Author or Affiliate.
-8. Repeat steps 1 to 7 until all Authors or Affiliates have been added.
+### 4.4.2 - Deleting
 
-##### Updating Author or Affiliation
+### 4.4.3 - Sharing
 
-To update the ***Corresponding Author Status*** of an added Author or Affiliate,
-Click on their name and Click on the ***Corresponding Author Slider*** to toggle
-the state.
-
-##### Removing an Author or Affiliate
-
-To remove an Author or Affiliate, Click on the ***x Icon Button*** located on
-the right side of the Author's name.
-
-#### General Information
-
-##### Title
-
-To update the title of the publication:
-
-1. Click on the ***Title Text Box*** to select it.
-2. Apply your edits to the title.
-3. Scroll down to the bottom of the page and Click on the ***SAVE Button***.
-
-##### Journal
-
-To update the Journal you are submitting to:
-
-1. Click on the ***Journal Text Box*** to select it.
-2. Press Backspace or Click on the circular ***X Icon Button*** located on the
-right-side of the ***Journal Text Box*** to remove the current Journal.
-3. Begin typing the name of the journal. If the journal is in the database,
-their name will appear. Click on their name to select them. If their name does
-not appear, please send an email to the [Open Science Portal Support
-Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them
-added.
-
-##### Digital Object Identifier (DOI)
-
-To update the DOI of your publication:
-
-1. Click on the ***DOI Text Box*** to select it.
-2. Type in the DOI.
-
-##### Publication Dates
-
-To update the Publication Date:
-
-1. Click on the ***Accepted on Text Box*** to select it.
-2. Press Backspace to remove the current date and type in the new date, or Click
-on the ***Calendar Icon Button*** located on the right-side of the ***Accepted on
-Text Box*** and select the updated date.
-
-##### Publication Access
-
-To declare that your publication is published as open access, Click on the
-***Published as Open Access Toggle Button*** to set it to ***True***.
-
-To update the embargo date on your publication:
-
-1. Click on the ***Embargoed Until Text Box*** to select it.
-2. Type in the new date or Click on the ***Calendar Icon Button*** located on
-the right-side of the ***Accepted on Text Box*** and select the updated date.
-
-#### Attach Publication
-
-To attach a PDF copy of your publication:
-
-1. Click on the ***Upload the publication Dialog Box***.
-2. Navigate to the location of the PDF on your computer.
-3. Click the PDF to select it.
-4. Click the ***Open Button*** to add it to the upload queue.
-5. Click on the ***UPLOAD Button*** located on the right-side of the ***Upload the
-publication Dialog Box***.
-
-#### Save
-
-To save your changes at any time, scroll to the bottom of the page and Click on
-the ***SAVE Button***.
-
-#### Mark as Published
-
-To mark your publication as published, scroll to the bottom of the page and
-Click on the ***MARK AS PUBLISHED Button***. This will automatically mark the
-publication as published on today's date. If you need to adjust the ***Published
-On date***:
-
-1. Navigate up the page to the ***Publication Dates*** section.
-2. Click on the ***Published on Text Box*** to select it.
-3. Press Backspace to remove the current date and type in the new date, or Click
-on the ***Calendar Icon Button*** located on the right-side of the ***Published on
-Text Box*** and select the updated date.
-4. Scroll down to the bottom of the page and Click on the ***SAVE Button*** to
-save the changes.
-
-### Publication Create a New Entry
-::: tip
-This is important if you have previously published publications.
-:::
-
-#### Create a Publication Entry
-
-To add previously published publications or to add publications where the
-Manuscript Record Form was completed using a different method:
-
-1. Click on the ***CREATE PUBLICATION Button*** located at the bottom of the
-***Publications Menu*** on the left-side of the page.
-2. Review the disclaimer in the dialog box and Click on the ***NEXT Button***.
-3. Populate each ***Publication Details Box*** by Clicking on them to select
-them. Once populated, Click on the ***NEXT Button*** to confirm.
-    - Title
-    - Journal
-    - DOI
-4. Populate each ***Publication Dates Box*** by Clicking to select them:
-    - Accepted On (Optional)
-    - Published On
-5. If the publication is published as open access, Click on the ***Published as
-Open Access Toggle Button*** to set it to ***TRUE***.
-6. If the publication is under an embargo, Click on the ***Embargoed Until Text
-Box*** to select it. If not, continue onto Step-8.
-7. Type in the new date or Click on the ***Calendar Icon Button*** located on
-the right-side of the ***Accepted on Text Box*** and select the updated date.
-8. Click on the ***CREATE Button*** to create the publication entry.
-
-#### Update the Publication Entry
-
-To update the *Author(s) and Affiliation(s)* section and provide a PDF copy of
-the publication for the newly created Publication Entry:
-
-1. Click on the ***Published Button*** from the ***Publications Menu*** located
-on the left-side of the page.
-2. Click on the new publication entry from the list of ***Published
-Publications*** to select it.
-3. Under the *Adding Author(s) and Affiliation(s)* section, Click on the
-circular ***+ Button***.
-4. Click on the "Author" dialog box to select it.
-5. Begin typing the name of the Author or Affiliate you would like to add. If
-the name exists in the database, it will appear, and you can Click on it to
-select it. If the name does not appear, continue onto step 4, else continue to
-step 6.
-6. Click on the circular ***+ Button*** to add a new Author or Affiliate
-record.
-7. Add their First Name, Last Name, Organization Affiliation, E-Mail, ORCID
-(Optional). Click the ***Create Button*** to add the new Author Record.
-8. Click on whether this Author is the ***Corresponding Author*** or not.
-9. Click on the ***Add Button*** to add this Author or Affiliate.
-10. Repeat steps 3 - to - 9 until all Authors or Affiliates have been added.
-11. Scroll to the bottom of the page and Click on the ***Upload the publication
-Dialog Box***.
-12. Navigate to the location of the PDF on your computer.
-13. Click the PDF to select it.
-14. Click the ***Open Button*** to add it to the upload queue.
-15. Click on the ***UPLOAD Button*** located on the right-side of the ***Upload
-the publication Dialog Box***.
-
-For a detailed walkthrough of updating all of the Publication Details, please
-see [Publication Update Record](#publication-update-record).
-
-### 4.2.3 - My Reviews Page
-
-For instructions on managing reviews, please see [4.3.3 - My Reviews
-Page](#_4-3-3-my-reviews-page).
-
-## 4.3 - Manager Walkthroughs
-
-All walkthroughs will assume you are logged in with a verified account and will
-start from the OSP Dashboard homepage.
-
-### 4.3.1 - My Manuscripts Page
-
-The Process of Creating and Submitting a Manuscript Record Form is the same
-process as a Author. Please see [4.2.1 - My Manuscripts
-Page](#_4-2-1-my-manuscripts-page) on how to create and submit a Manuscript
-Record Form.
-
-### 4.3.2 - My Publications Page
-
-The Process of Viewing or Submitting a Publication is the same process as an
-Author. Please see [4.2.2 - My Publications Page](#_4-2-2-my-publications-page)
-on how to view or submit a publication.
-
-### 4.3.3 - My Reviews Page
-
-#### Manuscript Review Page
-
-You can check if you have been selected to review a manuscript or on the status
-of manuscripts you are reviewing on the ***My Reviews Page***. To navigate to
-the ***My Reviews Page***:
-1. Expand the page selection menu by hovering the mouse over the left-sidebar
-menu.
-2. Click on the ***My Reviews Button***.
-Under the ***All My Reviews Window*** in the middle of the page, you can see all
-the manuscripts in which you are involved. If you would like to search or filter
-for a specific manuscript review, you can type the name or keyword in the
-***Filter Text Box*** located in the top-right corner of the ***All My Reviews
-Window***.
-
-#### Pending Reviews
-
-You can see a list of manuscripts which require action from you on the
-***Pending Page***. You can navigate to the ***Pending Page*** from the
-[Manuscript Reviews Page](#manuscript-review-page) by Clicking on the ***Pending
-Button*** located in the ***Reviews Menu*** on the left-side of the screen. A
-list of all manuscripts awaits action from you will now be listed. To take
-action Click on the manuscript you would like to review.
-
-##### Review the Manuscript Form
-
-To review information submitted by the Author or download a copy of the
-submitted manuscript, Click on the ***Form Button*** located on the left-side of
-the screen under the ***Manuscript Record Menu***.
-**NOTE**: While in the ***Form Page*** for a manuscript you have the ability to
-edit and save changes to the Manuscript Record Form. For a detailed guide on
-making edits to the ***Manuscript Record Form*** please see [Manuscript Record
-Form](#manuscript-record-form).
-
-##### Management Review
-
-Prior making a review decision, please read the ***Submission for Management
-Review Disclaimer***, ***Management Review Guidelines***, and ***Manager Comments***.
-
-###### Management Decision Types
-
-There are five decisions which can be made:
-1. Approve and Complete
-    - You approve this manuscript for publication and are ending the management
-    review process.
-2. Approve and Forward
-    - You recommend approval of this manuscript for publication and are
-    forwarding it to the next reviewer.
-3. Withhold and Complete the review process (**Regional Director of Science or
-Director General ONLY**)
-    - You withhold this manuscript for publication and are ending the management
-    review process. Only an RDS or DG can make this decision.
-4. Withhold and Forward
-    - You recommend this manuscript be withheld for publication and are
-    forwarding it to a higher level manager.
-5. Reassign
-    - You are not the correct manager to review this manuscript and reassign
-    this review to the proper manager without making a recommendation.
-
-###### Submitting a Review Decision
-
-To submit a Management Review Decision:
-1. Click in the ***Manager Comment Text Box*** to select it. Input any comments
-you have which support your decision or provide usable feedback to the author or
-assisting manager. (This step is optional if you are ***Approving and
-Completing*** this manuscript.)
-2. Click on the ***SAVE COMMENTS Button*** to save your comments. If you are not
-ready to make a review decision, you can safely navigate away from this page
-without losing your comments.
-3. Click on the ***SUBMIT DECISION Button***. This will open up the ***Decision
-Dialog Box***.
-4. Select the Decision you wish to make.
-5. Click on the ***Next Management Reviewer Text Box*** to select it and begin
-typing the first and last name of the Manager you would like to assign. If the
-name exists in the database, it will appear, and you can Click on it to select
-it. If the name does not appear, continue onto step 6, else continue onto step 8.
-6. To add a Manager, Click on the circular ***+ Button*** to add a new Manager.
-7. Input their First Name, Last Name, E-Mail, and their Preferred
-Language. Click on the ***INVITE Button*** to invite them to the Open Science
-Portal application.
-8. Click on the ***NEXT Button*** to confirm Selected Next Manager.
-9. Review the Decision Disclaimer. If you agree with it, Click on the ***Yes
-Check-Box*** to select it. Then Click on the ***SUBMIT Button*** to confirm your decision.
-An email will automatically be sent to the next selected Manager or to the
-Author with instructions on the next steps.
+--->

@@ -1,9 +1,10 @@
 ---
 lang: fr-CA
-title: 12.0 - Remerciements
+title: 13.0 - Remerciements
 description:
 ---
-# 12.0 - Remerciements
 
-## 12.1 - Merci
-Nous vous remercions d'avoir choisi d'utiliser le Portail de la Science Ouverte ! Avec votre aide continue, nous pouvons travailler pour rendre la science de la recherche accessible, lisible et ouverte à tous les Canadiens !
+# 13.0 - Remerciements
+
+## 13.1 - Merci
+Merci d'avoir choisi d'utiliser le Portail de la science ouverte! Avec votre aide continue, nous pouvons travailler à rendre la recherche scientifique accessible, lisible et ouverte à tous les Canadiens!
