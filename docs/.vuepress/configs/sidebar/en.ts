@@ -19,7 +19,7 @@ export const sidebarEn: SidebarConfig =
                     '/guide/orcid.md',
                     '/guide/troubleshooting.md',
                     '/guide/contact-support.md',
-                    '/guide/updates-and-version-history.md',
+//                    '/guide/updates-and-version-history.md', //commented out until launch
                     '/guide/appendices.md',
                     '/guide/acknowledgments.md',
                   ],

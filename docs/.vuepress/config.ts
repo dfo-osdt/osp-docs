@@ -80,7 +80,7 @@ export default
         
           '/fr/':
           {
-            selectLangugaeName: 'Français',
+            selectLanguageName: 'Français',
             navbar: [
               // User Guide
               {
