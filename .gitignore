@@ -1,7 +1,7 @@
 node_modules
 .temp
 .cache
-.pnpm-lock.yalm
+.pnpm-lock.yaml
 dir-tree.md
 notes.txt
 

@@ -1,4 +1,4 @@
-		import { viteBundler } from '@vuepress/bundler-vite'
+import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -118,8 +118,7 @@ export default
     plugins:
     [
       searchPlugin
-      (
-        {
+      ({
           locales:
           {
             '/':
@@ -131,7 +130,6 @@ export default
               placeholder: 'Rechercher',
             }
           }
-        }
-      ),
+        }),
     ]
   }
