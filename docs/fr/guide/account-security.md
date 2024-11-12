@@ -44,7 +44,7 @@ Si plusieurs tentatives de connexion se produisent en très peu de temps ou si d
 
 #### Décomposition de l'historique d'authentification
 
-![Tableau de l'historique d'authentification](/images/authentication_history_table.png)
+![Tableau de l'historique d'authentification](/images/authentication_history_table_fr.png)
 
 ##### 1 - Adresse IP
 

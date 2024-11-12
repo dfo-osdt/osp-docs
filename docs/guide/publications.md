@@ -28,7 +28,7 @@ on the left-side of the page.
 ##### Adding Author(s) and Affiliation(s)
 
 1. Click on the circular ***+ Button***.
-2. Click on the ***Author Dialog Box***to select it.
+2. Click on the ***Author Dialog Box*** to select it.
 3. Begin typing the name of the Author or Affiliate you would like to add. If
 the name exists in the database, it will appear, and you can Click on it to
 select it. If the name does not appear, continue onto step 4, else continue to

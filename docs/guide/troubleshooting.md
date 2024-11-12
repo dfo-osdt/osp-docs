@@ -9,8 +9,7 @@ description:
 
 ### Account Registration or Updating
 
-#### Application will not accept my desired password upon account creation or
-     password change.
+#### Application will not accept my desired password upon account creation or password change.
      
 - Ensure the password is input identically in the "Password" and "Confirm
 - Password" text boxes.
