@@ -115,17 +115,24 @@ are now required for all scientific publications to improve accessibility. The
 Plain Language Summary of your manuscript should be written for an 8th-grade
 reading comprehension.
 
-##### Generate a Plain Language Summary (Experimental)
+##### Generate a Plain Language Summary
 
-You can choose to have a Plain Language Summary generated for you based upon
-your abstract. This optional tool will send your abstract to [Open AI's
-Chat-GPT](https://openai.com/) service and return a generated Plain Language
-Summary. If you choose to use this feature, please familiarize yourself with the
+You can choose to have a Plain Language Summary generated for you based on
+your abstract. This tool runs locally within the DFO network, meaning that any information sent to this tool
+**will not leave the DFO intranet**.
+
+This tool works by using an Artificial Intelligence (AI) Large Language Model
+(LLM) developed by [Meta, called Llama 3.2](https://www.llama.com/). Llama 3.2 is designed for use in a closed network
+environment and therefore **cannot send any information to Meta or outside the DFO intranet**.
+
+When using any AI tool while connected to a Government of Canada network, it is good practice to familiarize yourself with the
 [Treasury Board of Canada
 Secretariat](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html)
-rules and guidelines on the use of Artificial Intelligence Language Learning
-Models and please verify the information of the generated Plain Language Summary
-for accuracy as the model may assume information that is not correct.
+rules and guidelines on the use of Artificial Intelligence Language Models.
+
+:::warning
+Please verify the Generated Plain Language Summary for accuracy!
+:::
 
 After adding the Plain Language Summary, Click on the circular ***Floppy-Disk
 Icon Button*** on the bottom-right side of the page, or scroll down to the
@@ -337,25 +344,3 @@ If you have shared a manuscript record and you wish to delete/remove the share:
 1. Click on the ***Trash Can Icon Button*** located under the "Actions" column
 on the right-side of the Share Record.
 2. Confirm the deletion of this share access by Clicking on the ***OK Button***.
-
-
-<!---
-/* Headings for guidance restructure */
-
-# 4.0 - Manuscript Record Form 
-
-## 4.1 - Create a New Manuscript Record
-
-## 4.2 - Populating a Manuscript Record Form
-
-## 4.3 - Submitting an MRF for Review
-
-## 4.4 - Managing Manuscript Records
-
-### 4.4.1 - Editing
-
-### 4.4.2 - Deleting
-
-### 4.4.3 - Sharing
-
---->
