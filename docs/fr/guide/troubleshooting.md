@@ -1,12 +1,12 @@
 ---
 lang: fr-CA
-title: 10.0 - Dépannage
+title: 11.0 - Dépannage
 description:
 ---
 
-# 10.0 - Dépannage
+# 11.0 - Dépannage
 
-## 10.1 - Problèmes courants
+## 11.1 - Problèmes courants
 
 ### Enregistrement ou mise à jour du compte
 
@@ -30,10 +30,10 @@ Veuillez contacter l'[Équipe de soutien de la science ouverte](mailto:DFO.OpenS
 
 Assurez-vous que vous copiez votre texte à partir d'un programme de traitement de texte tel que Microsoft Word, Google Docs, LibreOffice, etc. Si votre texte provient d'un document PDF, la fonction de copie ne préservera pas le formatage du texte.
 
-## 10.2 - Messages d'erreur
+## 11.2 - Messages d'erreur
 
 *À venir*
 
-## 10.3 - Faits et questions
+## 11.3 - Faits et questions
 
 *À venir*

@@ -1,10 +1,10 @@
 ---
 lang: fr-CA
-title: 13.0 - Remerciements
+title: 14.0 - Remerciements
 description:
 ---
+# 14.0 - Remerciements
 
-# 13.0 - Remerciements
+## Merci
 
-## 13.1 - Merci
-Merci d'avoir choisi d'utiliser le Portail de la science ouverte! Avec votre aide continue, nous pouvons travailler à rendre la recherche scientifique accessible, lisible et ouverte à tous les Canadiens!
+Merci d'avoir choisi d'utiliser le Portail de science ouverte des Sciences des écosystèmes et des océans! Avec votre aide continue, nous pouvons travailler à rendre la recherche scientifique accessible, compréhensible et ouverte à tous les Canadiens!

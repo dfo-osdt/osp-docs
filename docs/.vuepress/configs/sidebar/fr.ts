@@ -16,6 +16,7 @@ export const sidebarFr: SidebarConfig =
                 'account-security.md',
 		'account-customization.md',
                 'orcid.md',
+		'explore.md',
                 'troubleshooting.md',
                 'contact-support.md',
 //                'updates-and-version-history.md', // comment out until launch

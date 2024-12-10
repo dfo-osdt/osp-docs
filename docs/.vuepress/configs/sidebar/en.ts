@@ -17,6 +17,7 @@ export const sidebarEn: SidebarConfig =
                     '/guide/account-security.md',
 		    '/guide/account-customization.md',
                     '/guide/orcid.md',
+		    '/guide/explore.md',
                     '/guide/troubleshooting.md',
                     '/guide/contact-support.md',
 //                    '/guide/updates-and-version-history.md', //commented out until launch
