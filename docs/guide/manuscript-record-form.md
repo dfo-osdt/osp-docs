@@ -284,7 +284,7 @@ To mark the manuscript as submitted to a journal:
 the YYYY-MM-DD (Year, Month, Day) format, or Click on the ***Calendar* Icon
 Button** **>** Select the applicable
 year, month, and day.
-3. Click on the ***UPDATE* Box*** to confirm the date.
+3. Click on the ***UPDATE*** Box to confirm the date.
 	
 #### Accepted for Publication
 
