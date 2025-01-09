@@ -1,13 +1,13 @@
 ---
 lang: en-US
-title: 8.0 - Account Customization
+title: Account Customization
 description:
 ---
-# 8.0 - Account Customization
+# Account Customization
 
-## 8.1 - Customization
+## Customization
 
-### 8.1.1 - Appearance
+### Appearance
 
 #### Language
 
@@ -15,7 +15,7 @@ To toggle the displayed language to French or English, click on the ***FR/EN
 Button*** in the top-right corner of the screen. To set your preferred language,
 please see [Default Language](#default-language).
 
-### 8.1.2 - User Profile
+### User Profile
 
 #### First and Last Name
 
@@ -52,7 +52,7 @@ Current available roles:
 - Director
 - Admin
 
-### 5.1.3 - Author Profile
+### Author Profile
 
 #### Current Affiliation
 

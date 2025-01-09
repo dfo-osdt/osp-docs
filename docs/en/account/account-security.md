@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: 7.0 - Account Security
+title: 7.Account Security
 description:
 ---
 

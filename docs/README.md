@@ -1,10 +1,24 @@
 ---
 home: true
+title: Home
 heroImage: /logos/logo.png
-actions:
+actions:  
+    - text: THIRD-PARTY PUBLICATIONS
+      link: /en/third-party/manuscript-record-form.html
+      type: secondary
+      
+    - text: DFO PUBLICATIONS
+      link: /en/dfo/manuscript-record-form.html
+      type: secondary
+      
+    - text: ACCOUNT SETTINGS
+      link: /en/account/account-security.html
+      type: secondary
+
     - text: GET STARTED
-      link: /guide/introduction.html
+      link: /en/welcome/introduction.html
       type: primary
-footer:  Crown Copyright & ISC | Copyright © 2024 Fisheries and Oceans Canada
+
+footer:  Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
 ---
 

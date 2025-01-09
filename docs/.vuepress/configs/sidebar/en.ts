@@ -1,29 +1,63 @@
 import type { SidebarConfig } from 'vuepress'
 
-export const sidebarEn: SidebarConfig = 
+export const sidebarEn: SidebarConfig =
 {
-    '/guide/':
-              [
-                {
-		sidebarDepth: 0,
-                  text: 'Guide',		 
-                  children: [
-                    '/guide/introduction.md',
-                    '/guide/getting-started.md',
-                    '/guide/portal-navigation.md',
-		    '/guide/manuscript-record-form.md',
-		    '/guide/management-review-process.md',
-		    '/guide/publications.md',
-                    '/guide/account-security.md',
-		    '/guide/account-customization.md',
-                    '/guide/orcid.md',
-		    '/guide/explore.md',
-                    '/guide/troubleshooting.md',
-                    '/guide/contact-support.md',
-//                    '/guide/updates-and-version-history.md', //commented out until launch
-                    '/guide/appendices.md',
-                    '/guide/acknowledgments.md',
-                  ],
-                }
-              ]
+  '/en/welcome/':
+    [
+      {
+        sidebarDepth: 0,
+        text: 'Welcome',
+        children: [
+          '/en/welcome/introduction.md',
+          '/en/welcome/getting-started.md',
+          '/en/welcome/portal-navigation.md',
+	  '/en/welcome/my-manuscripts.md',
+	  '/en/welcome/my-publications.md',
+          '/en/welcome/contact-support.md',
+        ],
+      }
+    ],
+  '/en/third-party/':
+    [
+      {
+        sidebarDepth: 0,
+        text: 'Third-Party Publication',
+        children: [
+          '/en/third-party/manuscript-record-form.md',
+          '/en/third-party/management-review-process.md',
+          '/en/third-party/publications.md',
+        ],
+      }
+    ],
+
+  '/en/dfo/':
+    [
+      {
+        sidebarDepth: 0,
+        text: 'DFO Publication',
+        children: [
+          '/en/dfo/manuscript-record-form.md',
+          '/en/dfo/management-review-process.md',
+          '/en/dfo/publications.md',
+        ],
+      }
+    ],
+
+  '/en/account/':
+    [
+      {
+        sidebarDepth: 0,
+        text: 'Account',
+        children: [
+          '/en/account/account-security.md',
+          '/en/account/account-customization.md',
+          '/en/account/orcid.md',
+          '/en/account/explore.md',
+          '/en/account/troubleshooting.md',
+          // '/en/account/updates-and-version-history.md', //commented out until launch
+          '/en/account/appendices.md',
+          '/en/account/acknowledgments.md',
+        ],
+      }
+    ]
 }
