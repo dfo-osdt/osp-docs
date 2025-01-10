@@ -6,100 +6,108 @@ description:
 
 # Management Review Process
 
-## 5.1 - Manuscript Review Page
+## My Management Reviews Page
 
-You can check if you have been selected to review a manuscript or on the status
-of manuscripts you are reviewing on the ***My Reviews Page***. To navigate to
-the ***My Reviews Page***:
+You can check the status of manuscripts you have reviewed or have been selected to review on the **My Management
+Reviews** page.
+To access the **My Management Reviews** page,
+
 1. Expand the page selection menu by hovering the mouse over the left-sidebar
 menu.
-2. Click on the ***My Reviews Button***.
-Under the ***All My Reviews Window*** in the middle of the page, you can see all
-the manuscripts in which you are involved. If you would like to search or filter
-for a specific manuscript review, you can type the name or keyword in the
-***Filter Text Box*** located in the top-right corner of the ***All My Reviews
-Window***.
+2. Select the **My Management  Reviews**.
 
-## 5.2 - Selecting MRF to Review
+On the **My Management Reviews** page you will see a list of all manuscripts which are awaiting your review. Click on a
+pending MRF to begin reviewing it.
 
-You can see a list of manuscripts which require action from you on the
-***Pending Page***. You can navigate to the ***Pending Page*** from the
-[Manuscript Reviews Page](#_5-1-manuscript-review-page) by Clicking on the ***Pending
-Button*** located in the ***Reviews Menu*** on the left-side of the screen. A
-list of all manuscripts awaits action from you will now be listed. To take
-action Click on the manuscript you would like to review.
+![My Management Reviews](/images/third-party/my_management_reviews.png)
 
-##### Review the Manuscript Form
+## Reviewing an MRF
 
-To review information submitted by the Author or download a copy of the
-submitted manuscript, Click on the ***Form Button*** located on the left-side of
-the screen under the ***Manuscript Record Menu***.
-**NOTE**: While in the ***Form Page*** for a manuscript you have the ability to
-edit and save changes to the Manuscript Record Form. For a detailed guide on
-making edits to the ***Manuscript Record Form*** please see [Manuscript Record
-Form](/guide/manuscript-record-form).
+![Management Review](/images/third-party/management_review.png)
 
-## 5.3 - Management Decision Actions
+Your role as the reviewing manager is to ensure that,
 
-Prior making a review decision, please read the ***Submission for Management
-Review Disclaimer***, ***Management Review Guidelines***, and ***Manager Comments***.
+1. The manuscript is in compliance with the [Intellectual Property
+Policy/Copyright Act](https://www.dfo-mpo.gc.ca/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs)
+and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
+2. That the Regional Director of Science (RDS) and the Regional DFO Communications is informed if the manuscript
+contains content that has potential interest to the public.
 
-###### Management Decision Types
+:::warning
+Science management commits to a 10 working-day turnaround for sign-off of manuscripts for publication. If managers do
+not respond with an approval within 10 working days, authors may submit their manuscripts to the publisher.
+:::
 
-There are five decisions which can be made:
-1. Approve and Complete
+#### Review the Manuscript Form
+
+To review the Manuscript Form,
+
+1. Click the **<- GO TO MANUSCRIPT FORM button**.
+2. Click the **Download icon** to download a PDF copy of the manuscript.
+3. You can apply changes to the Manuscript Record. For more details see [Populating a
+MRF](/en/third-party/manuscript-record-form.md).
+4. Click the **Management Review button** from the side menu to return to the Management Review page.
+
+#### Review the Potential Public Interest Section
+
+To jump to the Potential Public Interest section of the manuscript form,
+
+1. Click the **<- GO TO POTENTIAL PUBLIC INTEREST SECTION button**.
+2. Click the **Management Review button** from the side menu to return to the Management Review page.
+
+#### Management Comments
+
+![Management Comments](/images/third-party/management_comments.png)
+
+If you intent to forward or reassign the management review to another manager, or if you have feedback you would like
+the author to address, you will need to record you comments in the **Manager Comments textbox**. These comments will be
+visible to anyone with current or future access to this manuscript record.
+
+If you intend to approve and complete the management review then comments are not required.
+
+## Management Decision Actions
+
+![Management Decisions](/images/third-party/decision.png)
+
+The Management decisions that can be made are,
+
+- Approve and Complete
     - You approve this manuscript for publication and are ending the management
     review process.
-2. Approve and Forward
+- Approve and Forward
     - You recommend approval of this manuscript for publication and are
     forwarding it to the next reviewer.
-3. Withhold and Complete the review process (**Regional Director of Science or
+- Flag for Follow-up
+    - Flag management review comments that should be addressed by the author prior to providing your approval.
+- Withhold and Complete the review process (**Regional Director of Science or
 Director General ONLY**)
     - You withhold this manuscript for publication and are ending the management
     review process. Only an RDS or DG can make this decision.
-4. Withhold and Forward
+- Withhold and Forward
     - You recommend this manuscript be withheld for publication and are
     forwarding it to a higher level manager.
-5. Reassign
+- Reassign
     - You are not the correct manager to review this manuscript and reassign
     this review to the proper manager without making a recommendation.
 
-###### Submitting a Review Decision
+### Submitting a Review Decision
 
-To submit a Management Review Decision:
-1. Click in the ***Manager Comment Text Box*** to select it. Input any comments
-you have which support your decision or provide usable feedback to the author or
-assisting manager. (This step is optional if you are ***Approving and
-Completing*** this manuscript.)
-2. Click on the ***SAVE COMMENTS Button*** to save your comments. If you are not
-ready to make a review decision, you can safely navigate away from this page
-without losing your comments.
-3. Click on the ***SUBMIT DECISION Button***. This will open up the ***Decision
-Dialog Box***.
-4. Select the Decision you wish to make.
-5. Click on the ***Next Management Reviewer Text Box*** to select it and begin
-typing the first and last name of the Manager you would like to assign. If the
-name exists in the database, it will appear, and you can Click on it to select
-it. If the name does not appear, continue onto step 6, else continue onto step 8.
-6. To add a Manager, Click on the circular ***+ Button*** to add a new Manager.
-7. Input their First Name, Last Name, E-Mail, and their Preferred
-Language. Click on the ***INVITE Button*** to invite them to the Open Science
-Portal application.
-8. Click on the ***NEXT Button*** to confirm Selected Next Manager.
-9. Review the Decision Disclaimer. If you agree with it, Click on the ***Yes
-Check-Box*** to select it. Then Click on the ***SUBMIT Button*** to confirm your decision.
+Once you have reviewed the Manuscript Record and provided any comments you can submit your review decision.
+
+To submit a Management Review Decision,
+
+1. Click the **SUBMIT DECISION button**.
+2. Select the Decision you wish to make > Click the **NEXT button**.
+3. If you are fowarding the management review onto another manager >  Click the **Next Management Reviewer search box**
+> Type the name of the division manager. If the manager is in the database, their name will appear > Click on their name
+to select them. If their name does not appear, follow the steps below to invite them to the OSP,
+    1. Click the **Can't find the user you're looking for? button**.
+    2. Populate the manager's First Name, Last Name, E-Mail, and Preferred Language.
+    3. Click on the **INVITE button** to invite them to the OSP.
+4. Click on the ***NEXT Button*** to confirm Selected Next Manager.
+5. Select **Yes** > Click the **SUBMIT button**.
+
+![Submit Decision](/images/third-party/submit_decision.png)
+
 An email will automatically be sent to the next selected Manager or to the
 Author with instructions on the next steps.
-
-
-<!---
-
-\* Structure for updating the management guidance *\
-
-# 5.0 - Management Review Process
-
-## 5.1 - Selecting MRF to Review
-
-## 5.2 - Review Decision Choices
-
---->

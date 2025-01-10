@@ -1,12 +1,60 @@
 ---
 lang: en-US
-title: 6.0 - Publications
+title: Publications
 description:
 ---
 
-# 6.0 - Publications
+#  Publications
 
-## 6.1 - My Publications Page
+## Submitting for Publication
+
+With the completion of the Management Review Process you are now ready to submit your manuscript to a journal for
+peer-review and publication!
+
+We ask that you continue to update your manuscript record form through the publication process to improve publishing
+time metrics and visibility of your work.
+
+### Mark as Submitted
+
+To mark your manuscript as submitted to a journal,
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the menu on the left.
+3. Click the **MARK AS SUBMITTED button**.
+4. Click the **Submitted to Journal On field** > Type in the date in
+the YYYY-MM-DD (Year, Month, Day) format, or Click on the **Calendar icon** > Select the applicable
+year, month, and day.
+3. Click on **UPDATE button** to confirm the date.
+
+### Accepted for Publication
+
+To mark your manuscript as accepted for publication,
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the menu on the left.
+3. Click the **ACCEPTED FOR PUBLICATION button**.
+4. Confirm the date that the manuscript was submitted to the journal on.
+5. Click the **Accepted for Publication On field** and type in the date
+in the YYYY-MM-DD (Year, Month, Day) format, or Click the **Calendar icon** > select the applicable
+year, month, and day.
+6. Click on the **Journal field** and begin typing the name of the
+journal. If the journal is in the database, their name will appear. Select
+their name from the list. If their name does not appear, please send an email
+to the [OSP Support
+Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them
+added.
+7. Click the **UPDATE button** to confirm the publication acceptance entry.
+
+### Withdraw Manuscript
+
+To mark your manuscript as widthdrawn,
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the menu on the left.
+3. Click the **WITHDRAW MANUSCRIPT button**.
+4. Click on the **WITHDRAW button** to confirm.
+
+## My Publications Page
 
 To view all available publications submitted to the OSP:
 - Click the ***Publications Menu*** **button** located on the left side of the page.
@@ -17,7 +65,9 @@ If you have submitted a manuscript to a journal and need to update its *Acceptan
 [Section 4.5 - Managing MRFs](/guide/manuscript-record-form.html#_4-5-managing-mrf-s).
 :::
 
-## 6.2 - Updating a Publication When Accepted by a Journal
+
+
+## Updating a Publication When Accepted by a Journal
 
 You can find your pending publication by navigating to **Dashboard** > **My Publications** > **In Progress**. Click the publication record you wish to update.
 

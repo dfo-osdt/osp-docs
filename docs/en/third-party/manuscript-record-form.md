@@ -61,8 +61,7 @@ button** to upload it.
 2. Click on the **Author field**.
 3. Begin typing the name of the Author or Affiliate you would like to add. If
 the name exists in the database, it will appear > Click  on the name to
-select it. If the name does not appear, follow the steps below; otherwise, continue
-to step 4.
+select it. If the name does not appear, follow the steps below,
    1. Click on the **+ button** to add a new Author or Affiliate record.
    2. Add their First Name, Last Name, Organization Affiliation, E-Mail, ORCID
 (Optional) > Click the **Create button** to add the new Author Record.
@@ -237,12 +236,12 @@ To submit your MRF for review,
 2. Click on the **SUBMIT button**.
 3. Review the **Submission for Management Review** consent > Click on the **Yes button** to accept the consent
 statement > Click **NEXT**.
-4. Click on the **Division Manager field** to select it > Type the
+4. Click on the **Division Manager search box** > Type the
 name of the division manager. If the
 manager is in the database, their name will appear > Click on their name to
 select them. If their name does not appear, follow the steps below to invite them
-to the OSP; otherwise, continue onto Step 6.
-   1. Click on the **Not the user you are looking for? button**.
+to the OSP,
+   1. Click on the **Can't find the user you are looking for? button**.
    2. Populate the manager's First Name, Last Name, E-Mail, and Preferred
 Language.
 	3. Click on the **INVITE button** to invite them to the OSP.
@@ -256,60 +255,16 @@ box** in the top-right side of the page has changed to **In Review**.
 
 ![In Review](/images/third-party/in_review.png)
 
-### Manuscript Management Review
+## Manuscript Progress
 
-You can check the management review status of your manuscript by Clicking on the
-***Management Review** Page Button** located in the ***Manuscript Record* Menu**
-in the top-left of the ***Manuscript Record* Page**.
+You can track the progress of your manuscript on the **Manuscript Progress page**.
 
-### Manuscript Progress
+To view your manuscript's progress,
 
-Upon completion of the Management Review, the Author can update the journal
-submission status of the manuscript. To do this navigate to the ***Manuscript
-Progress* Page** by Clicking on the ***Manuscript Progress* Button** located in
-the ***Manuscript Record* Menu** in the top-left of the ***Manuscript Record*
-Page**.
+1. From the **My Manuscript Records page** Open your manuscript form.
+2. Click **Manuscript Progress** from the *Manuscript Record Menu*.
 
-## 4.5 - Managing MRF's
-
-#### Mark as Submitted
-
-To mark the manuscript as submitted to a journal:
-
-1. Click on the ***MARK AS SUBMITTED* Button**.
-2. Click on the ***Submitted to Journal On* Field** **>** Type in the date in
-the YYYY-MM-DD (Year, Month, Day) format, or Click on the ***Calendar* Icon
-Button** **>** Select the applicable
-year, month, and day.
-3. Click on the ***UPDATE*** Box to confirm the date.
-	
-#### Accepted for Publication
-
-The Author can declare whether their manuscript has been accepted for
-publication by the targeted journal or if they have decided to withdraw their
-manuscript.
-
-##### Accepted for Publication
-
-1. Click on the ***ACCEPTED FOR PUBLICATION* Button**.
-2. Confirm the date that the manuscript was submitted to the journal on.
-3. Click on the ***Accepted for Publication On* Field** and type in the date
-in the YYYY-MM-DD (Year, Month, Day) format, or Click on the ***Calendar* Icon
-Button** **>** select the applicable
-year, month, and day.
-4. Click on the ***Journal* Field** and begin typing the name of the
-journal. If the journal is in the database, their name will appear. Click on
-their name to select them. If their name does not appear, please send an email
-to the [OSP Support
-Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have them
-added.
-5. Click on the ***UPDATE* Button** to confirm the publication acceptance entry.
-
-##### Withdraw Manuscript
-
-1. Click on the ***WITHDRAW MANUSCRIPT* Button**.
-2. Click on the ***WITHDRAW* Button** to confirm that the author is no longer
-considering the manuscript for publication.
+![Progress](/images/third-party/progress.png)
 
 ### Manuscript Record Sharing
 
