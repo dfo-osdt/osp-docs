@@ -98,12 +98,11 @@ To submit a Management Review Decision,
 
 1. Click the **SUBMIT DECISION button**.
 2. Select the Decision you wish to make > Click the **NEXT button**.
-3. If you are fowarding the management review onto another manager >  Click the **Next Management Reviewer search box**
-> Type the name of the division manager. If the manager is in the database, their name will appear > Click on their name
+3. If you are fowarding the management review onto another manager >  Click the **Next Management Reviewer search box** > Type the name of the division manager. If the manager is in the database, their name will appear > Click on their name
 to select them. If their name does not appear, follow the steps below to invite them to the OSP,
-    1. Click the **Can't find the user you're looking for? button**.
-    2. Populate the manager's First Name, Last Name, E-Mail, and Preferred Language.
-    3. Click on the **INVITE button** to invite them to the OSP.
+  1. Click the **Can't find the user you're looking for? button**.
+  2. Populate the manager's First Name, Last Name, E-Mail, and Preferred Language.
+  3. Click on the **INVITE button** to invite them to the OSP.
 4. Click on the ***NEXT Button*** to confirm Selected Next Manager.
 5. Select **Yes** > Click the **SUBMIT button**.
 

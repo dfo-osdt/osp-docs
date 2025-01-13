@@ -12,7 +12,7 @@ There are multiple ways for an Author to access the manuscript record page. This
 walkthrough will cover one of those ways.
 
 1. Expand the page selection menu by hovering the mouse over the left-sidebar menu.
-2. Click on ***My Manuscripts***.
+2. Click on **My Manuscripts**.
 
 On the ***My Manuscripts* Page**, you will see a list of all manuscript records you
 have created or that have been shared with you which are in-progress.
@@ -222,7 +222,7 @@ If you would like to edit the information of a submitted Funding Source:
 If you would like to delete a submitted Funding Source:
 
 1. Click on the **Garbage Can icon**.
-2. Click the ***OK* Button** to confirm that you wish to
+2. Click the **OK button** to confirm that you wish to
 remove this funding source.
 
 ## Submitting an MRF for Review
@@ -266,48 +266,45 @@ To view your manuscript's progress,
 
 ![Progress](/images/third-party/progress.png)
 
-### Manuscript Record Sharing
+## Sharing a MRF
 
-You can share your manuscript or see a history of who you have shared your
-manuscript with in the ***Sharing* Page**. To do this, navigate to the
-***Sharing* Page** by Clicking on the ***Sharing* Button** located in the
-***Manuscript Record* Menu** in the top-left of the ***Manuscript Record* Page***.
+You can share access to your Manuscript Form with a peer, even if they are not a contributing author. When you share
+your manuscript form, you can decide whether your peer can have view only, edit, or delete access. You can also set a
+date in which the share-access to your manuscript form will expire. If you do not set an expiration date, you can revoke
+sharing access at any time.
 
-#### Share a Manuscript
+![Sharing](/images/third-party/sharing.png)
 
 To share a manuscript with another user:
 
-1. Click on the ***SHARE* Button**.
-2. Click on the ***User* Field** to select it **>**Type the name or email
-address of the user. If the user is in the database, their name will
-appear. Click on their name to select them. If their name does not appear,
-follow the steps below to invite them to the OSP; otherwise, continue onto Step-3.
-	 1. Click on the ***Not the user you are looking for?* Button**.
-	 2. Populate the user's First Name, Last Name, E-Mail, and Preferred Language.
-	 3. Click on the ***INVITE* Button** to invite the user to the OSP.
-3. Click on the ***Can Edit* Toggle Button** if you would like to enable the
-user to edit this manuscript application. **(Disabled by default)**
-4. Click on the ***Can Delete* Toggle Button** if you would like to enable the
-user to delete this manuscript application. **(Disabled by default)**
-5. If you would like the user's ability to access this manuscript to be only
-temporary, Click on the ***Expires On* Field** and type in the date you
-wish to end the sharing of this manuscript. You may also Click on the
-***Calendar* Icon Button** to select a date.
-6. Click the ***SHARE* Button** to share this manuscript.
+1. From the **My Manuscript Records page** Open your manuscript form.
+2. Select **Sharing** from the left-side menu.
+3. Click the **Share button**.
+4. Click the **User search box** > Type the name or email of the user. If the user is in the database, their name will
+appear > Click their name to select them. If their name does not appear, follow the steps below to invite them to the
+OSP,
+   1. Click the **Can't find the user you are looking for? button**.
+   2. Populate the manager's First Name, Last Name, E-Mail, and Preferred
+5. Select **Can Edit** if you would like them to be able to edit the Manuscript Form.
+6. Select **Can Delete** if you would like them to be able to delete the Manuscript Form.
+7. Click the **Expires On field** > Type in the date you would like the share access to expire. You may also click the
+**Calendar icon** if you would like to select a date from the calendar widget. (Optional)
+8. Click the **SHARE button**.
 
-#### Edit a Manuscript Share
+![New Share](/images/third-party/new_share.png)
+
+### Edit a Manuscript Share
 
 If you have shared a manuscript record and you wish to modify the permissions of
 that share:
 
-1. Click on the ***Pencil* Icon Button** located under the **Actions** column on
-the right-side of the Share Record.
-2. Update the sharing attribute(s) you wish to change **>** Click on the ***SAVE* Button** to apply the changes.
+1. Click the **Pencil icon** under the **Actions** column.
+2. Update the sharing attribute(s) you wish to change.
+3. Click on the **SAVE button**.
 
-#### Delete a Manuscript Share
+### Delete a Manuscript Share
 
-If you have shared a manuscript record and you wish to delete/remove the share:
+If you have shared a manuscript record and you wish to delete the share:
 
-1. Click on the ***Trash Can* Icon Button** located under the **Actions** column
-on the right-side of the Share Record.
-2. Confirm the deletion of this share access by Clicking on the ***OK* Button**.
+1. Click on the **Trash Can icon**  under the **Actions** column.
+2. Click the **OK button**.

@@ -56,219 +56,169 @@ To mark your manuscript as widthdrawn,
 
 ## My Publications Page
 
-To view all available publications submitted to the OSP:
-- Click the ***Publications Menu*** **button** located on the left side of the page.
-- Within the ***My Publications*** **page**, click the ***All Publications*** **button** in the ***Publications Menu***.
+The **My Publications page** is where you can view all publication records in which you have created or that have been
+shared with you. From the My Publications page you can create new publication records or manage existing ones.
 
-:::tip
-If you have submitted a manuscript to a journal and need to update its *Acceptance/Withdrawal* status, please see 
-[Section 4.5 - Managing MRFs](/guide/manuscript-record-form.html#_4-5-managing-mrf-s).
-:::
+To access the My Publicatons page,
 
+1. Expand the page selection menu by hovering the mouse over the left-sidebar menu.
+2. Click on **My Publications**.
 
+![My Publications](/images/third-party/my_publications.png)
 
-## Updating a Publication When Accepted by a Journal
+## Updating a Publication Record
 
-You can find your pending publication by navigating to **Dashboard** > **My Publications** > **In Progress**. Click the publication record you wish to update.
+A publication record may continue to develop after submission to a journal. The publication record should be updated as
+additional metadata and documents are created.
 
-### 6.2.1 - General Information
+To update a publication record,
 
-#### DOI
+1. Navigate to the **My Publications page**.
+2. Click the publication record you wish to update.
 
-Add the DOI associated with the publication to the DOI text box. The DOI should follow the format `https://doi.org/10.1038/xyz123`.
+![Update Publication](/images/third-party/pub_update_authors.png)
 
-#### Publication Access
-
-- If your publication has been published as **Open Access**, click the ***Published as Open Access*** **toggle switch**.
-- If your publication is under an embargo, enter the embargo end date in the `YYYY-MM-DD` format. You can also click the calendar icon located on the right side of the ***Embargoed Until*** **box** and select the date from the calendar.
-
-### 6.2.2 - Published Work
-
-To add a PDF copy of your published work:
-
-1. Click the ***Upload a new version of the publication*** box to open the file explorer.
-2. Navigate to the PDF copy of your publication and select it.
-3. Click the ***Open*** button to add it to the uploader.
-4. Click the ***UPLOAD*** button to complete the process.
-
-### 6.2.3 - Supplementary Files
-
-It is encouraged to upload documents related to the publication to create a complete publication history. The file names and types of these documents will be visible to all OSP users, but only the creator of the publication record and listed authors will be able to view their contents.
-
-The purpose of supplementary files is to improve the tracking of legal documents associated with your publication.
-
-Available document types are:
-- Accepted Manuscript
-- Author Agreement
-- Errata
-- Joint Copyright Agreement
-- Manuscript Record Form
-- Preprint/Submitted
-- Other
-
-:::tip
-Preprint/Submitted document types can be downloaded by any authorized OSP user if the publication is **not** under an embargo.
-:::
-
-To add a supplementary file:
-1. Click the ***Document Type*** box and select the type of document from the list.
-2. Click the ***Select or drop file here*** box to open the file explorer.
-3. Navigate to the supplementary file, select it, and click ***Open*** to add it to the uploader.
-4. (Optional) Click the ***Description*** box to provide additional context for the file.
-5. Click the ***UPLOAD*** button to complete the process.
-
-### 6.2.4 - Mark as Published
-
-To add your publication to the list of viewable publications, click the ***MARK AS PUBLISHED*** **button**.
-
-If you are not ready to add the publication to the list of viewable publications and want to return to this publication record later, click the ***SAVE*** **button**.
-
-## 6.3 - Adding Pre-Existing Publications
-
-:::tip
-This is important if you have previously published publications.
-:::
-
-Adding a pre-existing publication is done in two steps. First, create a publication entry by providing basic information
-about the publication. Once the publication entry is created, you can add the full details of the publication.
-
-### 6.3.1 - Create a Publication Entry
-
-To add previously published publications or publications where the Manuscript Record Form was completed using a different method:
-
-1. Navigate to the **My Publications** page.
-2. Click the ***CREATE PUBLICATION*** **button** located at the bottom of the ***Publications Menu*** on the left side of the page.
-3. Review the disclaimer in the dialog box and click the ***NEXT*** **button**.
-4. Populate each ***Publication Details*** field by clicking to select it. Once completed, click the ***NEXT*** **button** to confirm:
-    - Title
-    - Journal
-    - DOI (Optional)
-5. Populate each ***Publication Dates*** field by clicking to select it:
-    - Accepted On (Optional)
-    - Published On
-6. If the publication is published as open access, toggle the ***Published as Open Access*** **switch** to ***TRUE***.
-7. If the publication is under an embargo, click the ***Embargoed Until*** **field** to select it. Otherwise, proceed to Step 8.
-8. Type in the embargo end date or click the ***Calendar Icon*** located on the right side of the field to select the date.
-9. Click the ***CREATE*** **button** to finalize the publication entry.
-
-## 6.4 - Populate or Update Publication Details
-
-You can find your publication by navigating to **Dashboard** > **My Publications** > **My Publications**. Click on the
-publication record you wish to update.
-
-### 6.4.1 - Author(s) and Affiliation(s)
+### Authors(s) and Affiliation(s)
 
 #### Adding Author(s) and Affiliation(s)
 
-1. Click the circular ***+*** **button**.
-2. Click the ***Author*** dialog box to select it.
-3. Begin typing the name of the author or affiliate you would like to add. If the name exists in the database, it will appear, and you can click to select it.
-4. If the name does not appear:
-    - Click the ***Not the author you're looking for?*** circular ***+*** **button**.
-    - Populate the ***Create a new author*** form.
-    - Click the ***CREATE*** **button**.
-5. Toggle whether this author is the ***Corresponding Author***.
-6. Click the ***Add*** **button** to add this author or affiliate.
-7. Repeat the above steps until all authors or affiliates have been added.
+1. Click on the **+ button**.
+2. Click on the **Author field**.
+3. Begin typing the name of the Author or Affiliate you would like to add. If
+the name exists in the database, it will appear > Click  on the name to
+select it. If the name does not appear, follow the steps below,
+   1. Click on the **+ button** to add a new Author or Affiliate record.
+   2. Add their First Name, Last Name, Organization Affiliation, E-Mail, ORCID
+(Optional) > Click the **Create button** to add the new Author Record.
+4. Select whether this Author is the **Corresponding Author**.
+5. Click on the **Add button** to add this Author or Affiliate.
+6. Repeat steps 1 - 6 until all Authors or Affiliates have been added.
+
+![Adding Authors](/images/third-party/adding_authors.png)
 
 #### Updating Author or Affiliation
 
-To update the ***Corresponding Author Status*** of an added author or affiliate:
-1. Click on their name.
-2. Toggle the ***Corresponding Author*** **slider** to update the status.
+If you wish to update the **Corresponding Author** status of an added Author
+or Affiliate,
+
+Click on their name **>** Click on the ***Corresponding Author*
+Slider** to toggle the state.
 
 #### Removing an Author or Affiliate
 
-To remove an author or affiliate:
-1. Click the ***x Icon*** **button** located on the right side of the author's name.
+If you wish to remove an Author or Affiliate,
 
-### 6.4.2 - General Information
+Click on the **X icon** located
+on the right side of the Author's name.
+
+### General Information
+
+![Publication General Info](/images/third-party/pub_general_info.png)
 
 #### Title
 
-To update the title of the publication:
+To update a change in title,
 
-1. Click the ***Title*** **text box** to select it.
-2. Edit the title as needed.
-3. Scroll to the bottom of the page and click the ***SAVE*** **button**.
+1. Select the **Title field**.
+2. Update the title text.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-#### Journal
+#### Lead Region
 
-To update the journal you are submitting to:
+To update the lead region,
 
-1. Click the ***Journal*** **text box** to select it.
-2. Remove the current journal by pressing **Backspace** or clicking the circular ***X*** **button** located on the right side of the ***Journal*** **text box**.
-3. Begin typing the name of the journal. If the journal exists in the database, it will appear; click to select it.
-4. If the journal does not appear, email the [Open Science Portal Support
-Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to request its addition.
+1. Select the **Lead Region field**.
+2. Select the new lead region from the drop-down list.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-#### Digital Object Identifier (DOI)
+#### Journal/Series
 
-To add or update the DOI associated with the publication:
+To update the journal or series the manuscript was submitted to,
 
-1. Click on the ***DOI*** **text box** to select it.
-2. Enter the DOI in the format `https://doi.org/10.1038/xyz123`.
+1. Select the **Journal/Series field**.
+2. Type the title or ISSN of the publication.
+3. Select the new journal or series from the drop-down list. If the journal or series is not present in the list, please
+email [OSP Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+4. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
+
+#### DOI
+
+To add or update the Digital Object Identifier (DOI) associated with your publication,
+
+1. Select the **DOI field**.
+2. Type in the DOI in the format `https://doi.org/10.1038/xyz123`.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
 #### Publication Dates
 
-##### Adding or Updating the **Accepted On** Date:
+To update the date your manuscript was accepted on,
 
-1. Click on the ***Accepted On*** **text box** to select it.
-2. Enter the date in `YYYY-MM-DD` format, or click on the ***Calendar Icon*** **button** located on the right side of the ***Accepted On*** **text box** and pick the date from the calendar.
-
-##### Adding or Updating the **Published On** Date:
-
-1. Click on the ***Published On*** **text box** to select it.
-2. Enter the date in `YYYY-MM-DD` format, or click on the ***Calendar Icon*** **button** located on the right side of the ***Published On*** **text box** and pick the date from the calendar.
+1. Select the **Accepted on field**.
+2. Type in the updated date in the YYYY-MM-DD format, or Click the **Calendar icon** to select a date from the calendar
+widget.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
 #### Publication Access
 
-##### Declaring Open Access:
+If your publication was published under an Open Science License,
 
-To indicate that your publication is published as Open Access, toggle the ***Published as Open Access*** **switch** to ***True***.
+1. Select the **Published as Open Access toggle switch**.
+2. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-##### Updating the Embargo Date:
+If your publication was assigned an **Embargo Date**,
 
-1. Click on the ***Embargoed Until*** **text box** to select it.
-2. Enter the embargo date in `YYYY-MM-DD` format, or click on the ***Calendar Icon*** **button** located on the right side of the ***Embargoed Until*** **text box** and pick the date from the calendar.
+1. Select the **Embargoed Until field**.
+2. Type in the updated date in the YYYY-MM-DD format, or Click the **Calendar icon** to select a date from the calendar
+widget.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-### 6.4.3 - Published Work
+While your publication is under embargo, your uploaded copy of the published work will not be available to download by
+other OSP users. Authorized users, such as authors and managers, will still be able to access the uploaded copy during
+the embargo period.
 
-To add or update your Published Work:
+### Published Work
 
-1. Click the ***Upload a new version of the publication*** **box** to open the file explorer.
-2. Navigate to the PDF copy of your publication, then click to select it.
-3. Click the ***Open*** **button** to add it to the uploader.
-4. Click the ***UPLOAD*** **button** to complete the upload.
+![Published Work](/images/third-party/published_work.png)
 
-### 6.4.4 - Supplementary Files
+To upload the latest copy of your publication,
 
-It is encouraged to upload documents related to the publication to create a complete publication history. The file names and document types will be visible to all OSP users, but only the creator of the publication record and listed authors will be able to view the files.
+1. Select the **Drop the file or click to automatically upload a new version of the publication field**.
+2. Locate the PDF copy of your published work within the File Explorer widget > Click to select it > Click the **Open
+button**.
+3. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-The purpose of supplementary files is to improve the tracking of legal documents associated with your publication.
+### Supplementary Files
 
-Available document types include:
-- Accepted Manuscript
-- Author Agreement
-- Errata
-- Joint Copyright Agreement
-- Manuscript Record Form
-- Preprint/Submitted
-- Other
+Supplementary files can be added to the publication record as they are created. Supplementary files can be uploaded as
+PDF or Word file types. It is important to upload these files as it creates a complete record for your publication.
 
-:::tip
-Preprint/Submitted document types can be downloaded by any authorized OSP user if the publication is **not** under an embargo.
-:::
+![Supplementary File Types](/images/third-party/supplement_types.png)
 
-#### Adding a Supplementary File
+To upload a supplementary file,
 
-1. Click on the ***Document Type*** **box** and select the document type from the list.
-2. Click on the ***Select or drop file here*** **box** to open the file explorer.
-3. Navigate to the PDF copy of your supplementary file, then click to select it.
-4. Click the ***Open*** **button** to add it to the uploader.
-5. (Optional) Click on the ***Description*** **box** to provide additional context about the file.
-6. Click the ***UPLOAD*** **button** to complete the upload.
+1. Select the **Document Type field**.
+2. Select the type of document you are uploading from the list.
+3. Select the **Select or drop file here field** > Locate your file in the File Explorer widget > Click to select it >
+Click the **Open button**.
+4. Select the **Description field** > Add any relevant comments to provide context to the file. (Optional)
+5. Repeat steps 1 - 4 to add multiple supplementary files.
+6. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-### 6.4.5 - Save Changes
+### Mark as Published
 
-To save any additions or updates to the publication details, click the ***SAVE*** **button** at the bottom of the page.
+If your work has been confirmed that it will be published,
+
+1. Click the **MARK AS PUBLISHED button**.
+
+This will set your publication record as "Published" and make it viewable under the [Publication
+Explorer](/en/welcome/publication-explorer.md).
+
+If you are still awaiting confirmation of publication,
+
+1. Click the **SAVE button**.
+
+## Creating a Record from an Existing Publication
+
+
+
+[Return to Home Page](/en/README.md).
