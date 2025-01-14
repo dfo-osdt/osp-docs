@@ -66,6 +66,34 @@ To access the My Publicatons page,
 
 ![My Publications](/images/third-party/my_publications.png)
 
+## Creating a Record for an Existing Publication
+
+You can create a publication record for work you have published without using the OSP. Creating a publication record for
+currently published work will improve its visibility amongst DFO and help create a centralized digital archive for
+documents that supplement your publication.
+
+To create a new Publication Record,
+
+1. Expand the page selection menu by hovering the mouse over the left-sidebar menu.
+2. Select **My Publications**.
+3. Click the **CREATE PUBLICATION button**.
+4. Click the **NEXT button**.
+5. Populate the **Publication Details form** > Click the **NEXT button**.
+    - Title
+    - Journal/Series
+    - DOI (Optional)
+    - Lead Region
+6. Populate the [**Publication Dates and Publication Access form**](#publication-dates) > Click the **CREATE button**.
+    - Accepted On (Optional)
+    - Published On
+    - Published as Open Access
+    - Embargoed Until (If applicable)
+  
+
+![Create Publication](/images/third-party/pub_create.png)
+
+This will create a new publication record and open the **Publication Details form**.
+
 ## Updating a Publication Record
 
 A publication record may continue to develop after submission to a journal. The publication record should be updated as
@@ -204,7 +232,7 @@ Click the **Open button**.
 5. Repeat steps 1 - 4 to add multiple supplementary files.
 6. Click the **SAVE button** at the bottom of the page or Click the **Floppy-disk icon**.
 
-### Mark as Published
+### Mark as Published or Save
 
 If your work has been confirmed that it will be published,
 
@@ -213,12 +241,8 @@ If your work has been confirmed that it will be published,
 This will set your publication record as "Published" and make it viewable under the [Publication
 Explorer](/en/welcome/publication-explorer.md).
 
-If you are still awaiting confirmation of publication,
+If you are updating a published record or are still awaiting confirmation of publication,
 
 1. Click the **SAVE button**.
 
-## Creating a Record from an Existing Publication
-
-
-
-[Return to Home Page](/en/README.md).
+[Return to Home Page](/)
