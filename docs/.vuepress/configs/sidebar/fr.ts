@@ -11,9 +11,9 @@ export const sidebarFr: SidebarConfig =
                 '/fr/welcome/introduction.md',
                 '/fr/welcome/getting-started.md',
                 '/fr/welcome/portal-navigation.md',
-		'/fr/welcome/my-manuscripts.md',
-		'/fr/welcome/my-publications.md',
-                '/fr/welcome/contact-support.md',
+		'/fr/welcome/manuscript-explorer.md',
+		'/fr/welcome/my-publication-explorer.md',
+                '/fr/welcome/acknowledgments.md',
               ],
             }
           ],
@@ -52,11 +52,10 @@ export const sidebarFr: SidebarConfig =
                 '/fr/account/account-security.md',
                 '/fr/account/account-customization.md',
                 '/fr/account/orcid.md',
-                '/fr/account/explore.md',
                 '/fr/account/troubleshooting.md',
                 // '/fr/account/updates-and-version-history.md', //commented out until launch
                 '/fr/account/appendices.md',
-                '/fr/account/acknowledgments.md',
+                '/fr/account/contact-support.md',
               ],
             }
           ]

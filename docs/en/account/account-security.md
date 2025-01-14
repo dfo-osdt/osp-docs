@@ -4,9 +4,9 @@ title: Account Security
 description:
 ---
 
-# 7.0 - Account Security
+# Account Security
 
-## 7.1 - Managing your Password
+## Managing your Password
 
 #### How to Change Your Password
 
@@ -16,27 +16,27 @@ The Open Science Portal has enhanced password requirements. Passwords must:
 - not appear in the list of exposed passwords
 :::
 
-1. In the top-right of your screen, click on the circular ***User Menu Button***
+1. In the top-right of your screen, click on the circular **User Menu button**
 to expand it.
-2. Click on the ***Settings Button***.
-3. From the ***Settings Menu*** on the left side of your screen, click on the
-***Account Security Button***.
-4. In the ***Change Your Password section***, click on the ***Current Password
-Text Box*** to select it. Type in your current password.
-5. Click on the ***New Password Text Box*** to select it. Type in your desired
+2. Click on the **Settings utton**.
+3. From the **Settings Menu** on the left side of your screen, click on the
+**Account Security button**.
+4. In the **Change Your Password section**, click on the **Current Password
+field** to select it. Type in your current password.
+5. Click on the **New Password field** to select it. Type in your desired
 new password.
-6. Click on the ***Confirm New Password Text Box*** to select it. Type in your
+6. Click on the **Confirm New Password field** to select it. Type in your
 desired new password again to confirm the spelling.
-7. Click on the ***CHANGE PASSWORD Button***.
+7. Click on the **CHANGE PASSWORD button**.
 
 #### Reset Password
 
 If you no longer have access to your password, you can request a reset through
 the automatic password reset system:
 1. Go to [osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca/#/).
-2. Click the ***LOGIN Button***.
-3. Click the ***Forgot your password? Button***.
-4. Type in the email associated with your account and click the ***RESET Button***.
+2. Click the **LOGIN button**.
+3. Click the **Forgot your password? button**.
+4. Type in the email associated with your account and click the **RESET button**.
 You will receive an email with instructions on how to reset and change your
 password.
 
@@ -44,7 +44,7 @@ If you did not receive the password reset email or you no longer have access to
 the email associated with your account, please contact the [Open Science Portal
 Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-## 7.2 - Authentication History
+## Authentication History
 
 The Open Science Portal keeps a history of login attempts for each user's
 account. The Authentication History visualizes these login attempts to allow you
@@ -59,7 +59,7 @@ Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 #### Authentication History Breakdown
 
-![Authentication History Table](/images/authentication_history_table.png)
+![Authentication History Table](/images/account/authentication_history_table.png)
 
 ##### 1 - IP Address
 

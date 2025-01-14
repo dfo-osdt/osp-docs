@@ -5,7 +5,7 @@ description:
 ---
 # Portal Navigation
 
-#### Purpose
+## Purpose
 
 The Open Science Portal (OSP) was developed to digitize the Manuscript Record
 Form (MRF) creation, review, and management process. The OSP was designed to adhere to
@@ -20,39 +20,34 @@ status tracking, author expertise profiles, and ORCID integration.
 
 ![Dashboard](/images/welcome/dashboard.png)
 
-#### Dashboard
+### Dashboard
 
-The ***Dashboard Page*** is the main hub for the OSP. To go to the ***Dashboard Page***
-at any time select the ***Dashboard Button*** from the left side menu. Refer to
-the ***Square Symbol*** in the ***Dashboard Figure***.
+The **Dashboard page** is the main hub for the OSP. To go to the **Dashboard page**
+at any time select the **Dashboard button** from the left side menu. Refer to
+the **Square Symbol** in the **Dashboard figure**.
 
-#### My Manuscripts Page
+### My Manuscripts Page
 
-The ***My Manuscripts Page*** is where you can manage new and inprogress
-Manuscript Record Forms (MRF). To go to the ***[My Manuscripts Page](/en/welcome/my-manuscripts)*** select the
-**My Manuscripts button** from the left side menu. Refer to the ***Circle
-Symbol*** in the ***Dashboard Figure***.
+The **My Manuscripts page** is where you can manage new and inprogress
+Manuscript Record Forms (MRF).
 
-#### My Publications
+### My Publications
 
-The ***My Publications Page*** is where you can manage pending or published
-publications. To go to the ***[My Publications Page](/en/welcome/my-publications)*** select the **My
-Publications button** from the left side menu.
+The **My Publications page** is where you can manage pending or published
+publications.
 
-#### My Management Reviews
+### My Management Reviews
 
-The ***My Management Reviews Page*** is where you can see manuscripts you have
-been asked to review. To go to the ***[My Management Reviews Page](/en/welcome/my-management-reviews)*** select the
-**My Management Reviews button** from the left side menu. Refer to the
-***Triangle Symbol*** in the ***Dashboard Figure***.
+The **My Management Reviews page** is where you can see manuscripts you have
+been asked to review.
 
-#### User Menu Button
+### User Menu Button
 
-The **User Menu button** opens the menu where you can access your ***[Account Settings](/en/account/account-customization)***, return
-to the dashboard, and ***Logout***. To go to the ***User Menu*** select the **User
+The **User Menu button** opens the menu where you can access your **[Account Settings](/en/account/account-customization)**, return
+to the dashboard, and **Logout**. To go to the **User Menu** select the **User
 Menu button** from the top right navigation bar.
 
-#### Language Toggle Button
+### Language Toggle Button
 
 The **Language Toggle button** allows you to switch the OSP's language
 to English or French. To switch the OSP's language, select the **Language

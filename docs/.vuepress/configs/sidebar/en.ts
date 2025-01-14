@@ -11,9 +11,9 @@ export const sidebarEn: SidebarConfig =
           '/en/welcome/introduction.md',
           '/en/welcome/getting-started.md',
           '/en/welcome/portal-navigation.md',
-	  '/en/welcome/my-manuscripts.md',
-	  '/en/welcome/my-publications.md',
-          '/en/welcome/contact-support.md',
+	  '/en/welcome/author-explorer.md',
+	  '/en/welcome/publication-explorer.md',
+	  '/en/welcome/acknowledgments.md',
         ],
       }
     ],
@@ -47,16 +47,15 @@ export const sidebarEn: SidebarConfig =
     [
       {
         sidebarDepth: 0,
-        text: 'Account',
+        text: 'Account and Support',
         children: [
           '/en/account/account-security.md',
           '/en/account/account-customization.md',
           '/en/account/orcid.md',
-          '/en/account/explore.md',
           '/en/account/troubleshooting.md',
           // '/en/account/updates-and-version-history.md', //commented out until launch
           '/en/account/appendices.md',
-          '/en/account/acknowledgments.md',
+	  '/en/account/contact-support.md',
         ],
       }
     ]

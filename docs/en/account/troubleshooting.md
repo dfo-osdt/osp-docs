@@ -1,11 +1,11 @@
 ---
 lang: en-US
-title: 11.0 - Troubleshooting
+title: Troubleshooting
 description:
 ---
-# 11.0 - Troubleshooting
+# Troubleshooting
 
-## 11.1 - Common Issues
+## Common Issues
 
 ### Account Registration or Updating
 
@@ -36,10 +36,10 @@ Ensure that you are copying your text from a document editing program such as
 Microsoft Word, Google Docs, LibreOffice, etc. If your text originates from a
 PDF document, the copy function will not preserve the text formatting.
 
-## 11.2 - Error Messages
+## Error Messages
 
 *Coming soon*
 
-## 11.3 - Facts and Questions
+## Facts and Questions
 
 *Coming soon*

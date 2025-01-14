@@ -1,11 +1,11 @@
 ---
 lang: en-US
-title: 13.0 - Appendices
+title: Appendices
 description:
 ---
-# 13.0 - Appendices
+# Appendices
 
-## 13.1 - Acronyms
+## Acronyms
 
 ### D
 
@@ -33,7 +33,7 @@ organizations around the world. It helps make it easier to find, share, and conn
 organizations in a clear and consistent way. Researchers and institutions use ROR IDs to track contributions and
 collaborations in research more accurately.
 
-## 13.2 - References
+## References
 1. [Fisheries and Oceans Canada National Policy for Science
 Publications](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-eng.html)
 2. [Plain Language

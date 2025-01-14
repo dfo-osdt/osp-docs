@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: 9.0 - ORCID
+title: ORCID
 description:
 ---
 
-# 9.0 - ORCID
+# ORCID
 
 [ORCID (Open Researcher and Contributor ID)](https://orcid.org/) is a unique, persistent digital identifier (PID) that distinguishes
 individual researchers and their work, allowing them to connect their contributions—such as articles, datasets, and
@@ -16,7 +16,7 @@ ORCID simplifies data collection and reporting, enhances collaboration and visib
 improves the management of researcher profiles, thereby supporting transparency and continuity in scientific
 endeavors.
 
-## 9.1 - Create an ORCID
+## Create an ORCID
 
 Follow these steps if you **have never** created an ORCID account.
 
@@ -37,17 +37,16 @@ You may use your @dfo-mpo.gc.ca email as the **Secondary Email**.
 
 8. Complete the password form and click the **Next Step** button.
 9. Skip the *Current employment* form by clicking the **Skip this step without adding an affiliation** link located
-below the **Next Step** button. Your **Employment Record** will be added in [9.4.1 - Add Employment through the
-OSP](#_9-4-1-add-employment-through-the-osp).
+below the **Next Step** button. Your **Employment Record** will be added in the [Add Employment through the
+OSP](#add-employment-through-the-osp) section.
 10. Select your preferred profile visibility and click the **Next Step** button.
 11. Agree to the ORCID Terms of Service and click the **Complete registration** button.
-12. Click the **Authorize access** button. For more details on what access you are authorizing for the OSP, please see [9.3 - 
-Authorize Access](#_9-3-authorize-access).
+12. Click the **Authorize access** button. For more details on what access you are authorizing for the OSP, please see [Authorize Access](#authorize-access).
 13. Click the **CONTINUE** button.
 14. Check the inbox of your primary email address and click the **Verify your email address** button.
 15. Congratulations! Your ORCID account is now created, verified, and added to your OSP profile!
 
-## 9.2 - Add an Existing ORCID to Your OSP Profile
+## Add an Existing ORCID to Your OSP Profile
 
 Follow these steps if you **currently have** an ORCID account and would like to add it to your OSP profile.
 
@@ -57,14 +56,13 @@ Follow these steps if you **currently have** an ORCID account and would like to 
 4. Click on the **Author Profile** button in the **Settings** menu on the left side of the page.
 5. Under the **ORCID Integration** section, click on the **CREATE OR CONNECT YOUR ORCID ID** button.
 6. Complete the login form for your existing ORCID account, then click the **Sign in to ORCID** button.
-7. Click the **Authorize access** button. For more details on what access you are authorizing for the OSP, please see [9.3 - 
-Authorize Access](#_9-3-authorize-access).
+7. Click the **Authorize access** button. For more details on what access you are authorizing for the OSP, please see [Authorize Access](#authorize-access).
 8. Click the **CONTINUE** button.
 9. Congratulations! Your ORCID account has now been linked to your OSP profile!
 
-## 9.3 - Authorize Access
+## Authorize Access
 
-![Authorize](/images/orcid_authorize.png)
+![Authorize](/images/account/orcid_authorize.png)
 
 To enhance your experience with ORCID through the OSP, we encourage you to authorize the OSP to update your ORCID
 profile on your behalf. This authorization will authenticate your ORCID, confirming that you are a DFO
@@ -73,13 +71,13 @@ affiliations, areas of expertise, and research contributions, directly to your O
 ensuring accuracy. Additionally, managing your employment records through the OSP enables an official DFO source badge
 to appear on your ORCID profile, providing visible, verified credentials that bolster your professional presence.
 
-![Authentication](/images/orcid_authentication.png)
+![Authentication](/images/account/orcid_authentication.png)
 
-## 9.4 - Manage Employment Records
+## Manage Employment Records
 
 Managing your employment records through the OSP allows you to update your ORCID profile with official employment information from DFO. By linking your DFO employment, you enhance the credibility of your profile, making it more visible and trusted within the scientific community.
 
-### 9.4.1 - Add Employment through the OSP
+### Add Employment through the OSP
 
 To add an employment record through the OSP:
 
@@ -95,26 +93,26 @@ To add an employment record through the OSP:
 :::tip
 It is a Best Practice to include your Department and Role Title in English and French!
 
-See [9.6 - Best Practices](#_9-6-best-practices) for more information.
+See [Best Practices](#best-practices) for more information.
 :::
 
-### 9.4.2 - Hide Non-DFO Sourced Employment
+### Hide Non-DFO Sourced Employment
 
 When you initially create your ORCID account, you are prompted to add your current employment. Within ORCID, this
-employment entry will display as *Sourced by your ORCID User Account*. It is a [ORCID Best Practice](#_9-6-best-practices) to have all
+employment entry will display as *Sourced by your ORCID User Account*. It is a [ORCID Best Practice](#best-practices) to have all
 records related to your DFO activities to have the DFO Source Badge.
 
-![Employment](/images/orcid_employment.png)
+![Employment](/images/account/orcid_employment.png)
 
 To hide your self-sourced employment record,
-1. Add your current and/or previous records by following the steps in [9.4.1 - Add Employment through the OSP](#_9-4-1-add-employment-through-the-osp).
+1. Add your current and/or previous records by following the steps in [Add Employment through the OSP](#add-employment-through-the-osp).
 2. Navigate to [orcid.org](https://orcid.org/signin) **>** Sign in to your ORCID account.
 3. Under the *Employment* section, locate the employment record, which will display as **Source: *Your Name***.
 4. Click the **Visibility** button in the top-right corner of your employment record to expand the *Visibility Settings* for that entry.
     - The visibility setting shown may be **Everyone**, **Trusted parties**, or **Only me**, depending on the level set during account creation.
 5. Click **Only me** to hide the employment record.
 
-### 9.4.3 - Edit Employment Records
+### Edit Employment Records
 
 To edit an employment record:
 
@@ -123,7 +121,7 @@ To edit an employment record:
 3. Apply your edits within the **Edit your DFO employment ORCID record** form.
 4. Click the **SAVE** button to apply your changes or the **CANCEL** button to keep the record as it was.
 
-### 9.4.4 - Delete Employment Records
+### Delete Employment Records
 
 To delete an employment record:
 
@@ -135,7 +133,7 @@ To delete an employment record:
 This will delete the employment record from the OSP and from your ORCID profile!
 :::
 
-## 9.5 - Disconnect Your ORCID
+## Disconnect Your ORCID
 
 If you would like to disconnect your ORCID profile from your OSP account:
 
@@ -147,21 +145,21 @@ Once you disconnect your ORCID account, the OSP will delete any keys or tokens u
 
 Any modifications made by the OSP to your ORCID profile will still exist in your ORCID profile. Any removals or changes to your ORCID account must be done through the [ORCID website](https://orcid.org/).
 
-If you would like to reconnect your ORCID profile to your OSP profile, please follow the steps in [9.2 - Add an Existing
-ORCID to your OSP Profile](#_9-2-add-an-existing-orcid-to-your-osp-profile).
+If you would like to reconnect your ORCID profile to your OSP profile, please follow the steps in [Add an Existing
+ORCID to your OSP Profile](#add-an-existing-orcid-to-your-osp-profile).
 
-## 9.6 - Best Practices
+## Best Practices
 
 The following points are Best Practices recommended by ORCID in the context of the OSP.
 
 ### Authenticate Your ORCID
 
 Authenticating your ORCID account will allow the OSP to automatically update your ORCID profile from an official DFO
-source. Please follow the steps in [9.2 - Add an Existing ORCID to Your OSP
-Profile](#_9-2-add-an-existing-orcid-to-your-osp-profile). If you do not have an ORCID, you can create one through the
-OSP by following [9.1 - Create an ORCID](#_9-1-create-an-orcid).
+source. Please follow the steps in [Add an Existing ORCID to Your OSP
+Profile](#add-an-existing-orcid-to-your-osp-profile). If you do not have an ORCID, you can create one through the
+OSP by following [Create an ORCID](#create-an-orcid).
 
-![Authenticated ORCID Example](/images/orcid_authorized_example.png)
+![Authenticated ORCID Example](/images/account/orcid_authorized_example.png)
 
 
 ### Use the Offical DFO Source Badge
@@ -169,7 +167,7 @@ OSP by following [9.1 - Create an ORCID](#_9-1-create-an-orcid).
 If you have added DFO employment records through the ORCID website, these records will be sourced by you. Re-adding
 these records through the OSP will apply an official DFO Source badge.
 
-See the figure in [9.4.2 - Hide Non-DFO Sourced Employment](#_9-4-2-hide-non-dfo-sourced-employment) for an example of
+See the figure in [Hide Non-DFO Sourced Employment](#hide-non-dfo-sourced-employment) for an example of
 the different source badges.
 
 ### Bilingual Organization and Role Title
@@ -180,7 +178,7 @@ the different source badges.
     - English / French
     - French / English
 
-![Employment Entry Example](/images/orcid_role_title.png)
+![Employment Entry Example](/images/account/orcid_role_title.png)
 
 ### Update Your Employment Records when your Employment Changes
 
@@ -188,4 +186,4 @@ If your current role at DFO comes to an end, including Acting roles, it is impor
 add the **End-Date** to those employment records through the OSP. This keeps your employment history clear and
 professional.
 
-![Employment History](/images/orcid_updated_employment.png)
+![Employment History](/images/account/orcid_updated_employment.png)

@@ -1,15 +1,17 @@
 ---
 lang: en-US
-title: Explore
+title: Publication Explorer
 description:
 ---
 
-# Explore
+# Publication Explorer
 
-## Publications
+![Publication Explorer](/images/welcome/explore_publication.png)
 
-*COMING SOON*
+You can explore publications and their details that have been submitted to the OSP. Please note that while a publication is under embargo, only its details can be viewed.
 
-## Authors
-
-*COMING SOON*
+You can filter publications by type using the Publication Filter Menu located on the left side of the page. The available filters are:
+- All Publications
+- Open Access
+- Under Embargo
+- DFO Publications
