@@ -14,7 +14,7 @@ Les fonctionnalités supplémentaires du PSO incluent le stockage et le partage 
 
 ## 3.1 - Navigation du tableau de bord
 
-![Tableau de bord](/images/dashboard_fr.png)
+
 
 #### Tableau de bord
 

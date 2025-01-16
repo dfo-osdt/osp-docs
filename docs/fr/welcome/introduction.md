@@ -18,11 +18,11 @@ L’objectif de ce site de documentation est d’expliquer la navigation, l’ut
 
 Le guide de bienvenue contient toutes les pages disponibles dans ce paquet de documents. Vous pouvez utiliser les boutons ci-dessous pour naviguer vers une section spécifique du guide !
 
-[Publication tierce](/fr/tierce/formulaire-d-enregistrement-de-manuscrit)
+[Publication tierce](/fr/third-party/manuscript-record-form)
 
-[Publication du MPO](/fr/mpo/formulaire-d-enregistrement-de-manuscrit)
+[Publication du MPO](/fr/dfo/manuscript-record-form)
 
-[Paramètres du compte et support](/fr/compte/securite-du-compte)
+[Paramètres du compte et support](/fr/account/account-security)
 
 ## Public cible
 

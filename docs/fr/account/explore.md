@@ -8,7 +8,6 @@ description: Explorer les publications ou les auteurs sur le PSO
 
 Vous pouvez explorer les publications et les auteurs qui ont soumis leur travail par l’intermédiaire du PSO. Le menu **Explorer** se trouve dans le menu extensible sur le côté gauche de la page, à peu près à mi-hauteur.
 
-![Menu Explorer](/images/explore_menu_fr.png)
 
 ## 10.1 - Publications
 
