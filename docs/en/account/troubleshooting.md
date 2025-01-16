@@ -3,43 +3,39 @@ lang: en-US
 title: Troubleshooting
 description:
 ---
+
 # Troubleshooting
 
 ## Common Issues
 
 ### Account Registration or Updating
 
-#### Application will not accept my desired password upon account creation or password change.
-     
-- Ensure the password is input identically in the "Password" and "Confirm
-- Password" text boxes.
-- Be at least 12 characters long.
-- Cannot have appeared in the list of known compromised passwords.
+#### Application does not accept my desired password during account creation or password change
 
-#### I do not know the email associated with my account.
+- Verify that the password is entered identically in both the **Password** and **Confirm Password** fields.  
+- Ensure your password meets the following criteria:
+  - **Minimum length**: 12 characters.
+  - **Security**: It must not appear in the list of known compromised passwords.
 
-Please contact the [Open Science Support
-Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca)
+#### I do not know the email associated with my account
 
-#### I did not receive an email to verify my account or the activation link was expired.
+Contact the [Open Science Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) for assistance.
 
-Please contact the [Open Science Support
-Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have a new
-verification email issued.
+#### I did not receive an email to verify my account, or the activation link has expired
 
+Contact the [Open Science Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to request a new verification email.
 
 ### MRF Form
 
-#### My abstract/summary/explanation lost its formatting when I copy-pasted the text into a text box!
-     
-Ensure that you are copying your text from a document editing program such as
-Microsoft Word, Google Docs, LibreOffice, etc. If your text originates from a
-PDF document, the copy function will not preserve the text formatting.
+#### My abstract/summary/explanation lost its formatting when pasted into a text box
+
+- Ensure the text is copied from a document editing program such as **Microsoft Word**, **Google Docs**, or **LibreOffice**.
+- Avoid copying text from a PDF document, as formatting may not be preserved during the process.
 
 ## Error Messages
 
 *Coming soon*
 
-## Facts and Questions
+## Frequently Asked Questions
 
 *Coming soon*
