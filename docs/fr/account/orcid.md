@@ -53,11 +53,11 @@ Suivez ces étapes si vous **avez déjà** un compte ORCID et souhaitez l'ajoute
 
 ## 9.3 - Autoriser l'accès
 
-![Autoriser](/images/orcid_authorize_fr.png)
+
 
 Pour améliorer votre expérience avec ORCID via le PSO, nous vous encourageons à autoriser le PSO à mettre à jour votre profil ORCID en votre nom. Cette autorisation authentifiera votre ORCID, confirmant que vous êtes employé(e) par le MPO. L'authentification permet au PSO d'ajouter automatiquement des attributs pertinents, tels que vos affiliations, domaines d'expertise et contributions scientifiques, directement à votre profil ORCID — vous faisant gagner du temps et garantissant l'exactitude. De plus, la gestion de vos dossiers d'emploi via le PSO permet à un badge officiel du MPO d'apparaître sur votre profil ORCID, fournissant des références visibles et vérifiées qui renforcent votre présence professionnelle.
 
-![Authentification](/images/orcid_authentication_fr.png)
+
 
 ## 9.4 - Gérer les dossiers d'emploi
 
@@ -86,7 +86,7 @@ Consultez [9.6 - Meilleures pratiques](#_9-6-meilleures-pratiques) pour plus d'i
 
 Lorsque vous créez initialement votre compte ORCID, vous êtes invité(e) à ajouter votre emploi actuel. Dans ORCID, cette entrée d'emploi s'affiche comme *Attribué à votre compte utilisateur ORCID*. Il est recommandé dans les [meilleures pratiques ORCID](#_9-6-meilleures-pratiques) que tous les enregistrements liés à vos activités au MPO portent le badge officiel du MPO.
 
-![Emploi](/images/orcid_employment_fr.png)
+
 
 Pour masquer un enregistrement d'emploi auto-attribué :
 1. Ajoutez vos emplois actuels et/ou précédents en suivant les étapes décrites dans [9.4.1 - Ajouter un emploi via le PSO](#_9-4-1-ajouter-un-emploi-via-le-pso).
@@ -140,7 +140,7 @@ Les points suivants représentent les meilleures pratiques recommandées par ORC
 
 L’authentification de votre compte ORCID permettra au PSO de mettre automatiquement à jour votre profil ORCID à partir d’une source officielle du MPO. Veuillez suivre les étapes décrites dans [9.2 - Ajouter un ORCID existant à votre profil PSO](#_9-2-ajouter-un-orcid-existant-a-votre-profil-pso). Si vous n’avez pas encore de compte ORCID, vous pouvez en créer un via le PSO en suivant les étapes décrites dans [9.1 - Créer un ORCID](#_9-1-creer-un-compte-orcid).
 
-![Exemple d’ORCID authentifié](/images/orcid_authorized_example_fr.png)
+
 
 ### Utilisez le badge officiel du MPO comme source
 
@@ -156,10 +156,9 @@ Consultez la figure dans [9.4.2 - Masquer les emplois non attribués au MPO](#_9
     - Anglais / Français
     - Français / Anglais
 
-![Exemple d’entrée d’emploi](/images/orcid_role_title_fr.png)
+
 
 ### Mettez à jour vos enregistrements d’emploi lorsque votre emploi change
 
 Si votre rôle actuel au MPO prend fin, y compris les rôles intérimaires, il est important d’ajouter une **date de fin** à ces enregistrements d’emploi via le PSO. Cela permet de maintenir un historique d’emploi clair et professionnel.
 
-![Historique d’emploi](/images/orcid_updated_employment_fr.png)
