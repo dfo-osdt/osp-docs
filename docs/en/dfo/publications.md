@@ -1,10 +1,13 @@
 ---
 lang: en-US
-title: 6.0 - Publications
+title: DFO Publications
 description:
 ---
+:::danger
+This page is currently being updated!
+:::
 
-# 6.0 - Publications
+# DFO Publications
 
 ## 6.1 - My Publications Page
 

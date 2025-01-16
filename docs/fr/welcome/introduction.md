@@ -1,26 +1,41 @@
 ---
 lang: fr-CA
-title: 1.0 - Introduction
+title: Introduction
 description:
 ---
 
-# 1.0 - Introduction
+# Introduction
 
-## 1.1 - Bienvenue
-Bienvenue sur le site du guide d'utilisation et de la documentation du Portail de la science ouverte (PSO) ! Ce guide d'utilisateur et ce site de documentation ont été développés par le Collaborative for Open Science (COSI) pour Pêches et Océans Canada (MPO).
+## Bienvenue
 
-## 1.2 - Objectif
-L'objectif de ce site de documentation est d'expliquer la navigation, l'utilisation et le dépannage du PSO. Ce site de documentation est dynamique et sera continuellement mis à jour pour refléter les changements du PSO.
+Bienvenue sur le site de documentation et du guide utilisateur du Portail Science Ouverte (PSO)! Ce guide a été développé par la Collaborative pour la Science Ouverte (CSO) pour Pêches et Océans Canada (MPO).
 
-## 1.3 - Public
-Le guide d'utilisation est conçu pour être utilisé par :
+## Objectif
+
+L’objectif de ce site de documentation est d’expliquer la navigation, l’utilisation et la résolution des problèmes du PSO. Ce site est dynamique et sera continuellement mis à jour pour refléter les changements apportés au PSO.
+
+## Accéder aux sections individuelles du guide
+
+Le guide de bienvenue contient toutes les pages disponibles dans ce paquet de documents. Vous pouvez utiliser les boutons ci-dessous pour naviguer vers une section spécifique du guide !
+
+[Publication tierce](/fr/tierce/formulaire-d-enregistrement-de-manuscrit)
+
+[Publication du MPO](/fr/mpo/formulaire-d-enregistrement-de-manuscrit)
+
+[Paramètres du compte et support](/fr/compte/securite-du-compte)
+
+## Public cible
+
+Le guide utilisateur est conçu pour :
 - Chercheurs du MPO
 - Assistants de recherche
 - Gestionnaires de division
 - Directeurs régionaux des sciences (DRS)
 
-## 1.4 - Hypothèses de production du guide
-Ce guide est produit en supposant que vous naviguez dans le PSO avec une souris et un clavier traditionnels. La majorité des boutons d'action trouvés dans le PSO sont exécutés en cliquant sur le bouton gauche de la souris. Par conséquent, ce guide a simplifié le terme "clic gauche" en "clic". La documentation précisera si une autre méthode d'action est requise.
+## Hypothèses de production du guide
 
-## 1.5 - Retour d'information
-Tout commentaire, question ou préoccupation concernant le PSO ou le guide d'utilisateur peut être envoyé par courriel à [DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Ce guide suppose que vous naviguez dans le PSO avec une souris et un clavier traditionnels. La majorité des boutons d’action dans le PSO sont exécutés à l’aide d’un clic gauche de la souris. Par conséquent, le terme « clic gauche » est abrégé en simplement « clic ». Toute action nécessitant une méthode différente sera explicitement indiquée.
+
+## Retour d’information
+
+Tout retour, question ou préoccupation concernant le PSO ou le guide utilisateur peut être envoyé par courriel à [DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).

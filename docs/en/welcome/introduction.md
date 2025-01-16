@@ -14,6 +14,17 @@ Welcome to the Open Science Portal (OSP) User Guide and Documentation Site! This
 
 The purpose of this documentation site is to explain the navigation, usage, and troubleshooting of the OSP. This site is dynamic and will be continuously updated to reflect changes in the OSP.
 
+## Jump to Individual Guide
+
+The Welcome guide contains all available pages in this document package. You can use the buttons below to  navigate to a dedicated
+guide section!
+
+[Third-Party Publication](/en/third-party/manuscript-record-form)
+
+[DFO Publication](/en/dfo/manuscript-record-form)
+
+[Account Settings and Support](/en/account/account-security)
+
 ## Audience
 
 The User Guide is designed for:

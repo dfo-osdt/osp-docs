@@ -2,7 +2,11 @@
 home: true
 title: Home
 heroImage: /logos/logo.png
-actions:  
+actions:
+    - text: GET STARTED
+      link: /en/welcome/introduction.html
+      type: primary
+      
     - text: THIRD-PARTY PUBLICATIONS
       link: /en/third-party/manuscript-record-form.html
       type: secondary
@@ -14,10 +18,6 @@ actions:
     - text: ACCOUNT SETTINGS
       link: /en/account/account-security.html
       type: secondary
-
-    - text: GET STARTED
-      link: /en/welcome/introduction.html
-      type: primary
 
 footer:  Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
 ---

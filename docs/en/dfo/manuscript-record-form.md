@@ -1,10 +1,13 @@
 ---
 lang: en-US
-title: 4.0 - Manuscript Record Form
+title: DFO Manuscript Record Form
 description:
 ---
+:::danger
+This page is currently being updated!
+:::
 
-# 4.0 - Manuscript Record Form
+#  DFO Manuscript Record Form
 
 ## 4.1 - My Manuscripts Page
 
