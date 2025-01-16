@@ -1,10 +1,13 @@
 ---
 lang: fr-CA
-title: 4.0 - Formulaire d'enregistrement de manuscrit
+title: MPO Formulaire d'enregistrement de manuscrit
 description:
 ---
+:::danger
+This page is being updated!
+:::
 
-# 4.0 - Formulaire d’enregistrement des manuscrits
+# Formulaire d’enregistrement des manuscrits
 
 ## 4.1 - Page *Mes Manuscrits*
 

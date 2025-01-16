@@ -1,88 +1,90 @@
 ---
 lang: fr-CA
-title: 2.0 - Démarrage
+title: Démarrage
 description: Comment démarrer avec le PSO
 ---
 
-# 2.0 - Démarrage
+# Démarrage
 
-## 2.1 - Exigences du système
+## Exigences système
 
-### 2.1.1 - Adresse du site (URL)
+### Adresse du site (URL)
 
-L'application web PSO est accessible à l'adresse suivante :
+L'application web OSP est accessible à l'adresse suivante :
 
 [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca)
 
-### 2.1.2 - Exigences du navigateur web
+### Exigences relatives au navigateur web
 
-Le PSO est optimisé pour tous les principaux navigateurs (Chrome, Firefox, Edge et Safari) à l'exception d'Internet Explorer 11 et des versions antérieures.
+Le PSO est optimisé pour tous les principaux navigateurs (Chrome, Firefox, Edge et Safari), à l'exception d'Internet Explorer 11 et des versions antérieures.
 
-## 2.2 - Connexion
+## Connexion
 
-### 2.2.1 - Créer un compte
+### Création d'un compte
 
-1. Allez sur le PSO, [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
-2. Cliquez sur le ***Bouton Inscription***.
-3. Remplissez le formulaire d'inscription avec vos informations :
+1. Accédez au PSO : [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
+2. Cliquez sur le **Bouton d'inscription**.
+3. Complétez le formulaire d'inscription avec vos :
    - Prénom
    - Nom
-   - Adresse courriel professionnelle
+   - Adresse e-mail professionnelle
    - Mot de passe souhaité
 
 ::: tip
-Exigences du mot de passe :
-- doit contenir au moins 12 caractères
-- ne peut pas figurer dans la liste des mots de passe vulnérables connus
-Pour plus d'informations, veuillez consulter [7.0 - Sécurité du compte](/fr/guide/account-security).
+Exigences relatives au mot de passe :
+- Doit contenir au moins 12 caractères
+- Ne peut pas figurer dans la liste des mots de passe vulnérables connus
+Pour plus d'informations, veuillez consulter [Sécurité du compte](/fr/account/account-security).
 :::
 
-4. Cliquez sur le bouton _S'inscrire_.
+4. Cliquez sur le **bouton S'inscrire**.
 
-Un écran d'accueil vous indiquera que vous devez vérifier votre courriel avant de pouvoir continuer.
+Une page de bienvenue s'affichera pour vous informer que vous devez vérifier votre e-mail avant de pouvoir poursuivre.
 
-### 2.2.2 - Vérification de votre courriel
+### Vérification de votre e-mail
 
-L'application PSO enverra un lien de vérification à l'adresse courriel utilisée pour créer le compte. Ce lien n'est actif que pendant ***90 minutes***. Assurez-vous de vérifier votre boîte de spam et de courrier indésirable si vous n'avez pas reçu le courriel d'activation dans votre boîte de réception principale.
+L'application OSP enverra un lien de vérification à l'adresse e-mail utilisée pour créer votre compte. Ce lien est actif pendant **90 minutes**. Assurez-vous de vérifier vos boîtes de courrier indésirable et de spam si vous ne recevez pas l'e-mail d'activation dans votre boîte de réception principale.
 
-Si vous ne recevez pas le courriel de lien d'activation ou si le lien d'activation est expiré, veuillez contacter l'[Équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Si vous ne recevez pas l'e-mail de lien d'activation ou si le lien a expiré, veuillez contacter l'[Équipe de support
+PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-### 2.2.3 - Connexion
+### Connexion
 
-1. Allez sur le PSO, [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
-2. Cliquez sur le ***Bouton Connexion***.
-3. Saisissez l'adresse courriel avec laquelle vous avez enregistré votre compte et votre mot de passe le plus récent.
-4. Cliquez sur le ***Bouton Connexion***.
+1. Accédez au PSO : [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
+2. Cliquez sur le **bouton Connexion**.
+3. Saisissez l'adresse e-mail avec laquelle vous vous êtes inscrit(e) et votre mot de passe le plus récent.
+4. Cliquez sur le **bouton Connexion**.
 
-## 2.3 - Mise à jour des informations utilisateur
+## Mise à jour des informations utilisateur
 
-Pour accéder au menu d'informations utilisateur :
-1. Cliquez sur le ***Bouton du menu utilisateur circulaire*** contenant vos initiales situé dans le coin supérieur droit de l'écran.
-2. Cliquez sur le ***Bouton Paramètres***.
+Pour accéder au menu des informations utilisateur :
+
+1. Cliquez sur le bouton circulaire **Menu utilisateur** contenant vos initiales situé dans le coin supérieur droit de l'écran.
+2. Cliquez sur le **bouton Paramètres**.
 
 ::: warning
-Si votre compte a été créé pour vous par une autre personne, il est très important que vous vérifiiez les informations
-de votre Profil utilisateur et de votre Profil d'auteur, et que vous [mettez à jour votre mot de
-passe](/fr/guide/account-security).
+Si votre compte a été créé par une autre personne, il est très important que vous vérifiiez les informations de votre profil utilisateur et de votre profil d'auteur, puis [mettez à jour votre mot de passe](/fr/account/account-security).
 :::
 
-### 2.3.1 - Profil utilisateur
+### Profil utilisateur
+
 Assurez-vous que les informations suivantes sont correctes :
 - Prénom
 - Nom
-- Courriel professionnel
+- E-mail professionnel
 - Langue préférée
 
-Si des modifications sont apportées, assurez-vous de les enregistrer en cliquant sur le ***Bouton Enregistrer*** dans le coin inférieur droit de la boîte Profil utilisateur. Si vous devez changer l'adresse courriel associée à ce compte, veuillez contacter l'[Équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Si des modifications sont apportées, assurez-vous de les enregistrer en cliquant sur le **bouton Enregistrer** dans le coin inférieur droit de la boîte Profil utilisateur. Si vous devez modifier l'e-mail associé à ce compte, veuillez contacter l'[Équipe de support PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-## 2.4 - Utiliser l'application
+## Utiliser l'application
 
-Vous êtes maintenant prêt à utiliser l'application ! Consultez la section [3.0 - Navigation dans le portail](/fr/guide/portal-navigation) pour obtenir des informations sur la navigation dans l'application et la section [4.0 - Formulaire d'enregistrement de manuscrit](/fr/guide/manuscript-record-form) pour des informations sur la création de votre premier formulaire d'enregistrement de manuscrit.
+Vous êtes maintenant prêt(e) à utiliser l'application ! Consultez la [Navigation dans le portail](/fr/welcome/portal-navigation) pour plus d'informations sur la façon de naviguer dans l'application !
 
-## 2.5 - Déconnexion
+## Déconnexion
 
-Pour vous déconnecter de l'application du Portail de la science ouverte :
-1. Cliquez sur le ***Bouton du menu utilisateur*** dans le coin supérieur droit de l'écran.
-2. Cliquez sur le ***Bouton Déconnexion***.
+Pour vous déconnecter de l'application Open Science Portal :
 
-Vous êtes maintenant déconnecté avec succès de l'application du Portail de la science ouverte.
+1. Cliquez sur le **bouton Menu utilisateur** dans le coin supérieur droit de l'écran.
+2. Cliquez sur le **bouton Déconnexion**.
+
+Vous êtes maintenant déconnecté(e) de l'application Open Science Portal.

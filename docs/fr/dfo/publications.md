@@ -1,10 +1,13 @@
 ---
 lang: fr-CA
-title: 6.0 - Publications
+title: MPO Publications
 description:
 ---
+:::danger
+This page is being updated!
+:::
 
-# 6.0 - Publications
+# MPO Publications
 
 ## 6.1 - Page Mes publications
 
