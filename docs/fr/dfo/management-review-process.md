@@ -1,10 +1,12 @@
 ---
 lang: fr-CA
-title: 5.0 - Processus d'examen de gestion
+title: MPO Processus d'examen de gestion
 description:
 ---
-
-# 5.0 - Processus d'examen de gestion
+:::Danger
+Currently being updated!
+:::
+# Processus d'examen de gestion
 
 ## 5.1 - Page d'examen des manuscrits
 

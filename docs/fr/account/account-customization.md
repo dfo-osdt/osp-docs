@@ -1,73 +1,78 @@
 ---
 lang: fr-CA
-title: 8.0 - Personnalisation du Compte
+title: Personnalisation du Compte
 description:
 ---
-# 8.0 - Personnalisation du Compte
 
-## 8.1 - Personnalisation
+# Personnalisation du compte
 
-### 8.1.1 - Apparence
+## Page du profil utilisateur
 
-#### Langue
+### Profil utilisateur
 
-Pour basculer la langue affichée en français ou en anglais, cliquez sur le ***Bouton FR/EN*** dans le coin supérieur droit de l'écran. Pour définir votre langue préférée, veuillez consulter [Langue par Défaut](#langue-par-defaut).
+![Profil utilisateur](/images/account/user_profile_fr.png)
 
-### 8.1.2 - Profil de l'Utilisateur
+#### Prénom et nom de famille
 
-#### Prénom et Nom de Famille
+Le **prénom et nom de famille** associés à votre compte apparaîtront en gris. Si vous souhaitez modifier le nom associé à votre compte :
 
-Le prénom et le nom de famille associés à votre compte apparaîtront en gris. Si vous souhaitez modifier le nom associé à votre compte :
-1. Cliquez sur le ***Champ du Nom*** pour le sélectionner.
-2. Appuyez sur Retour arrière pour supprimer l'ancien nom.
+1. Cliquez sur le **champ du nom** pour le sélectionner.
+2. Appuyez sur **Retour arrière** pour supprimer l’ancien nom.
 3. Saisissez le nouveau nom.
-4. Cliquez sur le ***Bouton Enregistrer*** pour enregistrer les modifications.
+4. Cliquez sur le **bouton Enregistrer** pour sauvegarder les modifications.
 
 #### Courriel
 
-Le courriel associé à votre compte apparaîtra en gris. Ce courriel est également utilisé pour se connecter à votre compte du Portail Science Ouverte. Si vous souhaitez modifier le courriel, veuillez envoyer un courriel à l'[Équipe de Soutien du Portail Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Le courriel associé à votre compte apparaîtra en gris et ne peut pas être modifié. Ce courriel est également utilisé pour vous connecter à votre compte sur le Portail Science Ouverte. Si vous souhaitez changer de courriel, veuillez contacter l’équipe de soutien du [Portail Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-#### Langue par Défaut
+#### Langue par défaut
 
-La langue par défaut de votre compte apparaîtra dans cette boîte. Si vous souhaitez changer la langue par défaut :
-1. Cliquez sur la ***Boîte de Langue par Défaut*** pour dérouler le menu.
-2. Cliquez sur la langue souhaitée.
-3. Cliquez sur le ***Bouton Enregistrer*** pour enregistrer les modifications.
+La langue par défaut de votre compte apparaîtra dans cette boîte. Si vous souhaitez modifier la langue par défaut :
 
-#### Rôles d'Utilisateur
+1. Cliquez sur la **boîte de langue par défaut** pour dérouler le menu.
+2. Sélectionnez la langue désirée.
+3. Cliquez sur le **bouton Enregistrer** pour sauvegarder les modifications.
 
-Les rôles d'utilisateur identifient le type de compte que vous avez. Les rôles d'utilisateur sont générés lors de la création du compte. Si vous estimez que votre compte n'a pas le rôle approprié, veuillez envoyer un courriel à l'[Équipe de Soutien du Portail Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
-Rôles disponibles actuellement :
+### Rôles utilisateur
+
+Les rôles utilisateur identifient le type de compte que vous possédez. Les rôles utilisateur sont générés lors de la création de votre compte. Si vous pensez que votre compte n’a pas le rôle approprié, veuillez contacter l’équipe de soutien du [Portail Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+
+Rôles actuellement disponibles :
 - Auteur
 - Directeur
-- Admin
+- Éditeur
+- Rédacteur en chef
+- Administrateur
 
-### 5.1.3 - Profil de l'Auteur
+### Profil de l’auteur
 
-#### Affiliation Actuelle
+![Profil de l’auteur](/images/account/author_profile_fr.png)
 
-Si votre affiliation actuelle est incorrecte ou non renseignée, vous pouvez la mettre à jour en suivant ces étapes :
-1. Cliquez sur la boîte de texte Affiliation Actuelle pour la sélectionner.
-2. Supprimez l'affiliation existante en appuyant sur Retour arrière.
-3. Commencez à taper le nom de votre affiliation actuelle. Le système suggérera des organisations en fonction de votre saisie.
-4. Si votre organisation apparaît, vous pouvez la sélectionner en cliquant sur son nom dans la recherche déroulante.
-5. Si votre organisation n'apparaît pas, vous pouvez l'ajouter en cliquant sur le ***Bouton +*** situé en bas à droite de la recherche déroulante.
-6. La fenêtre pop-up Créer une nouvelle Organisation apparaîtra. Entrez les informations de l'organisation :
-    - Nom en anglais
-    - Nom en français
-    - Sigle en anglais (facultatif)
-    - Sigle en français (facultatif)
+#### Affiliation actuelle
 
-#### Domaines d'Expertise
+Comme le Portail Science Ouverte (PSO) est actuellement une plateforme interne, l’**affiliation actuelle** de tous les utilisateurs est définie à Pêches et Océans Canada. Si vous souhaitez modifier votre **affiliation actuelle**, veuillez envoyer un courriel à l’équipe de soutien du [Portail Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-La boîte Domaines d'Expertise affichera les expertises que vous avez sélectionnées, qui représentent le mieux vos connaissances et votre expérience. Pour ajouter ou supprimer une expertise :
-1. Cliquez sur le ***Bouton MODIFIER***.
-2. Cliquez sur la ***Boîte de Texte Domaines d'Expertise*** pour la sélectionner.
-3. Commencez à taper l'expertise souhaitée.
-4. Cliquez sur l'expertise que vous souhaitez ajouter dans la liste filtrée.
-5. Pour supprimer une expertise, cliquez sur le ***Bouton X Icône*** situé à droite du nom de l'expertise.
-6. Cliquez sur le ***Bouton ENREGISTRER*** pour enregistrer les modifications.
+#### ORCID
 
-#### Gérer ORCID
+Si vous avez un ORCID mais **ne souhaitez pas** authentifier votre compte PSO avec ORCID, vous pouvez l’ajouter manuellement à votre profil d’auteur. Cependant, il est fortement recommandé de connecter et d’authentifier votre compte PSO avec votre ORCID. Veuillez consulter la [section ORCID](/fr/account/orcid) pour plus d’informations.
 
-Pour obtenir des informations sur la gestion de votre ORCID, veuillez consulter la section [9.0 - ORCID](/fr/guide/orcid).
+### Intégration ORCID
+
+![Intégration ORCID](/images/account/orcid_integration_fr.png)
+
+Le PSO permet la connexion et l’authentification de votre **Identifiant Ouvert de Chercheur et Contributeur (ORCID)** avec votre compte PSO. Cette intégration permet de gérer vos enregistrements ORCID via le PSO avec une balise officielle de MPO.
+
+Pour des instructions détaillées sur l’intégration ORCID et la connexion de votre compte ORCID avec le PSO, veuillez consulter la [section ORCID](/fr/account/orcid).
+
+### Domaines d’expertise
+
+La boîte **Domaines d’expertise** affiche les domaines que vous avez sélectionnés et qui représentent le mieux vos connaissances et votre expérience.
+
+Pour ajouter ou retirer des domaines d’expertise :
+
+1. Cliquez sur le **bouton MODIFIER**.
+2. Sélectionnez le **champ Domaines d’expertise**.
+3. Commencez à taper le domaine d’expertise souhaité.
+4. Cliquez sur le domaine d’expertise que vous souhaitez ajouter dans la liste filtrée.
+5. Pour retirer un domaine d’expertise, cliquez sur l’**icône X** à côté du domaine.
+6. Cliquez sur le **bouton ENREGISTRER** pour confirmer vos modifications.

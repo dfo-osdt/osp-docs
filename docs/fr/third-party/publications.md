@@ -1,225 +1,221 @@
 ---
 lang: fr-CA
-title: 6.0 - Publications
+title: Publications
 description:
 ---
 
-# 6.0 - Publications
+# Publications
 
-## 6.1 - Page Mes publications
+## Soumettre pour publication
 
-Pour consulter toutes les publications disponibles soumises au PSO :
-- Cliquez sur le **bouton** ***Menu Publications*** situé sur le côté gauche de la page.
-- Dans la **page** ***Mes publications***, cliquez sur le **bouton** ***Toutes les publications*** dans le ***Menu Publications***.
+Après avoir terminé le processus d'examen de gestion, vous êtes maintenant prêt à soumettre votre manuscrit à une revue pour une évaluation par des pairs et une publication !
 
-:::tip
-Si vous avez soumis un manuscrit à une revue et devez mettre à jour son statut d'*acceptation ou de retrait*, veuillez consulter 
-[Section 4.5 - Gestion des FERM](/guide/manuscript-record-form.html#_4-5-managing-mrf-s).
-:::
+Veuillez continuer à mettre à jour votre formulaire de dossier de manuscrit tout au long du processus de publication pour améliorer les indicateurs de temps de publication et augmenter la visibilité de votre travail.
 
-## 6.2 - Mise à jour d'une publication acceptée par une revue
+### Marquer comme soumis
 
-Vous pouvez trouver votre publication en attente en naviguant vers **Tableau de bord** > **Mes publications** > **En cours**. Cliquez sur l’enregistrement de la publication que vous souhaitez mettre à jour.
+Pour marquer votre manuscrit comme soumis à une revue :
 
-### 6.2.1 - Informations générales
+1. Ouvrez le formulaire de dossier de manuscrit.
+2. Sélectionnez **Progrès du manuscrit** dans le menu de gauche.
+3. Cliquez sur le bouton **MARQUER COMME SOUMIS**.
+4. Dans le champ **Soumis à la revue le**, tapez la date au format AAAA-MM-JJ, ou cliquez sur l'**icône du calendrier** pour sélectionner la date applicable.
+5. Cliquez sur le bouton **METTRE À JOUR** pour confirmer la date de soumission.
 
-#### DOI
+### Accepté pour publication
 
-Ajoutez le DOI associé à la publication dans la zone de texte DOI. Le DOI doit suivre le format `https://doi.org/10.1038/xyz123`.
+Pour marquer votre manuscrit comme accepté pour publication :
 
-#### Accès à la publication
+1. Ouvrez le formulaire de dossier de manuscrit.
+2. Sélectionnez **Progrès du manuscrit** dans le menu de gauche.
+3. Cliquez sur le bouton **ACCEPTÉ POUR PUBLICATION**.
+4. Confirmez la date à laquelle le manuscrit a été soumis à la revue.
+5. Dans le champ **Accepté pour publication le**, tapez la date au format AAAA-MM-JJ, ou cliquez sur l'**icône du calendrier** pour sélectionner la date applicable.
+6. Dans le champ **Revue**, commencez à taper le nom de la revue. Si la revue est dans la base de données, elle apparaîtra. Sélectionnez le nom dans la liste.  
+   - Si la revue n'est pas répertoriée, envoyez un courriel à l'[Équipe de soutien OSP](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour qu'elle soit ajoutée.
+7. Cliquez sur le bouton **METTRE À JOUR** pour confirmer l'entrée d'acceptation de publication.
 
-- Si votre publication a été publiée en **accès libre**, activez le **commutateur à bascule** ***Publié en accès libre***.
-- Si votre publication est sous embargo, entrez la date de fin d’embargo au format `AAAA-MM-JJ`. Vous pouvez également cliquer sur l’icône du calendrier située à droite de la **zone** ***Sous embargo jusqu’au*** et sélectionner la date dans le calendrier.
+### Retirer le manuscrit
 
-### 6.2.2 - Travaux publiés
+Pour retirer votre manuscrit :
 
-Pour ajouter une copie PDF de votre travail publié :
+1. Ouvrez le formulaire de dossier de manuscrit.
+2. Sélectionnez **Progrès du manuscrit** dans le menu de gauche.
+3. Cliquez sur le bouton **RETIRER LE MANUSCRIT**.
+4. Cliquez sur le bouton **RETIRER** pour confirmer.
 
-1. Cliquez sur la zone ***Télécharger une nouvelle version de la publication*** pour ouvrir l’explorateur de fichiers.
-2. Naviguez vers la copie PDF de votre publication et sélectionnez-la.
-3. Cliquez sur le **bouton** ***Ouvrir*** pour l’ajouter au téléverseur.
-4. Cliquez sur le **bouton** ***TÉLÉVERSER*** pour terminer le processus.
+## Ma page de publications
 
-### 6.2.3 - Fichiers supplémentaires
+La **page Mes publications** vous permet de consulter tous les dossiers de publications que vous avez créés ou qui ont été partagés avec vous. À partir de cette page, vous pouvez créer de nouveaux dossiers de publications ou gérer ceux existants.
 
-Il est recommandé de téléverser des documents liés à la publication afin de créer un historique complet de celle-ci. Les noms et types de ces documents seront visibles par tous les utilisateurs du PSO, mais seuls le créateur de l’enregistrement de la publication et les auteurs inscrits pourront consulter leur contenu.
+Pour accéder à la **page Mes publications** :
 
-L’objectif des fichiers supplémentaires est d’améliorer le suivi des documents légaux associés à votre publication.
+1. Survolez le menu de la barre latérale gauche pour développer le menu de sélection des pages.
+2. Cliquez sur **Mes publications**.
 
-Les types de documents disponibles sont :
-- Manuscrit accepté
-- Accord d’auteur
-- Errata
-- Accord de droit d’auteur conjoint
-- Formulaire d’enregistrement de manuscrit
-- Préimpression/Soumis
-- Autre
+![Mes publications](/images/third-party/my_publications_fr.png)
 
-:::tip
-Les fichiers de type Préimpression/Soumis peuvent être téléchargés par tout utilisateur autorisé du PSO si la publication **n’est pas** sous embargo.
-:::
+## Créer un dossier pour une publication existante
 
-Pour ajouter un fichier supplémentaire :
-1. Cliquez sur la zone ***Type de document*** et sélectionnez le type de document dans la liste.
-2. Cliquez sur la zone ***Sélectionner ou déposer le fichier ici*** pour ouvrir l’explorateur de fichiers.
-3. Naviguez vers le fichier supplémentaire, sélectionnez-le, et cliquez sur ***Ouvrir*** pour l’ajouter au téléverseur.
-4. (Optionnel) Cliquez sur la zone ***Description*** pour fournir un contexte supplémentaire pour le fichier.
-5. Cliquez sur le **bouton** ***TÉLÉVERSER*** pour terminer le processus.
+Vous pouvez créer un dossier de publication pour un travail que vous avez publié en dehors de l'OSP. La création d'un dossier de publication pour un travail existant améliorera sa visibilité au sein de DFO et aidera à créer un archivage numérique centralisé pour les documents associés à votre publication.
 
-### 6.2.4 - Marquer comme publié
+Pour créer un nouveau dossier de publication :
 
-Pour ajouter votre publication à la liste des publications consultables, cliquez sur le **bouton** ***MARQUER COMME PUBLIÉ***.
-
-Si vous n’êtes pas prêt à ajouter la publication à la liste des publications consultables et souhaitez revenir à cet enregistrement plus tard, cliquez sur le **bouton** ***ENREGISTRER***.
-
-## 6.3 - Ajouter des publications existantes
-
-:::tip
-Cela est important si vous avez des publications déjà publiées.
-:::
-
-L’ajout d’une publication existante se fait en deux étapes. Tout d’abord, créez une entrée de publication en fournissant
-des informations de base sur celle-ci. Une fois l’entrée créée, vous pourrez ajouter les détails complets de la
-publication.
-
-### 6.3.1 - Créer une entrée de publication
-
-Pour ajouter des publications déjà publiées ou des publications pour lesquelles le Formulaire d’enregistrement de manuscrit a été complété par une méthode différente :
-
-1. Accédez à la page **Mes publications**.
-2. Cliquez sur le **bouton** ***CRÉER UNE PUBLICATION*** situé au bas du ***Menu Publications*** sur le côté gauche de la page.
-3. Examinez l’avertissement dans la boîte de dialogue et cliquez sur le **bouton** ***SUIVANT***.
-4. Remplissez chaque champ des ***Détails de la publication*** en cliquant pour le sélectionner. Une fois terminé, cliquez sur le **bouton** ***SUIVANT*** pour confirmer :
+1. Survolez le menu de la barre latérale gauche pour développer le menu de sélection des pages.
+2. Sélectionnez **Mes publications**.
+3. Cliquez sur le bouton **CRÉER UNE PUBLICATION**.
+4. Cliquez sur le bouton **SUIVANT**.
+5. Complétez le **formulaire Détails de la publication** > Cliquez sur le bouton **SUIVANT**.
     - Titre
-    - Journal
-    - DOI (Optionnel)
-5. Remplissez chaque champ des ***Dates de publication*** en cliquant pour le sélectionner :
-    - Accepté le (Optionnel)
-    - Publié le
-6. Si la publication est publiée en libre accès, basculez l’interrupteur ***Publié en libre accès*** sur ***VRAI***.
-7. Si la publication est sous embargo, cliquez sur le champ ***Sous embargo jusqu’au*** pour le sélectionner. Sinon, passez à l’étape 8.
-8. Saisissez la date de fin d’embargo ou cliquez sur l’***Icône de calendrier*** située à droite du champ pour sélectionner la date.
-9. Cliquez sur le **bouton** ***CRÉER*** pour finaliser l’entrée de publication.
+    - Revue/Série
+    - DOI (facultatif)
+    - Région principale
+6. Complétez le [**formulaire Dates de publication et accès à la publication**](#publication-dates) > Cliquez sur le bouton **CRÉER**.
+    - Date d'acceptation (facultatif)
+    - Date de publication
+    - Publié en accès ouvert
+    - Embargo jusqu'à (si applicable)
 
-## 6.4 - Remplir ou mettre à jour les détails d’une publication
+![Créer une publication](/images/third-party/pub_create_fr.png)
 
-Vous pouvez trouver votre publication en naviguant vers **Tableau de bord** > **Mes publications** > **Mes
-publications**. Cliquez sur l’enregistrement de publication que vous souhaitez mettre à jour.
+Cela créera un nouveau dossier de publication et ouvrira le **formulaire Détails de la publication**.
 
-### 6.4.1 - Auteur(s) et affiliation(s)
+## Mettre à jour un dossier de publication
+
+Un dossier de publication peut évoluer après sa soumission à une revue. Il doit être mis à jour à mesure que des métadonnées et des documents supplémentaires sont créés.
+
+Pour mettre à jour un dossier de publication :
+
+1. Accédez à la **page Mes publications**.
+2. Cliquez sur le dossier de publication que vous souhaitez mettre à jour.
+
+![Mettre à jour la publication](/images/third-party/pub_update_authors_fr.png)
+
+### Auteur(s) et affiliation(s)
 
 #### Ajouter un ou des auteur(s) et affiliation(s)
 
-1. Cliquez sur le **bouton** circulaire ***+***.
-2. Cliquez sur la boîte de dialogue ***Auteur*** pour la sélectionner.
-3. Commencez à taper le nom de l'auteur ou de l'affilié que vous souhaitez ajouter. Si le nom existe dans la base de données, il apparaîtra et vous pourrez cliquer pour le sélectionner.
-4. Si le nom n'apparaît pas :
-    - Cliquez sur le **bouton** circulaire ***Pas l'auteur que vous cherchez ?*** ***+***.
-    - Remplissez le formulaire ***Créer un nouvel auteur***.
-    - Cliquez sur le **bouton** ***CRÉER***.
-5. Activez ou désactivez si cet auteur est l’***Auteur correspondant***.
-6. Cliquez sur le **bouton** ***Ajouter*** pour ajouter cet auteur ou affilié.
-7. Répétez les étapes ci-dessus jusqu'à ce que tous les auteurs ou affiliés aient été ajoutés.
+1. Cliquez sur le **bouton +**.
+2. Cliquez sur le **champ Auteur**.
+3. Commencez à taper le nom de l'auteur ou de l'affilié que vous souhaitez ajouter. Si leur nom existe dans la base de données, il apparaîtra. Cliquez sur leur nom pour le sélectionner. Si leur nom n'apparaît pas, suivez ces étapes :
+   1. Cliquez sur le **bouton +** pour ajouter un nouvel auteur ou affilié.
+   2. Ajoutez leur prénom, nom de famille, affiliation organisationnelle, e-mail et ORCID (facultatif) > Cliquez sur le **bouton Créer** pour ajouter le nouvel auteur.
+4. Indiquez si cet auteur est l'**auteur correspondant**.
+5. Cliquez sur le **bouton Ajouter** pour ajouter l'auteur ou l'affilié.
+6. Répétez les étapes 1 à 6 jusqu'à ce que tous les auteurs ou affiliés aient été ajoutés.
+
+![Ajouter des auteurs](/images/third-party/adding_authors_fr.png)
 
 #### Mettre à jour un auteur ou une affiliation
 
-Pour mettre à jour le ***Statut d'auteur correspondant*** d'un auteur ou affilié ajouté :
-1. Cliquez sur son nom.
-2. Activez ou désactivez le **curseur** ***Auteur correspondant*** pour mettre à jour le statut.
+Pour mettre à jour le statut d'**auteur correspondant** d'un auteur ou affilié ajouté :
 
-#### Supprimer un auteur ou une affiliation
+1. Cliquez sur leur nom.
+2. Basculer le curseur **Auteur correspondant** pour changer le statut.
+
+#### Supprimer un auteur ou affilié
 
 Pour supprimer un auteur ou affilié :
-1. Cliquez sur le **bouton** ***Icône x*** situé sur le côté droit du nom de l'auteur.
 
-### 6.4.2 - Informations générales
+1. Cliquez sur l'**icône X** située à droite de leur nom.
+
+### Informations générales
+
+![Informations générales de la publication](/images/third-party/pub_general_info_fr.png)
 
 #### Titre
 
-Pour mettre à jour le titre de la publication :
+Pour mettre à jour le titre :
 
-1. Cliquez sur la **zone de texte** ***Titre*** pour la sélectionner.
-2. Modifiez le titre selon vos besoins.
-3. Faites défiler jusqu'en bas de la page et cliquez sur le **bouton** ***ENREGISTRER***.
+1. Sélectionnez le **champ Titre**.
+2. Mettez à jour le texte du titre.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-#### Journal
+#### Région principale
 
-Pour mettre à jour le journal auquel vous soumettez :
+Pour mettre à jour la région principale :
 
-1. Cliquez sur la **zone de texte** ***Journal*** pour la sélectionner.
-2. Supprimez le journal actuel en appuyant sur **Retour arrière** ou en cliquant sur le **bouton** circulaire ***X*** situé sur le côté droit de la **zone de texte** ***Journal***.
-3. Commencez à taper le nom du journal. Si le journal existe dans la base de données, il apparaîtra; cliquez pour le sélectionner.
-4. Si le journal n'apparaît pas, envoyez un courriel à l'[Équipe de soutien du Portail de science
-ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour demander son ajout.
+1. Sélectionnez le **champ Région principale**.
+2. Choisissez la nouvelle région principale dans la liste déroulante.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-#### Identifiant d’objet numérique (DOI)
+#### Journal/Collection
 
-Pour ajouter ou mettre à jour le DOI associé à la publication :
+Pour mettre à jour le journal ou la série auquel le manuscrit a été soumis :
 
-1. Cliquez sur la **zone de texte** ***DOI*** pour la sélectionner.
-2. Entrez le DOI au format `https://doi.org/10.1038/xyz123`.
+1. Sélectionnez le **champ Journal/Collection**.
+2. Tapez le titre ou l'ISSN de la publication.
+3. Sélectionnez le nouveau journal ou la nouvelle série dans la liste déroulante. Si ce n'est pas répertorié, veuillez envoyer un e-mail à [Support OSP](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+4. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
+
+#### DOI
+
+Pour ajouter ou mettre à jour le DOI (Identifiant d'Objet Numérique) de votre publication :
+
+1. Sélectionnez le **champ DOI**.
+2. Entrez le DOI dans ce format : `https://doi.org/10.1038/xyz123`.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
 #### Dates de publication
 
-##### Ajouter ou mettre à jour la **date d’acceptation** :
+Pour mettre à jour la date à laquelle votre manuscrit a été accepté :
 
-1. Cliquez sur la **zone de texte** ***Accepté le*** pour la sélectionner.
-2. Entrez la date au format `AAAA-MM-JJ`, ou cliquez sur le **bouton** ***Icône de calendrier*** situé à droite de la **zone de texte** ***Accepté le*** et sélectionnez la date dans le calendrier.
-
-##### Ajouter ou mettre à jour la **date de publication** :
-
-1. Cliquez sur la **zone de texte** ***Publié le*** pour la sélectionner.
-2. Entrez la date au format `AAAA-MM-JJ`, ou cliquez sur le **bouton** ***Icône de calendrier*** situé à droite de la **zone de texte** ***Publié le*** et sélectionnez la date dans le calendrier.
+1. Sélectionnez le **champ Accepté le**.
+2. Entrez la date mise à jour au format YYYY-MM-DD, ou cliquez sur l'**icône de calendrier** pour sélectionner une date dans le widget calendrier.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
 #### Accès à la publication
 
-##### Déclarer un accès libre :
+Si votre publication a été publiée sous une licence Open Science :
 
-Pour indiquer que votre publication est publiée en accès libre, activez le **commutateur** ***Publié en accès libre*** sur ***Vrai***.
+1. Sélectionnez le **commutateur Publicé en accès libre**.
+2. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-##### Mettre à jour la date d’embargo :
+Si votre publication a une **date d'embargo** :
 
-1. Cliquez sur la **zone de texte** ***Sous embargo jusqu’au*** pour la sélectionner.
-2. Entrez la date d’embargo au format `AAAA-MM-JJ`, ou cliquez sur le **bouton** ***Icône de calendrier*** situé à droite de la **zone de texte** ***Sous embargo jusqu’au*** et sélectionnez la date dans le calendrier.
+1. Sélectionnez le **champ Embargo jusqu'à**.
+2. Entrez la date mise à jour au format YYYY-MM-DD, ou cliquez sur l'**icône de calendrier** pour sélectionner une date dans le widget calendrier.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-### 6.4.3 - Document publié
+Pendant la période d'embargo, votre publication téléchargée ne sera pas disponible pour téléchargement par d'autres
+utilisateurs de l'OSP. Les utilisateurs autorisés, tels que les auteurs et les gestionnaires, peuvent toujours accéder à
+la copie téléchargée pendant la période d'embargo.
 
-Pour ajouter ou mettre à jour votre document publié :
+### Travail publié
 
-1. Cliquez sur la **boîte** ***Téléverser une nouvelle version de la publication*** pour ouvrir l’explorateur de fichiers.
-2. Naviguez jusqu’à la copie PDF de votre publication, puis cliquez pour la sélectionner.
-3. Cliquez sur le **bouton** ***Ouvrir*** pour l’ajouter à la zone de téléversement.
-4. Cliquez sur le **bouton** ***TÉLÉVERSER*** pour compléter le processus.
+![Travail publié](/images/third-party/published_work_fr.png)
 
-### 6.4.4 - Fichiers supplémentaires
+Pour télécharger la dernière copie de votre publication :
 
-Il est recommandé de téléverser des documents liés à la publication afin de créer un historique complet de la publication. Les noms des fichiers et les types de documents seront visibles pour tous les utilisateurs du Portail Science Ouverte (PSO), mais seuls le créateur de l’enregistrement de la publication et les auteurs listés pourront consulter les fichiers.
+1. Sélectionnez le **champ Déposez le fichier ou cliquez pour télécharger automatiquement une nouvelle version de la publication**.
+2. Localisez la copie PDF de votre publication dans le widget de l'Explorateur de fichiers > Cliquez pour la sélectionner > Cliquez sur le **bouton Ouvrir**.
+3. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-L’objectif des fichiers supplémentaires est d’améliorer le suivi des documents légaux associés à votre publication.
+### Fichiers supplémentaires
 
-Les types de documents disponibles incluent :
-- Manuscrit accepté
-- Accord d’auteur
-- Errata
-- Accord conjoint sur les droits d’auteur
-- Formulaire d’enregistrement de manuscrit
-- Préimpression/Soumis
-- Autre
+Des fichiers supplémentaires peuvent être téléchargés sur l'enregistrement de votre publication à mesure qu'ils sont créés. Ces fichiers peuvent être des fichiers PDF ou Word et doivent être téléchargés pour compléter l'enregistrement de la publication.
 
-:::tip
-Les fichiers de type Préimpression/Soumis peuvent être téléchargés par tout utilisateur autorisé du PSO si la publication n’est **pas** sous embargo.
-:::
+![Types de fichiers supplémentaires](/images/third-party/supplement_types_fr.png)
 
-#### Ajouter un fichier supplémentaire
+Pour télécharger un fichier supplémentaire :
 
-1. Cliquez sur la **boîte** ***Type de document*** et sélectionnez le type de document dans la liste.
-2. Cliquez sur la **boîte** ***Sélectionner ou déposer un fichier ici*** pour ouvrir l’explorateur de fichiers.
-3. Naviguez jusqu’à la copie PDF de votre fichier supplémentaire, puis cliquez pour le sélectionner.
-4. Cliquez sur le **bouton** ***Ouvrir*** pour l’ajouter à la zone de téléversement.
-5. (Facultatif) Cliquez sur la **boîte** ***Description*** pour fournir un contexte supplémentaire au sujet du fichier.
-6. Cliquez sur le **bouton** ***TÉLÉVERSER*** pour compléter le téléversement.
+1. Sélectionnez le **champ Type de document**.
+2. Choisissez le type de document dans la liste.
+3. Sélectionnez le **champ Sélectionner ou déposer un fichier ici** > Localisez votre fichier dans le widget de l'Explorateur de fichiers > Cliquez pour le sélectionner > Cliquez sur le **bouton Ouvrir**.
+4. Facultativement, fournissez un contexte dans le **champ Description**.
+5. Répétez les étapes 1 - 4 pour ajouter plusieurs fichiers supplémentaires.
+6. Cliquez sur le **bouton SAUVEGARDER** en bas de la page ou sur l'**icône de disquette**.
 
-### 6.4.5 - Enregistrer les modifications
+### Marquer comme publié ou enregistrer
 
-Pour enregistrer toute addition ou mise à jour des détails de la publication, cliquez sur le **bouton** ***ENREGISTRER*** en bas de la page.
+Si votre travail est confirmé comme étant publié :
+
+1. Cliquez sur le **bouton MARQUER COMME PUBLIÉ**.
+
+Cela marquera votre publication comme "Publiée" et la rendra visible dans le [Explorateur de publications](/fr/welcome/publication-explorer.md).
+
+Si vous mettez à jour un enregistrement publié ou attendez la confirmation de la publication :
+
+1. Cliquez sur le **bouton SAUVEGARDER**.
+
+[Retour à la page d'accueil](/)
