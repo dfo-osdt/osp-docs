@@ -31,4 +31,4 @@ description:
 ## Références
 
 1. [Politique nationale sur les publications scientifiques de Pêches et Océans Canada](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-fra.html)  
-2. [Résumé en langage simple](https://www.canada.ca/fr/conseil-prive/services/communications-communautaire-bureau/communications-101-camp-entrainement-fonctionnaires-canadiens/plain-language-accessibility-inclusive-communications.html)
+2. [Résumé en langage simple](https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/bureau-collectivite-communications/formation-intensive-introduction-communications-fonction-publique-canadienne/langage-clair-accessibilite-communications-inclusives.html)

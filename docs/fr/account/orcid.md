@@ -29,11 +29,11 @@ Vous pouvez utiliser votre courriel @dfo-mpo.gc.ca comme **Courriel secondaire**
 
 8. Complétez la configuration du mot de passe et cliquez sur **Étape suivante**.
 9. Passez le formulaire *Emploi actuel* en cliquant sur **Passer cette étape sans ajouter d'affiliation** sous le bouton **Étape suivante**.  
-   (Votre **Historique professionnel** sera ajouté dans la section [Ajouter un emploi via le OSP](#ajouter-un-emploi-via-le-osp).)
+   (Votre **Historique professionnel** sera ajouté dans la section [Ajouter un emploi via le OSP](#ajouter-un-emploi-via-l-osp).)
 10. Choisissez la visibilité de votre profil préférée et cliquez sur **Étape suivante**.
 11. Acceptez les conditions d'utilisation d'ORCID et cliquez sur **Terminer l'inscription**.
 12. Cliquez sur **Autoriser l'accès**.  
-    Pour plus de détails sur l'accès que vous autorisez pour le OSP, consultez [Autoriser l'accès](#autoriser-laccès).
+    Pour plus de détails sur l'accès que vous autorisez pour le OSP, consultez [Autoriser l'accès](#autoriser-l-acces).
 13. Cliquez sur **CONTINUER** pour finaliser le processus.
 14. Vérifiez la boîte de réception de votre courriel principal et cliquez sur **Vérifier votre adresse électronique**.
 15. Félicitations! Votre compte ORCID est maintenant créé, vérifié et lié à votre profil OSP!
@@ -49,7 +49,7 @@ Suivez ces étapes si vous **avez déjà** un compte ORCID et souhaitez le lier 
 5. Sous la section **Intégration ORCID**, cliquez sur **CRÉER OU CONNECTER VOTRE ID ORCID**.
 6. Connectez-vous à votre compte ORCID existant et cliquez sur **Se connecter à ORCID**.
 7. Cliquez sur **Autoriser l'accès**.  
-   Pour plus de détails sur l'accès que vous accordez, consultez [Autoriser l'accès](#autoriser-laccès).
+   Pour plus de détails sur l'accès que vous accordez, consultez [Autoriser l'accès](#autoriser-l-acces).
 8. Cliquez sur **CONTINUER**.
 9. Félicitations! Votre compte ORCID est maintenant lié à votre profil OSP!
 
@@ -93,7 +93,7 @@ Lorsque vous créez votre compte ORCID, vous pouvez ajouter votre emploi actuel,
 
 Pour masquer votre dossier d'emploi auto-sourcé :
 
-1. Ajoutez vos dossiers d'emploi actuels et/ou précédents en suivant les étapes de [Ajouter un emploi via l'OSP](#ajouter-un-emploi-via-losp).
+1. Ajoutez vos dossiers d'emploi actuels et/ou précédents en suivant les étapes de [Ajouter un emploi via l'OSP](#ajouter-un-emploi-via-l-osp).
 2. Connectez-vous à votre compte ORCID sur [orcid.org](https://orcid.org/signin).
 3. Sous la section *Emploi*, trouvez le dossier d'emploi intitulé **Source : *Votre Nom***.
 4. Cliquez sur le bouton **Visibilité** dans le coin supérieur droit du dossier pour développer les *Paramètres de visibilité*.
@@ -133,7 +133,7 @@ Une fois déconnecté, l'OSP supprimera toutes les clés et jetons utilisés pou
 
 Pour supprimer ou modifier ces changements, connectez-vous à votre compte sur le site [ORCID](https://orcid.org/).
 
-Si vous souhaitez reconnecter votre profil ORCID à votre compte OSP, suivez les étapes dans [Ajouter un ORCID existant à votre profil OSP](#ajouter-un-orcid-existant-à-votre-profil-osp).
+Si vous souhaitez reconnecter votre profil ORCID à votre compte OSP, suivez les étapes dans [Ajouter un ORCID existant à votre profil OSP](#ajouter-un-orcid-existant-a-votre-profil-osp).
 
 ## Meilleures pratiques
 

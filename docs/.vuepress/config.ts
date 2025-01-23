@@ -56,12 +56,12 @@ export default
                           link: '/en/welcome/introduction.html'
                         },
                         {
-                          text: 'Third-Party Publication',
-                          link: '/en/third-party/manuscript-record-form.html'
-                        },
-                        {
                           text: 'DFO Publication',
                           link: '/en/dfo/manuscript-record-form.html'
+                        },
+			{
+                          text: 'Third-Party Publication',
+                          link: '/en/third-party/manuscript-record-form.html'
                         },
                         {
                           text: 'Account Settings',
@@ -110,12 +110,12 @@ export default
                         link: '/fr/welcome/introduction.html'
                       },
                       {
-                        text: 'Publication par un tiers',
-                        link: '/fr/third-party/manuscript-record-form.html'
-                      },
-                      {
                         text: 'Publication du MPO',
                         link: '/fr/dfo/manuscript-record-form.html'
+                      },
+		      {
+                        text: 'Publication par un tiers',
+                        link: '/fr/third-party/manuscript-record-form.html'
                       },
                       {
                         text: 'Paramètres du compte',

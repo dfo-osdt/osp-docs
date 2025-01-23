@@ -7,12 +7,12 @@ actions:
       link: /en/welcome/introduction.html
       type: primary
       
-    - text: THIRD-PARTY PUBLICATIONS
-      link: /en/third-party/manuscript-record-form.html
-      type: secondary
-      
     - text: DFO PUBLICATIONS
       link: /en/dfo/manuscript-record-form.html
+      type: secondary
+
+    - text: THIRD-PARTY PUBLICATIONS
+      link: /en/third-party/manuscript-record-form.html
       type: secondary
       
     - text: ACCOUNT SETTINGS
