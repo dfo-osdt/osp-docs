@@ -14,12 +14,12 @@ export const sidebarEn: SidebarConfig =
 	  '/en/welcome/author-explorer.md',
 	  '/en/welcome/publication-explorer.md',
 	  '/en/welcome/acknowledgments.md',
-	  '/en/third-party/manuscript-record-form.md',
-          '/en/third-party/management-review-process.md',
-          '/en/third-party/publications.md',
 	  '/en/dfo/manuscript-record-form.md',
           '/en/dfo/management-review-process.md',
           '/en/dfo/publications.md',
+	  '/en/third-party/manuscript-record-form.md',
+          '/en/third-party/management-review-process.md',
+          '/en/third-party/publications.md',
 	  '/en/account/account-security.md',
           '/en/account/account-customization.md',
           '/en/account/orcid.md',
@@ -27,18 +27,6 @@ export const sidebarEn: SidebarConfig =
           // '/en/account/updates-and-version-history.md', //commented out until launch
           '/en/account/appendices.md',
 	  '/en/account/contact-support.md',
-        ],
-      }
-    ],
-  '/en/third-party/':
-    [
-      {
-        sidebarDepth: 0,
-        text: 'Third-Party Publication',
-        children: [
-          '/en/third-party/manuscript-record-form.md',
-          '/en/third-party/management-review-process.md',
-          '/en/third-party/publications.md',
         ],
       }
     ],
@@ -52,6 +40,19 @@ export const sidebarEn: SidebarConfig =
           '/en/dfo/manuscript-record-form.md',
           '/en/dfo/management-review-process.md',
           '/en/dfo/publications.md',
+        ],
+      }
+    ],
+
+  '/en/third-party/':
+    [
+      {
+        sidebarDepth: 0,
+        text: 'Third-Party Publication',
+        children: [
+          '/en/third-party/manuscript-record-form.md',
+          '/en/third-party/management-review-process.md',
+          '/en/third-party/publications.md',
         ],
       }
     ],

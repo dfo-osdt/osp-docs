@@ -24,7 +24,7 @@ Sur la page **Mes révisions de gestion**, vous verrez une liste de tous les man
 
 En tant que gestionnaire examinant, votre rôle est de vous assurer que :
 
-1. Le manuscrit respecte la [politique de propriété intellectuelle / loi sur le droit d'auteur](https://www.dfo-mpo.gc.ca/copyright-droits-eng.htm), la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), la Loi sur la gestion des finances publiques (en ce qui concerne l'approbation des frais de publication), et le [Code de valeurs et d'éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
+1. Le manuscrit respecte la [politique de propriété intellectuelle / loi sur le droit d'auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), la Loi sur la gestion des finances publiques (en ce qui concerne l'approbation des frais de publication), et le [Code de valeurs et d'éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
 2. Le directeur régional des sciences (RDS) et les communications régionales du MPO sont informés si le manuscrit contient du contenu susceptible d'intéresser le public.
 
 :::warning

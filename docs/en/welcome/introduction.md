@@ -19,9 +19,9 @@ The purpose of this documentation site is to explain the navigation, usage, and 
 The Welcome guide contains all available pages in this document package. You can use the buttons below to  navigate to a dedicated
 guide section!
 
-[Third-Party Publication](/en/third-party/manuscript-record-form)
-
 [DFO Publication](/en/dfo/manuscript-record-form)
+
+[Third-Party Publication](/en/third-party/manuscript-record-form)
 
 [Account Settings and Support](/en/account/account-security)
 

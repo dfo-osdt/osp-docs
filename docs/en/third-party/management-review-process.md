@@ -24,7 +24,7 @@ On the **My Management Reviews** page, you will see a list of all manuscripts aw
 
 Your role as the reviewing manager is to ensure that:
 
-1. The manuscript complies with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs), and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
+1. The manuscript complies with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs), and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
 2. The Regional Director of Science (RDS) and Regional DFO Communications are informed if the manuscript contains content with potential public interest.
 
 :::warning

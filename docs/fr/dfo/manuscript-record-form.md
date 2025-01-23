@@ -3,266 +3,332 @@ lang: fr-CA
 title: MPO Formulaire d'enregistrement de manuscrit
 description:
 ---
-:::danger
-This page is being updated!
-:::
 
-# Formulaire d’enregistrement des manuscrits
+# Formulaire d’Enregistrement des Manuscrits du MPO
 
-## 4.1 - Page *Mes Manuscrits*
+## Page « Mes Manuscrits »
 
-Il existe plusieurs façons pour un auteur d’accéder à la page d’enregistrement des manuscrits. Ce guide couvrira l’une de ces façons.
+Les auteurs peuvent accéder à la page d’enregistrement des manuscrits de différentes manières. Ce guide couvre l’une de ces méthodes :
 
-1. Développez le menu de sélection de page en survolant le menu de la barre latérale gauche avec la souris.
-2. Cliquez sur ***Mes Manuscrits***.
+1. Développez le menu de sélection des pages en survolant le menu de la barre latérale gauche avec votre souris.  
+2. Cliquez sur **Mes Manuscrits**.
 
-Sur la **Page *Mes Manuscrits***, vous verrez une liste de tous les enregistrements de manuscrits que vous avez créés ou qui ont été partagés avec vous. Vous pouvez voir le statut de ces enregistrements en regardant sur le côté droit des enregistrements dans la **Boîte *Tous les Manuscrits***.
+Sur la page **Mes Manuscrits**, vous verrez une liste de tous les enregistrements de manuscrits que vous avez créés ou qui ont été partagés avec vous. Cette liste inclut les manuscrits en cours.
 
-## 4.2 - Créer un nouveau formulaire d’enregistrement (MRF)
+![Tableau de bord](/images/third-party/my_manuscripts_page_fr.png)
 
-1. Depuis le **Menu *Manuscrits*** sur la gauche, cliquez sur le bouton ***+ Créer un Manuscrit***.
-2. Sélectionnez le type de manuscrit que vous souhaitez publier **>** Cliquez sur le bouton ***Continuer***.
-3. Cliquez sur le **Champ de texte *Titre*** **>** tapez le titre de votre manuscrit.
-4. Cliquez sur le **Champ de sélection *Régions du MPO*** **>** sélectionnez la ***Région responsable*** **>** Cliquez sur le bouton ***Continuer***.
-5. Cliquez sur le bouton ***Créer*** pour créer le manuscrit, sur ***Retour*** si vous devez corriger des informations, ou sur ***Annuler*** pour annuler la création du manuscrit.
+## Créer un Nouveau Formulaire d’Enregistrement des Manuscrits (FEM)
 
-## 4.3 - Remplir un formulaire d’enregistrement (MRF)
+1. À partir du menu **Manuscrits** à gauche, cliquez sur le bouton **+ Créer un manuscrit**.  
+2. Sélectionnez **Un manuscrit à publier par le MPO**, puis cliquez sur le bouton **Continuer**.  
+3. Cliquez sur le champ **Titre** et saisissez le titre de votre manuscrit.  
+4. Cliquez sur le champ de sélection **Régions du MPO**, sélectionnez la **Région principale**, puis cliquez sur le bouton **Continuer**.  
+5. Cliquez sur le bouton **Créer** pour créer le manuscrit. Utilisez **Retour** pour corriger des informations ou **Annuler** pour abandonner le processus de création.
 
-Une fois le manuscrit créé, il se verra attribuer un identifiant unique et sera désigné comme un « Brouillon ». Le manuscrit doit être complété avec les informations générales requises avant de pouvoir être soumis pour examen par la direction.
+## Remplir un FEM
 
-À tout moment lors du remplissage des **Informations générales**, vous pouvez sauvegarder vos progrès en cliquant sur
-l’icône circulaire en forme de ***disquette*** située en bas à droite de la page ou en faisant défiler jusqu’en bas du
-formulaire et en cliquant sur le bouton ***Enregistrer***. Une fois les progrès sauvegardés, vous pouvez vous
-déconnecter en toute sécurité du Système OSP.
+![Nouveau FEM](/images/dfo/new_mrf_fr.png)
 
-#### 4.3.1 - Manuscrit
+Une fois le manuscrit créé, il se verra attribuer un identifiant unique et sera désigné comme étant un « Brouillon ». Les champs obligatoires doivent être remplis avant que le manuscrit puisse être soumis à l’examen de gestion.
 
-Une copie PDF de votre manuscrit actuel est requise pour créer un nouveau formulaire d’enregistrement (MRF). Si votre manuscrit est incomplet, vous pourrez toujours revenir à ce MRF pour téléverser une copie mise à jour.
+À tout moment pendant le remplissage du formulaire d’enregistrement du manuscrit, vous pouvez enregistrer vos progrès en :
 
-Pour téléverser une copie PDF de votre manuscrit :  
-1. Cliquez sur le **Champ *Téléverser le manuscrit***.  
-2. Localisez votre manuscrit dans la fenêtre de l'explorateur de fichiers **>** Cliquez sur le fichier pour le sélectionner **>** Cliquez sur le **Bouton *Ouvrir*** pour le téléverser.
+- Cliquant sur le bouton circulaire en forme de **Disquette** situé en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas du formulaire et en cliquant sur le bouton **Enregistrer**.  
 
-#### 4.3.2 - Auteur(s) et affiliation(s)
+Une fois vos progrès enregistrés, vous pouvez vous déconnecter du PSO en toute sécurité.
 
-##### Ajouter des auteur(s) et affiliation(s)
+### Télécharger le Manuscrit (Obligatoire)
 
-1. Cliquez sur le **Bouton *+***.  
-2. Cliquez sur le **Champ *Auteur*** pour le sélectionner.  
-3. Commencez à taper le nom de l’auteur ou de l’affilié que vous souhaitez ajouter. Si le nom existe dans la base de données, il apparaîtra **>** Cliquez sur le nom pour le sélectionner. Si le nom n’apparaît pas, suivez les étapes ci-dessous ; sinon, passez à l’étape 4.  
-   1. Cliquez sur le **Bouton *+*** pour ajouter un nouvel enregistrement d’auteur ou d’affilié.  
-   2. Ajoutez son prénom, son nom, son organisation d’affiliation, son courriel, son ORCID (facultatif) **>** Cliquez sur le **Bouton *Créer*** pour ajouter le nouvel enregistrement d’auteur.  
-4. Indiquez si cet auteur est l’**Auteur correspondant**.  
-5. Cliquez sur le **Bouton *Ajouter*** pour ajouter cet auteur ou affilié.  
-6. Répétez les étapes 1 à 6 jusqu’à ce que tous les auteurs ou affiliés aient été ajoutés.
+Une copie PDF de votre manuscrit actuel est requise pour créer un nouveau FEM. Si votre manuscrit est incomplet, vous pourrez revenir à ce FEM à tout moment pour télécharger la version la plus récente.
 
-##### Mettre à jour un auteur ou une affiliation
+Pour télécharger une copie PDF de votre manuscrit :
 
-Si vous souhaitez mettre à jour le statut d'**Auteur correspondant** d’un auteur ou affilié déjà ajouté, cliquez sur son nom **>** Cliquez sur le **Curseur *Auteur correspondant*** pour activer ou désactiver le statut.
+1. Cliquez sur le champ **Déposez le fichier ou cliquez pour télécharger le manuscrit**.  
+2. Localisez votre manuscrit dans la fenêtre de l’Explorateur de fichiers. Sélectionnez le fichier, puis cliquez sur le
+bouton **Ouvrir** pour le télécharger.
 
-##### Supprimer un auteur ou un affilié
+### Auteur(s) et Affiliation(s) (Obligatoire)
 
-Si vous souhaitez supprimer un auteur ou un affilié, cliquez sur l’**Icône *X*** située à droite du nom de l’auteur.
+#### Ajouter un ou des Auteur(s) et une ou des Affiliation(s)
 
-#### 4.3.3 - Révision par les pairs (Publications MPO UNIQUEMENT)
+1. Cliquez sur le bouton **+**.  
+2. Cliquez sur le champ **Auteur**.  
+3. Commencez à taper le nom de l’auteur ou de l’affilié que vous souhaitez ajouter.  
+   - Si le nom existe dans la base de données, il apparaîtra. Cliquez sur le nom pour le sélectionner.  
+   - Si le nom n’apparaît pas, suivez les étapes ci-dessous :  
+     1. Cliquez sur le bouton **+** pour ajouter un nouvel enregistrement d’auteur ou d’affilié.  
+     2. Entrez leur **Prénom**, **Nom**, **Affiliation Organisationnelle**, **Courriel** et **ORCID** (facultatif).  
+     3. Cliquez sur le bouton **Créer** pour ajouter le nouvel enregistrement d’auteur.  
+4. Indiquez si cet auteur est l’**Auteur Correspondant**.  
+5. Cliquez sur le bouton **Ajouter** pour ajouter cet auteur ou affilié.  
+6. Répétez les étapes 1 à 5 jusqu’à ce que tous les auteurs ou affiliés aient été ajoutés.
 
-Un minimum de deux réviseurs est requis pour les MRF des publications du MPO.
+![Ajout d'Auteurs](/images/third-party/adding_authors_fr.png)
 
-Pour ajouter un réviseur par les pairs :  
-1. Cliquez sur le **Bouton *+***.  
-2. Cliquez sur le **Champ *Révision par les pairs*** pour le sélectionner.  
-3. Commencez à taper le nom du réviseur par les pairs que vous souhaitez ajouter. Si le nom existe dans la base de données, il apparaîtra **>** Cliquez sur le nom pour le sélectionner. Si le nom n’apparaît pas, suivez les étapes ci-dessous ; sinon, passez à l’étape 4.  
-   1. Cliquez sur le **Bouton *+*** pour ajouter un nouvel enregistrement d’auteur.  
-   2. Ajoutez son prénom, son nom, son organisation d’affiliation, son courriel, son ORCID (facultatif) **>** Cliquez sur le **Bouton *Créer*** pour ajouter le nouvel enregistrement d’auteur.  
-4. Cliquez sur le **Bouton *Ajouter*** pour ajouter ce réviseur par les pairs.  
+#### Mettre à Jour un Auteur ou une Affiliation
+
+Pour mettre à jour le statut d’**Auteur Correspondant** d’un auteur ou affilié ajouté :
+
+1. Cliquez sur leur nom.  
+2. Activez ou désactivez le bouton coulissant ***Auteur Correspondant*** selon l’état souhaité.  
+
+#### Supprimer un Auteur ou une Affiliation
+
+Pour supprimer un auteur ou affilié :
+
+Cliquez sur l’**icône X** à droite du nom de l’auteur.
+
+---
+
+### Révision par des Pairs
+
+Un minimum de deux réviseurs par les pairs est requis pour les FEM de publication du MPO.
+
+Pour ajouter un réviseur par les pairs :
+
+1. Cliquez sur le bouton **+**.  
+2. Cliquez sur le champ **Révision par les pairs**.  
+3. Commencez à taper le nom du réviseur par les pairs que vous souhaitez ajouter.  
+   - Si le nom existe dans la base de données, il apparaîtra. Cliquez sur le nom pour le sélectionner.  
+   - Si le nom n’apparaît pas, suivez les étapes ci-dessous :  
+     1. Cliquez sur le bouton **+** pour ajouter un nouvel enregistrement d’auteur.  
+     2. Ajoutez leur **Prénom**, **Nom**, **Affiliation Organisationnelle**, **Courriel**, et **ORCID** (facultatif).  
+     3. Cliquez sur le bouton ***Créer*** pour ajouter le nouvel enregistrement d’auteur.  
+4. Cliquez sur le bouton **Ajouter** pour ajouter ce réviseur par les pairs.  
 5. Répétez les étapes 1 à 4 jusqu’à ce que tous les réviseurs par les pairs aient été ajoutés.
 
-#### 4.3.4 - Informations générales
+### Informations Générales
 
-##### Titre provisoire du manuscrit (Obligatoire)
+![Informations Générales](/images/third-party/general_information_fr.png)
 
-Par défaut, le titre provisoire est rempli avec le titre initial donné lors de la création du brouillon du manuscrit.
+#### Titre Provisoire du Manuscrit (Obligatoire)
+
+Le titre provisoire est pré-rempli à partir du titre saisi lors de la création du brouillon du manuscrit.
 
 Pour mettre à jour le titre :
 
-1. Cliquez sur le **Champ *Titre*** pour le sélectionner.
-2. Supprimez le texte à modifier en appuyant sur la touche retour arrière **>** Saisissez vos modifications.
-3. Cliquez sur l'**Icône *Disquette*** située en bas à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+1. Cliquez sur le champ **Titre**.  
+2. Effectuez vos modifications.  
+3. Enregistrez vos modifications en :  
+   - Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+   - Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-##### Région responsable (Obligatoire)
+---
 
-Par défaut, la région responsable est remplie avec la région initiale donnée lors de la création du brouillon du manuscrit.
+#### Région Principale (Obligatoire)
 
-Pour mettre à jour la région responsable :
+La région principale est pré-remplie à partir de la région saisie lors de la création du brouillon du manuscrit.
 
-1. Cliquez sur le **Champ *Région responsable***.
-2. Cliquez sur la région que vous souhaitez sélectionner.
-3. Cliquez sur l'**Icône *Disquette*** située en bas à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+Pour mettre à jour la région principale :
 
-##### Résumé (Obligatoire)
+1. Cliquez sur le champ **Région Principale**.  
+2. Sélectionnez la région mise à jour.  
+3. Enregistrez vos modifications en :  
+   - Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+   - Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-Copiez-collez le résumé de votre manuscrit dans le champ de texte.
+---
 
-Après avoir ajouté ou mis à jour les informations du résumé, cliquez sur l'**Icône circulaire *Disquette*** située en bas à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+#### Résumé (Obligatoire)
 
-##### Résumé en langage clair (Obligatoire)
+Copiez et collez le résumé de votre manuscrit dans la zone de texte.
 
-Les [résumés en langage clair](https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/bureau-collectivite-communications/formation-intensive-introduction-communications-fonction-publique-canadienne/langage-clair-accessibilite-communications-inclusives.html) sont désormais obligatoires pour toutes les publications scientifiques afin d’améliorer l’accessibilité.  
+Après avoir ajouté ou mis à jour le résumé, enregistrez vos modifications en :  
+- Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-Le résumé en langage clair de votre manuscrit doit être rédigé pour une compréhension correspondant à un niveau de
-lecture de 8ᵉ année.
+---
 
-##### Générer un résumé en langage clair
+#### Résumé en Langage Simple (Obligatoire)
 
-Vous pouvez choisir de générer un résumé en langage clair basé sur votre résumé. Cet outil fonctionne localement au sein du réseau de MPO, ce qui signifie que toute information envoyée à cet outil **ne quittera pas l'intranet de MPO**.
+![Résumé en Langage Simple](/images/third-party/pls_fr.png)
 
-Cet outil utilise un modèle de langage de grande taille (LLM) basé sur l'intelligence artificielle (IA) développé par [Meta, appelé Llama 3.2](https://www.llama.com/). Llama 3.2 est conçu pour une utilisation dans un environnement réseau fermé et, par conséquent, **ne peut pas envoyer d'informations à Meta ou en dehors de l'intranet de MPO**.
+Un [résumé en langage simple](https://www.canada.ca/fr/conseil-prive/services/bureau-collectivite-communications/communications-101-boot-camp-fonctionnaires/resume-langage-simple.html) est requis pour toutes les publications scientifiques afin d'améliorer l'accessibilité.
 
-Lors de l’utilisation d’un outil d’IA tout en étant connecté à un réseau du gouvernement du Canada, il est recommandé de se familiariser avec les règles et directives du [Secrétariat du Conseil du Trésor du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/utilisation-responsable-ai/guide-utilisation-intelligence-artificielle-generative.html) sur l’utilisation des modèles de langage basés sur l’intelligence artificielle.
+Le résumé en langage simple de votre manuscrit doit être rédigé à un niveau de lecture de 8ᵉ année pour garantir une
+meilleure compréhension.
 
-:::warning
-Veuillez vérifier l’exactitude du résumé en langage clair généré !
+##### Générer un Brouillon de Résumé en Langage Simple
+
+Vous pouvez générer un brouillon de Résumé en Langage Simple (RLS) à partir de votre manuscrit téléchargé. Cet outil fonctionne localement au sein du réseau du MPO, garantissant que toute information transmise **ne quitte pas l’intranet du MPO**.
+
+L’outil utilise un Modèle de Langage à Grande Échelle (LLM) basé sur l’Intelligence Artificielle (IA) appelé [Llama 3.2](https://www.llama.com/), développé par Meta. Llama 3.2 est spécialement conçu pour être utilisé dans un environnement réseau fermé et, par conséquent, **ne peut transmettre aucune information à Meta ou en dehors de l’intranet du MPO**.
+
+Lors de l'utilisation d'outils d'IA au sein d’un réseau du gouvernement du Canada, il est recommandé de consulter les [lignes directrices du Secrétariat du Conseil du Trésor du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernement-numerique/utilisation-responsable-ia/guide-utilisation-ia-generative.html) sur l’utilisation responsable des modèles de langage d’intelligence artificielle.
+
+:::tip
+La fonctionnalité **Générer un RLS** aide à créer un brouillon basé sur votre manuscrit téléchargé. Vous pouvez générer un RLS plusieurs fois pour peaufiner votre brouillon.
 :::
 
-Après avoir ajouté le résumé en langage clair, cliquez sur l'**Icône *Disquette*** située en bas à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+Après avoir ajouté le Résumé en Langage Simple, enregistrez vos modifications en :  
+- Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-##### Pertinence pour les programmes/initiatives/secteur client (Obligatoire)
+---
 
-Copiez-collez ou saisissez directement un résumé expliquant comment ce manuscrit est pertinent pour le programme qui l’a financé, comment il soutient le mandat du ministère, le plan stratégique et/ou les priorités régionales.
+#### Domaine Fonctionnel (Obligatoire)
 
-Après avoir ajouté le résumé de pertinence, cliquez sur l'**Icône *Disquette*** située en bas à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+Pour améliorer le suivi des axes de recherche scientifique du MPO, une *balise de Domaine Fonctionnel* doit être appliquée au MRF.
 
-##### Intérêt potentiel pour le public (Optionnel)
+Pour sélectionner un Domaine Fonctionnel pertinent pour ce manuscrit :
 
-Indiquez si vous pensez que ce manuscrit pourrait susciter un intérêt potentiel pour le public. Si vous estimez que ce manuscrit pourrait susciter un tel intérêt, vous avez la possibilité de développer ou de fournir une explication dans le champ de texte.
+1. Cliquez sur le champ **Domaine Fonctionnel**.  
+2. Sélectionnez le *Domaine Fonctionnel* approprié dans la liste.
 
-Si vous avez sélectionné ***Oui*** et/ou ajouté un texte explicatif, cliquez sur l'**Icône *Disquette*** située en bas
-à droite de la page ou faites défiler jusqu’en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour
-sauvegarder vos modifications.
+---
 
-#### Licence pour le rapport (Publications de MPO UNIQUEMENT)
+#### Pertinence pour les Programmes/Initiatives/Secteur Client (Obligatoire)
 
-MPO s'engage à respecter le principe "Ouvert par conception et par défaut" de la science ouverte, en veillant à ce que toutes les publications de MPO soient rendues disponibles sous la dernière version de la [Licence du gouvernement ouvert - Canada (LGO)](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada) dans la mesure du possible.
+![OGL](/images/dfo/ogl_fr.png)
 
-Si votre publication contient l’un des éléments suivants :
-- La publication contient du contenu tiers avec des conditions de droit d'auteur différentes.
-- Elle inclut des informations confidentielles, sensibles ou protégées.
-- Il existe des restrictions légales, politiques ou contractuelles à la diffusion.
-- Le travail implique des considérations éthiques, comme les savoirs autochtones.
-- La publication est déjà sous licence selon d'autres termes.
-- Une autre raison non énumérée empêche l’application de la LGO.
+Fournissez un résumé expliquant comment ce manuscrit est pertinent pour le programme qui l’a financé, comment il soutient le mandat du ministère, le plan stratégique et/ou les priorités régionales.
 
-Veuillez sélectionner ***Non*** **>** Expliquer pourquoi votre manuscrit ne peut pas être soumis à la LGO dans le **Champ de texte**.
+Après avoir ajouté le Résumé de Pertinence, enregistrez vos modifications en :  
+- Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-#### Sources de financement (Optionnel)
+---
 
-Si vous souhaitez ajouter des sources de financement ayant contribué à la réalisation de ce manuscrit, elles peuvent être ajoutées en procédant comme suit :
+##### Intérêt Public Potentiel (Optionnel)
 
-1. Cliquez sur le **Bouton *+ AJOUTER UNE SOURCE DE FINANCEMENT***.
-2. Cliquez sur le **Champ *Bailleur de fonds*** **>** sélectionnez la source applicable.
-3. Cliquez sur le **Champ *Titre*** pour le sélectionner **>** saisissez le titre ou le nom de la source de financement.
-4. Cliquez sur le **Champ *Description*** pour le sélectionner **>** saisissez une brève explication des exigences du bailleur de fonds et comment votre travail les satisfait. Si votre source de financement n'était pas présente dans la liste des ***Bailleurs de fonds***, veuillez fournir les informations du fournisseur et de la ressource.
-5. Cliquez sur le **Bouton *Créer*** pour ajouter le bailleur de fonds.
-6. Répétez les étapes 1 à 5 jusqu'à ce que toutes les sources de financement aient été ajoutées.
+Sélectionnez **Oui** si vous pensez que ce manuscrit pourrait avoir un intérêt public potentiel.
 
-Une fois toutes les sources de financement ajoutées, cliquez sur l'**Icône *Disquette*** située en bas à droite de la page ou faites défiler jusqu'en bas de la page et cliquez sur le **Bouton *Enregistrer*** pour sauvegarder vos modifications.
+Si vous sélectionnez **Oui** ou si vous souhaitez ajouter des commentaires sur le potentiel d’intérêt public du manuscrit, saisissez les informations pertinentes dans la zone de texte. Enregistrez vos modifications en :  
+- Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-##### Modifier une source de financement
+##### Déclarer la Licence (Obligatoire)
 
-Si vous souhaitez modifier les informations d'une source de financement soumise :
+Pêches et Océans Canada (MPO) adhère au principe "*Ouvert par conception et par défaut*" pour promouvoir la science ouverte. Conformément à ce principe, le MPO applique la [Licence du gouvernement ouvert - Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada) aux publications lorsque cela est possible.
 
-1. Cliquez sur le **Bouton *Crayon***.
-2. Mettez à jour les informations **>** Cliquez sur le **Bouton *Enregistrer*** pour sauvegarder les modifications.
+Si votre publication ne doit pas être assujettie à la Licence du gouvernement ouvert ou si vous avez des préoccupations concernant son application :
 
-##### Supprimer une source de financement
+1. Sélectionnez l’option **Non**.  
+2. Fournissez une explication dans le champ de texte, détaillant pourquoi la Licence du gouvernement ouvert ne devrait pas s’appliquer à votre publication.
 
-Si vous souhaitez supprimer une source de financement soumise :
+---
 
-1. Cliquez sur l'**Icône *Poubelle***.
-2. Cliquez sur le **Bouton *OK*** pour confirmer que vous souhaitez supprimer cette source de financement.
+#### Sources de Financement (Optionnel)
 
-## 4.4 - Soumettre un FRM pour examen
+Si les travaux ayant contribué à la création de ce manuscrit ont été financés par un programme, vous pouvez sélectionner et ajouter les sources de financement pertinentes.
 
-Une fois que vous avez renseigné toutes les informations requises, vous pouvez soumettre votre manuscrit. Pour ce faire :
+Pour ajouter une source de financement :
 
-1. Rendez-vous en bas de la page d'enregistrement du manuscrit.
-2. Cliquez sur le **Bouton *SOUMETTRE***.
-3. Examinez le consentement ***Soumission pour examen par la direction*** **>** Cliquez sur le **Bouton *Oui*** pour accepter la déclaration de consentement.
-4. Cliquez sur le **Bouton *SUIVANT***.
-5. Cliquez sur le **Champ *Gestionnaire de division*** pour le sélectionner **>** Tapez le nom du gestionnaire de division. Si le gestionnaire est dans la base de données, son nom apparaîtra **>** Cliquez sur son nom pour le sélectionner. Si son nom n'apparaît pas, suivez les étapes ci-dessous pour l'inviter à la SPO ; sinon, passez à l'Étape 6.
-   1. Cliquez sur le **Bouton *Ce n'est pas l'utilisateur que vous recherchez ?***.
-   2. Remplissez le prénom, le nom, l'adresse courriel et la langue préférée du gestionnaire.
-   3. Cliquez sur le **Bouton *INVITER*** pour l'inviter à la SPO.
-6. Cliquez sur le **Bouton *SOUMETTRE*** pour soumettre le manuscrit pour examen.
+1. Cliquez sur le bouton **+ AJOUTER UNE SOURCE DE FINANCEMENT**.  
+2. Cliquez sur le champ **Bailleur de fonds** pour ouvrir la liste des bailleurs > Sélectionnez la source de financement appropriée.  
+3. Saisissez le titre du programme de financement dans le champ **Titre**.  
+4. Fournissez une description du programme de financement et de ses exigences dans le champ **Description**.  
+5. Cliquez sur le bouton **Créer** pour ajouter le bailleur de fonds.  
+6. Répétez les étapes 1 à 5 pour ajouter d’autres sources de financement si nécessaire.
 
-Votre manuscrit a maintenant été soumis pour examen. Vous pouvez vérifier cela en défilant jusqu'en haut de la ***Page d'enregistrement du manuscrit*** et en vérifiant que la ***Boîte d'ÉTAT*** située dans le coin supérieur droit de la page est passée à ***En examen***.
+![Financement](/images/third-party/funding_fr.png)
 
-### Examen de gestion du manuscrit
+Une fois toutes les sources de financement ajoutées, enregistrez vos modifications en :  
+- Cliquant sur l’**icône Disquette** en bas à droite de la page, ou  
+- Faisant défiler jusqu’en bas de la page et en cliquant sur le bouton **Enregistrer**.
 
-Vous pouvez vérifier le statut de l'examen de gestion de votre manuscrit en cliquant sur le **Bouton *Examen de gestion*** situé dans le **Menu *Enregistrement du manuscrit*** dans le coin supérieur gauche de la ***Page d'enregistrement du manuscrit***.
+---
 
-### Progression du manuscrit
+##### Modifier une Source de Financement
 
-Après la finalisation de l'examen de gestion, l'Auteur peut mettre à jour le statut de soumission au journal du
-manuscrit. Pour ce faire, rendez-vous sur la ***Page de progression du manuscrit*** en cliquant sur le **Bouton
-*Progression du manuscrit*** situé dans le **Menu *Enregistrement du manuscrit*** dans le coin supérieur gauche de
-la ***Page d'enregistrement du manuscrit***.
+Pour modifier une source de financement existante :
 
-## 4.5 - Gestion des FRM
+1. Cliquez sur l’**icône Crayon** à côté de la source de financement que vous souhaitez modifier.  
+2. Mettez à jour les informations nécessaires.  
+3. Cliquez sur le bouton **Enregistrer** pour sauvegarder vos modifications.
 
-#### Marquer comme soumis
+##### Supprimer une Source de Financement
 
-Pour marquer le manuscrit comme soumis à un journal :
+Pour supprimer une source de financement existante :
 
-1. Cliquez sur le **Bouton *MARQUER COMME SOUMIS***.
-2. Cliquez sur le **Champ *Soumis au journal le*** **>** Saisissez la date au format AAAA-MM-JJ (année, mois, jour), ou cliquez sur le **Bouton *Icône de calendrier*** **>** Sélectionnez l'année, le mois et le jour appropriés.
-3. Cliquez sur la **Boîte *MISE À JOUR*** pour confirmer la date.
+1. Cliquez sur l’**icône Poubelle** à côté de la source de financement que vous souhaitez supprimer.  
+2. Cliquez sur le bouton **OK** pour confirmer la suppression.
 
-#### Accepté pour publication
+---
 
-L'Auteur peut indiquer si son manuscrit a été accepté pour publication par le journal ciblé ou s'il a décidé de retirer son manuscrit.
+## Soumettre un FMR pour Révision
 
-##### Accepté pour publication
+Une fois toutes les informations requises renseignées, vous pouvez soumettre votre manuscrit pour révision.
 
-1. Cliquez sur le **Bouton *ACCEPTÉ POUR PUBLICATION***.
-2. Confirmez la date à laquelle le manuscrit a été soumis au journal.
-3. Cliquez sur le **Champ *Accepté pour publication le*** et saisissez la date au format AAAA-MM-JJ (année, mois, jour), ou cliquez sur le **Bouton *Icône de calendrier*** **>** sélectionnez l'année, le mois et le jour appropriés.
-4. Cliquez sur le **Champ *Journal*** et commencez à taper le nom du journal. Si le journal est dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner. Si son nom n'apparaît pas, veuillez envoyer un courriel à l'[Équipe de soutien de la SPO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour qu'il soit ajouté.
-5. Cliquez sur le **Bouton *MISE À JOUR*** pour confirmer l'entrée d'acceptation de publication.
+Pour soumettre votre FMR pour révision :
 
-##### Retirer le manuscrit
+1. Rendez-vous en bas de la page de l’enregistrement du manuscrit.  
+2. Cliquez sur le bouton **SOUMETTRE**.  
+3. Lisez le consentement **Soumission pour Révision de la Direction**.  
+   - Cliquez sur le bouton **Oui** pour accepter la déclaration de consentement.  
+   - Cliquez sur **SUIVANT** pour continuer.  
+4. Dans la **boîte de recherche de gestionnaire de division**, tapez le nom du gestionnaire de division.  
+   - Si le gestionnaire figure dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.  
+   - Si le nom du gestionnaire n’apparaît pas, suivez ces étapes pour l’inviter au SPO :  
+     1. Cliquez sur le bouton **Vous ne trouvez pas l’utilisateur recherché ?**.  
+     2. Saisissez le prénom, le nom, l’adresse e-mail et la langue préférée du gestionnaire.  
+     3. Cliquez sur le bouton **INVITER** pour l’ajouter au SPO.  
+5. Cliquez sur le bouton **SOUMETTRE** pour soumettre le manuscrit pour révision.
 
-1. Cliquez sur le **Bouton *RETIRER LE MANUSCRIT***.
-2. Cliquez sur le **Bouton *RETIRER*** pour confirmer que l'auteur ne considère plus le manuscrit pour publication.
+![Ajouter un Gestionnaire](/images/third-party/add_manager_fr.png)
 
-### Partage du dossier de manuscrit
+Votre manuscrit est maintenant soumis pour révision.  
+Pour confirmer, faites défiler jusqu’en haut de la **page de l’enregistrement du manuscrit** et vérifiez la **boîte de STATUT** en haut à droite. Elle doit indiquer **En Révision**.
 
-Vous pouvez partager votre manuscrit ou voir un historique des utilisateurs avec lesquels vous avez partagé votre manuscrit dans la **Page de partage**. Pour ce faire, accédez à la **Page de partage** en cliquant sur le **Bouton *Partage*** situé dans le **Menu du Dossier de Manuscrit** en haut à gauche de la **Page du Dossier de Manuscrit**.
+![En Révision](/images/third-party/in_review_fr.png)
 
-#### Partager un manuscrit
+---
+
+## Progrès du Manuscrit
+
+Vous pouvez suivre l’avancement de votre manuscrit sur la **page de Progrès du Manuscrit**.
+
+Pour consulter le progrès de votre manuscrit :
+
+1. Depuis la **page Mes Enregistrements de Manuscrits**, ouvrez votre formulaire de manuscrit.  
+2. Cliquez sur **Progrès du Manuscrit** depuis le *Menu de l’Enregistrement du Manuscrit*.
+
+![Progrès](/images/dfo/progress_fr.png)
+
+## Partager un FMR
+
+Vous pouvez partager l’accès à votre Formulaire d’Enregistrement de Manuscrit (FMR) avec un collègue, même s’il n’est pas un auteur contributeur.  
+Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler les permissions, notamment un accès en lecture seule, en modification, ou en suppression.  
+De plus, vous pouvez définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès à tout moment.
+
+![Partage](/images/third-party/sharing_fr.png)
+
+### Partager un Manuscrit avec un Utilisateur
 
 Pour partager un manuscrit avec un autre utilisateur :
 
-1. Cliquez sur le **Bouton *PARTAGER***.
-2. Cliquez sur le **Champ *Utilisateur*** pour le sélectionner **>** Tapez le nom ou l'adresse e-mail de l'utilisateur. Si l'utilisateur est dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner. Si son nom n'apparaît pas, suivez les étapes ci-dessous pour l'inviter à rejoindre le SPO ; sinon, continuez à l'étape 3.
-   1. Cliquez sur le **Bouton *L'utilisateur que vous recherchez n'est pas là ?***.
-   2. Remplissez les informations de l'utilisateur : Prénom, Nom, E-mail, et Langue préférée.
-   3. Cliquez sur le **Bouton *INVITER*** pour inviter l'utilisateur à rejoindre le SPO.
-3. Cliquez sur le **Bouton *Peut éditer*** si vous souhaitez permettre à l'utilisateur d'éditer cette demande de manuscrit. **(Désactivé par défaut)**
-4. Cliquez sur le **Bouton *Peut supprimer*** si vous souhaitez permettre à l'utilisateur de supprimer cette demande de manuscrit. **(Désactivé par défaut)**
-5. Si vous souhaitez que l'accès de l'utilisateur à ce manuscrit soit temporaire, cliquez sur le **Champ *Expire le*** et saisissez la date à laquelle vous souhaitez mettre fin au partage de ce manuscrit. Vous pouvez également cliquer sur le **Bouton *Icône du calendrier*** pour sélectionner une date.
-6. Cliquez sur le **Bouton *PARTAGER*** pour partager ce manuscrit.
+1. Depuis la **page Mes Enregistrements de Manuscrits**, ouvrez votre formulaire de manuscrit.  
+2. Sélectionnez **Partage** dans le menu à gauche.  
+3. Cliquez sur le bouton **Partager**.  
+4. Dans la **boîte de recherche d’utilisateur**, tapez le nom ou l’adresse e-mail de l’utilisateur.  
+   - Si l’utilisateur figure dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.  
+   - Si l’utilisateur n’est pas répertorié, suivez ces étapes pour l’inviter au SPO :  
+     1. Cliquez sur le bouton **Vous ne trouvez pas l’utilisateur recherché ?**.  
+     2. Entrez son prénom, son nom, son e-mail et sa langue préférée.  
+5. Choisissez le niveau d’accès :  
+   - Sélectionnez **Peut Modifier** pour lui accorder des permissions de modification.  
+   - Sélectionnez **Peut Supprimer** pour lui accorder des permissions de suppression.  
+6. Cliquez sur le champ **Expire le** et définissez la date d’expiration de l’accès partagé, ou cliquez sur l’**icône Calendrier** pour sélectionner une date à l’aide du widget de calendrier. (Facultatif)  
+7. Cliquez sur le bouton **PARTAGER**.
 
-#### Modifier un partage de manuscrit
+![Nouveau Partage](/images/third-party/new_share_fr.png)
 
-Si vous avez partagé un dossier de manuscrit et souhaitez modifier les autorisations de ce partage :
+---
 
-1. Cliquez sur le **Bouton *Icône de crayon*** situé sous la colonne **Actions** à droite de l'enregistrement de partage.
-2. Mettez à jour les attributs de partage que vous souhaitez changer **>** Cliquez sur le **Bouton *ENREGISTRER*** pour appliquer les modifications.
+### Modifier un Partage de Manuscrit
 
-#### Supprimer un partage de manuscrit
+Pour modifier les permissions d’un partage de manuscrit existant :
 
-Si vous avez partagé un dossier de manuscrit et souhaitez supprimer ce partage :
+1. Cliquez sur l’**icône Crayon** sous la colonne **Actions**.  
+2. Mettez à jour les paramètres de partage souhaités.  
+3. Cliquez sur le bouton **SAUVEGARDER**.
 
-1. Cliquez sur le **Bouton *Icône de poubelle*** situé sous la colonne **Actions** à droite de l'enregistrement de partage.
-2. Confirmez la suppression de cet accès en cliquant sur le **Bouton *OK***.
+---
+
+### Supprimer un Partage de Manuscrit
+
+Pour supprimer un partage de manuscrit existant :
+
+1. Cliquez sur l’**icône Poubelle** sous la colonne **Actions**.  
+2. Confirmez en cliquant sur le bouton **OK**.
