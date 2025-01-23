@@ -144,7 +144,7 @@ Après avoir ajouté ou mis à jour le résumé, enregistrez vos modifications e
 
 ![Résumé en Langage Simple](/images/third-party/pls_fr.png)
 
-Un [résumé en langage simple](https://www.canada.ca/fr/conseil-prive/services/bureau-collectivite-communications/communications-101-boot-camp-fonctionnaires/resume-langage-simple.html) est requis pour toutes les publications scientifiques afin d'améliorer l'accessibilité.
+Un [résumé en langage simple](https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/communications-gouvernementales/bureau-collectivite-communications/formation-intensive-introduction-communications-fonction-publique-canadienne/langage-clair-accessibilite-communications-inclusives.html) est requis pour toutes les publications scientifiques afin d'améliorer l'accessibilité.
 
 Le résumé en langage simple de votre manuscrit doit être rédigé à un niveau de lecture de 8ᵉ année pour garantir une
 meilleure compréhension.
@@ -155,7 +155,7 @@ Vous pouvez générer un brouillon de Résumé en Langage Simple (RLS) à partir
 
 L’outil utilise un Modèle de Langage à Grande Échelle (LLM) basé sur l’Intelligence Artificielle (IA) appelé [Llama 3.2](https://www.llama.com/), développé par Meta. Llama 3.2 est spécialement conçu pour être utilisé dans un environnement réseau fermé et, par conséquent, **ne peut transmettre aucune information à Meta ou en dehors de l’intranet du MPO**.
 
-Lors de l'utilisation d'outils d'IA au sein d’un réseau du gouvernement du Canada, il est recommandé de consulter les [lignes directrices du Secrétariat du Conseil du Trésor du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernement-numerique/utilisation-responsable-ia/guide-utilisation-ia-generative.html) sur l’utilisation responsable des modèles de langage d’intelligence artificielle.
+Lors de l'utilisation d'outils d'IA au sein d’un réseau du gouvernement du Canada, il est recommandé de consulter les [lignes directrices du Secrétariat du Conseil du Trésor du Canada](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/utilisation-responsable-ai/guide-utilisation-intelligence-artificielle-generative.html) sur l’utilisation responsable des modèles de langage d’intelligence artificielle.
 
 :::tip
 La fonctionnalité **Générer un RLS** aide à créer un brouillon basé sur votre manuscrit téléchargé. Vous pouvez générer un RLS plusieurs fois pour peaufiner votre brouillon.

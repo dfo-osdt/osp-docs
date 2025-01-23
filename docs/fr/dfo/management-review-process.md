@@ -23,7 +23,7 @@ Sur la page **Mes examens de gestion**, vous verrez une liste de tous les manusc
 
 Votre rôle en tant que gestionnaire examinateur est de vous assurer que :
 
-1. Le manuscrit est conforme à la [Politique sur la propriété intellectuelle/Loi sur le droit d’auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-fra.htm), à la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/fr/sujets-de-la-protection-de-la-vie-privee/lois-relatives-a-la-protection-de-la-vie-privee-au-canada/loi-sur-la-protection-des-renseignements-personnels/pa_brief/), à la Loi sur la gestion des finances publiques (en ce qui concerne l’approbation des coûts de publication) et au [Code de valeurs et d’éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-fra.htm).
+1. Le manuscrit est conforme à la [Politique sur la propriété intellectuelle/Loi sur le droit d’auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-fra.htm), à la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/lois-sur-la-protection-des-renseignements-personnels-au-canada/la-loi-sur-la-protection-des-renseignements-personnels/lprp_survol/), à la Loi sur la gestion des finances publiques (en ce qui concerne l’approbation des coûts de publication) et au [Code de valeurs et d’éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-fra.htm).
 2. Le directeur régional des sciences (DRS) et les Communications régionales du MPO sont informés si le manuscrit contient du contenu susceptible d’intéresser le public.
 
 :::warning
@@ -36,7 +36,7 @@ Pour examiner la fiche du manuscrit :
 
 1. Cliquez sur le bouton **<- ALLER À LA FICHE DU MANUSCRIT**.
 2. Cliquez sur l’**icône de téléchargement** pour télécharger une copie PDF du manuscrit.
-3. Apportez des modifications à la fiche du manuscrit. Pour plus de détails, consultez [Remplir une FDR](/fr/dfo/manuscript-record-form_fr.md).
+3. Apportez des modifications à la fiche du manuscrit. Pour plus de détails, consultez [Remplir une FDR](/fr/dfo/manuscript-record-form.md).
 4. Cliquez sur le bouton **Examen de gestion** dans le menu latéral pour revenir à la page Examen de gestion.
 
 ### Examiner la section Intérêt public potentiel
