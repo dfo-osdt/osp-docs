@@ -59,7 +59,7 @@ Pour créer un nouvel enregistrement de publication :
 4. Cliquez sur le bouton **SUIVANT**.  
 5. Remplissez le formulaire **Détails de la Publication** > Cliquez sur le bouton **SUIVANT**.  
     - Titre  
-    - Revue/Série (Tapez "1488" pour lister toutes les séries de rapports du MPO)  
+    - Revue/Série (Tapez "1488-" pour lister toutes les séries de rapports du MPO)  
     - DOI (Optionnel)  
     - Région Principale  
 6. Complétez le [**formulaire Dates et Accès de la Publication**](#publication-dates) > Cliquez sur le bouton **CRÉER**.  
