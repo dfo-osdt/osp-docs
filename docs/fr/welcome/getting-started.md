@@ -20,40 +20,19 @@ Le PSO est optimisé pour tous les principaux navigateurs (Chrome, Firefox, Edge
 
 ## Connexion
 
-### Création d'un compte
+L’accès au PSO se fait à l’aide de votre compte Microsoft-MPO de travail. Si c’est votre première connexion, un compte sera automatiquement créé pour vous.
 
-1. Accédez au PSO : [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
-2. Cliquez sur le **Bouton d'inscription**.
-3. Complétez le formulaire d'inscription avec vos :
-   - Prénom
-   - Nom
-   - Adresse e-mail professionnelle
-   - Mot de passe souhaité
+Pour vous connecter au PSO :
 
-::: tip
-Exigences relatives au mot de passe :
-- Doit contenir au moins 12 caractères
-- Ne peut pas figurer dans la liste des mots de passe vulnérables connus
-Pour plus d'informations, veuillez consulter [Sécurité du compte](/fr/account/account-security).
-:::
+1. Rendez-vous sur le PSO : [https://osp-pso.ent.dfo-mpo.gc.ca](https://osp-pso.ent.dfo-mpo.gc.ca).  
+2. Cliquez sur **CONNEXION**.  
+3. Sélectionnez **Se connecter avec Microsoft - Compte de travail du MPO**.  
+4. Suivez les instructions pour vous connecter à l’aide de votre compte Microsoft-MPO de travail.
 
-4. Cliquez sur le **bouton S'inscrire**.
+![Page de Connexion](/images/welcome/login_fr.png)
 
-Une page de bienvenue s'affichera pour vous informer que vous devez vérifier votre e-mail avant de pouvoir poursuivre.
-
-### Vérification de votre e-mail
-
-L'application OSP enverra un lien de vérification à l'adresse e-mail utilisée pour créer votre compte. Ce lien est actif pendant **90 minutes**. Assurez-vous de vérifier vos boîtes de courrier indésirable et de spam si vous ne recevez pas l'e-mail d'activation dans votre boîte de réception principale.
-
-Si vous ne recevez pas l'e-mail de lien d'activation ou si le lien a expiré, veuillez contacter l'[Équipe de support
+Si vous rencontrez des problèmes lors de la connexion, veuillez contacter l’[Équipe de soutien du
 PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
-
-### Connexion
-
-1. Accédez au PSO : [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
-2. Cliquez sur le **bouton Connexion**.
-3. Saisissez l'adresse e-mail avec laquelle vous vous êtes inscrit(e) et votre mot de passe le plus récent.
-4. Cliquez sur le **bouton Connexion**.
 
 ## Mise à jour des informations utilisateur
 
