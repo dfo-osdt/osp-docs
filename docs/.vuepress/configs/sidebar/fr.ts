@@ -17,7 +17,7 @@ export const sidebarFr: SidebarConfig =
           '/fr/dfo/manuscript-record-form.md',
           '/fr/dfo/management-review-process.md',
           '/fr/dfo/publications.md',
-	  '/fr/third-party/manuscript-record-form.md',
+          '/fr/third-party/manuscript-record-form.md',
           '/fr/third-party/management-review-process.md',
           '/fr/third-party/publications.md',
           '/fr/account/account-security.md',

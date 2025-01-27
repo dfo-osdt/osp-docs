@@ -51,7 +51,7 @@ To create a new publication record:
 4. Click the **NEXT button**.
 5. Complete the **Publication Details form** > Click the **NEXT button**.
     - Title
-    - Journal/Series (Type 1488 to list all DFO report series)
+    - Journal/Series (Type 1488- to list all DFO report series)
     - DOI (Optional)
     - Lead Region
 6. Complete the [**Publication Dates and Publication Access form**](#publication-dates) > Click the **CREATE button**.
