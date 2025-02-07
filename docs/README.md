@@ -15,8 +15,8 @@ actions:
       link: /en/third-party/manuscript-record-form.html
       type: secondary
       
-    - text: ACCOUNT SETTINGS
-      link: /en/account/account-security.html
+    - text: SETTINGS AND SUPPORT
+      link: /en/account/settings.html
       type: secondary
 
 footer:  Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada

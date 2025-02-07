@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Account Customization
+title: Settings
 description:
 ---
 
-# Account Customization
+# Settings
 
 ## User Profile Page
 
@@ -30,7 +30,7 @@ The email associated with your account will appear in gray and cannot be edited.
 The default language for your account will appear in this box. If you would like to change your default language:
 
 1. Click on the **Default Language Box** to expand the dropdown menu.
-2. Select the language you desire.
+p2. Select the language you desire.
 3. Click the **Save Button** to save the changes.
 
 ### User Roles
@@ -78,3 +78,63 @@ To add or remove expertise:
 4. Click on the expertise you would like to add from the filtered list.
 5. To remove an expertise, click the **X icon** next to the expertise.
 6. Click the **SAVE button** to confirm your changes.
+
+## Account Security
+
+### Authentication History
+
+The Open Science Portal tracks a history of login attempts for each user's account. This history provides a visualization of login activity, enabling you to monitor for unauthorized access attempts.
+
+::: danger
+If you notice multiple login attempts within a short time span or other suspicious activities:
+- Change your Open Science Portal account password immediately.
+- Notify the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+:::
+
+#### Authentication History Breakdown
+
+![Authentication History Table](/images/account/authentication_history_table.png)
+
+##### 1 - IP Address
+
+The IP Address column is the internet location address associated with the
+computer attempting to login to your account.
+
+##### 2 - Agent
+
+The Agent column is the operating system of the computer attempting to login to
+your account.
+
+##### 3 - Location
+
+::: tip
+If you are connecting to the Open Science Portal using a VPN, then this location
+may be different than your current location.
+:::
+
+The Location column is the approximate global location associated with the IP
+Address.
+
+##### 4 - Login At
+
+The Login At column is the date and time that an attempt was made to login to
+your account. The time shown will be based upon your computer's time.
+
+##### 5 - Successful
+
+The Successful column shows whether your account was logged in successfully or
+not. If successful, a green checkmark will be displayed. If unsuccessful, a red
+cross will be displayed.
+
+##### 6 - Logout At
+
+The Logout At column shows the date and time that your account was logged out
+at. The time shown will be based upon your computer's time.
+
+## Sent Invitations
+
+![Invite](/images/account/sent_invites.png)
+
+Invitations you have sent to users to invite them to the OSP will be displayed on the Sent Invitation page. The time and
+date of when an invited user logs into the OSP for the first time will be displayed under the **Registered At**
+column.

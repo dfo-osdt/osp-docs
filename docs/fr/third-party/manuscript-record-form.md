@@ -236,43 +236,60 @@ Pour voir l'avancement de votre manuscrit :
 
 ![Progrès](/images/third-party/progress_fr.png)
 
-## Partager un MRF
+## Partager un FRM
 
-Vous pouvez partager l'accès à votre formulaire de Dossier de Manuscrit (MRF) avec un pair, même s'il n'est pas un auteur contributif.  
-Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler ses autorisations, y compris l'accès en lecture seule, la possibilité d'éditer ou de supprimer.  
-De plus, vous pouvez définir une date d'expiration pour l'accès partagé. Si aucune date d'expiration n'est définie, vous pouvez révoquer l'accès à tout moment.
+Vous pouvez partager l’accès à votre Formulaire de Registre de Manuscrit (FRM) avec un collègue, même s’il n’est pas un auteur contributeur.  
+Lors du partage de votre formulaire, vous pouvez contrôler ses autorisations, notamment l’accès en lecture seule, l’édition ou la suppression.  
+De plus, vous pouvez définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès à tout moment.
 
-![Partage](/images/third-party/sharing_fr.png)
+![Partage](/images/third-party/sharing.png)
 
-Pour partager un manuscrit avec un autre utilisateur :
+---
 
-1. Depuis la **page Mes dossiers de manuscrits**, ouvrez votre formulaire de manuscrit.
-2. Sélectionnez **Partage** dans le menu à gauche.
-3. Cliquez sur le bouton **Partager**.
-4. Dans la **boîte de recherche utilisateur**, tapez le nom ou l'email de l'utilisateur.  
-   - Si l'utilisateur est dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.  
-   - Si l'utilisateur n'est pas répertorié, suivez ces étapes pour l'inviter à l'OSP :  
-     1. Cliquez sur le bouton **Vous ne trouvez pas l'utilisateur que vous cherchez ?**.  
-     2. Entrez leur Prénom, Nom, Email et Langue Préférée.
-5. Choisissez le niveau d'accès :  
-   - Sélectionnez **Peut Modifier** si vous souhaitez lui donner des permissions d'édition.  
-   - Sélectionnez **Peut Supprimer** si vous souhaitez lui donner des permissions de suppression.
-6. Cliquez sur le champ **Expire le** et définissez la date à laquelle l'accès partagé doit expirer, ou cliquez sur l'**icône du calendrier** pour sélectionner une date depuis le widget du calendrier. (Optionnel)
-7. Cliquez sur le bouton **PARTAGER**.
+### Pour partager un manuscrit avec un autre utilisateur :
 
-![Nouveau partage](/images/third-party/new_share_fr.png)
+1. Depuis la **page Mes Registres de Manuscrit**, ouvrez votre formulaire de manuscrit.  
+2. Sélectionnez **Partage** dans le menu de gauche.  
+3. Cliquez sur le **bouton Partager**.  
+4. Dans le **champ de recherche d’utilisateur**, tapez le nom ou l’adresse e-mail de l’utilisateur.  
+   - Si l’utilisateur s’est déjà inscrit, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.  
+   - Si l’utilisateur n’est pas listé, veuillez consulter la section [Inviter un utilisateur](#inviter-un-utilisateur).  
+5. Choisissez le niveau d’accès :  
+   - Sélectionnez **Peut modifier** si vous souhaitez lui accorder des droits d’édition.  
+   - Sélectionnez **Peut supprimer** si vous souhaitez lui accorder des droits de suppression.  
+6. Cliquez sur le **champ Expire le** et définissez la date d’expiration de l’accès, ou cliquez sur l’**icône du calendrier** pour sélectionner une date à l’aide du widget (optionnel).  
+7. Cliquez sur le **bouton PARTAGER**.  
+
+![Nouveau partage](/images/dfo/new_share_fr.png)
+
+---
+
+### Inviter un utilisateur
+
+![Invitation](/images/dfo/invite_fr.png)
+
+Pour inviter un utilisateur au PSO :
+
+1. Cliquez sur le **bouton Vous ne trouvez pas l’utilisateur que vous cherchez ?**  
+2. Entrez son prénom, son nom, son e-mail et sa langue préférée.  
+
+Pour vérifier le statut de votre invitation utilisateur, veuillez consulter [Invitations envoyées](/fr/account/settings#sent-invitations).
+
+---
 
 ### Modifier un partage de manuscrit
 
-Pour modifier les autorisations d'un dossier de manuscrit partagé existant :
+Pour modifier les autorisations d’un partage de manuscrit existant :
 
-1. Cliquez sur l'**icône Crayon** sous la colonne **Actions**.
-2. Mettez à jour les paramètres de partage souhaités.
-3. Cliquez sur le bouton **ENREGISTRER**.
+1. Cliquez sur l’**icône de crayon** sous la colonne **Actions**.  
+2. Mettez à jour les paramètres de partage souhaités.  
+3. Cliquez sur le **bouton ENREGISTRER**.  
+
+---
 
 ### Supprimer un partage de manuscrit
 
-Pour supprimer un dossier de manuscrit partagé :
+Pour supprimer un partage de manuscrit :
 
-1. Cliquez sur l'**icône Corbeille** sous la colonne **Actions**.
-2. Confirmez en cliquant sur le bouton **OK**.
+1. Cliquez sur l’**icône de corbeille** sous la colonne **Actions**.  
+2. Confirmez en cliquant sur le **bouton OK**.

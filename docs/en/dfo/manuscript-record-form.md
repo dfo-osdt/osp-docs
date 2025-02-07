@@ -279,18 +279,26 @@ To share a manuscript with another user:
 2. Select **Sharing** from the left-side menu.
 3. Click the **Share button**.
 4. In the **User search box**, type the name or email of the user.  
-   - If the user is in the database, their name will appear. Click on their name to select them.  
-   - If the user is not listed, follow these steps to invite them to the OSP:  
-     1. Click the **Can't find the user you're looking for? button**.  
-     2. Enter their First Name, Last Name, E-Mail, and Preferred Language.
+   - If the user has registered their account, their name will appear. Click on their name to select them.  
+   - If the user is not listed, please see [Invite a User](#invite-a-user).
 5. Choose the level of access:  
    - Select **Can Edit** if you want them to have editing permissions.  
    - Select **Can Delete** if you want them to have delete permissions.
 6. Click the **Expires On field** and set the date when the share access should expire, or click the **Calendar icon** to select a date from the calendar widget. (Optional)
 7. Click the **SHARE button**.
 
-![New Share](/images/third-party/new_share.png)
+![New Share](/images/dfo/new_share.png)
 
+### Invite a User
+
+![Invite](/images/dfo/invite.png)
+
+To invite a user to the OSP,
+
+1. Click the **Can't find the user you're looking for? button**.  
+2. Enter their First Name, Last Name, E-Mail, and Preferred Language.
+
+To check on the status of you user invitation please see [Sent Invitations](/en/account/settings#sent-invitations).
 ### Edit a Manuscript Share
 
 To modify the permissions of an existing shared manuscript record:
