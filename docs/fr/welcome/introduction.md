@@ -22,7 +22,7 @@ Le guide de bienvenue contient toutes les pages disponibles dans ce paquet de do
 
 [Publication tierce](/fr/third-party/manuscript-record-form)
 
-[Paramètres du compte et support](/fr/account/account-security)
+[Paramètres et assistance](/fr/account/settings)
 
 ## Public cible
 

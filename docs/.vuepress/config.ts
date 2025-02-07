@@ -64,8 +64,8 @@ export default
                           link: '/en/third-party/manuscript-record-form.html'
                         },
                         {
-                          text: 'Account Settings',
-                          link: '/en/account/account-security.html'
+                          text: 'Settings and Support',
+                          link: '/en/account/settings.html'
                         },
                       ]
                   },
@@ -118,8 +118,8 @@ export default
                         link: '/fr/third-party/manuscript-record-form.html'
                       },
                       {
-                        text: 'Paramètres du compte',
-                        link: '/fr/account/account-security.html'
+                        text: 'Paramètres et assistance',
+                        link: '/fr/account/settings.html'
                       },
                     ]
                 },

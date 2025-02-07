@@ -20,8 +20,7 @@ export const sidebarFr: SidebarConfig =
           '/fr/third-party/manuscript-record-form.md',
           '/fr/third-party/management-review-process.md',
           '/fr/third-party/publications.md',
-          '/fr/account/account-security.md',
-          '/fr/account/account-customization.md',
+          '/fr/account/settings.md',
           '/fr/account/orcid.md',
           '/fr/account/troubleshooting.md',
           // '/fr/account/updates-and-version-history.md', //commented out until launch
@@ -60,10 +59,9 @@ export const sidebarFr: SidebarConfig =
     [
       {
         sidebarDepth: 0,
-        text: 'Paramètres du compte',
+        text: 'Paramètres et assistance',
         children: [
-          '/fr/account/account-security.md',
-          '/fr/account/account-customization.md',
+          '/fr/account/settings.md',
           '/fr/account/orcid.md',
           '/fr/account/troubleshooting.md',
           // '/fr/account/updates-and-version-history.md', //commented out until launch

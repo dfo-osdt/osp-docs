@@ -23,7 +23,7 @@ guide section!
 
 [Third-Party Publication](/en/third-party/manuscript-record-form)
 
-[Account Settings and Support](/en/account/account-security)
+[Settings and Support](/en/account/settings)
 
 ## Audience
 
