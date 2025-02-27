@@ -27,10 +27,6 @@ Your role as the reviewing manager is to ensure that:
 1. The manuscript complies with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs), and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
 2. The Regional Director of Science (RDS) and Regional DFO Communications are informed if the manuscript contains content with potential public interest.
 
-:::warning
-Science management commits to a 10-working-day turnaround for manuscript sign-off. If managers do not respond with
-approval within 10 working days, authors may submit their manuscript to the EOS Publication Team.
-:::
 
 ### Review the Manuscript Form
 

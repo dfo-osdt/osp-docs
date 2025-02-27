@@ -26,9 +26,6 @@ Votre rôle en tant que gestionnaire examinateur est de vous assurer que :
 1. Le manuscrit est conforme à la [Politique sur la propriété intellectuelle/Loi sur le droit d’auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-fra.htm), à la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/lois-sur-la-protection-des-renseignements-personnels-au-canada/la-loi-sur-la-protection-des-renseignements-personnels/lprp_survol/), à la Loi sur la gestion des finances publiques (en ce qui concerne l’approbation des coûts de publication) et au [Code de valeurs et d’éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-fra.htm).
 2. Le directeur régional des sciences (DRS) et les Communications régionales du MPO sont informés si le manuscrit contient du contenu susceptible d’intéresser le public.
 
-:::warning
-La gestion des sciences s'engage à signer les manuscrits dans un délai de 10 jours ouvrables. Si les gestionnaires ne répondent pas avec une approbation dans ce délai, les auteurs peuvent soumettre leur manuscrit à l'équipe de publication de l'ÉSO.
-:::
 
 ### Examiner la fiche du manuscrit
 
