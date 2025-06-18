@@ -20,6 +20,8 @@ export const sidebarEn: SidebarConfig =
           '/en/welcome/portal-navigation.md',
           '/en/welcome/author-explorer.md',
           '/en/welcome/publication-explorer.md',
+          '/en/welcome/settings.md',
+          '/en/welcome/orcid.md',
         ],
       },
       {
@@ -52,14 +54,6 @@ export const sidebarEn: SidebarConfig =
               '/en/preprint/publications.md',
             ],
           },
-        ],
-      },
-      {
-        sidebarDepth: 1,
-        text: 'Account Management',
-        children: [
-          '/en/account/settings.md',
-          '/en/account/orcid.md',
         ],
       },
       {
