@@ -45,10 +45,12 @@ footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
 <style>
 .custom-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 2rem 0;
   padding: 0 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
 }
 
 .card {
@@ -57,6 +59,9 @@ footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
   border-radius: 8px;
   padding: 1.5rem;
   transition: box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card:hover {
@@ -65,8 +70,13 @@ footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
 
 .card h3 {
   margin-top: 0;
+  margin-bottom: 1rem;
   color: var(--c-text);
   border-bottom: none;
+  font-size: 1.2rem;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .card p {
@@ -93,12 +103,34 @@ footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
 .card a:hover,
 .card router-link:hover {
   text-decoration: underline;
+  color: var(--c-brand-light);
+}
+
+/* Better link colors for dark mode */
+@media (prefers-color-scheme: dark) {
+  .card a,
+  .card router-link {
+    color: #4fc08d;
+  }
+
+  .card a:hover,
+  .card router-link:hover {
+    color: #6bd4a8;
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
   .custom-cards {
     grid-template-columns: 1fr;
     padding: 0 1rem;
+    gap: 1rem;
   }
 }
 </style>
