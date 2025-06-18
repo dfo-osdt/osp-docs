@@ -4,8 +4,6 @@ title: Introduction
 description:
 ---
 
-# Introduction
-
 ## Welcome
 
 Welcome to the Open Science Portal (OSP) User Guide and Documentation Site! This guide has been developed by the Collaborative for Open Science (COSI) for Fisheries and Oceans Canada (DFO).
@@ -14,20 +12,26 @@ Welcome to the Open Science Portal (OSP) User Guide and Documentation Site! This
 
 The purpose of this documentation site is to explain the navigation, usage, and troubleshooting of the OSP. This site is dynamic and will be continuously updated to reflect changes in the OSP.
 
-## Jump to Individual Guide
+## Guide Structure
 
-The Welcome guide contains all available pages in this document package. You can use the buttons below to  navigate to a dedicated
-guide section!
+This comprehensive user guide is organized into logical sections to help you navigate the OSP efficiently:
 
-[DFO Publication](/en/dfo/manuscript-record-form)
+**Getting Started** - Introduction and initial setup
+**Portal Navigation & Features** - Learn to navigate the portal and use key features
+**Working with Publications** - Complete workflows for both DFO and third-party publications
+**Account Management** - Manage your profile and settings
+**Support & Resources** - Troubleshooting, contact information, and additional resources
 
-[Third-Party Publication](/en/third-party/manuscript-record-form)
+## Quick Start
 
-[Settings and Support](/en/account/settings)
+New to the OSP? Start with [Getting Started](/en/welcome/getting-started.html) to set up your account and learn the basics.
+
+Need to submit a publication? Go to [Publications Overview](/en/user-guide/publications-overview.html) to determine which type of publication workflow you need.
 
 ## Audience
 
 The User Guide is designed for:
+
 - DFO Researchers
 - Research Assistants
 - Division Managers

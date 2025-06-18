@@ -46,28 +46,10 @@ export default
               selectLanguageName: 'English',
               navbar:
                 [
-                  // User Guide Group
+                  // Single User Guide
                   {
-                    text: 'User Guides',
-                    children:
-                      [
-                        {
-                          text: 'Welcome',
-                          link: '/en/welcome/introduction.html'
-                        },
-                        {
-                          text: 'DFO Publication',
-                          link: '/en/dfo/manuscript-record-form.html'
-                        },
-			{
-                          text: 'Third-Party Publication',
-                          link: '/en/third-party/manuscript-record-form.html'
-                        },
-                        {
-                          text: 'Settings and Support',
-                          link: '/en/account/settings.html'
-                        },
-                      ]
+                    text: 'User Guide',
+                    link: '/en/welcome/introduction.html'
                   },
                   // OSP-PSO
                   {
@@ -100,28 +82,10 @@ export default
             {
               selectLanguageName: 'Français',
               navbar: [
-                // User Guide Group
+                // Single User Guide
                 {
-                  text: 'Guides d\'utilisation',
-                  children:
-                    [
-                      {
-                        text: 'Bienvenue',
-                        link: '/fr/welcome/introduction.html'
-                      },
-                      {
-                        text: 'Publication du MPO',
-                        link: '/fr/dfo/manuscript-record-form.html'
-                      },
-		      {
-                        text: 'Publication par un tiers',
-                        link: '/fr/third-party/manuscript-record-form.html'
-                      },
-                      {
-                        text: 'Paramètres et assistance',
-                        link: '/fr/account/settings.html'
-                      },
-                    ]
+                  text: 'Guide d\'utilisation',
+                  link: '/fr/welcome/introduction.html'
                 },
                 // PSO-OSP
                 {
