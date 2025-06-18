@@ -1,4 +1,8 @@
-[Français](#Site-de-documentation-utilisateur-du-Portail-de-Science-Ouverte)
+[Français](#Site-de-## License
+
+This documentation is protected by [Government of Canada Crown Copyright](LICENSE) and is licensed under the [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada).
+
+You are free to use, reproduce, and distribute this documentation, in whole or in part, for any purpose, commercial or non-commercial, provided that you follow the terms of the Open Government Licence.on-utilisateur-du-Portail-de-Science-Ouverte)
 
 # Open Science Portal User Documentation Site
 

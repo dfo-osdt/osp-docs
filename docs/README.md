@@ -9,7 +9,7 @@ actions:
       link: /en/welcome/introduction.html
       type: primary
 
-footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
+footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada
 ---
 
 <div class="custom-cards">

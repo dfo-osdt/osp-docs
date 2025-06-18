@@ -9,7 +9,7 @@ actions:
       link: /fr/welcome/introduction.html
       type: primary
 
-footer: Crown Copyright & ISC | Copyright © 2025 Fisheries and Oceans Canada
+footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous licence du gouvernement ouvert – Canada
 ---
 
 <div class="custom-cards">
