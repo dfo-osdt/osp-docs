@@ -20,6 +20,8 @@ export const sidebarFr: SidebarConfig =
           '/fr/welcome/portal-navigation.md',
           '/fr/welcome/author-explorer.md',
           '/fr/welcome/publication-explorer.md',
+          '/fr/welcome/settings.md',
+          '/fr/welcome/orcid.md',
         ],
       },
       {
@@ -52,14 +54,6 @@ export const sidebarFr: SidebarConfig =
               '/fr/preprint/publications.md',
             ],
           },
-        ],
-      },
-      {
-        sidebarDepth: 1,
-        text: 'Gestion du compte',
-        children: [
-          '/fr/account/settings.md',
-          '/fr/account/orcid.md',
         ],
       },
       {
