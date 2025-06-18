@@ -27,6 +27,7 @@ export const sidebarFr: SidebarConfig =
         text: 'Travailler avec les publications',
         children: [
           '/fr/user-guide/publications-overview.md',
+          '/fr/user-guide/management-review-overview.md',
           {
             text: 'Publications du MPO',
             children: [

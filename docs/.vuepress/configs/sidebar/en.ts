@@ -27,6 +27,7 @@ export const sidebarEn: SidebarConfig =
         text: 'Working with Publications',
         children: [
           '/en/user-guide/publications-overview.md',
+          '/en/user-guide/management-review-overview.md',
           {
             text: 'DFO Publications',
             children: [
