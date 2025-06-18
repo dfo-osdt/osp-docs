@@ -44,6 +44,14 @@ export const sidebarFr: SidebarConfig =
               '/fr/third-party/publications.md',
             ],
           },
+          {
+            text: 'Publications en prépublication',
+            children: [
+              '/fr/preprint/manuscript-record-form.md',
+              '/fr/preprint/management-review-process.md',
+              '/fr/preprint/publications.md',
+            ],
+          },
         ],
       },
       {
