@@ -44,17 +44,14 @@ export default
               selectLanguageName: 'English',
               navbar:
                 [
-                  // Single User Guide
                   {
                     text: 'User Guide',
                     link: '/en/welcome/introduction.html'
                   },
-                  // OSP-PSO
                   {
                     text: 'OSP-PSO',
                     link: 'https://osp-pso.ent.dfo-mpo.ca/'
                   },
-                  // NavbarGroup
                   {
                     text: 'GitHub',
                     children:
@@ -70,24 +67,20 @@ export default
                       ]
                   },
                 ],
-              // Apply sidebar configs
               sidebar: sidebarEn,
             },
             '/fr/':
             {
               selectLanguageName: 'Français',
               navbar: [
-                // Single User Guide
                 {
                   text: 'Guide d\'utilisation',
                   link: '/fr/welcome/introduction.html'
                 },
-                // PSO-OSP
                 {
-                  text: 'PSO-OSP',
+                  text: 'OSP-PSO',
                   link: 'https://osp-pso.ent.dfo-mpo.ca/'
                 },
-                // NavbarGroup
                 {
                   text: 'GitHub',
                   children: [
@@ -102,7 +95,6 @@ export default
                   ]
                 }
               ],
-              // Load sidebar config
               sidebar: sidebarFr,
             }
           },
