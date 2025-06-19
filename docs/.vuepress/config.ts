@@ -1,7 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { gitPlugin } from '@vuepress/plugin-git'
 import {
   head,
   sidebarEn,
@@ -11,11 +11,8 @@ import {
 export default
   {
     base: '/',
-
     head,
-
     port: 3000,
-
     locales:
     {
       '/':
@@ -39,6 +36,7 @@ export default
       (
         {
           logo: '/logos/logo.png',
+          contributors: false,
           locales:
           {
             '/':
@@ -74,10 +72,7 @@ export default
                 ],
               // Apply sidebar configs
               sidebar: sidebarEn,
-              // Set number of sidebar children 0:none, 1:h2, 2:h3
-              sidebarDepth: 1,
             },
-
             '/fr/':
             {
               selectLanguageName: 'Français',
@@ -109,8 +104,6 @@ export default
               ],
               // Load sidebar config
               sidebar: sidebarFr,
-              // Set number of children 0:none, 1:h2, 2:h3
-              sidebarDepth: 1,
             }
           },
         }

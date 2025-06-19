@@ -1,12 +1,11 @@
-import type { SidebarConfig } from 'vuepress'
+import type { SidebarOptions  } from '@vuepress/theme-default';
 
-export const sidebarFr: SidebarConfig =
+export const sidebarFr: SidebarOptions =
 {
   // Single unified guide structure
   '/fr/':
     [
       {
-        sidebarDepth: 1,
         text: 'Commencer',
         children: [
           '/fr/welcome/introduction.md',
@@ -14,7 +13,6 @@ export const sidebarFr: SidebarConfig =
         ],
       },
       {
-        sidebarDepth: 1,
         text: 'Navigation et fonctionnalités du portail',
         children: [
           '/fr/welcome/portal-navigation.md',
@@ -25,7 +23,6 @@ export const sidebarFr: SidebarConfig =
         ],
       },
       {
-        sidebarDepth: 1,
         text: 'Travailler avec les publications',
         children: [
           '/fr/user-guide/publications-overview.md',
@@ -57,7 +54,6 @@ export const sidebarFr: SidebarConfig =
         ],
       },
       {
-        sidebarDepth: 1,
         text: 'Support et ressources',
         children: [
           '/fr/account/troubleshooting.md',
