@@ -28,7 +28,7 @@ For manuscripts that will be published by DFO, you will review:
 - Other official DFO publications
 
 **Your review process:**
-[→ DFO Management Review Process](/en/dfo/management-review-process.html)
+[→ DFO Management Review Process](/en/publication-process/management-review-process.html)
 
 ### Third-Party Publications
 
@@ -40,7 +40,7 @@ For manuscripts that will be published by external publishers (journals, confere
 - Other external publications
 
 **Your review process:**
-[→ Third-Party Management Review Process](/en/third-party/management-review-process.html)
+[→ Third-Party Management Review Process](/en/publication-process/management-review-process.html)
 
 ## Common Review Tasks
 
@@ -63,8 +63,8 @@ If you're new to the management review process:
 
 ## Quick Navigation
 
-- [DFO Management Review Process](/en/dfo/management-review-process.html)
-- [Third-Party Management Review Process](/en/third-party/management-review-process.html)
+- [DFO Management Review Process](/en/publication-process/management-review-process.html)
+- [Third-Party Management Review Process](/en/publication-process/management-review-process.html)
 - [Account Settings](/en/account/settings.html)
 - [Contact Support](/en/account/contact-support.html)
 

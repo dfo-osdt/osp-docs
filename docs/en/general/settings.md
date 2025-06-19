@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Settings
+title: Account Settings
 description:
 ---
 
-# Settings
+# Account Settings
 
 ## User Profile Page
 

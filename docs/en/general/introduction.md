@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Introduction
+title: About this guide
 description:
 ---
 
@@ -17,16 +17,15 @@ The purpose of this documentation site is to explain the navigation, usage, and 
 This comprehensive user guide is organized into logical sections to help you navigate the OSP efficiently:
 
 **Getting Started** - Introduction and initial setup
-**Portal Navigation & Features** - Learn to navigate the portal and use key features
-**Working with Publications** - Complete workflows for both DFO and third-party publications
-**Account Management** - Manage your profile and settings
+**Portal Features** - Learn to navigate the portal and use key features
+**The Publishing Process** - Complete workflows for both DFO and third-party publications
 **Support & Resources** - Troubleshooting, contact information, and additional resources
 
 ## Quick Start
 
-New to the OSP? Start with [Getting Started](/en/welcome/getting-started.html) to set up your account and learn the basics.
+New to the OSP? Start with [Getting Started](getting-started.md) to set up your account and learn the basics.
 
-Need to submit a publication? Go to [Publications Overview](/en/user-guide/publications-overview.html) to determine which type of publication workflow you need.
+Need to create and submit a manuscritpt for management review? Go to [Manuscript Overview](../publication-process/manuscript-overview.md) to determine which type of publication workflow you need.
 
 ## Audience
 
@@ -36,6 +35,7 @@ The User Guide is designed for:
 - Research Assistants
 - Division Managers
 - Regional Directors of Science (RDS)
+- Director and Director General
 
 ## Guide Production Assumptions
 
@@ -43,4 +43,6 @@ This guide assumes you are navigating the OSP with a traditional mouse and keybo
 
 ## Feedback
 
-Any feedback, questions, or concerns about the OSP or the User Guide can be emailed to [DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Any feedback, questions, or concerns about the OSP or the User Guide can be
+emailed to
+[DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca)

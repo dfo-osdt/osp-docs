@@ -30,7 +30,7 @@ To mark your manuscript as accepted for publication:
 3. Click the **ACCEPTED FOR PUBLICATION button**.
 4. Confirm the date the manuscript was submitted to the journal.
 5. In the **Accepted for Publication On field**, type the date in YYYY-MM-DD format, or click the **Calendar icon** to select the applicable date.
-6. In the **Journal field**, begin typing the name of the journal. If the journal is in the database, it will appear. Select the name from the list.  
+6. In the **Journal field**, begin typing the name of the journal. If the journal is in the database, it will appear. Select the name from the list.
    - If the journal is not listed, email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have it added.
 7. Click the **UPDATE button** to confirm the publication acceptance entry.
 
@@ -52,7 +52,7 @@ To access the **My Publications** page:
 1. Hover over the left-sidebar menu to expand the page selection menu.
 2. Click on **My Publications**.
 
-![My Publications](/images/third-party/my_publications.png)
+![My Publications](/images/publication-process/my_publications.png)
 
 ## Creating a Record for an Existing Publication
 
@@ -75,7 +75,7 @@ To create a new publication record:
     - Published as Open Access
     - Embargoed Until (If applicable)
 
-![Create Publication](/images/third-party/pub_create.png)
+![Create Publication](/images/publication-process/pub_create.png)
 
 This will create a new publication record and open the **Publication Details form**.
 
@@ -88,7 +88,7 @@ To update a publication record:
 1. Navigate to the **My Publications** page.
 2. Click on the publication record you wish to update.
 
-![Update Publication](/images/third-party/pub_update_authors.png)
+![Update Publication](/images/publication-process/pub_update_authors.png)
 
 ### Author(s) and Affiliation(s)
 
@@ -103,7 +103,7 @@ To update a publication record:
 5. Click on the **Add button** to add the author or affiliate.
 6. Repeat steps 1–6 until all authors or affiliates have been added.
 
-![Adding Authors](/images/third-party/adding_authors.png)
+![Adding Authors](/images/publication-process/adding_authors.png)
 
 #### Updating Author or Affiliation
 
@@ -120,7 +120,7 @@ To remove an author or affiliate:
 
 ### General Information
 
-![Publication General Info](/images/third-party/pub_general_info.png)
+![Publication General Info](/images/publication-process/pub_general_info.png)
 
 #### Title
 
@@ -180,7 +180,7 @@ While under embargo, your uploaded publication will not be available for downloa
 
 ### Published Work
 
-![Published Work](/images/third-party/published_work.png)
+![Published Work](/images/publication-process/published_work.png)
 
 To upload the latest copy of your publication:
 
@@ -192,7 +192,7 @@ To upload the latest copy of your publication:
 
 Supplementary files can be uploaded to your publication record as they are created. These files can be PDF or Word files and should be uploaded to complete the publication record.
 
-![Supplementary File Types](/images/third-party/supplement_types.png)
+![Supplementary File Types](/images/publication-process/supplement_types.png)
 
 To upload a supplementary file:
 

@@ -31,7 +31,7 @@ Pour marquer votre manuscrit comme accepté pour publication :
 3. Cliquez sur le bouton **ACCEPTÉ POUR PUBLICATION**.
 4. Confirmez la date à laquelle le manuscrit a été soumis à la revue.
 5. Dans le champ **Accepté pour publication le**, tapez la date au format AAAA-MM-JJ, ou cliquez sur l'**icône du calendrier** pour sélectionner la date applicable.
-6. Dans le champ **Revue**, commencez à taper le nom de la revue. Si la revue est dans la base de données, elle apparaîtra. Sélectionnez le nom dans la liste.  
+6. Dans le champ **Revue**, commencez à taper le nom de la revue. Si la revue est dans la base de données, elle apparaîtra. Sélectionnez le nom dans la liste.
    - Si la revue n'est pas répertoriée, envoyez un courriel à l'[Équipe de soutien OSP](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour qu'elle soit ajoutée.
 7. Cliquez sur le bouton **METTRE À JOUR** pour confirmer l'entrée d'acceptation de publication.
 
@@ -53,7 +53,7 @@ Pour accéder à la **page Mes publications** :
 1. Survolez le menu de la barre latérale gauche pour développer le menu de sélection des pages.
 2. Cliquez sur **Mes publications**.
 
-![Mes publications](/images/third-party/my_publications_fr.png)
+![Mes publications](/images/publication-process/my_publications_fr.png)
 
 ## Créer un dossier pour une publication existante
 
@@ -76,7 +76,7 @@ Pour créer un nouveau dossier de publication :
     - Publié en accès ouvert
     - Embargo jusqu'à (si applicable)
 
-![Créer une publication](/images/third-party/pub_create_fr.png)
+![Créer une publication](/images/publication-process/pub_create_fr.png)
 
 Cela créera un nouveau dossier de publication et ouvrira le **formulaire Détails de la publication**.
 
@@ -89,7 +89,7 @@ Pour mettre à jour un dossier de publication :
 1. Accédez à la **page Mes publications**.
 2. Cliquez sur le dossier de publication que vous souhaitez mettre à jour.
 
-![Mettre à jour la publication](/images/third-party/pub_update_authors_fr.png)
+![Mettre à jour la publication](/images/publication-process/pub_update_authors_fr.png)
 
 ### Auteur(s) et affiliation(s)
 
@@ -104,7 +104,7 @@ Pour mettre à jour un dossier de publication :
 5. Cliquez sur le **bouton Ajouter** pour ajouter l'auteur ou l'affilié.
 6. Répétez les étapes 1 à 6 jusqu'à ce que tous les auteurs ou affiliés aient été ajoutés.
 
-![Ajouter des auteurs](/images/third-party/adding_authors_fr.png)
+![Ajouter des auteurs](/images/publication-process/adding_authors_fr.png)
 
 #### Mettre à jour un auteur ou une affiliation
 
@@ -121,7 +121,7 @@ Pour supprimer un auteur ou affilié :
 
 ### Informations générales
 
-![Informations générales de la publication](/images/third-party/pub_general_info_fr.png)
+![Informations générales de la publication](/images/publication-process/pub_general_info_fr.png)
 
 #### Titre
 
@@ -183,7 +183,7 @@ la copie téléchargée pendant la période d'embargo.
 
 ### Travail publié
 
-![Travail publié](/images/third-party/published_work_fr.png)
+![Travail publié](/images/publication-process/published_work_fr.png)
 
 Pour télécharger la dernière copie de votre publication :
 
@@ -195,7 +195,7 @@ Pour télécharger la dernière copie de votre publication :
 
 Des fichiers supplémentaires peuvent être téléchargés sur l'enregistrement de votre publication à mesure qu'ils sont créés. Ces fichiers peuvent être des fichiers PDF ou Word et doivent être téléchargés pour compléter l'enregistrement de la publication.
 
-![Types de fichiers supplémentaires](/images/third-party/supplement_types_fr.png)
+![Types de fichiers supplémentaires](/images/publication-process/supplement_types_fr.png)
 
 Pour télécharger un fichier supplémentaire :
 

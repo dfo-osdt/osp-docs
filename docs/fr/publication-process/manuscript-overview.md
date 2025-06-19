@@ -23,7 +23,7 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 - Le MPO est l'éditeur principal
 - Le travail a été effectué principalement au sein du MPO ou sous financement du MPO
 
-[→ Commencer avec le formulaire d'enregistrement de manuscrit du MPO](/fr/dfo/manuscript-record-form.html)
+[→ Commencer avec le formulaire d'enregistrement de manuscrit du MPO](/fr/publication-process/manuscript-record-form.html)
 
 ### Publications par un tiers
 
@@ -40,7 +40,7 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 - Le MPO n'est pas l'éditeur, mais des auteurs ou des ressources du MPO sont impliqués
 - Le travail implique des chercheurs du MPO mais sera publié ailleurs
 
-[→ Commencer avec le formulaire d'enregistrement de manuscrit tiers](/fr/third-party/manuscript-record-form.html)
+[→ Commencer avec le formulaire d'enregistrement de manuscrit tiers](/fr/publication-process/manuscript-record-form.html)
 
 ## Étapes communes du flux de travail
 
@@ -60,7 +60,7 @@ Si vous n'êtes pas sûr du type de publication qui s'applique à votre manuscri
 
 ## Navigation rapide
 
-- [Formulaire d'enregistrement de manuscrit du MPO](/fr/dfo/manuscript-record-form.html)
-- [Processus d'examen de gestion du MPO](/fr/dfo/management-review-process.html)
-- [Formulaire d'enregistrement de manuscrit tiers](/fr/third-party/manuscript-record-form.html)
-- [Processus d'examen de gestion tiers](/fr/third-party/management-review-process.html)
+- [Formulaire d'enregistrement de manuscrit du MPO](/fr/publication-process/manuscript-record-form.html)
+- [Processus d'examen de gestion du MPO](/fr/publication-process/management-review-process.html)
+- [Formulaire d'enregistrement de manuscrit tiers](/fr/publication-process/manuscript-record-form.html)
+- [Processus d'examen de gestion tiers](/fr/publication-process/management-review-process.html)

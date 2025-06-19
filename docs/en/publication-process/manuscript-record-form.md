@@ -15,7 +15,7 @@ Authors can access the manuscript record page in multiple ways. This walkthrough
 
 On the **My Manuscripts** page, you will see a list of all manuscript records you have created or that have been shared with you. This list includes manuscripts that are in progress.
 
-![Dashboard](/images/third-party/my_manuscripts_page.png)
+![Dashboard](/images/publication-process/my_manuscripts_page.png)
 
 ## Create a New MRF
 
@@ -27,7 +27,7 @@ On the **My Manuscripts** page, you will see a list of all manuscript records yo
 
 ## Populating an MRF
 
-![New MRF](/images/third-party/new_mrf.png)
+![New MRF](/images/publication-process/new_mrf.png)
 
 Once the manuscript has been created, it will be assigned a unique ID and designated as a "Draft." The required fields must be populated before the manuscript can be submitted for management review.
 
@@ -63,7 +63,7 @@ To upload a PDF copy of your manuscript:
 5. Click the **Add** button to add this author or affiliate.
 6. Repeat steps 1–5 until all authors or affiliates have been added.
 
-![Adding Authors](/images/third-party/adding_authors.png)
+![Adding Authors](/images/publication-process/adding_authors.png)
 
 #### Updating an Author or Affiliation
 
@@ -80,7 +80,7 @@ Click the **X icon** on the right side of the author's name.
 
 ### General Information
 
-![General Information](/images/third-party/general_information.png)
+![General Information](/images/publication-process/general_information.png)
 
 #### Manuscript's Working Title (Required)
 
@@ -117,7 +117,7 @@ After adding or updating the abstract, save your changes by either:
 
 #### Plain Language Summary (Required)
 
-![Plain Language Summary](/images/third-party/pls.png)
+![Plain Language Summary](/images/publication-process/pls.png)
 
 [Plain Language Summaries](https://www.canada.ca/en/privy-council/services/communications-community-office/communications-101-boot-camp-canadian-public-servants/plain-language-accessibility-inclusive-communications.html) are required for all scientific publications to improve accessibility.
 
@@ -152,7 +152,7 @@ To select a Functional Area relevant to this manuscript:
 
 #### Relevance to Programs/Initiatives/Client Sector (Required)
 
-![Relevance](/images/third-party/relevance.png)
+![Relevance](/images/publication-process/relevance.png)
 
 Provide a summary explaining how this manuscript is relevant to the program that funded it, how it supports the department's mandate, strategic plan, and/or regional priorities.
 
@@ -183,7 +183,7 @@ To add a funding source:
 5. Click the **Create button** to add the funder.
 6. Repeat steps 1–5 to add additional funding sources as needed.
 
-![Funding](/images/third-party/funding.png)
+![Funding](/images/publication-process/funding.png)
 
 After adding all funding sources, save your changes by either:
 
@@ -224,12 +224,12 @@ To submit your MRF for review:
      3. Click the **INVITE button** to add them to the OSP.
 5. Click the **SUBMIT button** to submit the manuscript for review.
 
-![Add Manager](/images/third-party/add_manager.png)
+![Add Manager](/images/publication-process/add_manager.png)
 
 Your manuscript is now submitted for review.
 To confirm, scroll to the top of the **Manuscript Record Page** and check the **STATUS box** in the top-right corner. It should display **In Review**.
 
-![In Review](/images/third-party/in_review.png)
+![In Review](/images/publication-process/in_review.png)
 
 ## Manuscript Progress
 
@@ -240,7 +240,7 @@ To view your manuscript's progress:
 1. From the **My Manuscript Records page**, open your manuscript form.
 2. Click **Manuscript Progress** from the *Manuscript Record Menu*.
 
-![Progress](/images/third-party/progress.png)
+![Progress](/images/publication-process/progress.png)
 
 ## Sharing a MRF
 
@@ -248,7 +248,7 @@ You can share access to your Manuscript Record Form (MRF) with a peer, even if t
 When sharing your manuscript form, you can control their permissions, including view-only, edit, or delete access.
 Additionally, you can set an expiration date for the shared access. If no expiration date is set, you can revoke access at any time.
 
-![Sharing](/images/third-party/sharing.png)
+![Sharing](/images/publication-process/sharing.png)
 
 To share a manuscript with another user:
 
@@ -264,18 +264,18 @@ To share a manuscript with another user:
 6. Click the **Expires On field** and set the date when the share access should expire, or click the **Calendar icon** to select a date from the calendar widget. (Optional)
 7. Click the **SHARE button**.
 
-![New Share](/images/dfo/new_share.png)
+![New Share](/images/publication-process/new_share.png)
 
 ### Invite a User
 
-![Invite](/images/dfo/invite.png)
+![Invite]()
 
 To invite a user to the OSP,
 
 1. Click the **Can't find the user you're looking for? button**.
 2. Enter their First Name, Last Name, E-Mail, and Preferred Language.
 
-To check on the status of you user invitation please see [Sent Invitations](/en/account/settings#sent-invitations).
+To check on the status of you user invitation please see [Sent Invitations](/en/general/settings#sent-invitations).
 
 ### Edit a Manuscript Share
 

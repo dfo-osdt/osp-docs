@@ -28,7 +28,7 @@ Pour les manuscrits qui seront publiés par le MPO, vous réviserez :
 - Autres publications officielles du MPO
 
 **Votre processus de révision :**
-[→ Processus de révision de gestion du MPO](/fr/dfo/management-review-process.html)
+[→ Processus de révision de gestion du MPO](/fr/publication-process/management-review-process.html)
 
 ### Publications par un tiers
 
@@ -40,7 +40,7 @@ Pour les manuscrits qui seront publiés par des éditeurs externes (revues, conf
 - Autres publications externes
 
 **Votre processus de révision :**
-[→ Processus de révision de gestion tiers](/fr/third-party/management-review-process.html)
+[→ Processus de révision de gestion tiers](/fr/publication-process/management-review-process.html)
 
 ## Tâches de révision communes
 
@@ -63,8 +63,8 @@ Si vous êtes nouveau dans le processus de révision de gestion :
 
 ## Navigation rapide
 
-- [Processus de révision de gestion du MPO](/fr/dfo/management-review-process.html)
-- [Processus de révision de gestion tiers](/fr/third-party/management-review-process.html)
+- [Processus de révision de gestion du MPO](/fr/publication-process/management-review-process.html)
+- [Processus de révision de gestion tiers](/fr/publication-process/management-review-process.html)
 - [Paramètres du compte](/fr/account/settings.html)
 - [Contacter le support](/fr/account/contact-support.html)
 

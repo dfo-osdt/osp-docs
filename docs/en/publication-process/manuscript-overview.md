@@ -23,7 +23,7 @@ The Open Science Portal supports two main types of publications, each with their
 - DFO is the primary publisher
 - The work was conducted primarily within DFO or under DFO funding
 
-[→ Start with DFO Manuscript Record Form](/en/dfo/manuscript-record-form.html)
+[→ Start with DFO Manuscript Record Form](/en/publication-process/manuscript-record-form.html)
 
 ### Third-Party Publications
 
@@ -40,7 +40,7 @@ The Open Science Portal supports two main types of publications, each with their
 - DFO is not the publisher, but DFO authors or resources are involved
 - The work involves DFO researchers but will be published elsewhere
 
-[→ Start with Third-Party Manuscript Record Form](/en/third-party/manuscript-record-form.html)
+[→ Start with Third-Party Manuscript Record Form](/en/publication-process/manuscript-record-form.html)
 
 ## Common Workflow Steps
 
@@ -60,7 +60,7 @@ If you're unsure which publication type applies to your manuscript:
 
 ## Quick Navigation
 
-- [DFO Manuscript Record Form](/en/dfo/manuscript-record-form.html)
-- [DFO Management Review Process](/en/dfo/management-review-process.html)
-- [Third-Party Manuscript Record Form](/en/third-party/manuscript-record-form.html)
-- [Third-Party Management Review Process](/en/third-party/management-review-process.html)
+- [DFO Manuscript Record Form](/en/publication-process/manuscript-record-form.html)
+- [DFO Management Review Process](/en/publication-process/management-review-process.html)
+- [Third-Party Manuscript Record Form](/en/publication-process/manuscript-record-form.html)
+- [Third-Party Management Review Process](/en/publication-process/management-review-process.html)
