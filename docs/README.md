@@ -6,7 +6,7 @@ heroText: Open Science Portal User Guide
 tagline: Complete documentation for researchers, authors, and managers
 actions:
     - text: GET STARTED
-      link: /en/welcome/introduction.html
+      link: /en/general/introduction.html
       type: primary
 
 footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada

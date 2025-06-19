@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Publications Overview
+title: Publishing Process Overview
 description: Overview of publication types and workflows in the Open Science Portal
 ---
 

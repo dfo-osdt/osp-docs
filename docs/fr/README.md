@@ -6,7 +6,7 @@ heroText: Guide d'utilisation du Portail de la Science Ouverte
 tagline: Documentation complète pour les chercheurs, auteurs et gestionnaires
 actions:
     - text: COMMENCER
-      link: /fr/welcome/introduction.html
+      link: /fr/general/introduction.html
       type: primary
 
 footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous licence du gouvernement ouvert – Canada

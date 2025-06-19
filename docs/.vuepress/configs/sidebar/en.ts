@@ -8,58 +8,36 @@ export const sidebarEn: SidebarOptions =
       {
         text: 'Getting Started',
         children: [
-          '/en/welcome/introduction.md',
-          '/en/welcome/getting-started.md',
+          '/en/general/introduction.md',
+          '/en/general/getting-started.md',
         ],
       },
       {
-        text: 'Portal Navigation & Features',
+        text: 'Portal Features',
         children: [
-          '/en/welcome/portal-navigation.md',
-          '/en/welcome/author-explorer.md',
-          '/en/welcome/publication-explorer.md',
-          '/en/welcome/settings.md',
-          '/en/welcome/orcid.md',
+          '/en/general/portal-navigation.md',
+          '/en/features/author-explorer.md',
+          '/en/features/publication-explorer.md',
+          '/en/general/orcid.md',
+          '/en/general/settings.md',
         ],
       },
       {
-        text: 'Working with Publications',
+        text: 'Publishing Process',
         children: [
-          '/en/user-guide/publications-overview.md',
-          '/en/user-guide/management-review-overview.md',
-          {
-            text: 'DFO Publications',
-            children: [
-              '/en/dfo/manuscript-record-form.md',
-              '/en/dfo/management-review-process.md',
-              '/en/dfo/publications.md',
-            ],
-          },
-          {
-            text: 'Third-Party Publications',
-            children: [
-              '/en/third-party/manuscript-record-form.md',
-              '/en/third-party/management-review-process.md',
-              '/en/third-party/publications.md',
-            ],
-          },
-          {
-            text: 'Preprint Publications',
-            children: [
-              '/en/preprint/manuscript-record-form.md',
-              '/en/preprint/management-review-process.md',
-              '/en/preprint/publications.md',
-            ],
-          },
+          '/en/publication-process/manuscript-overview.md',
+          '/en/publication-process/manuscript-record-form.md',
+          '/en/publication-process/management-review-overview.md',
+          '/en/publication-process/management-review-process.md',
+          '/en/publication-process/publications.md',
         ],
       },
       {
         text: 'Support & Resources',
         children: [
-          '/en/account/troubleshooting.md',
-          '/en/account/contact-support.md',
-          '/en/account/appendices.md',
-          '/en/welcome/acknowledgments.md',
+          '/en/general/troubleshooting.md',
+          '/en/general/contact-support.md',
+          '/en/general/appendices.md',
         ],
       }
     ]
