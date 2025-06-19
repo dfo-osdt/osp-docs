@@ -17,8 +17,9 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
     <h3>👩‍🔬 For Authors</h3>
     <p>Submit your manuscripts with ease:</p>
     <ul>
-      <li><router-link to="/en/dfo/manuscript-record-form.html">DFO Publications</router-link> - Technical reports, research documents, and advisory documents</li>
-      <li><router-link to="/en/third-party/manuscript-record-form.html">Third-Party Publications</router-link> - Journal articles, conference papers, and external publications</li>
+      <li><router-link to="/en/general/getting-started.html">Getting Started</router-link> - System requirements and initial setup</li>
+      <li><router-link to="/en/publication-process/manuscript-record-form.html">Manuscript Record Form</router-link> - Create and manage your manuscript submissions</li>
+      <li><router-link to="/en/features/author-explorer.html">Author Explorer</router-link> - Find and connect with other researchers</li>
     </ul>
   </div>
 
@@ -26,18 +27,9 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
     <h3>👨‍💼 For Managers</h3>
     <p>Review and approve manuscript submissions:</p>
     <ul>
-      <li><router-link to="/en/user-guide/management-review-overview.html">Management Review Guide</router-link> - Complete process for reviewing both publication types</li>
-      <li><router-link to="/en/dfo/management-review-process.html">DFO Review Process</router-link> - Specific steps for DFO publications</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>📚 Complete Documentation</h3>
-    <p>New to the portal? Get comprehensive guidance:</p>
-    <ul>
-      <li><router-link to="/en/welcome/introduction.html">Introduction</router-link> - Overview and getting started</li>
-      <li><router-link to="/en/welcome/portal-navigation.html">Portal Navigation</router-link> - Learn to use the interface</li>
-      <li><router-link to="/en/user-guide/publications-overview.html">Publications Overview</router-link> - Understand publication workflows</li>
+      <li><router-link to="/en/publication-process/management-review-overview.html">Management Review Overview</router-link> - Complete guide for reviewing submissions</li>
+      <li><router-link to="/en/publication-process/management-review-process.html">Management Review Process</router-link> - Step-by-step review procedures</li>
+      <li><router-link to="/en/features/publication-explorer.html">Publication Explorer</router-link> - Browse and manage publications</li>
     </ul>
   </div>
 </div>
@@ -45,7 +37,7 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
 <style>
 .custom-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin: 2rem 0;
   padding: 0 2rem;

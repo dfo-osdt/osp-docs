@@ -17,8 +17,9 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
     <h3>👩‍🔬 Pour les auteurs</h3>
     <p>Soumettez vos manuscrits facilement :</p>
     <ul>
-      <li><router-link to="/fr/dfo/manuscript-record-form.html">Publications du MPO</router-link> - Rapports techniques, documents de recherche et documents consultatifs</li>
-      <li><router-link to="/fr/third-party/manuscript-record-form.html">Publications tiers</router-link> - Articles de revue, communications de conférence et publications externes</li>
+      <li><router-link to="/fr/general/getting-started.html">Commencer</router-link> - Exigences du système et configuration initiale</li>
+      <li><router-link to="/fr/publication-process/manuscript-record-form.html">Formulaire d'enregistrement de manuscrit</router-link> - Créer et gérer vos soumissions de manuscrits</li>
+      <li><router-link to="/fr/features/author-explorer.html">Explorateur d'auteurs</router-link> - Trouver et se connecter avec d'autres chercheurs</li>
     </ul>
   </div>
 
@@ -26,26 +27,18 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
     <h3>👨‍💼 Pour les gestionnaires</h3>
     <p>Révisez et approuvez les soumissions de manuscrits :</p>
     <ul>
-      <li><router-link to="/fr/user-guide/management-review-overview.html">Guide de révision de gestion</router-link> - Processus complet pour réviser les deux types de publications</li>
-      <li><router-link to="/fr/dfo/management-review-process.html">Processus de révision MPO</router-link> - Étapes spécifiques pour les publications du MPO</li>
+      <li><router-link to="/fr/publication-process/management-review-overview.html">Aperçu de l'examen de gestion</router-link> - Guide complet pour examiner les soumissions</li>
+      <li><router-link to="/fr/publication-process/management-review-process.html">Processus d'examen de gestion</router-link> - Procédures d'examen étape par étape</li>
+      <li><router-link to="/fr/features/publication-explorer.html">Explorateur de publications</router-link> - Parcourir et gérer les publications</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>📚 Documentation complète</h3>
-    <p>Nouveau sur le portail? Obtenez des conseils complets :</p>
-    <ul>
-      <li><router-link to="/fr/welcome/introduction.html">Introduction</router-link> - Aperçu et démarrage</li>
-      <li><router-link to="/fr/welcome/portal-navigation.html">Navigation du portail</router-link> - Apprenez à utiliser l'interface</li>
-      <li><router-link to="/fr/user-guide/publications-overview.html">Aperçu des publications</router-link> - Comprendre les flux de travail de publication</li>
-    </ul>
-  </div>
 </div>
 
 <style>
 .custom-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin: 2rem 0;
   padding: 0 2rem;
