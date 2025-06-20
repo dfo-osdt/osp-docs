@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Getting Started
-description: How to get started with the OSP 
+description: How to get started with the OSP
 ---
 
 # Getting Started
@@ -10,7 +10,9 @@ description: How to get started with the OSP
 
 ### Site Address (URL)
 
-The OSP web application can be accessed at the following web address:
+::: important
+Make sure you are connected to the DFO VPN if you are working remotely. The OSP is only accessible from within the DFO network or when connected to the VPN.
+:::
 
 [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca)
 
@@ -20,7 +22,7 @@ The OSP is optimized for all major browsers (Chrome, Firefox, Edge, and Safari),
 
 ## Logging In
 
-Accessing the OSP is done using your Microsoft-DFO Work Account. If this is your first time logging in, an account will automatically be created for you.
+Authentication to the OSP is done using your Microsoft-DFO Work Account. If this is your first time logging in, an account will automatically be created for you using your DFO profile.
 
 To log in to the OSP:
 
@@ -52,7 +54,7 @@ If any changes are made, make sure to save them by clicking the **Save button** 
 
 ## Use the Application
 
-You are now ready to use the application! Check out the [Portal Navigation](/en/welcome/portal-navigation) for more information on how to navigate the application!
+You are now ready to use the application! Check out the [Portal Navigation](./portal-navigation.md) for more information on how to navigate the application!
 
 ## Logging Out
 
@@ -61,4 +63,4 @@ To log out of the Open Science Portal application:
 1. Click on the **User Menu button** in the top-right corner of the screen.
 2. Click on the **Logout button**.
 
-You are now successfully logged out of the Open Science Portal application.
+You are now successfully logged out of the Open Science Portal application. Note that long periods of inactivity will log you out automatically.

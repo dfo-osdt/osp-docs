@@ -10,7 +10,9 @@ description: Comment démarrer avec le PSO
 
 ### Adresse du site (URL)
 
-L'application web OSP est accessible à l'adresse suivante :
+::: important
+Assurez-vous d'être connecté au VPN du MPO si vous travaillez à distance. Le PSO n'est accessible que depuis le réseau du MPO ou lorsque vous êtes connecté au VPN.
+:::
 
 [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca)
 
@@ -24,15 +26,14 @@ L’accès au PSO se fait à l’aide de votre compte Microsoft-MPO de travail. 
 
 Pour vous connecter au PSO :
 
-1. Rendez-vous sur le PSO : [https://osp-pso.ent.dfo-mpo.gc.ca](https://osp-pso.ent.dfo-mpo.gc.ca).  
-2. Cliquez sur **CONNEXION**.  
-3. Sélectionnez **Se connecter avec Microsoft - Compte de travail du MPO**.  
+1. Rendez-vous sur le PSO : [https://osp-pso.ent.dfo-mpo.gc.ca](https://osp-pso.ent.dfo-mpo.gc.ca).
+2. Cliquez sur **CONNEXION**.
+3. Sélectionnez **Se connecter avec Microsoft - Compte de travail du MPO**.
 4. Suivez les instructions pour vous connecter à l’aide de votre compte Microsoft-MPO de travail.
 
 ![Page de Connexion](/images/welcome/login_fr.png)
 
-Si vous rencontrez des problèmes lors de la connexion, veuillez contacter l’[Équipe de soutien du
-PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Si vous rencontrez des problèmes lors de la connexion, veuillez contacter l’[Équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 ## Mise à jour des informations utilisateur
 
@@ -40,10 +41,6 @@ Pour accéder au menu des informations utilisateur :
 
 1. Cliquez sur le bouton circulaire **Menu utilisateur** contenant vos initiales situé dans le coin supérieur droit de l'écran.
 2. Cliquez sur le **bouton Paramètres**.
-
-::: warning
-Si votre compte a été créé par une autre personne, il est très important que vous vérifiiez les informations de votre profil utilisateur et de votre profil d'auteur, puis [mettez à jour votre mot de passe](/fr/account/account-security).
-:::
 
 ### Profil utilisateur
 
@@ -66,4 +63,4 @@ Pour vous déconnecter de l'application Open Science Portal :
 1. Cliquez sur le **bouton Menu utilisateur** dans le coin supérieur droit de l'écran.
 2. Cliquez sur le **bouton Déconnexion**.
 
-Vous êtes maintenant déconnecté(e) de l'application Open Science Portal.
+Vous êtes maintenant déconnecté(e) de l'application Open Science Portal. Notez que de longues périodes d'inactivité entraîneront une déconnexion automatique.
