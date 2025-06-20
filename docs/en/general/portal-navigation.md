@@ -8,9 +8,17 @@ description:
 
 ## Purpose
 
-The Open Science Portal (OSP) was developed to digitize the Manuscript Record Form (MRF) creation, review, and management process. The OSP adheres to the [National Policy for Science Publications](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-eng.html) and supports DFO's commitment to Open Science.
+The Open Science Portal (OSP) aims to enhance Fisheries and Oceans Canada's
+(DFO) scientific knowledge mobilization by adhering to Canada's Roadmap for Open
+Science. The primary objective is to create an adaptable portal that simplifies
+the publication process, ensures research traceability, promotes open
+communication, and fosters collaboration. This portal empowers DFO science staff
+by providing a platform to track, discover, and promote scientific research and
+expertise within the department.
 
-Additional features of the OSP include storage and sharing of MRFs, publication status tracking, author expertise profiles, and ORCID integration.
+Additional features of the OSP include storage and sharing of Manuscript Record
+Forms (MRFs), publication status tracking, author expertise profiles, and ORCID
+integration.
 
 ## Navigating the Dashboard
 
@@ -18,23 +26,32 @@ Additional features of the OSP include storage and sharing of MRFs, publication 
 
 ### Dashboard
 
-The **Dashboard page** is the main hub of the OSP. To access the **Dashboard page** at any time, select the **Dashboard button** from the left-side menu. Refer to the **Square Symbol** in the **Dashboard figure**.
+The **Dashboard page** is the main hub of the OSP and the page you will be
+redirected to following your sucessful authentication. To access the **Dashboard
+page** at any time, select the **Dashboard button** from the left-side menu.
+Refer to the **Square Symbol** in the **Dashboard figure**.
 
-### My Manuscripts Page
+### Navigation Menu - "My" Pages versus "Explore" Pages
+
+The side menu is broken into two primary sections. The "My" pages are for items
+that relate directly to your account, while the "Explore" pages allow you to see
+all public items of the portal, such as publications, authors, and preprints.
+
+#### My Manuscripts Page
 
 The **My Manuscripts page** is where you can manage new and in-progress Manuscript Record Forms (MRF).
 
-### My Publications
+#### My Publications
 
 The **My Publications page** is where you can manage pending or published publications.
 
-### My Management Reviews
+#### My Management Reviews
 
 The **My Management Reviews page** is where you can view manuscripts you have been asked to review.
 
-### User Menu Button
+#### User Menu Button
 
-The **User Menu button** opens the menu where you can access your **[Account Settings](/en/account/account-customization)**, return to the dashboard, and **Logout**. To open the **User Menu**, select the **User Menu button** from the top-right navigation bar.
+The **User Menu button** opens the menu where you can access your **[Account Settings](./settings.md)**, return to the dashboard, and **Logout**. To open the **User Menu**, select the **User Menu button** from the top-right navigation bar.
 
 ### Language Toggle Button
 
