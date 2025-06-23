@@ -6,6 +6,17 @@ description:
 
 # Manuscript Record Form
 
+::: tip
+**Saving the Manuscript**
+
+To ensure your progress is not lost, save your manuscript frequently. You can save your progress by:
+
+- Clicking the circular **Floppy-Disk** button located at the bottom-right of the page, or
+- Scrolling to the bottom of the form and clicking the **Save** button.
+
+Once your progress has been saved, it is safe to log out of the OSP.
+:::
+
 ## My Manuscripts Page
 
 Authors can access the manuscript record page in multiple ways. This walkthrough covers one of those methods:
@@ -24,6 +35,29 @@ On the **My Manuscripts** page, you will see a list of all manuscript records yo
 3. Click the **Title** field and type in the name of your manuscript.
 4. Click the **DFO Regions** selection field, select the **Lead Region**, and click the **Continue** button.
 5. Click the **Create** button to create the manuscript. Use **Back** to correct information or **Cancel** to cancel the creation process.
+
+## Navigating the MRF Form
+
+![MRF Form Navigation](/images/publication-process/mrf_overview.png)
+
+The Manuscript Record Form (MRF) is organized into several sections, each accessible from the left-side navigation menu. As you work through the form, you can move between sections by clicking the corresponding menu items. Required fields are marked with an asterisk (*), and you must complete all required fields before submitting the form for review.
+
+Key navigation features include:
+
+- **Section Menu:** Use the left sidebar to quickly jump to different sections, such as General Information, Authors, Peer Reviewers, and Funding Sources.
+- **Progress Indicators:** Sections with incomplete required fields are highlighted, helping you track your progress.
+- **Save Options:** You can save your progress at any time by clicking the circular **Floppy-Disk** button at the bottom-right or the **Save** button at the bottom of the form.
+- **Form Status:** The top-right corner displays the current status of your manuscript (e.g., Draft, In Review).
+
+Navigating the form efficiently ensures that all necessary information is provided and helps streamline the submission process.
+
+### Section Menu
+
+1. **Form**: This is the primary page of the MRF. It contains the form and submission system.
+2. **Management Review**: This [page](./management-review-process.md) shows the current status of the management review of the MRF.
+3. **Manuscript Progress**: This [page](./manuscript-record-form.md#manuscript-progress) shows the workflow and current progress of this MRF.
+4. **Sharing**: This [page](./manuscript-record-form.md#sharing-a-mrf) allows you to share the MRF with others. Note that authors and all management review users will have access to the MRF and do not need to be added here.
+5. **Publication**: This takes you to the associated [publication](./publications.md) if it exists. The publication will be created once you flag that your manustript was accepted for publication.
 
 ## Populating an MRF
 
@@ -51,6 +85,11 @@ To upload a PDF copy of your manuscript:
 
 #### Adding Author(s) and Affiliation(s)
 
+::: tip
+To speed up filling the form, DFO is preselected as the default affiliation. Please
+make sure to change it when creating authors with different affiliations.
+:::
+
 1. Click the **+ button**.
 2. Click the **Author** field.
 3. Begin typing the name of the author or affiliate you want to add.
@@ -71,12 +110,29 @@ To update the **Corresponding Author** status of an added author or affiliate:
 
 1. Click their name.
 2. Toggle the ***Corresponding Author*** slider to the desired state.
+::: important
+For a manuscript record, the corresponding author is someone who can answer questions
+related to the manuscript at DFO. It won't necessarily be the same author you intend to make
+the corresponding author for the official publication.
+:::
 
 #### Removing an Author or Affiliate
 
 To remove an author or affiliate:
 
 Click the **X icon** on the right side of the author's name.
+
+
+### Peer Reviewers
+
+::: tip
+This section is only required and visisble for **DFO publications** and is
+optional for data reports and contactor reports.
+:::
+
+This section works in the same way as the authors section but you select or
+create the scientist that have peer-reviewed your DFO manuscipt. At least two
+subject matter experts must have conducted a peer review of the report.
 
 ### General Information
 
@@ -124,22 +180,41 @@ After adding or updating the abstract, save your changes by either:
 The plain language summary of your manuscript should be written for an 8th-grade reading level to ensure broader
 comprehension.
 
+##### Source Language of the PLS
+
+Select whether you want to provide a PLS in either English or French. You may choose to provide it
+in both languages but only the language you choose here is required to submit for a management review.
+
 ##### Generate a Plain Language Summary Draft
 
-You can generate a draft Plain Language Summary (PLS) based on your uploaded manuscript. This tool operates locally within the DFO network, ensuring that any information sent to it **does not leave the DFO intranet**.
+You can generate a draft Plain Language Summary (PLS) based on your abstract and the chosen language. This tool operates locally within the DFO network, ensuring that any information sent to it **does not leave the DFO intranet**.
 
+::: note
 The tool utilizes an Artificial Intelligence (AI) Large Language Model (LLM) called [Llama 3.2](https://www.llama.com/), developed by Meta. Llama 3.2 is specifically designed for use in a closed network environment and therefore **cannot transmit any information to Meta or outside the DFO intranet**.
 
 When using AI tools within a Government of Canada network, it is recommended that you review the [Treasury Board of Canada Secretariat guidelines](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html) on the responsible use of Artificial Intelligence Language Models.
+:::
 
 :::tip
-The **Generate PLS** feature helps create a draft based on your uploaded manuscript. You can generate a PLS multiple times to refine your draft.
+The **Generate PLS** feature helps create a draft based on your uploaded manuscript. You can generate a PLS multiple times to refine your draft. Once you're satisfied with the PLS, you can use the **Translate PLS** feature to translate it in the other official language.
 :::
 
 After adding the Plain Language Summary, save your changes by either:
 
 - Clicking the **Floppy-Disk icon** at the bottom-right of the page, or
 - Scrolling to the bottom of the page and clicking the **Save** button.
+
+##### Author Approval
+
+Once the PLS is complete, the author must confirm that they have reviewed and
+approve of the plain language summary.
+
+::: important
+If you are completing the form on behalf of the author, make sure that they
+have reviewed the PLS prior to checking this confirmation. All authors have
+access to their own MRF by logging-in to the portal.
+:::
+
 
 #### Functional Area (Required)
 
@@ -169,6 +244,28 @@ If you select **Yes**, or if you wish to add comments regarding the manuscript's
 
 - Clicking the **Floppy-Disk icon** at the bottom-right of the page, or
 - Scrolling to the bottom of the page and clicking the **Save** button.
+
+##### Report Licensing
+
+::: tip
+This section is only visible for DFO publication
+:::
+
+DFO is committed to the "Open by Design and by Default" principle of Open Science, ensuring that all DFO publications are made available under the latest version of the [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada) whenever possible. The Open Government Licence - Canada should not be applied if there are conflicting licensing obligations.
+
+To complete this section:
+
+1. Select **Yes** if this report should be licensed under the Open Government Licence - Canada.
+2. Select **No** if the Open Government Licence cannot be applied. If you select **No**, provide an explanation in the text box explaining why the Open Government Licence cannot be applied to your report.
+
+##### Open Publication
+
+All publications must follow the "Open by Design and by Default" approach. Unless an exception applies, your publications must be freely and publicly accessible upon release. Exceptions may include situations where information, data, or code are sensitive for reasons of research security, proprietary interests, third-party restrictions, or are governed by legal, ethical, or confidentiality agreements.
+
+To complete this section:
+
+1. Select **Yes** if you intend to make your publication open access (e.g., by publishing in an open access journal, selecting open access options in a hybrid journal, or depositing in an open repository).
+2. Select **No** if you do not intend to make your publication open access. If you select **No**, provide your rationale in the text box explaining why open access cannot be applied to your publication.
 
 #### Funding Sources (Optional)
 
@@ -244,7 +341,13 @@ To view your manuscript's progress:
 
 ## Sharing a MRF
 
-You can share access to your Manuscript Record Form (MRF) with a peer, even if they are not a contributing author.
+::: tip
+By default all DFO authors and reviewers of the MRF can see and edit
+(depending on its status) the MRF
+so there is no need to share it with them.
+:::
+
+You can share access to your Manuscript Record Form (MRF) with a peer, such as and administrator or section head.
 When sharing your manuscript form, you can control their permissions, including view-only, edit, or delete access.
 Additionally, you can set an expiration date for the shared access. If no expiration date is set, you can revoke access at any time.
 
@@ -268,16 +371,26 @@ To share a manuscript with another user:
 
 ### Invite a User
 
-![Invite]()
+::: tip
+Inviting a user will search through the DFO active directory via the
+user's email. Be careful when selecting the user as some users have very
+similar emails.
+
+To help with this, we added the job description the user uses in active
+directory to the drop down items.
+:::
+
+![Invite](/images/publication-process/invite.png)
 
 To invite a user to the OSP,
 
 1. Click the **Can't find the user you're looking for? button**.
-2. Enter their First Name, Last Name, E-Mail, and Preferred Language.
+2. Enter their email.
+3. Pick the correct user from the drop down list.
 
-To check on the status of you user invitation please see [Sent Invitations](/en/general/settings#sent-invitations).
+To check on the status of your user invitation please see [Sent Invitations](/en/general/settings#sent-invitations).
 
-### Edit a Manuscript Share
+### Edit a Share permission
 
 To modify the permissions of an existing shared manuscript record:
 
@@ -285,7 +398,7 @@ To modify the permissions of an existing shared manuscript record:
 2. Update the desired sharing settings.
 3. Click the **SAVE button**.
 
-### Delete a Manuscript Share
+### Delete a Share permission
 
 To remove a shared manuscript record:
 
