@@ -17,7 +17,7 @@ Pour vous assurer que vos progrès ne soient pas perdus, enregistrez fréquemmen
 Une fois que vos progrès ont été enregistrés, vous pouvez vous déconnecter de l'OSP en toute sécurité.
 :::
 
-## Page Mes Manuscrits
+## Page Mon registre des manuscrits
 
 Les auteurs peuvent accéder à la page des enregistrements de manuscrit de plusieurs façons. Ce guide couvre l'une de ces méthodes :
 
@@ -36,7 +36,7 @@ Sur la page **Mes Manuscrits**, vous verrez une liste de tous les enregistrement
 4. Cliquez sur le champ de sélection **Régions DFO**, sélectionnez la **Région principale**, et cliquez sur le bouton **Continuer**.
 5. Cliquez sur le bouton **Créer** pour créer le manuscrit. Utilisez **Retour** pour corriger les informations ou **Annuler** pour annuler le processus de création.
 
-## Naviguer dans le formulaire MRF
+## Naviguer le formulaire MRF
 
 ![Navigation du formulaire MRF](/images/publication-process/mrf_overview_fr.png)
 
