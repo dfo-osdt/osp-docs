@@ -209,7 +209,7 @@ If your work is confirmed to be published:
 
 1. Click the **MARK AS PUBLISHED button**.
 
-This will mark your publication as "Published" and make it viewable under the [Publication Explorer](/en/welcome/publication-explorer.md).
+This will mark your publication as "Published" and make it viewable under the [Publication Explorer](../features/publication-explorer.md).
 
 If you are updating a published record or awaiting publication confirmation:
 
