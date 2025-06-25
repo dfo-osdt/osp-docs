@@ -26,7 +26,7 @@ Authentication to the OSP is done using your Microsoft-DFO Work Account. If this
 
 To log in to the OSP:
 
-1. Go to the OSP: [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.gc.ca).
+1. Go to the OSP: [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
 2. Click **LOGIN**.
 3. Select **Sign-In With Microsoft - DFO Work Account**.
 4. Follow the prompts to sign in with your Microsoft-DFO Work Account.

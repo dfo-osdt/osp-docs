@@ -1,8 +1,4 @@
-[Français](#Site-de-## License
-
-This documentation is protected by [Government of Canada Crown Copyright](LICENSE) and is licensed under the [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada).
-
-You are free to use, reproduce, and distribute this documentation, in whole or in part, for any purpose, commercial or non-commercial, provided that you follow the terms of the Open Government Licence.on-utilisateur-du-Portail-de-Science-Ouverte)
+[Français](#site-de-documentation-utilisateur-du-portail-de-la-science-ouverte)
 
 # Open Science Portal User Documentation Site
 
@@ -103,7 +99,7 @@ The commit message should be structured as follows:
 ]
 ```
 
-## Aditional Resources
+## Additional Resources
 
 - [**VuePress 2**](https://v2.vuepress.vuejs.org/) - A static site generator powered by Vue.js 3, used for building the documentation site.
 - [**Vue.js 3**](https://vuejs.org/) - The progressive JavaScript framework that powers VuePress 2.

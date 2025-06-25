@@ -30,7 +30,7 @@ The email associated with your account will appear in gray and cannot be edited.
 The default language for your account will appear in this box. If you would like to change your default language:
 
 1. Click on the **Default Language Box** to expand the dropdown menu.
-p2. Select the language you desire.
+2. Select the language you desire.
 3. Click the **Save Button** to save the changes.
 
 ### User Roles
