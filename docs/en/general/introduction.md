@@ -25,7 +25,7 @@ This comprehensive user guide is organized into logical sections to help you nav
 
 New to the OSP? Start with [Getting Started](getting-started.md) to set up your account and learn the basics.
 
-Need to create and submit a manuscritpt for management review? Go to [Manuscript Overview](../publication-process/manuscript-overview.md) to determine which type of publication workflow you need.
+Need to create and submit a manuscript for management review? Go to [Manuscript Overview](../publication-process/manuscript-overview.md) to determine which type of publication workflow you need.
 
 ## Audience
 

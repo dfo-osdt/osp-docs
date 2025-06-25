@@ -26,7 +26,7 @@ L’accès au PSO se fait à l’aide de votre compte Microsoft-MPO de travail. 
 
 Pour vous connecter au PSO :
 
-1. Rendez-vous sur le PSO : [https://osp-pso.ent.dfo-mpo.gc.ca](https://osp-pso.ent.dfo-mpo.gc.ca).
+1. Rendez-vous sur le PSO : [https://osp-pso.ent.dfo-mpo.ca](https://osp-pso.ent.dfo-mpo.ca).
 2. Cliquez sur **CONNEXION**.
 3. Sélectionnez **Se connecter avec Microsoft - Compte de travail du MPO**.
 4. Suivez les instructions pour vous connecter à l’aide de votre compte Microsoft-MPO de travail.

@@ -114,7 +114,7 @@ The available management decisions are:
   - You have reviewed this manuscript and are referring it to the next manager (usually an RDS or DG) for review.
   - This step stops the 10-working-day timeline for third-party and preprint manuscripts.
   ::: tip
-  To help speed up the review and increase transparency, always insure to
+  To help speed up the review and increase transparency, always ensure to
   include clear notes and recommendations for the next manager. This is
   especially important if you think that a revision is required.
   :::
@@ -139,13 +139,13 @@ To submit a Management Review:
    - If the manager is in the database, their name will appear. Click their name to select them.
    - If their name does not appear, follow these steps to invite them to the OSP:
      1. Click the **Can't find the user you're looking for?** button.
-     2. Enter the manager's **Email** and select the appropirate user from the DFO directory.
+     2. Enter the manager's **Email** and select the appropriate user from the DFO directory.
      3. Click the **INVITE** button to invite them to the OSP.
 4. Click the **NEXT** button to confirm the selected manager.
 5. Select **Yes** and click the **SUBMIT** button.
 
 ::: info
-If you are the last reviwer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to
+If you are the last reviewer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to
 inform our team and allows you to get a notification when the manuscript is marked as accepted or published by the author so that your region can
 consider its addition to the binder.
 :::

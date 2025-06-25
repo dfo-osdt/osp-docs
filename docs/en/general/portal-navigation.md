@@ -27,7 +27,7 @@ integration.
 ### Dashboard
 
 The **Dashboard page** is the main hub of the OSP and the page you will be
-redirected to following your sucessful authentication. To access the **Dashboard
+redirected to following your successful authentication. To access the **Dashboard
 page** at any time, select the **Dashboard button** from the left-side menu.
 Refer to the **Square Symbol** in the **Dashboard figure**.
 
