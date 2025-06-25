@@ -9,10 +9,17 @@ description:
 ## My Management Reviews Page
 
 You can check the status of manuscripts you have reviewed or have been selected to review on the **My Management Reviews** page.
+
 To access the **My Management Reviews** page:
 
 1. Expand the page selection menu by hovering your mouse over the left-sidebar menu.
 2. Select **My Management Reviews**.
+
+::: note
+In cases where the review involves revisions to the manuscript, you may notice
+that the same manuscript appears for each step of that review. This is because
+each step has its own tracked review outcome.
+:::
 
 On the **My Management Reviews** page, you will see a list of all manuscripts awaiting your review. Click on a pending Manuscript Record Form (MRF) to begin reviewing it.
 
@@ -22,16 +29,41 @@ On the **My Management Reviews** page, you will see a list of all manuscripts aw
 
 ![Management Review](/images/publication-process/management_review.png)
 
-Your role as the reviewing manager is to ensure that:
+### Your role as the reviewing manager
+Reviews the manuscript for compliance with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs) and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
 
-1. The manuscript complies with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs), and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
-2. The Regional Director of Science (RDS) and Regional DFO Communications are informed if the manuscript contains content with potential public interest.
+Identifies when a manuscript is of potential public interest for the sole purpose of informing RDS and DFO regional Communications. Examples of topics of potential public interest could include subjects related to current events, or of stakeholder interest. These can include interesting stories to show case DFO research or studies that are more controversial. The inclusion of potentially sensitive material will never prevent the publication of a manuscript in any way.
 
-:::warning
-Science management commits to a 10-working-day turnaround for manuscript sign-off. If managers do not respond with approval within 10 working days, authors may submit their manuscripts to the publisher.
+Authors may submit their publication to the third-party journal for peer review after the manager has deemed the publication to be in alignment with the relevant legislation, policies and directives, or if no feedback was received from the management review within 10 working days. Division Managers, National Directors, Regional Directors of Science and National Directors General may perform the management review.
+
+For more information please refer to the [Fisheries and Oceans Canada National Policy for Science Publications](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-eng.html).
+
+### 10-working-day timeline
+
+For convenience, the portal calculates the 10-working-day timeline where applicable. However, the portal does not automatically review MRFs past this time and managers are still expected to complete the review regardless of whether the paper was submitted.
+
+::: tabs
+
+@tab Third-Party Publications and Preprints
+
+If a manager identifies issues related to the relevant legislation, policies, and directives, they must communicate with the author(s) to request revisions or refer the publication to the respective Regional Director of Science or National Director General, and the 10-working-day timeline is paused.
+
+Example of paused timeline:
+
+- A division manager sends the manuscript to an RDS or DG.
+- A manager asks the author for revisions based on their review. In this case, the 10-working-day timeline restarts when the author replies.
+
+@tab DFO Publications
+
+There is no 10-working-day timeline for DFO publications. As per the policy, managers are to reply in a timely manner.
+
 :::
 
 ### Review the Manuscript Form
+
+::: tip
+While you are the current reviewer, you are able to edit the MRF form as required.
+:::
 
 To review the Manuscript Form:
 
@@ -55,48 +87,68 @@ If you intend to forward or reassign the management review to another manager, o
 
 If you intend to approve and complete the management review, comments are not required.
 
-## Management Decision Actions
+## Management Review Actions
 
-![Management Decisions](/images/publication-process/decision.png)
+::: important
+
+- For DFO publications, only an RDS, DG or user that has been assigned the `director` role within the portal may complete the management review.
+- A manager comment is required for all actions other than to `complete` the management review.
+
+:::
+
+
+![Management Review](/images/publication-process/decision.png)
 
 The available management decisions are:
 
-- **Approve and Complete**
-  - You approve this manuscript for publication and are ending the management review process.
+- **Complete**
+  ::: info
+  For DFO Publications, only a director can perform this action.
+  :::
+  - You've reviewed  this manuscript for publication and are ending the management review process.
 
-- **Approve and Forward**
-  - You recommend approval of this manuscript for publication and are forwarding it to the next reviewer.
-
-- **Flag for Follow-up**
+- **Revision required**
   - You flag management review comments that the author should address before providing your approval.
 
-- **Withhold and Complete the review process** (**Regional Director of Science or Director General ONLY**)
-  - You withhold this manuscript from publication and end the management review process. Only an RDS or DG can make this decision.
-
-- **Withhold and Forward**
-  - You recommend this manuscript be withheld from publication and forward it to a higher-level manager.
+- **Refer to next manager**
+  - You have reviewed this manuscript and are referring it to the next manager (usually an RDS or DG) for review.
+  - This step stops the 10-working-day timeline for third-party and preprint manuscripts.
+  ::: tip
+  To help speed up the review and increase transparency, always insure to
+  include clear notes and recommendations for the next manager. This is
+  especially important if you think that a revision is required.
+  :::
 
 - **Reassign**
   - You are not the appropriate manager to review this manuscript and reassign the review to the correct manager without
-  - making a recommendation.
+  ::: tip
+  If you are an author who has mistakenly sent the manuscript for review to the
+  wrong recipient, you can also contact the portal team for help.
+  :::
 
-### Submitting a Review Decision
+### Submitting a Review
 
-After reviewing the Manuscript Record and providing any necessary comments, you can submit your review decision.
+After reviewing the Manuscript Record and providing any necessary comments, you can submit your review.
 
-To submit a Management Review Decision:
+To submit a Management Review:
 
-1. Click the **SUBMIT DECISION** button.
+1. Click the **SUBMIT** button.
 2. Select the decision you wish to make and click the **NEXT** button.
 3. If you are forwarding the management review to another manager:
    - Click the **Next Management Reviewer** search box and type the name of the division manager.
    - If the manager is in the database, their name will appear. Click their name to select them.
    - If their name does not appear, follow these steps to invite them to the OSP:
      1. Click the **Can't find the user you're looking for?** button.
-     2. Enter the manager's **First Name**, **Last Name**, **Email**, and **Preferred Language**.
+     2. Enter the manager's **Email** and select the appropirate user from the DFO directory.
      3. Click the **INVITE** button to invite them to the OSP.
 4. Click the **NEXT** button to confirm the selected manager.
 5. Select **Yes** and click the **SUBMIT** button.
+
+::: info
+If you are the last reviwer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to
+inform our team and allows you to get a notification when the manuscript is marked as accepted or published by the author so that your region can
+consider its addition to the binder.
+:::
 
 ![Submit Decision](/images/publication-process/submit_decision.png)
 

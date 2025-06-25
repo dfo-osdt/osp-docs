@@ -27,7 +27,6 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
     <h3>👨‍💼 For Managers</h3>
     <p>Review and approve manuscript submissions:</p>
     <ul>
-      <li><router-link to="/en/publication-process/management-review-overview.html">Management Review Overview</router-link> - Complete guide for reviewing submissions</li>
       <li><router-link to="/en/publication-process/management-review-process.html">Management Review Process</router-link> - Step-by-step review procedures</li>
       <li><router-link to="/en/features/publication-explorer.html">Publication Explorer</router-link> - Browse and manage publications</li>
     </ul>

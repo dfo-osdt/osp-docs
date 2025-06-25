@@ -27,7 +27,6 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
     <h3>👨‍💼 Pour les gestionnaires</h3>
     <p>Révisez et approuvez les soumissions de manuscrits :</p>
     <ul>
-      <li><router-link to="/fr/publication-process/management-review-overview.html">Aperçu de l'examen de gestion</router-link> - Guide complet pour examiner les soumissions</li>
       <li><router-link to="/fr/publication-process/management-review-process.html">Processus d'examen de gestion</router-link> - Procédures d'examen étape par étape</li>
       <li><router-link to="/fr/features/publication-explorer.html">Explorateur de publications</router-link> - Parcourir et gérer les publications</li>
     </ul>

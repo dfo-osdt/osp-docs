@@ -27,7 +27,6 @@ export const sidebarFr: SidebarOptions =
         children: [
           '/fr/publication-process/manuscript-overview.md',
           '/fr/publication-process/manuscript-record-form.md',
-          '/fr/publication-process/management-review-overview.md',
           '/fr/publication-process/management-review-process.md',
           '/fr/publication-process/publications.md',
         ],

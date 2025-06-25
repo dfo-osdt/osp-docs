@@ -1,102 +1,148 @@
 ---
 lang: fr-CA
-title: Processus d'examen de gestion
+title: Processus de revue de la direction
 description:
 ---
 
-# Processus de révision de gestion
+# Processus de revue de la direction
 
-## Ma page de révisions de gestion
+## Ma page de revue de la direction
 
-Vous pouvez vérifier l'état des manuscrits que vous avez examinés ou que vous avez été sélectionné pour examiner sur la page **Mes révisions de gestion**.
-Pour accéder à la page **Mes révisions de gestion** :
+Vous pouvez vérifier l’état des manuscrits que vous avez examinés ou que vous avez été sélectionné pour examiner sur la page **Mes revues de direction**.
 
-1. Développez le menu de sélection de page en survolant le menu de la barre latérale gauche.
-2. Sélectionnez **Mes révisions de gestion**.
+Pour accéder à la page **Mes revue de direction** :
 
-Sur la page **Mes révisions de gestion**, vous verrez une liste de tous les manuscrits en attente de votre révision. Cliquez sur un **Manuscript Record Form (MRF)** en attente pour commencer votre révision.
+1. Passez la souris sur le menu latéral de gauche pour agrandir le menu de sélection de page.
+2. Sélectionnez **Mes revue de direction**.
 
-![Mes révisions de gestion](/images/publication-process/my_management_reviews_fr.png)
-
-## Examiner un MRF
-
-![Révision de gestion](/images/publication-process/management_review_fr.png)
-
-En tant que gestionnaire examinant, votre rôle est de vous assurer que :
-
-1. Le manuscrit respecte la [politique de propriété intellectuelle / loi sur le droit d'auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), la Loi sur la gestion des finances publiques (en ce qui concerne l'approbation des frais de publication), et le [Code de valeurs et d'éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
-2. Le directeur régional des sciences (RDS) et les communications régionales du MPO sont informés si le manuscrit contient du contenu susceptible d'intéresser le public.
-
-:::warning
-La direction scientifique s'engage à un délai de 10 jours ouvrables pour la validation des manuscrits. Si les gestionnaires ne répondent pas par approbation dans un délai de 10 jours ouvrables, les auteurs peuvent soumettre leurs manuscrits à l'éditeur.
+::: note
+Dans les cas où l’examen implique des révisions du manuscrit, vous pourriez remarquer que le même manuscrit apparaît à chaque étape de l’examen. C’est parce que chaque étape possède son propre résultat d’examen suivi.
 :::
 
-### Examiner le formulaire du manuscrit
+Sur la page **Mes examens de la direction**, vous verrez une liste de tous les manuscrits en attente de votre examen. Cliquez sur un Formulaire d’enregistrement de manuscrit (FEM) en attente pour commencer son examen.
 
-Pour examiner le formulaire du manuscrit :
+![Mes examens de la direction](/images/publication-process/my_management_reviews_fr.png)
 
-1. Cliquez sur le bouton **<- ALLER AU FORMULAIRE DU MANUSCRIT**.
-2. Cliquez sur l'**icône de téléchargement** pour télécharger une copie PDF du manuscrit.
-3. Apportez des modifications au formulaire du manuscrit. Pour plus de détails, voir [Compléter un MRF](/fr/publication-process/manuscript-record-form.md).
-4. Cliquez sur le bouton **Révision de gestion** dans le menu latéral pour revenir à la page de révision de gestion.
+## Révision par la gestion
 
-### Examiner la section "Intérêt public potentiel"
+![Examen de la direction](/images/publication-process/management_review_fr.png)
 
-Pour passer à la section "Intérêt public potentiel" du formulaire du manuscrit :
+### Votre rôle comme gestionnaire
+
+Vous examinez le manuscrit pour vérifier sa conformité à la [Politique sur la propriété intellectuelle/Loi sur le droit d’auteur](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-fra.htm), à la [Loi sur la protection des renseignements personnels](https://www.priv.gc.ca/fr/sujets-relatifs-a-la-protection-de-la-vie-privee/les-lois-sur-la-protection-de-la-vie-privee-au-canada/la-loi-sur-la-protection-des-renseignements-personnels/pa_brief/), à la Loi sur la gestion des finances publiques (concernant l’approbation des coûts de publication) et au [Code de valeurs et d’éthique du MPO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-fra.htm).
+
+Vous identifiez si un manuscrit présente un intérêt public potentiel dans le seul but d’en informer le SRD et les communications régionales du MPO. Les sujets d’intérêt public potentiel peuvent inclure des thèmes liés à l’actualité, aux préoccupations des parties prenantes, ou encore des études intéressantes ou controversées. La présence de contenu potentiellement sensible n’empêche jamais la publication du manuscrit.
+
+Les auteurs peuvent soumettre leur publication à une revue par les pairs d’un tiers une fois que le gestionnaire a déterminé que la publication est conforme aux lois, politiques et directives pertinentes, ou si aucun retour n’a été reçu dans les 10 jours ouvrables. Les gestionnaires de division, les directeurs nationaux, les directeurs régionaux des sciences et les directeurs généraux nationaux peuvent effectuer l’examen de la direction.
+
+Pour plus d’informations, consultez la [Politique nationale sur les publications scientifiques de Pêches et Océans Canada](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-fra.html).
+
+### Délai de 10 jours ouvrables
+
+Pour plus de commodité, le portail calcule le délai de 10 jours ouvrables lorsqu’il s’applique. Toutefois, il ne procède pas automatiquement à l’examen des FEM après ce délai, et les gestionnaires sont toujours tenus de terminer l’examen, même si la publication a été soumise.
+
+::: tabs
+
+@tab Publications de tiers et prépublications
+
+Si un gestionnaire identifie des problèmes liés aux lois, politiques ou directives pertinentes, il doit communiquer avec l’auteur ou les auteurs pour demander des révisions ou transmettre la publication au directeur régional des sciences ou au directeur général national. Le délai de 10 jours ouvrables est alors suspendu.
+
+Exemples de suspension du délai :
+
+- Un gestionnaire de division transmet le manuscrit à un SRD ou DG.
+- Un gestionnaire demande des révisions à l’auteur. Dans ce cas, le délai de 10 jours redémarre à la réponse de l’auteur.
+
+@tab Publications du MPO
+
+Il n’y a pas de délai de 10 jours ouvrables pour les publications du MPO. Conformément à la politique, les gestionnaires doivent répondre en temps opportun.
+
+:::
+
+### Examiner le formulaire de manuscrit
+
+::: tip
+Tant que vous êtes le réviseur actuel, vous pouvez modifier le formulaire FEM au besoin.
+:::
+
+Pour examiner le formulaire :
+
+1. Cliquez sur le bouton **<- ALLER AU FORMULAIRE DE MANUSCRIT**.
+2. Cliquez sur l’**icône de téléchargement** pour obtenir une copie PDF du manuscrit.
+3. Apportez les modifications nécessaires au formulaire. Pour plus de détails, voir [Remplir un manuscrit](/fr/publication-process/manuscript-record-form.md).
+4. Cliquez sur le bouton **Examen de la direction** dans le menu latéral pour revenir à la page d’examen.
+
+### Examiner la section Intérêt public potentiel
+
+Pour accéder à la section Intérêt public potentiel :
 
 1. Cliquez sur le bouton **<- ALLER À LA SECTION INTÉRÊT PUBLIC POTENTIEL**.
-2. Cliquez sur le bouton **Révision de gestion** dans le menu latéral pour revenir à la page de révision de gestion.
+2. Cliquez sur le bouton **Examen de la direction** dans le menu latéral pour revenir à la page d’examen.
 
-#### Commentaires de gestion
+#### Commentaires de la direction
 
-![Commentaires de gestion](/images/publication-process/management_comments_fr.png)
+![Commentaires de la direction](/images/publication-process/management_comments_fr.png)
 
-Si vous avez l'intention de transmettre ou de réassigner la révision de gestion à un autre gestionnaire, ou si vous avez des commentaires que vous souhaitez que l'auteur prenne en compte, vous devez enregistrer vos commentaires dans la zone de texte **Commentaires du gestionnaire**. Ces commentaires seront visibles par toute personne ayant un accès actuel ou futur à cet enregistrement de manuscrit.
+Si vous avez l’intention de transmettre ou réaffecter l’examen de la direction à un autre gestionnaire, ou si vous avez des commentaires à adresser à l’auteur, vous devez les inscrire dans la zone de texte **Commentaires du gestionnaire**. Ces commentaires seront visibles par toute personne ayant un accès présent ou futur à ce manuscrit.
 
-Si vous avez l'intention d'approuver et de finaliser la révision de gestion, les commentaires ne sont pas obligatoires.
+Si vous approuvez et terminez l’examen, les commentaires ne sont pas obligatoires.
 
-## Actions de décision de gestion
+## Actions d’examen de la direction
 
-![Décisions de gestion](/images/publication-process/decision_fr.png)
+::: important
 
-Les décisions de gestion disponibles sont les suivantes :
+- Pour les publications du MPO, seul un SRD, DG ou utilisateur ayant le rôle `directeur` dans le portail peut terminer l’examen de la direction.
+- Un commentaire du gestionnaire est requis pour toutes les actions sauf pour `terminer` l’examen.
 
-- **Approuver et terminer**
-  - Vous approuvez ce manuscrit pour publication et vous terminez le processus de révision de gestion.
+:::
 
-- **Approuver et transmettre**
-  - Vous recommandez l'approbation de ce manuscrit pour publication et vous le transmettez au prochain réviseur.
+![Examen de la direction](/images/publication-process/decision_fr.png)
 
-- **Marquer pour suivi**
-  - Vous signalez les commentaires de la révision de gestion que l'auteur doit aborder avant d'apporter votre approbation.
+Les décisions disponibles sont :
 
-- **Retenir et terminer le processus de révision** (**Directeur régional des sciences ou directeur général UNIQUEMENT**)
-  - Vous retenez ce manuscrit de la publication et vous terminez le processus de révision de gestion. Seul un RDS ou DG peut prendre cette décision.
+- **Terminer**
+  ::: info
+  Pour les publications du MPO, seul un directeur peut effectuer cette action.
+  :::
+  - Vous avez examiné ce manuscrit pour publication et vous mettez fin au processus d’examen de la direction.
 
-- **Retenir et transmettre**
-  - Vous recommandez que ce manuscrit soit retenu de la publication et vous le transmettez à un gestionnaire de niveau supérieur.
+- **Révisions requises**
+  - Vous indiquez des commentaires que l’auteur doit prendre en compte avant votre approbation.
 
-- **Réassigner**
-  - Vous n'êtes pas le gestionnaire approprié pour examiner ce manuscrit et vous réassignez la révision au gestionnaire correct sans faire de recommandation.
+- **Transférer au gestionnaire suivant**
+  - Vous avez examiné le manuscrit et le transférez à un autre gestionnaire (habituellement un SRD ou un DG).
+  - Cette étape arrête le délai de 10 jours ouvrables pour les publications de tiers et les prépublications.
+  ::: tip
+  Pour accélérer l’examen et améliorer la transparence, veillez à inclure des notes claires et des recommandations pour le prochain gestionnaire. Ceci est particulièrement important si vous croyez qu’une révision est nécessaire.
+  :::
 
-### Soumettre une décision de révision
+- **Réaffecter**
+  - Vous n’êtes pas le gestionnaire approprié pour examiner ce manuscrit et le réaffectez au bon gestionnaire.
+  ::: tip
+  Si vous êtes un auteur qui a envoyé par erreur le manuscrit au mauvais destinataire, vous pouvez aussi contacter l’équipe du portail pour obtenir de l’aide.
+  :::
 
-Après avoir examiné le formulaire du manuscrit et fourni les commentaires nécessaires, vous pouvez soumettre votre décision de révision.
+### Soumettre un examen
 
-Pour soumettre une décision de révision de gestion :
+Après avoir examiné le formulaire et inscrit vos commentaires si nécessaire, vous pouvez soumettre votre examen.
 
-1. Cliquez sur le bouton **SOUMETTRE LA DÉCISION**.
-2. Sélectionnez la décision que vous souhaitez prendre et cliquez sur le bouton **SUIVANT**.
-3. Si vous transmettez la révision de gestion à un autre gestionnaire :
-   - Cliquez dans la zone de recherche **Prochain réviseur de gestion** et tapez le nom du gestionnaire de division.
-   - Si le gestionnaire est dans la base de données, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.
-   - Si son nom n'apparaît pas, suivez ces étapes pour l'inviter à l'OSP :
-     1. Cliquez sur le bouton **Vous ne trouvez pas l'utilisateur que vous recherchez ?**.
-     2. Entrez le **Prénom**, le **Nom de famille**, l'**Email** et la **Langue préférée** du gestionnaire.
-     3. Cliquez sur le bouton **INVITER** pour l'inviter à l'OSP.
-4. Cliquez sur le bouton **SUIVANT** pour confirmer le gestionnaire sélectionné.
-5. Sélectionnez **Oui** et cliquez sur le bouton **SOUMETTRE**.
+Pour soumettre un examen :
+
+1. Cliquez sur le bouton **SOUMETTRE**.
+2. Sélectionnez la décision que vous souhaitez prendre et cliquez sur **SUIVANT**.
+3. Si vous transférez l’examen à un autre gestionnaire :
+   - Cliquez dans la zone de recherche **Prochain réviseur** et tapez le nom du gestionnaire de division.
+   - Si le gestionnaire est dans la base de données, son nom apparaîtra. Cliquez pour le sélectionner.
+   - Si le nom n’apparaît pas, suivez ces étapes pour l’inviter au SPO :
+     1. Cliquez sur le bouton **Vous ne trouvez pas l’utilisateur recherché?**
+     2. Entrez son **courriel** et sélectionnez l’utilisateur dans l’annuaire du MPO.
+     3. Cliquez sur le bouton **INVITER** pour l’ajouter au SPO.
+4. Cliquez sur **SUIVANT** pour confirmer le gestionnaire sélectionné.
+5. Sélectionnez **Oui** et cliquez sur **SOUMETTRE**.
+
+::: info
+Si vous êtes le dernier réviseur, il vous sera demandé si vous jugez que ce manuscrit devrait être ajouté au cartable de planification pour le SMA EOS. Cela sert uniquement à informer notre équipe et vous permet de recevoir une notification lorsque le manuscrit est accepté ou publié par l’auteur afin que votre région puisse envisager son ajout au cartable.
+:::
 
 ![Soumettre la décision](/images/publication-process/submit_decision_fr.png)
 
-Un courriel sera automatiquement envoyé au gestionnaire suivant sélectionné ou à l'auteur, fournissant des instructions sur les prochaines étapes.
+Un courriel sera automatiquement envoyé au gestionnaire suivant ou à l’auteur, avec les instructions pour la prochaine étape.
