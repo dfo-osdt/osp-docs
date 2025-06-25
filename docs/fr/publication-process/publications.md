@@ -212,7 +212,7 @@ Si votre travail est confirmé comme étant publié :
 
 1. Cliquez sur le **bouton MARQUER COMME PUBLIÉ**.
 
-Cela marquera votre publication comme "Publiée" et la rendra visible dans le [Explorateur de publications](/fr/welcome/publication-explorer.md).
+Cela marquera votre publication comme "Publiée" et la rendra visible dans le [Explorateur de publications](../features/publication-explorer.md).
 
 Si vous mettez à jour un enregistrement publié ou attendez la confirmation de la publication :
 
