@@ -1,72 +1,42 @@
-import type { SidebarConfig } from 'vuepress'
+import type { SidebarOptions } from '@vuepress/theme-default';
 
-export const sidebarFr: SidebarConfig =
+export const sidebarFr: SidebarOptions =
 {
-  '/fr/welcome/':
+  // Single unified guide structure
+  '/fr/':
     [
       {
-        sidebarDepth: 0,
-        text: 'Bienvenue',
+        text: 'Commencer',
         children: [
-          '/fr/welcome/introduction.md',
-          '/fr/welcome/getting-started.md',
-          '/fr/welcome/portal-navigation.md',
-          '/fr/welcome/author-explorer.md',
-          '/fr/welcome/publication-explorer.md',
-          '/fr/welcome/acknowledgments.md',
-          '/fr/dfo/manuscript-record-form.md',
-          '/fr/dfo/management-review-process.md',
-          '/fr/dfo/publications.md',
-          '/fr/third-party/manuscript-record-form.md',
-          '/fr/third-party/management-review-process.md',
-          '/fr/third-party/publications.md',
-          '/fr/account/settings.md',
-          '/fr/account/orcid.md',
-          '/fr/account/troubleshooting.md',
-          // '/fr/account/updates-and-version-history.md', //commented out until launch
-          '/fr/account/appendices.md',
-          '/fr/account/contact-support.md',
+          '/fr/general/introduction.md',
+          '/fr/general/getting-started.md',
         ],
-      }
-    ],
-  '/fr/third-party/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'Publication par un tiers',
+        text: 'Navigation et fonctionnalités du portail',
         children: [
-          '/fr/third-party/manuscript-record-form.md',
-          '/fr/third-party/management-review-process.md',
-          '/fr/third-party/publications.md',
+          '/fr/general/portal-navigation.md',
+          '/fr/features/author-explorer.md',
+          '/fr/features/publication-explorer.md',
+          '/fr/general/orcid.md',
+          '/fr/general/settings.md',
         ],
-      }
-    ],
-
-  '/fr/dfo/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'Publication du MPO',
+        text: 'Processus de publication',
         children: [
-          '/fr/dfo/manuscript-record-form.md',
-          '/fr/dfo/management-review-process.md',
-          '/fr/dfo/publications.md',
+          '/fr/publication-process/manuscript-overview.md',
+          '/fr/publication-process/manuscript-record-form.md',
+          '/fr/publication-process/management-review-process.md',
+          '/fr/publication-process/publications.md',
         ],
-      }
-    ],
-
-  '/fr/account/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'Paramètres et assistance',
+        text: 'Support et ressources',
         children: [
-          '/fr/account/settings.md',
-          '/fr/account/orcid.md',
-          '/fr/account/troubleshooting.md',
-          // '/fr/account/updates-and-version-history.md', //commented out until launch
-          '/fr/account/appendices.md',
-          '/fr/account/contact-support.md',
+          '/fr/general/troubleshooting.md',
+          '/fr/general/contact-support.md',
+          '/fr/general/appendices.md',
         ],
       }
     ]

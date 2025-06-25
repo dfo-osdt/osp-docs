@@ -9,27 +9,27 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "OGL-Canada-2.0",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
     "@vuepress/client": "2.0.0-rc.18",
     "@vuepress/plugin-search": "2.0.0-rc.55",
     "@vuepress/theme-default": "2.0.0-rc.60",
     "esbuild": ">=0.25.0",
-    "sass-embedded": "^1.86.3",
+    "sass-embedded": "^1.89.2",
     "undici": ">=6.21.1",
     "vite": ">=5.4.12",
-    "vue": "^3.5.13",
+    "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.18"
   },
   "dependencies": {
-    "@vue/server-renderer": "^3.5.13",
+    "@vue/server-renderer": "^3.5.17",
     "@vuepress/core": "2.0.0-rc.18",
     "@vuepress/plugin-external-link-icon": "2.0.0-rc.0",
-    "esbuild": "^0.25.2",
+    "esbuild": "^0.25.5",
     "markdown-it": "^14.1.0",
-    "undici": "^7.8.0",
-    "vite": "^6.2.7"
+    "undici": "^7.10.0",
+    "vite": "^6.3.5"
   },
   "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
