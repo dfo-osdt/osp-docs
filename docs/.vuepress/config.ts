@@ -45,7 +45,7 @@ export default
                 [
                   {
                     text: 'User Guide',
-                    link: '/en/welcome/introduction.html'
+                    link: '/en/general/introduction.html'
                   },
                   {
                     text: 'OSP-PSO',
@@ -74,7 +74,7 @@ export default
               navbar: [
                 {
                   text: 'Guide d\'utilisation',
-                  link: '/fr/welcome/introduction.html'
+                  link: '/fr/general/introduction.html'
                 },
                 {
                   text: 'OSP-PSO',

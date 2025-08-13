@@ -55,10 +55,6 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
   height: 100%;
 }
 
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .card h3 {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -125,4 +121,3 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
   }
 }
 </style>
-
