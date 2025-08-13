@@ -56,10 +56,6 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
   height: 100%;
 }
 
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .card h3 {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -126,3 +122,4 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
   }
 }
 </style>
+
