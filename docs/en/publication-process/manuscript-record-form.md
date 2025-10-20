@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Manuscript Record Form
+title: Manuscript Record Creation
 description:
 ---
 
-# Manuscript Record Form
+# Creating a Manuscript Record Form
 
 ::: tip
 **Saving the Manuscript**
@@ -98,7 +98,7 @@ make sure to change it when creating authors with different affiliations.
      1. Click the **+ button** to add a new author or affiliate record.
      2. Enter their **First Name**, **Last Name**, **Organization Affiliation**, **E-Mail**, and **ORCID** (optional).
      3. Click the **Create** button to add the new author record.
-4. Specify whether this author is the **Corresponding Author**.
+4. Specify whether this author is the **DFO Corresponding Author**.
 5. Click the **Add** button to add this author or affiliate.
 6. Repeat steps 1–5 until all authors or affiliates have been added.
 
@@ -106,22 +106,34 @@ make sure to change it when creating authors with different affiliations.
 
 #### Updating an Author or Affiliation
 
-To update the **Corresponding Author** status of an added author or affiliate:
+To update the **DFO Corresponding Author** status of an added author or affiliate:
 
 1. Click their name.
-2. Toggle the ***Corresponding Author*** slider to the desired state.
+2. Toggle the ***DFO Corresponding Author*** slider to the desired state.
 ::: important
 For a manuscript record, the corresponding author is someone who can answer questions
 related to the manuscript at DFO. It won't necessarily be the same author you intend to make
 the corresponding author for the official publication.
 :::
 
+It is possible to correct an author's name, email or affiliation by going to their profile. This is
+only possible if the author has no associated user account.
+
+Do modify an author's name, email or affiliation:
+
+1. Click on their name.
+2. Click on **View Author Profile**.
+3. Click on the **Pencil icon** next to their name.
+
+If you made a mistake in their affiliation, you can correct it there but will need to delete and re-add
+the author to have the change reflected in the MRF as each MRF stores a snapshot of the author's affiliation at
+the time of addition. This is so that we keep a clear history of the author's affiliation when the MRF was created.
+
 #### Removing an Author or Affiliate
 
 To remove an author or affiliate:
 
 Click the **X icon** on the right side of the author's name.
-
 
 ### Peer Reviewers
 
@@ -215,7 +227,6 @@ have reviewed the PLS prior to checking this confirmation. All authors have
 access to their own MRF by logging-in to the portal.
 :::
 
-
 #### Functional Area (Required)
 
 To enhance reporting on DFO scientific research focus areas, a *Functional Area tag* must be applied to the MRF.
@@ -305,6 +316,15 @@ To delete an existing funding source:
 ## Submitting an MRF for Review
 
 Once all required information has been populated, you can submit your manuscript for review.
+
+::: important
+The MRF's applicant or any of the author may submit the MRF for management
+review. The user that submits the MRF will automatically become the
+MRF applicant. In the case where the person that created the MRF is not an
+author, for example, and office administrator, they may loose access to the
+MRF once it is submitted for review. The author can share the MRF back with
+them if required.
+:::
 
 To submit your MRF for review:
 

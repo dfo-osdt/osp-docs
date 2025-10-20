@@ -1,6 +1,6 @@
 ---
 lang: fr-CA
-title: Publications
+title: Gestion des publications
 description:
 ---
 

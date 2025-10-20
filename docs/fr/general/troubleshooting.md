@@ -25,7 +25,7 @@ Contactez l'[équipe de support Open Science](mailto:DFO.OpenScience-ScienceOuve
 
 Contactez l'[équipe de support Open Science](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour demander un nouvel email de vérification.
 
-### Formulaire MRF
+### Formulaire FRM
 
 #### Mon résumé/synthèse/explication a perdu sa mise en forme lorsqu'il a été collé dans une zone de texte
 
