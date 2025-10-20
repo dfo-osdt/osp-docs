@@ -30,6 +30,7 @@ On the **My Management Reviews** page, you will see a list of all manuscripts aw
 ![Management Review](/images/publication-process/management_review.png)
 
 ### Your role as the reviewing manager
+
 Reviews the manuscript for compliance with the [Intellectual Property Policy/Copyright Act](https://www.dfo-mpo.gc.ca/terms-avis/copyright-droits-eng.htm), the [Privacy Act](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-privacy-act/pa_brief/), the Financial Administration Act (with respect to approvals of publication costs) and the [Values and Ethics Code for DFO](https://www.dfo-mpo.gc.ca/reports-rapports/vicr-virc/vicr-virc2012-eng.htm).
 
 Identifies when a manuscript is of potential public interest for the sole purpose of informing RDS and DFO regional Communications. Examples of topics of potential public interest could include subjects related to current events, or of stakeholder interest. These can include interesting stories to show case DFO research or studies that are more controversial. The inclusion of potentially sensitive material will never prevent the publication of a manuscript in any way.
@@ -96,7 +97,6 @@ If you intend to approve and complete the management review, comments are not re
 
 :::
 
-
 ![Management Review](/images/publication-process/decision.png)
 
 The available management decisions are:
@@ -145,11 +145,20 @@ To submit a Management Review:
 5. Select **Yes** and click the **SUBMIT** button.
 
 ::: info
-If you are the last reviewer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to
-inform our team and allows you to get a notification when the manuscript is marked as accepted or published by the author so that your region can
-consider its addition to the binder.
+If you are the last reviewer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to inform our team and allows you to get a notification when the manuscript is marked as accepted or published by the author so that your region can
+consider its addition to the binder. Please note that it is the responsibility
+of the region to add the publication to the planning binder.
 :::
 
 ![Submit Decision](/images/publication-process/submit_decision.png)
 
 An email will automatically be sent to the selected next manager or the author, providing instructions on the next steps.
+
+### Management Review Notifications
+
+The OSP will send you email notifications to remind you of pending management
+reviews. You will receive these notifications at the following intervals:
+
+- Weekly summary of all pending management reviews.
+- 2 working days before the 10-working-day timeline is reached (for third-party
+publications)

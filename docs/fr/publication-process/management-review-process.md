@@ -19,7 +19,7 @@ Pour accéder à la page **Mes revue de direction** :
 Dans les cas où l’examen implique des révisions du manuscrit, vous pourriez remarquer que le même manuscrit apparaît à chaque étape de l’examen. C’est parce que chaque étape possède son propre résultat d’examen suivi.
 :::
 
-Sur la page **Mes examens de la direction**, vous verrez une liste de tous les manuscrits en attente de votre examen. Cliquez sur un Formulaire d’enregistrement de manuscrit (FEM) en attente pour commencer son examen.
+Sur la page **Mes examens de la direction**, vous verrez une liste de tous les manuscrits en attente de votre examen. Cliquez sur un Formulaire du registre des manuscrits (FRM) en attente pour commencer son examen.
 
 ![Mes examens de la direction](/images/publication-process/my_management_reviews_fr.png)
 
@@ -39,7 +39,7 @@ Pour plus d’informations, consultez la [Politique nationale sur les publicatio
 
 ### Délai de 10 jours ouvrables
 
-Pour plus de commodité, le portail calcule le délai de 10 jours ouvrables lorsqu’il s’applique. Toutefois, il ne procède pas automatiquement à l’examen des FEM après ce délai, et les gestionnaires sont toujours tenus de terminer l’examen, même si la publication a été soumise.
+Pour plus de commodité, le portail calcule le délai de 10 jours ouvrables lorsqu'il s'applique. Toutefois, il ne procède pas automatiquement à l'examen des FRM après ce délai, et les gestionnaires sont toujours tenus de terminer l'examen, même si la publication a été soumise.
 
 ::: tabs
 
@@ -61,7 +61,7 @@ Il n’y a pas de délai de 10 jours ouvrables pour les publications du MPO. Con
 ### Examiner le formulaire de manuscrit
 
 ::: tip
-Tant que vous êtes le réviseur actuel, vous pouvez modifier le formulaire FEM au besoin.
+Tant que vous êtes le réviseur actuel, vous pouvez modifier le formulaire FRM au besoin.
 :::
 
 Pour examiner le formulaire :
@@ -140,9 +140,17 @@ Pour soumettre un examen :
 5. Sélectionnez **Oui** et cliquez sur **SOUMETTRE**.
 
 ::: info
-Si vous êtes le dernier réviseur, il vous sera demandé si vous jugez que ce manuscrit devrait être ajouté au cartable de planification pour le SMA EOS. Cela sert uniquement à informer notre équipe et vous permet de recevoir une notification lorsque le manuscrit est accepté ou publié par l’auteur afin que votre région puisse envisager son ajout au cartable.
+Si vous êtes le dernier réviseur, il vous sera demandé si vous jugez que ce manuscrit devrait être ajouté au cartable de planification pour le SMA EOS. Cela sert uniquement à informer notre équipe et vous permet de recevoir une notification lorsque le manuscrit est accepté ou publié par l'auteur afin que votre région puisse envisager son ajout au cartable. Veuillez noter qu'il incombe à la région d'ajouter la publication au cartable de planification.
 :::
 
 ![Soumettre la décision](/images/publication-process/submit_decision_fr.png)
 
-Un courriel sera automatiquement envoyé au gestionnaire suivant ou à l’auteur, avec les instructions pour la prochaine étape.
+Un courriel sera automatiquement envoyé au gestionnaire suivant ou à l'auteur, avec les instructions pour la prochaine étape.
+
+### Notifications d'examen de la direction
+
+Le PSO vous enverra des notifications par courriel pour vous rappeler les examens de direction en attente. Vous recevrez ces notifications aux intervalles suivants :
+
+- Résumé hebdomadaire de tous les examens de direction en attente.
+- 2 jours ouvrables avant que le délai de 10 jours ouvrables ne soit atteint (pour les publications de tiers)
+

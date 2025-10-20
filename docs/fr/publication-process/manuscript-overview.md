@@ -23,7 +23,7 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 - Le MPO est l'éditeur principal
 - Le travail a été effectué principalement au sein du MPO ou sous financement du MPO
 
-[→ Commencer avec le formulaire d'enregistrement de manuscrit du MPO](/fr/publication-process/manuscript-record-form.html)
+[→ Commencer avec le formulaire du registre des manuscrits du MPO](/fr/publication-process/manuscript-record-form.html)
 
 ### Publications par un tiers
 
@@ -40,7 +40,7 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 - Le MPO n'est pas l'éditeur, mais des auteurs ou des ressources du MPO sont impliqués
 - Le travail implique des chercheurs du MPO mais sera publié ailleurs
 
-[→ Commencer avec le formulaire d'enregistrement de manuscrit tiers](/fr/publication-process/manuscript-record-form.html)
+[→ Commencer avec le formulaire du registre des manuscrits tiers](/fr/publication-process/manuscript-record-form.html)
 
 ### Prépublications
 
@@ -54,7 +54,7 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 
 Tous les types de publications partagent plusieurs étapes communes :
 
-1. **Création d'enregistrement de manuscrit** - Créer et remplir le formulaire d'enregistrement de manuscrit
+1. **Création du registre des manuscrits** - Créer et remplir le formulaire du registre des manuscrits
 2. **Processus d'examen de gestion** - Soumettre pour examen par les gestionnaires appropriés
 3. **Gestion de publication** - Suivre et gérer la publication une fois approuvée
 

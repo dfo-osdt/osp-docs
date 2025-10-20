@@ -1,10 +1,10 @@
 ---
 lang: fr-FR
-title: Formulaire d'enregistrement de manuscrit
+title: Création du registre des manuscrits
 description:
 ---
 
-# Formulaire d'enregistrement de manuscrit
+# Créer un formulaire du registre des manuscrits
 
 ::: tip
 **Enregistrement du Manuscrit**
@@ -28,7 +28,7 @@ Sur la page **Mes Manuscrits**, vous verrez une liste de tous les enregistrement
 
 ![Tableau de bord](/images/publication-process/my_manuscripts_page_fr.png)
 
-## Créer un nouveau MRF
+## Créer un nouveau FRM
 
 1. Depuis le menu **Manuscrits** à gauche, cliquez sur le bouton **+ Créer un manuscrit**.
 2. Sélectionnez **Un manuscrit publié par un tiers** et cliquez sur le bouton **Continuer**.
@@ -36,11 +36,11 @@ Sur la page **Mes Manuscrits**, vous verrez une liste de tous les enregistrement
 4. Cliquez sur le champ de sélection **Régions DFO**, sélectionnez la **Région principale**, et cliquez sur le bouton **Continuer**.
 5. Cliquez sur le bouton **Créer** pour créer le manuscrit. Utilisez **Retour** pour corriger les informations ou **Annuler** pour annuler le processus de création.
 
-## Naviguer le formulaire MRF
+## Naviguer le formulaire FRM
 
-![Navigation du formulaire MRF](/images/publication-process/mrf_overview_fr.png)
+![Navigation du formulaire FRM](/images/publication-process/mrf_overview_fr.png)
 
-Le Formulaire d'Enregistrement de Manuscrit (MRF) est organisé en plusieurs sections, chacune accessible depuis le menu de navigation à gauche. Pendant que vous remplissez le formulaire, vous pouvez passer d'une section à l'autre en cliquant sur les éléments de menu correspondants. Les champs obligatoires sont marqués d'un astérisque (*), et vous devez remplir tous les champs obligatoires avant de soumettre le formulaire pour examen.
+Le Formulaire du registre des manuscrits (FRM) est organisé en plusieurs sections, chacune accessible depuis le menu de navigation à gauche. Pendant que vous remplissez le formulaire, vous pouvez passer d'une section à l'autre en cliquant sur les éléments de menu correspondants. Les champs obligatoires sont marqués d'un astérisque (*), et vous devez remplir tous les champs obligatoires avant de soumettre le formulaire pour examen.
 
 Les fonctionnalités clés de navigation incluent :
 
@@ -53,19 +53,19 @@ Naviguer efficacement dans le formulaire garantit que toutes les informations n�
 
 ### Menu des Sections
 
-1. **Formulaire** : Ceci est la page principale du MRF. Elle contient le formulaire et le système de soumission.
-2. **Révision de la Gestion** : Cette [page](./management-review-process.md) montre le statut actuel de la révision de la gestion du MRF.
-3. **Progrès du Manuscrit** : Cette [page](./manuscript-record-form.md#manuscript-progress) montre le flux de travail et l'avancement actuel de ce MRF.
-4. **Partage** : Cette [page](./manuscript-record-form.md#sharing-a-mrf) vous permet de partager le MRF avec d'autres personnes. Notez que les auteurs et tous les utilisateurs de la révision de la gestion auront accès au MRF et n'ont donc pas besoin d'être ajoutés ici.
+1. **Formulaire** : Ceci est la page principale du FRM. Elle contient le formulaire et le système de soumission.
+2. **Révision de la Gestion** : Cette [page](./management-review-process.md) montre le statut actuel de la révision de la gestion du FRM.
+3. **Progrès du Manuscrit** : Cette [page](./manuscript-record-form.md#manuscript-progress) montre le flux de travail et l'avancement actuel de ce FRM.
+4. **Partage** : Cette [page](./manuscript-record-form.md#sharing-a-frm) vous permet de partager le FRM avec d'autres personnes. Notez que les auteurs et tous les utilisateurs de la révision de la gestion auront accès au FRM et n'ont donc pas besoin d'être ajoutés ici.
 5. **Publication** : Cela vous mène à la [publication](./publications.md) associée si elle existe. La publication sera créée une fois que vous aurez signalé que votre manuscrit a été accepté pour publication.
 
-## Remplissage d'un MRF
+## Remplissage d'un FRM
 
-![Nouveau MRF](/images/publication-process/new_mrf_fr.png)
+![Nouveau FRM](/images/publication-process/new_mrf_fr.png)
 
 Une fois le manuscrit créé, il se verra attribuer un identifiant unique et sera désigné comme un "Brouillon". Les champs obligatoires doivent être remplis avant que le manuscrit puisse être soumis pour révision par la gestion.
 
-À tout moment pendant le processus de remplissage du formulaire d'enregistrement de manuscrit, vous pouvez enregistrer vos progrès en :
+À tout moment pendant le processus de remplissage du formulaire du registre des manuscrits, vous pouvez enregistrer vos progrès en :
 
 - Cliquant sur le bouton circulaire **Disquette** situé en bas à droite de la page, ou
 - Faisant défiler jusqu'au bas du formulaire et cliquant sur le bouton **Enregistrer**.
@@ -74,7 +74,7 @@ Une fois que vos progrès ont été enregistrés, il est sûr de se déconnecter
 
 ### Télécharger le Manuscrit (Obligatoire)
 
-Une copie PDF de votre manuscrit actuel est requise pour créer un nouveau MRF. Si votre manuscrit est incomplet, vous pouvez revenir à ce MRF à tout moment pour télécharger la dernière version.
+Une copie PDF de votre manuscrit actuel est requise pour créer un nouveau FRM. Si votre manuscrit est incomplet, vous pouvez revenir à ce FRM à tout moment pour télécharger la dernière version.
 
 Pour télécharger une copie PDF de votre manuscrit :
 
@@ -97,7 +97,7 @@ Pour accélérer le remplissage du formulaire, DFO est présélectionné comme a
      1. Cliquez sur le **+ bouton** pour ajouter un nouvel enregistrement d'auteur ou affilié.
      2. Entrez leurs **Prénom**, **Nom**, **Affiliation Organisationnelle**, **E-Mail**, et **ORCID** (facultatif).
      3. Cliquez sur le bouton **Créer** pour ajouter le nouvel enregistrement d'auteur.
-4. Précisez si cet auteur est l'**Auteur du Correspondance**.
+4. Précisez si cet auteur est l'**Auteur-correspondant du MPO**.
 5. Cliquez sur le bouton **Ajouter** pour ajouter cet auteur ou affilié.
 6. Répétez les étapes 1 à 5 jusqu'à ce que tous les auteurs ou affiliés aient été ajoutés.
 
@@ -105,13 +105,23 @@ Pour accélérer le remplissage du formulaire, DFO est présélectionné comme a
 
 #### Mettre à jour un Auteur ou une Affiliation
 
-Pour mettre à jour le statut d'**Auteur du Correspondance** d'un auteur ou affilié ajouté :
+Pour mettre à jour le statut d'**Auteur-correspondant du MPO** d'un auteur ou affilié ajouté :
 
 1. Cliquez sur leur nom.
-2. Basculez le curseur ***Auteur du Correspondance*** à l'état souhaité.
+2. Basculez le curseur ***Auteur-correspondant du MPO*** à l'état souhaité.
 ::: important
-Pour un enregistrement de manuscrit, l'auteur du correspondance est quelqu'un qui peut répondre aux questions liées au manuscrit à DFO. Ce ne sera pas nécessairement le même auteur que vous envisagez de faire l'auteur du correspondance pour la publication officielle.
+Pour un registre de manuscrit, l'auteur-correspondant est quelqu'un qui peut répondre aux questions liées au manuscrit au MPO. Ce ne sera pas nécessairement le même auteur que vous envisagez de faire l'auteur-correspondant pour la publication officielle.
 :::
+
+Il est possible de corriger le nom, le courriel ou l'affiliation d'un auteur en accédant à son profil. Ceci n'est possible que si l'auteur n'a pas de compte utilisateur associé.
+
+Pour modifier le nom, le courriel ou l'affiliation d'un auteur :
+
+1. Cliquez sur leur nom.
+2. Cliquez sur **Voir le profil de l'auteur**.
+3. Cliquez sur l'**icône Crayon** à côté de leur nom.
+
+Si vous avez fait une erreur dans leur affiliation, vous pouvez la corriger à cet endroit mais vous devrez supprimer et rajouter l'auteur pour que le changement soit reflété dans le FRM, car chaque FRM stocke un instantané de l'affiliation de l'auteur au moment de l'ajout. Cela nous permet de conserver un historique clair de l'affiliation de l'auteur lors de la création du FRM.
 
 #### Supprimer un Auteur ou un Affilié
 
@@ -200,12 +210,12 @@ Après avoir ajouté le Résumé en Langage Clair, enregistrez vos modifications
 Une fois le RLC terminé, l'auteur doit confirmer qu'il a examiné et approuve le résumé en langage clair.
 
 ::: important
-Si vous remplissez le formulaire au nom de l'auteur, assurez-vous qu'ils ont examiné le RLC avant de cocher cette confirmation. Tous les auteurs ont accès à leur propre MRF en se connectant au portail.
+Si vous remplissez le formulaire au nom de l'auteur, assurez-vous qu'ils ont examiné le RLC avant de cocher cette confirmation. Tous les auteurs ont accès à leur propre FRM en se connectant au portail.
 :::
 
 #### Domaine Fonctionnel (Obligatoire)
 
-Pour améliorer le rapport sur les domaines de recherche scientifique de DFO, une *étiquette de Domaine Fonctionnel* doit être appliquée au MRF.
+Pour améliorer le rapport sur les domaines de recherche scientifique de DFO, une *étiquette de Domaine Fonctionnel* doit être appliquée au FRM.
 
 Pour sélectionner un Domaine Fonctionnel pertinent pour ce manuscrit :
 
@@ -289,13 +299,17 @@ Pour supprimer une source de financement existante :
 1. Cliquez sur l'**icône Poubelle** à côté de la source de financement que vous souhaitez supprimer.
 2. Cliquez sur le bouton **OK** pour confirmer la suppression.
 
-## Soumettre un MRF pour Révision
+## Soumettre un FRM pour Révision
 
 Une fois que toutes les informations nécessaires ont été renseignées, vous pouvez soumettre votre manuscrit pour révision.
 
-Pour soumettre votre MRF pour révision :
+::: important
+Le demandeur du FRM ou tout auteur peut soumettre le FRM pour révision par la direction. L'utilisateur qui soumet le FRM deviendra automatiquement le demandeur du FRM. Dans le cas où la personne qui a créé le FRM n'est pas un auteur, par exemple un administrateur de bureau, elle pourrait perdre l'accès au FRM une fois qu'il est soumis pour révision. L'auteur peut partager le FRM avec elle si nécessaire.
+:::
 
-1. Naviguez jusqu'au bas de la page de l'Enregistrement de Manuscrit.
+Pour soumettre votre FRM pour révision :
+
+1. Naviguez jusqu'au bas de la page du registre de manuscrit.
 2. Cliquez sur le bouton **SOUMETTRE**.
 3. Examinez le consentement **Soumission pour Révision de la Gestion**.
    - Cliquez sur le bouton **Oui** pour accepter la déclaration de consentement.
@@ -310,7 +324,7 @@ Pour soumettre votre MRF pour révision :
 
 ![Ajouter un Gestionnaire](/images/publication-process/add_manager_fr.png)
 
-Votre manuscrit est maintenant soumis pour révision. Pour confirmer, faites défiler jusqu'au haut de la **Page de l'Enregistrement de Manuscrit** et vérifiez la **boîte de STATUT** dans le coin supérieur droit. Elle devrait afficher **En Révision**.
+Votre manuscrit est maintenant soumis pour révision. Pour confirmer, faites défiler jusqu'au haut de la **Page du registre de manuscrit** et vérifiez la **boîte de STATUT** dans le coin supérieur droit. Elle devrait afficher **En Révision**.
 
 ![En Révision](/images/publication-process/in_review_fr.png)
 
@@ -321,17 +335,17 @@ Vous pouvez suivre les progrès de votre manuscrit sur la **page de Progrès du 
 Pour visualiser les progrès de votre manuscrit :
 
 1. Depuis la **page de Mes Enregistrements de Manuscrits**, ouvrez votre formulaire de manuscrit.
-2. Cliquez sur **Progrès du Manuscrit** depuis le *Menu de l'Enregistrement de Manuscrit*.
+2. Cliquez sur **Progrès du Manuscrit** depuis le *Menu du registre de manuscrit*.
 
 ![Progrès](/images/publication-process/progress_fr.png)
 
-## Partage d'un MRF
+## Partage d'un FRM
 
 ::: tip
-Par défaut, tous les auteurs et réviseurs de DFO du MRF peuvent voir et éditer (selon son statut) le MRF, donc il n'est pas nécessaire de le partager avec eux.
+Par défaut, tous les auteurs et réviseurs de DFO du FRM peuvent voir et éditer (selon son statut) le FRM, donc il n'est pas nécessaire de le partager avec eux.
 :::
 
-Vous pouvez partager l'accès à votre Formulaire d'Enregistrement de Manuscrit (MRF) avec un pair, tel qu'un administrateur ou un chef de section. Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler leurs permissions, y compris l'accès en lecture seule, édition, ou suppression. De plus, vous pouvez définir une date d'expiration pour l'accès partagé. Si aucune date d'expiration n'est définie, vous pouvez révoquer l'accès à tout moment.
+Vous pouvez partager l'accès à votre Formulaire du registre des manuscrits (FRM) avec un pair, tel qu'un administrateur ou un chef de section. Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler leurs permissions, y compris l'accès en lecture seule, édition, ou suppression. De plus, vous pouvez définir une date d'expiration pour l'accès partagé. Si aucune date d'expiration n'est définie, vous pouvez révoquer l'accès à tout moment.
 
 ![Partage](/images/publication-process/sharing_fr.png)
 
@@ -371,7 +385,7 @@ Pour vérifier l'état de votre invitation utilisateur, veuillez voir [Invitatio
 
 ### Modifier une permission de Partage
 
-Pour modifier les permissions d'un enregistrement de manuscrit partagé existant :
+Pour modifier les permissions d'un registre de manuscrit partagé existant :
 
 1. Cliquez sur l'**icône Crayon** sous la colonne **Actions**.
 2. Mettez à jour les paramètres de partage souhaités.
@@ -379,7 +393,8 @@ Pour modifier les permissions d'un enregistrement de manuscrit partagé existant
 
 ### Supprimer une permission de Partage
 
-Pour supprimer un enregistrement de manuscrit partagé :
+Pour supprimer un registre de manuscrit partagé :
 
 1. Cliquez sur l'**icône Poubelle** sous la colonne **Actions**.
 2. Confirmez en cliquant sur le bouton **OK**.
+

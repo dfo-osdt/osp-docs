@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Publications
+title: Publication Management
 description:
 ---
 # Publications
@@ -216,3 +216,4 @@ If you are updating a published record or awaiting publication confirmation:
 1. Click the **SAVE button**.
 
 [Return to Home Page](/)
+

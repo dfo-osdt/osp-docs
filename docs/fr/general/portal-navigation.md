@@ -10,7 +10,7 @@ description:
 
 Le Portail Open Science (POS) vise à améliorer la mobilisation des connaissances scientifiques de Pêches et Océans Canada (MPO) en respectant la Feuille de route du Canada pour la science ouverte. L'objectif principal est de créer un portail adaptable qui simplifie le processus de publication, garantit la traçabilité des recherches, favorise une communication ouverte et encourage la collaboration. Ce portail permet au personnel scientifique du MPO de suivre, découvrir et promouvoir les recherches et expertises scientifiques au sein du ministère.
 
-Parmi les fonctionnalités supplémentaires du POS, on trouve le stockage et le partage des Formulaires d'enregistrement des manuscrits (FEM), le suivi de l'état de publication, les profils d'expertise des auteurs et l'intégration ORCID.
+Parmi les fonctionnalités supplémentaires du POS, on trouve le stockage et le partage des Formulaires du registre des manuscrits (FRM), le suivi de l'état de publication, les profils d'expertise des auteurs et l'intégration ORCID.
 
 ## Navigation dans le tableau de bord
 
@@ -26,7 +26,7 @@ Le menu latéral est divisé en deux sections principales. Les pages "Mes" conce
 
 #### Ma page des manuscrits
 
-La page **Mes manuscrits** est l'endroit où vous pouvez gérer les Formulaires d'enregistrement des manuscrits (FEM) nouveaux et en cours de traitement.
+La page **Mes manuscrits** est l'endroit où vous pouvez gérer les Formulaires du registre des manuscrits (FRM) nouveaux et en cours de traitement.
 
 #### Mes publications
 

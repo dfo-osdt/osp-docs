@@ -18,7 +18,7 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
     <p>Soumettez vos manuscrits facilement :</p>
     <ul>
       <li><router-link to="/fr/general/getting-started.html">Commencer</router-link> - Exigences du système et configuration initiale</li>
-      <li><router-link to="/fr/publication-process/manuscript-record-form.html">Formulaire d'enregistrement de manuscrit</router-link> - Créer et gérer vos soumissions de manuscrits</li>
+      <li><router-link to="/fr/publication-process/manuscript-record-form.html">Formulaire du registre des manuscrits</router-link> - Créer et gérer vos soumissions de manuscrits</li>
       <li><router-link to="/fr/features/author-explorer.html">Explorateur d'auteurs</router-link> - Trouver et se connecter avec d'autres chercheurs</li>
     </ul>
   </div>
