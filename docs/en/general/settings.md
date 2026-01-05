@@ -38,11 +38,12 @@ The default language for your account will appear in this box. If you would like
 User roles identify the type of account you have. User roles are generated upon account creation. If you feel your account does not have the appropriate role, please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 Current available roles:
+- Admin
 - Author
+- Chief Editor
 - Director
 - Editor
-- Chief Editor
-- Admin
+- Regional Editor
 
 ## Author Profile Page
 
@@ -56,7 +57,7 @@ As the OSP is currently an internal platform, all users' **Current Affiliation**
 
 #### ORCID
 
-If you have an ORCID but **do not** want to authenticate your OSP account with ORCID, you can manually add it to your Author Profile. However, it is highly recommended that you connect and authenticate your OSP account with your ORCID. Please see the [ORCID section](/en/account/orcid) for more information.
+If you have an ORCID but **do not** want to authenticate your OSP account with ORCID, you can manually add it to your Author Profile. However, it is highly recommended that you connect and authenticate your OSP account with your ORCID. Please see the [ORCID section](./orcid) for more information.
 
 ### ORCID Integration
 
@@ -64,7 +65,7 @@ If you have an ORCID but **do not** want to authenticate your OSP account with O
 
 The OSP allows for the connection and authentication of your **Open Researcher and Contributor ID (ORCID)** with your OSP account. This integration enables your ORCID records to be managed through the OSP with an official DFO tag.
 
-For detailed instructions on ORCID integration and how to connect your ORCID account with the OSP, please refer to the [ORCID section](/en/account/orcid).
+For detailed instructions on ORCID integration and how to connect your ORCID account with the OSP, please refer to the [ORCID section](./orcid.md).
 
 ### Areas of Expertise
 
@@ -87,7 +88,6 @@ The Open Science Portal tracks a history of login attempts for each user's accou
 
 ::: danger
 If you notice multiple login attempts within a short time span or other suspicious activities:
-- Change your Open Science Portal account password immediately.
 - Notify the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 :::
 

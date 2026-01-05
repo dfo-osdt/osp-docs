@@ -33,7 +33,7 @@ Refer to the **Square Symbol** in the **Dashboard figure**.
 
 ### Navigation Menu - "My" Pages versus "Explore" Pages
 
-The side menu is broken into two primary sections. The "My" pages are for items
+The side menu is separated into two primary sections. The "My" pages are for items
 that relate directly to your account, while the "Explore" pages allow you to see
 all public items of the portal, such as publications, authors, and preprints.
 
@@ -56,3 +56,13 @@ The **User Menu button** opens the menu where you can access your **[Account Set
 ### Language Toggle Button
 
 The **Language Toggle button** allows you to switch the OSP's language between English and French. To change the language, select the **Language Toggle button** from the top-right navigation bar.
+
+### Quick Action
+
+#### Create Manuscript Record
+
+The **CREATE MANUSCRIPT RECORD button** under the *Need a Management Review?* section allows you to launch the [Manuscript Record Creator Tool](../publication-process/manuscript-record-form.md#create-a-new-mrf) directly from the Dashboard.
+
+#### Add Publication
+
+The **ADD PUBLICATION button** under the *Already Reviewd?* section allows you to launch the [Add Publication Tool](../publication-process/publications.md#creating-a-record-for-an-existing-publication) directly from the Dashboard.

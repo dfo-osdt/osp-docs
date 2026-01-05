@@ -31,14 +31,14 @@ Sur la page **Mes Manuscrits**, vous verrez une liste de tous les enregistrement
 ## Créer un nouveau FRM
 
 1. Depuis le menu **Manuscrits** à gauche, cliquez sur le bouton **+ Créer un manuscrit**.
-2. Sélectionnez **Un manuscrit publié par un tiers** et cliquez sur le bouton **Continuer**.
+2. Sélectionnez le **type de publication souhaité** et cliquez sur le bouton **Continuer**.
 3. Cliquez sur le champ **Titre** et tapez le nom de votre manuscrit.
 4. Cliquez sur le champ de sélection **Régions DFO**, sélectionnez la **Région principale**, et cliquez sur le bouton **Continuer**.
 5. Cliquez sur le bouton **Créer** pour créer le manuscrit. Utilisez **Retour** pour corriger les informations ou **Annuler** pour annuler le processus de création.
 
 ## Naviguer le formulaire FRM
 
-![Navigation du formulaire FRM](/images/publication-process/mrf_overview_fr.png)
+![Navigation du formulaire FRM](/images/publication-process/navigating_mrf_fr.png)
 
 Le Formulaire du registre des manuscrits (FRM) est organisé en plusieurs sections, chacune accessible depuis le menu de navigation à gauche. Pendant que vous remplissez le formulaire, vous pouvez passer d'une section à l'autre en cliquant sur les éléments de menu correspondants. Les champs obligatoires sont marqués d'un astérisque (*), et vous devez remplir tous les champs obligatoires avant de soumettre le formulaire pour examen.
 
@@ -364,6 +364,21 @@ Pour partager un manuscrit avec un autre utilisateur :
 7. Cliquez sur le bouton **PARTAGER**.
 
 ![Nouveau Partage](/images/publication-process/new_share_fr.png)
+
+## Éditeur régional
+
+Un utilisateur ayant le rôle d’**Éditeur régional** peut consulter et modifier les FDM dont sa région est désignée comme **région responsable**. Tant que le FDM est à l’état **Brouillon** ou **En cours d’examen**, l’Éditeur régional peut apporter des modifications et les enregistrer. Une fois le FDM à l’état **Examiné**, l’Éditeur régional peut seulement le consulter.
+
+![Regional Manuscripts](/images/publication-process/regional_manuscripts_fr.png)
+
+Pour afficher la liste des manuscrits régionaux :
+
+1. Déployez le menu latéral en survolant le côté gauche de l’écran avec la souris.
+2. Cliquez sur le bouton **Manuscrits régionaux**.
+3. Pour filtrer les résultats des manuscrits (facultatif) :
+   - Cliquez dans la zone de texte **Filtrer** située à droite de la page et commencez à saisir le titre du manuscrit ou le nom de l’auteur.
+   - Cliquez sur un état de manuscrit dans la section **Manuscrits régionaux** à gauche pour filtrer par état du manuscrit (facultatif).
+4. Cliquez sur le titre d’un manuscrit pour l’ouvrir.
 
 ### Inviter un Utilisateur
 
