@@ -31,14 +31,14 @@ On the **My Manuscripts** page, you will see a list of all manuscript records yo
 ## Create a New MRF
 
 1. From the **Manuscripts** menu on the left, click the **+ Create Manuscript** button.
-2. Select **A manuscript published by a third party** and click the **Continue** button.
+2. Select **Desired Publication Type** and click the **Continue** button.
 3. Click the **Title** field and type in the name of your manuscript.
 4. Click the **DFO Regions** selection field, select the **Lead Region**, and click the **Continue** button.
 5. Click the **Create** button to create the manuscript. Use **Back** to correct information or **Cancel** to cancel the creation process.
 
 ## Navigating the MRF Form
 
-![MRF Form Navigation](/images/publication-process/mrf_overview.png)
+![MRF Form Navigation](/images/publication-process/navigating_mrf.png)
 
 The Manuscript Record Form (MRF) is organized into several sections, each accessible from the left-side navigation menu. As you work through the form, you can move between sections by clicking the corresponding menu items. Required fields are marked with an asterisk (*), and you must complete all required fields before submitting the form for review.
 
@@ -358,6 +358,21 @@ To view your manuscript's progress:
 2. Click **Manuscript Progress** from the *Manuscript Record Menu*.
 
 ![Progress](/images/publication-process/progress.png)
+
+## Regional Editor
+
+A user with the **Regional Editor** role is able to view and edit MRFs that are created with their region as the Lead Region. While the MRF is in a **Draft** or **In Review** state, the Regional Editor is able to make and save changes. Once the MRF is in a **Reviewed** state, the Regional Editor may only view the MRF.
+
+![Regional Manuscripts](/images/publication-process/regional_manuscripts.png)
+
+To view the list of regional manuscripts:
+
+1. Expand the side menu by hovering the mouse over the left side of the screen.
+2. Click the **Regional Manuscripts** button.
+3. To filter manuscript results (optional):
+   - Click the **Filter** text box on the right side of the page and begin typing the title of the manuscript or the name of the author.
+   - Click a manuscript state in the **Regional Manuscripts** box on the left side to filter by manuscript state (optional).
+4. Click the title of a manuscript to open it.
 
 ## Sharing a MRF
 

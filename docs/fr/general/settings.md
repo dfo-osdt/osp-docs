@@ -4,178 +4,127 @@ title: Paramètres
 description:
 ---
 
-# Paramètres
+# Paramètres du compte
 
-## Page de profil utilisateur
+## Page du profil utilisateur
 
 ### Profil utilisateur
 
 ![Profil utilisateur](/images/account/user_profile_fr.png)
 
----
-
 #### Prénom et nom
 
-Le **prénom et le nom** associés à votre compte apparaîtront en gris.  
-Si vous souhaitez modifier votre nom :
+Le **prénom et le nom** associés à votre compte apparaissent en gris. Si vous souhaitez modifier le nom associé à votre compte :
 
-1. Cliquez sur le **champ du nom** pour le sélectionner.  
-2. Appuyez sur **Retour arrière** pour supprimer l’ancien nom.  
-3. Saisissez le nouveau nom.  
-4. Cliquez sur le **bouton Enregistrer** pour sauvegarder les modifications.  
-
----
+1. Cliquez sur le **champ Nom** pour le sélectionner.
+2. Appuyez sur **Retour arrière** pour supprimer l’ancien nom.
+3. Entrez le nouveau nom.
+4. Cliquez sur le **bouton Enregistrer** pour sauvegarder les changements.
 
 #### Courriel
 
-L’adresse courriel associée à votre compte apparaîtra en gris et ne pourra pas être modifiée.  
-Cette adresse est également utilisée pour vous connecter à votre compte du Portail de la Science Ouverte.  
-Si vous souhaitez la modifier, veuillez contacter le [Support du Portail de la Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).  
-
----
+Le courriel associé à votre compte apparaît en gris et ne peut pas être modifié. Ce courriel est également utilisé pour vous connecter à votre compte du Portail de science ouverte. Si vous souhaitez modifier votre courriel, veuillez écrire à l’[équipe de soutien du Portail de science ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 #### Langue par défaut
 
-La langue par défaut de votre compte apparaîtra dans ce champ.  
-Si vous souhaitez la modifier :
+La langue par défaut de votre compte s’affiche dans ce champ. Si vous souhaitez modifier votre langue par défaut :
 
-1. Cliquez sur le **champ Langue par défaut** pour ouvrir le menu déroulant.  
-2. Sélectionnez la langue souhaitée.  
-3. Cliquez sur le **bouton Enregistrer** pour sauvegarder les modifications.  
-
----
+1. Cliquez sur le **champ Langue par défaut** pour ouvrir le menu déroulant.
+2. Sélectionnez la langue souhaitée.
+3. Cliquez sur le **bouton Enregistrer** pour sauvegarder les changements.
 
 ### Rôles utilisateur
 
-Les rôles utilisateur définissent le type de compte que vous possédez.  
-Ils sont attribués lors de la création du compte.  
-Si vous pensez que votre compte ne possède pas le rôle approprié, veuillez contacter le [Support du Portail de la Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).  
+Les rôles utilisateur indiquent le type de compte que vous possédez. Les rôles sont attribués lors de la création du compte. Si vous croyez que votre compte n’a pas le rôle approprié, veuillez communiquer avec l’[équipe de soutien du Portail de science ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
-Rôles disponibles :  
-- Auteur  
-- Directeur  
-- Éditeur  
-- Rédacteur en chef  
-- Administrateur  
+Rôles actuellement disponibles :
+- Administrateur
+- Auteur
+- Rédacteur en chef
+- Directeur
+- Éditeur
+- Éditeur régional
 
----
+## Page du profil d’auteur
 
-## Page de profil auteur
+### Profil d’auteur
 
-### Profil auteur
-
-![Profil auteur](/images/account/author_profile_fr.png)
-
----
+![Profil d’auteur](/images/account/author_profile_fr.png)
 
 #### Affiliation actuelle
 
-Étant donné que le PSO est actuellement une plateforme interne,  
-l’**affiliation actuelle** de tous les utilisateurs est définie sur **Pêches et Océans Canada**.  
-Si vous souhaitez modifier votre **affiliation actuelle**,  
-veuillez contacter le [Support du Portail de la Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).  
+Comme le PSO est actuellement une plateforme interne, l’**affiliation actuelle** de tous les utilisateurs est définie comme étant Pêches et Océans Canada. Si vous souhaitez modifier votre **affiliation actuelle**, veuillez communiquer avec l’[équipe de soutien du Portail de science ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 #### ORCID
 
-Si vous possédez un ORCID mais que vous **ne souhaitez pas** l’authentifier avec votre compte PSO,  
-vous pouvez l’ajouter manuellement à votre profil auteur.  
-Cependant, il est fortement recommandé de connecter et d’authentifier votre compte PSO avec votre ORCID.  
-Veuillez consulter la section [ORCID](/fr/account/orcid) pour plus d’informations.  
-
----
+Si vous possédez un ORCID mais que vous ne souhaitez **pas** authentifier votre compte du PSO avec ORCID, vous pouvez l’ajouter manuellement à votre profil d’auteur. Toutefois, il est fortement recommandé de connecter et d’authentifier votre compte du PSO avec votre ORCID. Pour plus d’information, veuillez consulter la [section ORCID](./orcid.md).
 
 ### Intégration ORCID
 
 ![Intégration ORCID](/images/account/orcid_integration_fr.png)
 
-Le PSO permet la connexion et l’authentification de votre **Open Researcher and Contributor ID (ORCID)** avec votre compte PSO.  
-Cette intégration permet de gérer vos enregistrements ORCID via le PSO avec une étiquette officielle du MPO.  
+Le PSO permet la connexion et l’authentification de votre **identifiant ouvert de chercheur et de contributeur (ORCID)** à votre compte du PSO. Cette intégration permet la gestion de vos dossiers ORCID par l’entremise du PSO avec une étiquette officielle du MPO.
 
-Pour des instructions détaillées sur l’intégration ORCID et la connexion de votre compte ORCID avec le PSO,  
-veuillez consulter la section [ORCID](/fr/account/orcid).  
-
----
+Pour des instructions détaillées sur l’intégration ORCID et la façon de connecter votre compte ORCID au PSO, veuillez consulter la [section ORCID](./orcid.md).
 
 ### Domaines d’expertise
 
-Le champ **Domaines d’expertise** affiche les domaines que vous avez sélectionnés,  
-représentant le mieux vos connaissances et votre expérience.  
+Le champ **Domaines d’expertise** affiche les expertises que vous avez sélectionnées et qui représentent le mieux vos connaissances et votre expérience.
 
-Pour ajouter ou supprimer une expertise :  
+Pour ajouter ou retirer une expertise :
 
-1. Cliquez sur le **bouton Modifier**.  
-2. Sélectionnez le **champ Domaines d’expertise**.  
-3. Commencez à saisir votre expertise.  
-4. Cliquez sur l’expertise que vous souhaitez ajouter à partir de la liste filtrée.  
-5. Pour supprimer une expertise, cliquez sur l’**icône X** à côté de l’expertise.  
-6. Cliquez sur le **bouton Enregistrer** pour confirmer vos modifications.  
-
----
+1. Cliquez sur le **bouton MODIFIER**.
+2. Sélectionnez le **champ Domaines d’expertise**.
+3. Commencez à taper l’expertise souhaitée.
+4. Cliquez sur l’expertise à ajouter dans la liste filtrée.
+5. Pour retirer une expertise, cliquez sur l’**icône X** à côté de celle-ci.
+6. Cliquez sur le **bouton ENREGISTRER** pour confirmer vos changements.
 
 ## Sécurité du compte
 
 ### Historique d’authentification
 
-Le Portail de la Science Ouverte enregistre l’historique des tentatives de connexion  
-pour chaque compte utilisateur.  
-Cet historique permet de visualiser l’activité de connexion et de surveiller  
-les tentatives d’accès non autorisées.  
+Le Portail de science ouverte conserve un historique des tentatives de connexion pour chaque compte utilisateur. Cet historique fournit une visualisation de l’activité de connexion, vous permettant de surveiller toute tentative d’accès non autorisée.
 
-::: danger  
-Si vous remarquez plusieurs tentatives de connexion en peu de temps  
-ou toute autre activité suspecte :  
-- Modifiez immédiatement le mot de passe de votre compte PSO.  
-- Informez le [Support du Portail de la Science Ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).  
-:::  
+::: danger
+Si vous remarquez plusieurs tentatives de connexion dans un court laps de temps ou toute autre activité suspecte :
+- Avisez l’[équipe de soutien du Portail de science ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+:::
 
-#### Décomposition de l’historique d’authentification
+#### Détail de l’historique d’authentification
 
 ![Tableau de l’historique d’authentification](/images/account/authentication_history_table_fr.png)
 
-##### 1 - Adresse IP
+##### 1 – Adresse IP
 
-La colonne **Adresse IP** indique l’adresse Internet associée à l’ordinateur  
-tentant de se connecter à votre compte.  
+La colonne Adresse IP indique l’adresse de localisation Internet associée à l’ordinateur qui tente de se connecter à votre compte.
 
-##### 2 - Agent
+##### 2 – Agent
 
-La colonne **Agent** affiche le système d’exploitation de l’ordinateur  
-tentant de se connecter à votre compte.  
+La colonne Agent indique le système d’exploitation de l’ordinateur qui tente de se connecter à votre compte.
 
-##### 3 - Emplacement
+##### 3 – Emplacement
 
-::: tip  
-Si vous vous connectez au Portail de la Science Ouverte via un VPN,  
-cet emplacement peut être différent de votre emplacement actuel.  
-:::  
+::: tip
+Si vous vous connectez au Portail de science ouverte à l’aide d’un VPN, cet emplacement peut différer de votre emplacement actuel.
+:::
 
-La colonne **Emplacement** indique l’emplacement global approximatif associé  
-à l’adresse IP.  
+La colonne Emplacement indique la localisation géographique approximative associée à l’adresse IP.
 
-##### 4 - Connexion à
+##### 4 – Connexion à
 
-La colonne **Connexion à** affiche la date et l’heure auxquelles  
-une tentative de connexion à votre compte a été effectuée.  
-L’heure affichée est basée sur l’heure de votre ordinateur.  
+La colonne Connexion à indique la date et l’heure auxquelles une tentative de connexion a été effectuée. L’heure affichée est basée sur l’heure de votre ordinateur.
 
-##### 5 - Réussite  
+##### 5 – Réussie
 
-La colonne **Réussite** indique si votre compte a été connecté avec succès ou non.  
-- Si la connexion est réussie, une coche verte s’affichera.  
-- Si la connexion a échoué, une croix rouge s’affichera.  
+La colonne Réussie indique si la connexion à votre compte a été effectuée avec succès. En cas de succès, une coche verte s’affiche. En cas d’échec, une croix rouge s’affiche.
 
-##### 6 - Déconnexion à  
+##### 6 – Déconnexion à
 
-La colonne **Déconnexion à** affiche la date et l’heure de la déconnexion de votre compte.  
-L’heure affichée est basée sur l’heure de votre ordinateur.  
+La colonne Déconnexion à indique la date et l’heure auxquelles votre compte a été déconnecté. L’heure affichée est basée sur l’heure de votre ordinateur.
 
----
+## Invitations envoyées
 
-## Invitations envoyées  
+![Invitation](/images/account/sent_invites.png)
 
-![Invitations envoyées](/images/account/sent_invites_fr.png)  
-
-Les invitations que vous avez envoyées à d’autres utilisateurs pour les inviter  
-au PSO s’afficheront sur la page **Invitations envoyées**.  
-La date et l’heure de la première connexion d’un utilisateur invité  
-au PSO seront indiquées sous la colonne **Inscrit à**.  
+Les invitations que vous avez envoyées à des utilisateurs pour les inviter à accéder au PSO s’affichent sur la page Invitations envoyées. La date et l’heure auxquelles un utilisateur invité se connecte au PSO pour la première fois s’affichent dans la colonne **Inscrit le**.
