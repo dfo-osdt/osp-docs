@@ -339,6 +339,12 @@ Pour visualiser les progrès de votre manuscrit :
 
 ![Progrès](/images/publication-process/progress_fr.png)
 
+### Rappels
+
+Une fois par mois, vous recevrez un courriel de rappel du PSO si vous avez des FDM dont l’étape d’examen de gestion a été marquée comme **Terminée**. L’objectif de ce rappel mensuel est de s’assurer que le cycle de vie de votre publication est suivi avec exactitude et que les renseignements dans le PSO demeurent à jour.
+
+![Rappels](/images/publication-process/reminder.png)
+
 ## Partage d'un FRM
 
 ::: tip

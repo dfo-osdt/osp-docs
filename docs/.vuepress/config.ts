@@ -1,5 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { searchPlugin } from '@vuepress/plugin-search'
 import {
   head,
@@ -14,7 +15,7 @@ export default
     port: 3000,
     locales:
     {
-      '/':
+      '/en/':
       {
         lang: 'en-US',
         title: 'EOS-OSP Docs',
@@ -22,7 +23,7 @@ export default
       },
       '/fr/':
       {
-        lang: 'Français',
+        lang: 'fr-CA',
         title: 'SEO-PSO Docs',
         description: 'Site de documentation utilisateur pour le Portail de la Science Ouverte',
       },
@@ -38,7 +39,7 @@ export default
           contributors: false,
           locales:
           {
-            '/':
+            '/en/':
             {
               selectLanguageName: 'English',
               navbar:
@@ -114,6 +115,10 @@ export default
                 placeholder: 'Rechercher',
               }
             }
+          }),
+          copyCodePlugin
+          ({
+              // options
           }),
       ]
   }
