@@ -215,5 +215,35 @@ If you are updating a published record or awaiting publication confirmation:
 
 1. Click the **SAVE button**.
 
+
+## Deleting a Publication Record
+
+There may be a situation where a **Publication Record** has been created but is no longer needed on the OSP. For example, a duplicate Publication Record may have been created, and only one should remain on the OSP.
+
+::: important
+
+A **Publication Record** that is created from a **Manuscript Record Form** cannot be deleted!
+
+:::
+
+When a Publication Record is deleted, it is removed from the application and placed in the **Removal Queue**. The Publication Record will remain in the Removal Queue for 90 (ninety) days before it is permanently deleted. While in the Removal Queue, the Publication cannot be accessed from the application but may be restored by OSP technical support.  
+If you have accidentally deleted a Publication Record and would like it restored, please contact [OSP Technical Support](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+
+::: danger
+
+A Publication Record **cannot** be restored after the 90 days have elapsed!
+
+:::
+
+![Publication Delete](/images/publication-process/publication_delete.png)
+
+To delete a Publication Record, you must either be the **Record Creator** or have the **Chief Editor** role:
+
+1. Open the Publication Record you wish to delete.
+2. Scroll to the bottom of the page.
+3. Click the **Delete Publication** button.
+4. Click the **OK** button on the confirmation dialog box.
+
+
 [Return to Home Page](/)
 

@@ -218,4 +218,32 @@ Si vous mettez à jour un enregistrement publié ou attendez la confirmation de 
 
 1. Cliquez sur le **bouton SAUVEGARDER**.
 
+## Suppression d’un dossier de publication
+
+Il peut arriver qu’un **dossier de publication** ait été créé, mais qu’il ne soit plus nécessaire dans le PSO. Par exemple, un dossier de publication en double peut avoir été créé, alors qu’un seul devrait être conservé dans le PSO.
+
+::: important
+
+Un **dossier de publication** créé à partir d’un **formulaire de dossier de manuscrit (FDM)** ne peut pas être supprimé !
+
+:::
+
+Lorsqu’un dossier de publication est supprimé, il est retiré de l’application et placé dans la **file d’attente de suppression**. Le dossier de publication demeure dans la file d’attente de suppression pendant 90 (quatre-vingt-dix) jours avant d’être supprimé définitivement. Pendant cette période, la publication n’est plus accessible dans l’application, mais elle peut être restaurée par le soutien technique du PSO.  
+Si vous avez supprimé un dossier de publication par erreur et souhaitez le faire restaurer, veuillez communiquer avec le [soutien technique du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+
+::: danger
+
+Un dossier de publication **ne peut pas** être restauré après l’expiration du délai de 90 jours !
+
+:::
+
+![Suppression d’une publication](/images/publication-process/publication_delete_fr.png)
+
+Pour supprimer un dossier de publication, vous devez être soit le **créateur du dossier**, soit détenir le rôle de **rédacteur en chef** :
+
+1. Ouvrez le dossier de publication que vous souhaitez supprimer.
+2. Faites défiler la page jusqu’en bas.
+3. Cliquez sur le bouton **Supprimer la publication**.
+4. Cliquez sur le bouton **OK** dans la boîte de dialogue de confirmation.
+
 [Retour à la page d'accueil](/)
