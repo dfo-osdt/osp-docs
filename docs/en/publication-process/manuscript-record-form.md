@@ -359,6 +359,12 @@ To view your manuscript's progress:
 
 ![Progress](/images/publication-process/progress.png)
 
+### Reminders
+
+Once a month, you will receive an email reminder from the OSP if you have any MRFs that have had their Management Review step marked as **Complete**. The goal of this monthly reminder is to help ensure that the lifecycle of your publication is accurately tracked and that information within the OSP is kept up to date.
+
+![Reminder](/images/publication-process/reminder.png)
+
 ## Regional Editor
 
 A user with the **Regional Editor** role is able to view and edit MRFs that are created with their region as the Lead Region. While the MRF is in a **Draft** or **In Review** state, the Regional Editor is able to make and save changes. Once the MRF is in a **Reviewed** state, the Regional Editor may only view the MRF.

@@ -34,6 +34,10 @@ To mark your manuscript as accepted for publication:
    - If the journal is not listed, email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have it added.
 7. Click the **UPDATE button** to confirm the publication acceptance entry.
 
+Once a publication has been marked as accepted, the OSP will email you once a month to remind you to update its status to **Published** and to provide a publication date. The goal of this monthly reminder is to help ensure that the lifecycle of your publication is accurately tracked and that information within the OSP is kept up to date.
+
+![Reminder](/images/publication-process/reminder.png)
+
 ### Withdraw Manuscript
 
 To withdraw your manuscript:

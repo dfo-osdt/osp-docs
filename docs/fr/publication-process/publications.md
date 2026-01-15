@@ -35,6 +35,10 @@ Pour marquer votre manuscrit comme accepté pour publication :
    - Si la revue n'est pas répertoriée, envoyez un courriel à l'[Équipe de soutien OSP](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour qu'elle soit ajoutée.
 7. Cliquez sur le bouton **METTRE À JOUR** pour confirmer l'entrée d'acceptation de publication.
 
+Une fois qu’une publication a été marquée comme acceptée, le PSO vous enverra un courriel une fois par mois pour vous rappeler de mettre à jour son état à **Publié** et d’indiquer une date de publication. L’objectif de ce rappel mensuel est de s’assurer que le cycle de vie de votre publication est suivi avec exactitude et que les renseignements dans le PSO demeurent à jour.
+
+![Rapple](/images/publication-process/reminder.png)
+
 ### Retirer le manuscrit
 
 Pour retirer votre manuscrit :
