@@ -228,7 +228,7 @@ Il peut arriver qu’un **dossier de publication** ait été créé, mais qu’i
 
 ::: important
 
-Un **dossier de publication** créé à partir d’un **formulaire de dossier de manuscrit (FDM)** ne peut pas être supprimé !
+Un **dossier de publication** créé à partir des [étapes communes du flux de travail](/fr/publication-process/manuscript-overview.html#common-workflow-steps) dans le PSO ne peut pas être supprimé !
 
 :::
 

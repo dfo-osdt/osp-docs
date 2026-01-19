@@ -226,7 +226,7 @@ There may be a situation where a **Publication Record** has been created but is 
 
 ::: important
 
-A **Publication Record** that is created from a **Manuscript Record Form** cannot be deleted!
+A **Publication Record** that is created through the [Common Workflow Steps](/en/publication-process/manuscript-overview.html#common-workflow-steps) within the OSP cannot be deleted!
 
 :::
 
