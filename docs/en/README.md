@@ -2,36 +2,35 @@
 home: true
 title: Home
 heroImage: /logos/logo.png
-heroText: Guide d'utilisation du Portail de la Science Ouverte
-tagline: Documentation complète pour les chercheurs, auteurs et gestionnaires
+heroText: Open Science Portal User Guide
+tagline: Complete documentation for researchers, authors, and managers
 actions:
-    - text: COMMENCER
-      link: /fr/general/introduction.html
+    - text: GET STARTED
+      link: /en/general/introduction.html
       type: primary
 
-footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous licence du gouvernement ouvert – Canada
+footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada
 ---
 
 <div class="custom-cards">
   <div class="card">
-    <h3>👩‍🔬 Pour les auteurs</h3>
-    <p>Soumettez vos manuscrits facilement :</p>
+    <h3>👩‍🔬 For Authors</h3>
+    <p>Submit your manuscripts with ease:</p>
     <ul>
-      <li><router-link to="/fr/general/getting-started.html">Commencer</router-link> - Exigences du système et configuration initiale</li>
-      <li><router-link to="/fr/publication-process/manuscript-record-form.html">Formulaire du registre des manuscrits</router-link> - Créer et gérer vos soumissions de manuscrits</li>
-      <li><router-link to="/fr/features/author-explorer.html">Explorateur d'auteurs</router-link> - Trouver et se connecter avec d'autres chercheurs</li>
+      <li><router-link to="/en/general/getting-started.html">Getting Started</router-link> - System requirements and initial setup</li>
+      <li><router-link to="/en/publication-process/manuscript-record-form.html">Manuscript Record Form</router-link> - Create and manage your manuscript submissions</li>
+      <li><router-link to="/en/features/author-explorer.html">Author Explorer</router-link> - Find and connect with other researchers</li>
     </ul>
   </div>
 
   <div class="card">
-    <h3>👨‍💼 Pour les gestionnaires</h3>
-    <p>Révisez et approuvez les soumissions de manuscrits :</p>
+    <h3>👨‍💼 For Managers</h3>
+    <p>Review and approve manuscript submissions:</p>
     <ul>
-      <li><router-link to="/fr/publication-process/management-review-process.html">Processus d'examen de gestion</router-link> - Procédures d'examen étape par étape</li>
-      <li><router-link to="/fr/features/publication-explorer.html">Explorateur de publications</router-link> - Parcourir et gérer les publications</li>
+      <li><router-link to="/en/publication-process/management-review-process.html">Management Review Process</router-link> - Step-by-step review procedures</li>
+      <li><router-link to="/en/features/publication-explorer.html">Publication Explorer</router-link> - Browse and manage publications</li>
     </ul>
   </div>
-
 </div>
 
 <style>
@@ -122,4 +121,3 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
   }
 }
 </style>
-

@@ -1,6 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { searchPlugin } from '@vuepress/plugin-search'
 import {
   head,
@@ -11,14 +11,11 @@ import {
 export default
   {
     base: '/',
-
     head,
-
     port: 3000,
-
     locales:
     {
-      '/':
+      '/en/':
       {
         lang: 'en-US',
         title: 'EOS-OSP Docs',
@@ -26,7 +23,7 @@ export default
       },
       '/fr/':
       {
-        lang: 'Français',
+        lang: 'fr-CA',
         title: 'SEO-PSO Docs',
         description: 'Site de documentation utilisateur pour le Portail de la Science Ouverte',
       },
@@ -39,42 +36,22 @@ export default
       (
         {
           logo: '/logos/logo.png',
+          contributors: false,
           locales:
           {
-            '/':
+            '/en/':
             {
               selectLanguageName: 'English',
               navbar:
                 [
-                  // User Guide Group
                   {
-                    text: 'User Guides',
-                    children:
-                      [
-                        {
-                          text: 'Welcome',
-                          link: '/en/welcome/introduction.html'
-                        },
-                        {
-                          text: 'DFO Publication',
-                          link: '/en/dfo/manuscript-record-form.html'
-                        },
-			{
-                          text: 'Third-Party Publication',
-                          link: '/en/third-party/manuscript-record-form.html'
-                        },
-                        {
-                          text: 'Settings and Support',
-                          link: '/en/account/settings.html'
-                        },
-                      ]
+                    text: 'User Guide',
+                    link: '/en/general/introduction.html'
                   },
-                  // OSP-PSO
                   {
                     text: 'OSP-PSO',
                     link: 'https://osp-pso.ent.dfo-mpo.ca/'
                   },
-                  // NavbarGroup
                   {
                     text: 'GitHub',
                     children:
@@ -90,45 +67,20 @@ export default
                       ]
                   },
                 ],
-              // Apply sidebar configs
               sidebar: sidebarEn,
-              // Set number of sidebar children 0:none, 1:h2, 2:h3
-              sidebarDepth: 1,
             },
-
             '/fr/':
             {
               selectLanguageName: 'Français',
               navbar: [
-                // User Guide Group
                 {
-                  text: 'Guides d\'utilisation',
-                  children:
-                    [
-                      {
-                        text: 'Bienvenue',
-                        link: '/fr/welcome/introduction.html'
-                      },
-                      {
-                        text: 'Publication du MPO',
-                        link: '/fr/dfo/manuscript-record-form.html'
-                      },
-		      {
-                        text: 'Publication par un tiers',
-                        link: '/fr/third-party/manuscript-record-form.html'
-                      },
-                      {
-                        text: 'Paramètres et assistance',
-                        link: '/fr/account/settings.html'
-                      },
-                    ]
+                  text: 'Guide d\'utilisation',
+                  link: '/fr/general/introduction.html'
                 },
-                // PSO-OSP
                 {
-                  text: 'PSO-OSP',
+                  text: 'OSP-PSO',
                   link: 'https://osp-pso.ent.dfo-mpo.ca/'
                 },
-                // NavbarGroup
                 {
                   text: 'GitHub',
                   children: [
@@ -143,10 +95,7 @@ export default
                   ]
                 }
               ],
-              // Load sidebar config
               sidebar: sidebarFr,
-              // Set number of children 0:none, 1:h2, 2:h3
-              sidebarDepth: 1,
             }
           },
         }
@@ -166,6 +115,10 @@ export default
                 placeholder: 'Rechercher',
               }
             }
+          }),
+          copyCodePlugin
+          ({
+              // options
           }),
       ]
   }

@@ -1,73 +1,42 @@
-import type { SidebarConfig } from 'vuepress'
+import type { SidebarOptions } from '@vuepress/theme-default'
 
-export const sidebarEn: SidebarConfig =
+export const sidebarEn: SidebarOptions =
 {
-  '/en/welcome/':
+  // Single unified guide structure
+  '/en/':
     [
       {
-        sidebarDepth: 0,
-        text: 'Welcome',
+        text: 'Getting Started',
         children: [
-          '/en/welcome/introduction.md',
-          '/en/welcome/getting-started.md',
-          '/en/welcome/portal-navigation.md',
-          '/en/welcome/author-explorer.md',
-          '/en/welcome/publication-explorer.md',
-          '/en/welcome/acknowledgments.md',
-          '/en/dfo/manuscript-record-form.md',
-          '/en/dfo/management-review-process.md',
-          '/en/dfo/publications.md',
-          '/en/third-party/manuscript-record-form.md',
-          '/en/third-party/management-review-process.md',
-          '/en/third-party/publications.md',
-          '/en/account/settings.md',
-          '/en/account/orcid.md',
-          '/en/account/troubleshooting.md',
-          // '/en/account/updates-and-version-history.md', //commented out until launch
-          '/en/account/appendices.md',
-          '/en/account/contact-support.md',
+          '/en/general/introduction.md',
+          '/en/general/getting-started.md',
         ],
-      }
-    ],
-
-  '/en/dfo/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'DFO Publication',
+        text: 'Portal Features',
         children: [
-          '/en/dfo/manuscript-record-form.md',
-          '/en/dfo/management-review-process.md',
-          '/en/dfo/publications.md',
+          '/en/general/portal-navigation.md',
+          '/en/features/author-explorer.md',
+          '/en/features/publication-explorer.md',
+          '/en/general/orcid.md',
+          '/en/general/settings.md',
         ],
-      }
-    ],
-
-  '/en/third-party/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'Third-Party Publication',
+        text: 'Publishing Process',
         children: [
-          '/en/third-party/manuscript-record-form.md',
-          '/en/third-party/management-review-process.md',
-          '/en/third-party/publications.md',
+          '/en/publication-process/manuscript-overview.md',
+          '/en/publication-process/manuscript-record-form.md',
+          '/en/publication-process/management-review-process.md',
+          '/en/publication-process/publications.md',
         ],
-      }
-    ],
-
-  '/en/account/':
-    [
+      },
       {
-        sidebarDepth: 0,
-        text: 'Account and Support',
+        text: 'Support & Resources',
         children: [
-          '/en/account/settings.md',
-          '/en/account/orcid.md',
-          '/en/account/troubleshooting.md',
-          // '/en/account/updates-and-version-history.md', //commented out until launch
-          '/en/account/appendices.md',
-          '/en/account/contact-support.md',
+          '/en/general/troubleshooting.md',
+          '/en/general/contact-support.md',
+          '/en/general/appendices.md',
         ],
       }
     ]

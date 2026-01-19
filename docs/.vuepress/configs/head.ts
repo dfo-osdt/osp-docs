@@ -1,6 +1,6 @@
 import type { HeadConfig } from "@vuepress/core";
 
-export const head: HeadConfig[] = 
+export const head: HeadConfig[] =
 [
     [
         'link',
@@ -21,8 +21,8 @@ export const head: HeadConfig[] =
         },
     ],
     ['link', { rel: 'manifest', href: '/favicons/site.webmanifest' }],
-    ['meta', { name: 'application-name', content: 'OSP-PSO' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'OSP-PSO' }],
+    ['meta', { name: 'application-name', content: 'OSP-PSO Documentation' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'OSP-PSO Docs' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     [
       'link',
