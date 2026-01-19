@@ -27,7 +27,7 @@
     "@vuepress/plugin-external-link-icon": "2.0.0-rc.0",
     "esbuild": "^0.27.2",
     "markdown-it": "^14.1.0",
-    "undici": "^7.16.0",
+    "undici": "^7.18.2",
     "vite": "^7.3.0",
     "vue-router": "^4.6.4"
   },
