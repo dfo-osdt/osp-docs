@@ -1,7 +1,8 @@
 ---
-lang: fr-FR
+lang: fr-CA
 title: Aperçu des publications
 description: Aperçu des types de publications et des processus dans le Portail de la Science Ouverte
+sidebarDepth: 1
 ---
 
 Le Portail de la Science Ouverte prend en charge deux principaux types de publications, chacun avec son propre processus et ses exigences. Cette section vous aidera à comprendre quel type s'applique à votre situation et vous guidera à travers le processus approprié.
