@@ -20,6 +20,9 @@ importers:
       '@vuepress/plugin-external-link-icon':
         specifier: 2.0.0-rc.0
         version: 2.0.0-rc.0
+      '@vuepress/plugin-slimsearch':
+        specifier: 2.0.0-rc.121
+        version: 2.0.0-rc.121(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.18(@types/node@25.0.9)(sass-embedded@1.97.2)(sass@1.97.2))(vue@3.5.27))
       esbuild:
         specifier: ^0.27.2
         version: 0.27.2
@@ -1119,6 +1122,11 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.18
 
+  '@vuepress/plugin-slimsearch@2.0.0-rc.121':
+    resolution: {integrity: sha512-JliPoAf8vv0p0aow5Ug4fbYo9HapytcL17rmFmaUvOFR/G6NKCg7zSHlvAIMRCNt8AMCHXwR33jRiL7kCp4Mvg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.26
+
   '@vuepress/plugin-theme-data@2.0.0-rc.60':
     resolution: {integrity: sha512-xZvZyazQO5nPHiUvQVYKg60s7pHGq2IsZY35fPNnDGcYAdd2a4AVre6gtSrcfbR/S+5bPU1YhVcp7xCuJKF15Q==}
     peerDependencies:
@@ -1940,6 +1948,10 @@ packages:
   slash@5.1.0:
     resolution: {integrity: sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==}
     engines: {node: '>=14.16'}
+
+  slimsearch@2.3.0:
+    resolution: {integrity: sha512-e0L+ke+DGxptl2os/9DshoGVB+XkD2u1nSnRH4Jh0MNIfqkRUmLFLjvwVJiDT7grAYhpCEfHRv5nBNvcADZ4pw==}
+    engines: {node: '>=18.18.0'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -3267,6 +3279,18 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
+  '@vuepress/plugin-slimsearch@2.0.0-rc.121(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.18(@types/node@25.0.9)(sass-embedded@1.97.2)(sass@1.97.2))(vue@3.5.27))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.121(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.18(@types/node@25.0.9)(sass-embedded@1.97.2)(sass@1.97.2))(vue@3.5.27))
+      '@vueuse/core': 14.1.0(vue@3.5.27)
+      cheerio: 1.1.2
+      chokidar: 4.0.3
+      slimsearch: 2.3.0
+      vue: 3.5.27
+      vuepress: 2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.18(@types/node@25.0.9)(sass-embedded@1.97.2)(sass@1.97.2))(vue@3.5.27)
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/plugin-theme-data@2.0.0-rc.60(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.18(@types/node@25.0.9)(sass-embedded@1.97.2)(sass@1.97.2))(vue@3.5.27))':
     dependencies:
       '@vue/devtools-api': 7.7.9
@@ -4229,6 +4253,8 @@ snapshots:
       sax: 1.4.4
 
   slash@5.1.0: {}
+
+  slimsearch@2.3.0: {}
 
   source-map-js@1.2.1: {}
 
