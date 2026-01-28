@@ -25,6 +25,7 @@
     "@vuepress/core": "2.0.0-rc.18",
     "@vuepress/plugin-copy-code": "2.0.0-rc.121",
     "@vuepress/plugin-external-link-icon": "2.0.0-rc.0",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.121",
     "esbuild": "^0.27.2",
     "markdown-it": "^14.1.0",
     "undici": "^7.18.2",
