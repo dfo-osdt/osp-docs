@@ -54,7 +54,7 @@ Navigating the form efficiently ensures that all necessary information is provid
 ### Section Menu
 
 1. **Form**: This is the primary page of the MRF. It contains the form and submission system.
-2. **Management Review**: This [page](./management-review-process.md) shows the current status of the management review of the MRF.
+2. **Manuscript Management Review**: This [page](./management-review-process.md) shows the current status of the manuscript management review of the MRF.
 3. **Manuscript Progress**: This [page](./manuscript-record-form.md#manuscript-progress) shows the workflow and current progress of this MRF.
 4. **Sharing**: This [page](./manuscript-record-form.md#sharing-a-mrf) allows you to share the MRF with others. Note that authors and all management review users will have access to the MRF and do not need to be added here.
 5. **Publication**: This takes you to the associated [publication](./publications.md) if it exists. The publication will be created once you flag that your manuscript was accepted for publication.

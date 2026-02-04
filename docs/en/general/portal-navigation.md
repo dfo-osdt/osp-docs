@@ -12,7 +12,7 @@ The Open Science Portal (OSP) aims to enhance Fisheries and Oceans Canada's
 (DFO) scientific knowledge mobilization by adhering to Canada's Roadmap for Open
 Science. The primary objective is to create an adaptable portal that simplifies
 the publication process, ensures research traceability, promotes open
-communication, and fosters collaboration. This portal empowers DFO science staff
+communication, and fosters collaboration. This portal empowers Ecosystem and Oceans Science Sector (EOS) staff
 by providing a platform to track, discover, and promote scientific research and
 expertise within the department.
 
@@ -45,9 +45,9 @@ The **My Manuscripts page** is where you can manage new and in-progress Manuscri
 
 The **My Publications page** is where you can manage pending or published publications.
 
-#### My Management Reviews
+#### My Manuscript Management Reviews
 
-The **My Management Reviews page** is where you can view manuscripts you have been asked to review.
+The **My Manuscript Management Reviews page** is where you can view manuscripts you have been asked to review.
 
 #### User Menu Button
 

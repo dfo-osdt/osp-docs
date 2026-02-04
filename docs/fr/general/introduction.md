@@ -14,18 +14,18 @@ L'objectif de ce site de documentation est d'expliquer la navigation, l'utilisat
 
 ## Structure du guide
 
-Ce guide utilisateur complet est organisé en sections logiques pour vous aider à naviguer efficacement dans le PSO :
+Ce guide d’utilisation complet est organisé en sections logiques afin de vous aider à naviguer efficacement dans le PSO :
 
-**Premiers pas** - Introduction et configuration initiale
-**Fonctionnalités du portail** - Apprenez à naviguer dans le portail et à utiliser les fonctionnalités clés
-**Le processus de publication** - Flux de travail complets pour les publications du MPO et de tiers
-**Support et ressources** - Dépannage, informations de contact et ressources supplémentaires
+**Premiers pas** – Introduction et configuration initiale  
+**Fonctionnalités du portail** – Apprendre à naviguer dans le portail et à utiliser les principales fonctionnalités  
+**Le processus de publication** – Flux de travail complets pour les publications du MPO et celles publiées dans des revues par des tiers  
+**Soutien et ressources** – Dépannage, coordonnées et ressources supplémentaires  
 
 ## Démarrage rapide
 
-Nouveau au PSO ? Commencez par [Premiers pas](getting-started.md) pour configurer votre compte et apprendre les bases.
+Nouveau dans le PSO ? Commencez par la section [Premiers pas](getting-started.md) pour configurer votre compte et apprendre les notions de base.
 
-Besoin de créer et soumettre un manuscrit pour révision de gestion ? Allez à [Aperçu des manuscrits](../publication-process/manuscript-overview.md) pour déterminer quel type de flux de travail de publication vous avez besoin.
+Besoin de créer et de soumettre un manuscrit pour un examen de gestion des manuscrits ? Consultez la page [Aperçu des manuscrits](../publication-process/manuscript-overview.md) afin de déterminer le type de flux de publication qui s’applique à votre situation.
 
 ## Public cible
 

@@ -5,9 +5,9 @@ description:
 ---
 # Publications
 
-## Submitting for Publication
+### Submitting for Publication
 
-After completing the Management Review Process, you are now ready to submit your manuscript to a journal for peer review and publication!
+After completing the Manuscript Management Review Process, you are now ready to submit your manuscript to a journal for peer review and publication!
 
 Please continue to update your manuscript record form throughout the publication process to improve publishing time metrics and increase visibility of your work.
 

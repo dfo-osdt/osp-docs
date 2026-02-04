@@ -26,14 +26,14 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 
 [→ Commencer avec le formulaire du registre des manuscrits du MPO](/fr/publication-process/manuscript-record-form.html)
 
-### Publications par un tiers
+### Publications dans des revues de tiers
 
-**Les publications par un tiers** sont des manuscrits qui seront publiés par des éditeurs externes tels que :
+Les **publications dans des revues de tiers** sont des manuscrits qui seront publiés par des éditeurs externes, tels que :
 
 - Revues évaluées par les pairs
-- Actes de conférence
+- Actes de conférences
 - Chapitres de livre
-- Autres publications non-MPO
+- Autres publications ne relevant pas du MPO
 
 **Quand utiliser ce processus :**
 
@@ -55,9 +55,9 @@ Le Portail de la Science Ouverte prend en charge deux principaux types de public
 
 Tous les types de publications partagent plusieurs étapes communes :
 
-1. **Création du registre des manuscrits** - Créer et remplir le formulaire du registre des manuscrits
-2. **Processus d'examen de gestion** - Soumettre pour examen par les gestionnaires appropriés
-3. **Gestion de publication** - Suivre et gérer la publication une fois approuvée
+1. **Création du dossier de manuscrit** – Créer et remplir le formulaire de dossier de manuscrit
+2. **Processus d’examen de gestion des manuscrits** – Soumettre le manuscrit à un examen de gestion par les gestionnaires appropriés
+3. **Gestion des publications** – Assurer le suivi et la gestion de la publication une fois celle-ci approuvée
 
 ## Besoin d'aide pour décider ?
 
