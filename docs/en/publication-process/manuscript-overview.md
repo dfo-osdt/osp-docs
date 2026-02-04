@@ -28,7 +28,7 @@ The Open Science Portal supports two main types of publications, each with its o
 
 ### Third-Party Journal Publications
 
-**third-party journal publications** are manuscripts that will be published by external publishers such as:
+**Third-party journal publications** are manuscripts that will be published by external publishers such as:
 
 - Peer-reviewed journals
 - Conference proceedings
