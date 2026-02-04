@@ -8,7 +8,7 @@ description:
 
 ## Objectif
 
-Le Portail de science ouverte (PSO) vise à améliorer la mobilisation des connaissances scientifiques de Pêches et Océans Canada (MPO) en s’alignant sur la Feuille de route du Canada pour la science ouverte. L’objectif principal est de créer un portail adaptable qui simplifie le processus de publication, assure la traçabilité des recherches, favorise la communication ouverte et encourage la collaboration. Ce portail outille le personnel scientifique du MPO en offrant une plateforme pour suivre, découvrir et promouvoir la recherche scientifique et l’expertise au sein du Ministère.
+Le Portail de science ouverte (PSO) vise à améliorer la mobilisation des connaissances scientifiques de Pêches et Océans Canada (MPO) en s’alignant sur la Feuille de route du Canada pour la science ouverte. L’objectif principal est de créer un portail adaptable qui simplifie le processus de publication, assure la traçabilité des recherches, favorise la communication ouverte et encourage la collaboration. Ce portail outille le personnel du Secteur des sciences des écosystèmes et des océans (SSÉO) en offrant une plateforme pour suivre, découvrir et promouvoir la recherche scientifique et l’expertise au sein du Ministère.
 
 Parmi les fonctionnalités supplémentaires du PSO, on retrouve l’entreposage et le partage des formulaires de dossier de manuscrit (FDM), le suivi de l’état des publications, les profils d’expertise des auteurs ainsi que l’intégration d’ORCID.
 
@@ -32,9 +32,9 @@ La **page Mes manuscrits** vous permet de gérer les formulaires de dossier de m
 
 La **page Mes publications** vous permet de gérer les publications en attente ou déjà publiées.
 
-#### Mes examens de gestion
+#### Mes examens de gestion des manuscrits
 
-La **page Mes examens de gestion** vous permet de consulter les manuscrits pour lesquels on vous a demandé d’effectuer un examen.
+La **page Mes examens de gestion des manuscrits** vous permet de consulter les manuscrits pour lesquels on vous a demandé d’effectuer un examen.
 
 #### Bouton du menu utilisateur
 

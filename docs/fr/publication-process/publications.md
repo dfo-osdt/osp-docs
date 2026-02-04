@@ -6,9 +6,9 @@ description:
 
 # Publications
 
-## Soumettre pour publication
+## Soumission pour publication
 
-Après avoir terminé le processus d'examen de gestion, vous êtes maintenant prêt à soumettre votre manuscrit à une revue pour une évaluation par des pairs et une publication !
+Après avoir complété le processus d’examen de gestion des manuscrits, vous êtes maintenant prêt à soumettre votre manuscrit à une revue pour évaluation par les pairs et publication !
 
 Veuillez continuer à mettre à jour votre formulaire de dossier de manuscrit tout au long du processus de publication pour améliorer les indicateurs de temps de publication et augmenter la visibilité de votre travail.
 

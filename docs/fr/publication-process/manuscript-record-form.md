@@ -51,13 +51,13 @@ Les fonctionnalités clés de navigation incluent :
 
 Naviguer efficacement dans le formulaire garantit que toutes les informations nécessaires sont fournies et aide à rationaliser le processus de soumission.
 
-### Menu des Sections
+### Menu de section
 
-1. **Formulaire** : Ceci est la page principale du FRM. Elle contient le formulaire et le système de soumission.
-2. **Révision de la Gestion** : Cette [page](./management-review-process.md) montre le statut actuel de la révision de la gestion du FRM.
-3. **Progrès du Manuscrit** : Cette [page](./manuscript-record-form.md#manuscript-progress) montre le flux de travail et l'avancement actuel de ce FRM.
-4. **Partage** : Cette [page](./manuscript-record-form.md#sharing-a-frm) vous permet de partager le FRM avec d'autres personnes. Notez que les auteurs et tous les utilisateurs de la révision de la gestion auront accès au FRM et n'ont donc pas besoin d'être ajoutés ici.
-5. **Publication** : Cela vous mène à la [publication](./publications.md) associée si elle existe. La publication sera créée une fois que vous aurez signalé que votre manuscrit a été accepté pour publication.
+1. **Formulaire** : Il s’agit de la page principale du FDM. Elle contient le formulaire et le système de soumission.
+2. **Examen de gestion des manuscrits** : Cette [page](./management-review-process.md) affiche l’état actuel de l’examen de gestion des manuscrits du FDM.
+3. **Progression du manuscrit** : Cette [page](./manuscript-record-form.md#manuscript-progress) présente le flux de travail et l’état d’avancement actuel de ce FDM.
+4. **Partage** : Cette [page](./manuscript-record-form.md#sharing-a-mrf) vous permet de partager le FDM avec d’autres utilisateurs. Notez que les auteurs et tous les utilisateurs participant à l’examen de gestion ont déjà accès au FDM et n’ont pas besoin d’être ajoutés ici.
+5. **Publication** : Cette option vous dirige vers la [publication](./publications.md) associée, si elle existe. La publication sera créée une fois que vous aurez indiqué que votre manuscrit a été accepté pour publication.
 
 ## Remplissage d'un FRM
 

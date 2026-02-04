@@ -18,14 +18,14 @@ This comprehensive user guide is organized into logical sections to help you nav
 
 **Getting Started** - Introduction and initial setup
 **Portal Features** - Learn to navigate the portal and use key features
-**The Publishing Process** - Complete workflows for both DFO and third-party publications
+**The Publishing Process** - Complete workflows for both DFO and third-party journal publications
 **Support & Resources** - Troubleshooting, contact information, and additional resources
 
 ## Quick Start
 
 New to the OSP? Start with [Getting Started](getting-started.md) to set up your account and learn the basics.
 
-Need to create and submit a manuscript for management review? Go to [Manuscript Overview](../publication-process/manuscript-overview.md) to determine which type of publication workflow you need.
+Need to create and submit a manuscript for manuscript management review? Go to [Manuscript Overview](../publication-process/manuscript-overview.md) to determine which type of publication workflow you need.
 
 ## Audience
 

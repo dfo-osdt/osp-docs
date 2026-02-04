@@ -35,7 +35,7 @@ Reviews the manuscript for compliance with the [Intellectual Property Policy/Cop
 
 Identifies when a manuscript is of potential public interest for the sole purpose of informing RDS and DFO regional Communications. Examples of topics of potential public interest could include subjects related to current events, or of stakeholder interest. These can include interesting stories to show case DFO research or studies that are more controversial. The inclusion of potentially sensitive material will never prevent the publication of a manuscript in any way.
 
-Authors may submit their publication to the third-party journal for peer review after the manager has deemed the publication to be in alignment with the relevant legislation, policies and directives, or if no feedback was received from the management review within 10 working days. Division Managers, National Directors, Regional Directors of Science and National Directors General may perform the management review.
+Authors may submit their publication to the third-party journal for peer review after the manager has deemed the publication to be in alignment with the relevant legislation, policies and directives, or if no feedback was received from the manuscript management review within 10 working days. Division Managers, EOS Directors in the National Capital Region (NCR), Regional Directors of Science and National Directors General may perform the manuscript management review.
 
 For more information please refer to the [Fisheries and Oceans Canada National Policy for Science Publications](https://www.dfo-mpo.gc.ca/about-notre-sujet/publications/science/policy-politique/index-eng.html).
 

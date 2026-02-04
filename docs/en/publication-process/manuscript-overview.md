@@ -26,9 +26,9 @@ The Open Science Portal supports two main types of publications, each with its o
 
 [→ Get started with the DFO Manuscript Record Form](/en/publication-process/manuscript-record-form.md)
 
-### Third-Party Publications
+### Third-Party Journal Publications
 
-**Third-party publications** are manuscripts that will be published by external publishers such as:
+**third-party journal publications** are manuscripts that will be published by external publishers such as:
 
 - Peer-reviewed journals
 - Conference proceedings
@@ -56,7 +56,7 @@ The Open Science Portal supports two main types of publications, each with its o
 All publication types share several common steps:
 
 1. **Manuscript Record Creation** – Create and complete the Manuscript Record Form
-2. **Management Review Process** – Submit for review by the appropriate managers
+2. **Manuscript Management Review Process** – Submit for manuscript management review by the appropriate managers
 3. **Publication Management** – Track and manage the publication once approved
 
 ## Need Help Deciding?
