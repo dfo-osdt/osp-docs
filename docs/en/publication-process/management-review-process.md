@@ -1,7 +1,8 @@
 ---
 lang: en-US
-title: Management Review Process
+title: Manuscript Management Review Process
 description:
+sidebarDepth: 1
 ---
 
 # Manuscript Management Reviews
