@@ -67,7 +67,9 @@ There is no 10-working-day timeline for DFO publications. As per the policy, man
 While you are the current reviewer, you are able to edit the MRF form as required.
 :::
 
-To review the Manuscript Form:
+The Manuscript and any Potential Public Interest can be reviewed in the Quick Review panel in the Manuscript Management Review page.
+
+To review the full Manuscript Form:
 
 1. Click the **<- GO TO MANUSCRIPT FORM** button.
 2. Click the **Download icon** to download a PDF copy of the manuscript.

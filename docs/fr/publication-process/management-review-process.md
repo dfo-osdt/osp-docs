@@ -65,7 +65,9 @@ Il n’y a pas de délai de 10 jours ouvrables pour les publications du MPO. Con
 Tant que vous êtes le réviseur actuel, vous pouvez modifier le formulaire de FDM au besoin.
 :::
 
-Pour examiner le formulaire de manuscrit :
+Le manuscrit et tout intérêt public potentiel peuvent être examinés dans le panneau d’aperçu rapide de la page **Examen de gestion des manuscrits**.
+
+Pour examiner le formulaire complet du manuscrit :
 
 1. Cliquez sur le **bouton <- ALLER AU FORMULAIRE DE MANUSCRIT**.
 2. Cliquez sur l’**icône de téléchargement** pour télécharger une copie PDF du manuscrit.
