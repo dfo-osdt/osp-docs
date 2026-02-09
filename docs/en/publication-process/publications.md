@@ -2,50 +2,9 @@
 lang: en-US
 title: Publication Management
 description:
+sidebarDepth: 1
 ---
 # Publications
-
-### Submitting for Publication
-
-After completing the Manuscript Management Review Process, you are now ready to submit your manuscript to a journal for peer review and publication!
-
-Please continue to update your manuscript record form throughout the publication process to improve publishing time metrics and increase visibility of your work.
-
-### Mark as Submitted
-
-To mark your manuscript as submitted to a journal:
-
-1. Open the manuscript record form.
-2. Select **Manuscript Progress** from the left menu.
-3. Click the **MARK AS SUBMITTED button**.
-4. In the **Submitted to Journal On field**, type the date in YYYY-MM-DD format, or click the **Calendar icon** to select the applicable date.
-5. Click the **UPDATE button** to confirm the submission date.
-
-### Accepted for Publication
-
-To mark your manuscript as accepted for publication:
-
-1. Open the manuscript record form.
-2. Select **Manuscript Progress** from the left menu.
-3. Click the **ACCEPTED FOR PUBLICATION button**.
-4. Confirm the date the manuscript was submitted to the journal.
-5. In the **Accepted for Publication On field**, type the date in YYYY-MM-DD format, or click the **Calendar icon** to select the applicable date.
-6. In the **Journal field**, begin typing the name of the journal. If the journal is in the database, it will appear. Select the name from the list.
-   - If the journal is not listed, email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have it added.
-7. Click the **UPDATE button** to confirm the publication acceptance entry.
-
-Once a publication has been marked as accepted, the OSP will email you once a month to remind you to update its status to **Published** and to provide a publication date. The goal of this monthly reminder is to help ensure that the lifecycle of your publication is accurately tracked and that information within the OSP is kept up to date.
-
-![Reminder](/images/publication-process/reminder.png)
-
-### Withdraw Manuscript
-
-To withdraw your manuscript:
-
-1. Open the manuscript record form.
-2. Select **Manuscript Progress** from the left menu.
-3. Click the **WITHDRAW MANUSCRIPT button**.
-4. Click the **WITHDRAW button** to confirm.
 
 ## My Publications Page
 

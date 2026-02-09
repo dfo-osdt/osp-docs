@@ -2,6 +2,7 @@
 lang: en-US
 title: Manuscript Record Creation
 description:
+sidebarDepth: 1
 ---
 
 # Creating a Manuscript Record Form
@@ -313,7 +314,7 @@ To delete an existing funding source:
 1. Click the **Garbage Can icon** next to the funding source you wish to delete.
 2. Click the **OK button** to confirm the deletion.
 
-## Submitting an MRF for Review
+## Submitting for Manuscript Management Review
 
 Once all required information has been populated, you can submit your manuscript for review.
 
@@ -321,7 +322,7 @@ Once all required information has been populated, you can submit your manuscript
 The MRF's applicant or any of the author may submit the MRF for management
 review. The user that submits the MRF will automatically become the
 MRF applicant. In the case where the person that created the MRF is not an
-author, for example, and office administrator, they may loose access to the
+author, for example, and office administrator, they may lose access to the
 MRF once it is submitted for review. The author can share the MRF back with
 them if required.
 :::
@@ -347,6 +348,72 @@ Your manuscript is now submitted for review.
 To confirm, scroll to the top of the **Manuscript Record Page** and check the **STATUS box** in the top-right corner. It should display **In Review**.
 
 ![In Review](/images/publication-process/in_review.png)
+
+## Submit for Publication
+
+### EOS Secondary Scientific and Technical Publication
+
+After completing the Manuscript Management Review Process, you are now ready to submit your manuscript to the Single Window for Scientific Publications!
+
+::: warning
+**Required Information**
+
+You must have a **Catalogue Number** before you can submit your manuscript to the Single Window!
+
+A Catalogue Number can be acquired by completing a [Request Form for Publication Numbers](https://intranet.ent.dfo-mpo.ca/mpo/sites/dfo-mpo/files/publishing-form-formulaire-publication-eng_0.pdf) and emailing it to [Publications.XNCR@dfo-mpo.gc.ca](mailto:Publications.XNCR@dfo-mpo.gc.ca)
+:::
+
+#### Submit Manuscript
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the left menu.
+3. Click the **SUBMIT MANUSCRIPT button**.
+4. Fill out the submission form,
+  1. Journal/Series (Required)
+  2. Catalogue Number (Required)
+  3. ISBN (Optional)
+  4. Issue Number (Optional)
+  5. Copy of Manuscript in .doc or .docx file format (Required)
+5. Click the **SUBMIT button**.
+
+![Submit to Single Window](/images/publication-process/submit_single_window.png)
+
+### Third-Party Journal Publication
+
+After completing the Manuscript Management Review Process, you are now ready to submit your manuscript to a journal for peer review and publication!
+
+Please continue to update your manuscript record form throughout the publication process to improve publishing time metrics and increase visibility of your work.
+
+#### Initial Submission for Publication
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the left menu.
+3. Under the *Initial Submission for publication* heading, Click the **MARK AS SUBMITTED button**.
+4. In the **Submitted to Journal On field**, type the date in YYYY-MM-DD format, or click the **Calendar icon** to select the applicable date.
+5. Click the **UPDATE button** to confirm the submission date.
+
+#### Accepted for Publication
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the left menu.
+3. Click the **MARK AS SUBMITTED button**.
+4. Fill out the acceptance form,
+  1. Submitted to Journal On date (If update required)
+  2. Accepted for Publication On date (If update required)
+  3. Journal/Series (Required)
+    - If the journal is not listed, email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have it added.
+5. Click the **UPDATE button**.
+
+![Accept for Publication](/images/publication-process/accept_for_publication.png)
+
+#### Withdraw Manuscript
+
+To withdraw your manuscript:
+
+1. Open the manuscript record form.
+2. Select **Manuscript Progress** from the left menu.
+3. Click the **WITHDRAW MANUSCRIPT button**.
+4. Click the **WITHDRAW button** to confirm.
 
 ## Manuscript Progress
 
