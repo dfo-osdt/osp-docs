@@ -91,9 +91,11 @@ Si vous avez l’intention d’approuver et de compléter l’examen de gestion 
 
 ## Actions d’examen de gestion des manuscrits
 
+### Décision d’examen
+
 ::: important
 
-- Pour les publications du MPO, seuls un DRS, un DG ou un utilisateur auquel le rôle `directeur` a été attribué dans le portail peuvent compléter l’examen de gestion des manuscrits.
+- Pour les publications du MPO, seuls un DRS, un DG ou un utilisateur ayant reçu le rôle `directeur` dans le portail peuvent compléter l’examen de gestion des manuscrits.
 - Un commentaire de gestion est requis pour toutes les actions, sauf pour **compléter** l’examen de gestion des manuscrits.
 
 :::
@@ -109,7 +111,7 @@ Les décisions de gestion disponibles sont les suivantes :
   - Vous avez examiné ce manuscrit en vue de sa publication et mettez fin au processus d’examen de gestion des manuscrits.
 
 - **Révision requise**
-  - Vous signalez des commentaires d’examen de gestion des manuscrits que l’auteur doit prendre en compte avant que vous puissiez donner votre approbation.
+  - Vous signalez des commentaires d’examen de gestion des manuscrits que l’auteur doit traiter avant que vous puissiez donner votre approbation.
 
 - **Référer au gestionnaire suivant**
   - Vous avez examiné ce manuscrit et le référez au gestionnaire suivant (habituellement un DRS ou un DG) pour examen.
@@ -125,6 +127,20 @@ Les décisions de gestion disponibles sont les suivantes :
   Si vous êtes un auteur et que vous avez soumis le manuscrit par erreur au mauvais destinataire, vous pouvez également communiquer avec l’équipe du portail pour obtenir de l’aide.
   :::
   
+### Cartable de planification
+
+![Cartable de planification](/images/publication-process/planning_binder_fr.png)
+
+Si vous êtes le dernier réviseur, il vous sera demandé si ce manuscrit devrait être considéré comme un élément à inclure dans le cartable de planification du SMA du SSÉO. La sélection de **Oui** informe l’équipe de la science ouverte et permet une meilleure visibilité et un meilleur suivi de ce manuscrit dans le PSO.
+
+::: warning
+La sélection de « Oui » **n’ajoute pas** la publication au cartable de planification !
+
+Il incombe à la région d’ajouter la publication au cartable de planification !
+:::
+
+![Courriel du cartable de planification](/images/publication-process/binder_email_fr.png)
+
 ### Soumettre un examen
 
 Après avoir examiné le dossier de manuscrit et ajouté les commentaires nécessaires, vous pouvez soumettre votre examen.
@@ -142,10 +158,6 @@ Pour soumettre un examen de gestion des manuscrits :
      3. Cliquez sur le **bouton INVITER** pour l’inviter au PSO.
 4. Cliquez sur le **bouton SUIVANT** pour confirmer le gestionnaire sélectionné.
 5. Sélectionnez **Oui** et cliquez sur le **bouton SOUMETTRE**.
-
-::: info
-Si vous êtes le dernier réviseur, il vous sera demandé si vous estimez que ce manuscrit devrait être ajouté au cartable de planification du SMA du SSÉO. Cette question vise uniquement à informer notre équipe et à lui permettre d’envisager l’ajout du manuscrit au cartable. Veuillez noter qu’il incombe à la région d’ajouter la publication au cartable de planification.
-:::
 
 ![Soumettre une décision](/images/publication-process/submit_decision_fr.png)
 

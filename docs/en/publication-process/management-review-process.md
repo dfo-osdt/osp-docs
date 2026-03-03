@@ -93,6 +93,8 @@ If you intend to approve and complete the manuscript management review, comments
 
 ## Manuscript Management Review Actions
 
+### Review Decision
+
 ::: important
 
 - For DFO publications, only an RDS, DG or user that has been assigned the `director` role within the portal may complete the manuscript management review.
@@ -128,7 +130,21 @@ The available management decisions are:
   wrong recipient, you can also contact the portal team for help.
   :::
 
-### Submitting a Review
+### Planning Binder
+
+![Planning Binder](/images/publication-process/planning_binder.png)
+
+If you are the last reviewer, you will be asked if this manuscript should be considered an item on the EOS ADM Planning Binder. Selecting **Yes** notifies the Open Science Team and allows for greater tracking visibility of this manuscript within the OSP. 
+
+::: warning
+Selecting "Yes" **does not** add the publication to the planning binder!
+
+It is the responsibility of the region to add the publication to the planning binder!
+:::
+
+![Planning Binder Email](/images/publication-process/binder_email.png)
+
+### Confirm Review
 
 After reviewing the Manuscript Record and providing any necessary comments, you can submit your review.
 
@@ -145,11 +161,6 @@ To submit a Manuscript Management Review:
      3. Click the **INVITE** button to invite them to the OSP.
 4. Click the **NEXT** button to confirm the selected manager.
 5. Select **Yes** and click the **SUBMIT** button.
-
-::: info
-If you are the last reviewer, you will be asked whether you think this manuscript should be adding to the planning binder for the EOS ADM. This is just to inform our team and allows you to get a [...] consider its addition to the binder. Please note that it is the responsibility
-of the region to add the publication to the planning binder.
-:::
 
 ![Submit Decision](/images/publication-process/submit_decision.png)
 
