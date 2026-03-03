@@ -69,6 +69,10 @@ Pour mettre à jour un dossier de publication :
 
 ![Ajout d’auteurs](/images/publication-process/adding_authors_fr.png)
 
+::: info
+Un auteur qui ne possède pas d’adresse courriel valide et qui est mentionné dans la publication n’a pas besoin d’être ajouté.
+:::
+
 #### Mettre à jour un auteur ou une affiliation
 
 Pour mettre à jour le statut d’**auteur correspondant** d’un auteur ou d’un affilié ajouté :

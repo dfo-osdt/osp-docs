@@ -68,6 +68,10 @@ To update a publication record:
 
 ![Adding Authors](/images/publication-process/adding_authors.png)
 
+::: info
+An author who does not have a valid email address and is credited in the publication does not need to be added.
+:::
+
 #### Updating Author or Affiliation
 
 To update the **Corresponding Author** status of an added author or affiliate:
