@@ -11,6 +11,17 @@ import { presimplify, simplify } from "topojson-simplify";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const REGION_ID_MAP = new Map([
+    ["Newfoundland & Labrador", "DFO_NL"],
+    ["Pacific", "DFO_PAC"],
+    ["Ontario and Prairie", "DFO_ONT_PRA"],
+    ["Quebec", "DFO_QC"],
+    ["Maritimes", "DFO_MAR"],
+    ["Gulf", "DFO_GULF"],
+    ["Arctic", "DFO_ARCTIC"],
+    ["Arctic-Water", "DFO_ARCTIC"], // merge water into Arctic
+]);
+
 /**
  * CONFIG
  * - INPUT: GeoJSON of DFO region polygons
@@ -111,12 +122,13 @@ async function main() {
   // Build SVG paths from original features (keeps properties consistent)
   // If you want simplified shapes, swap fc.features for features (but may lose geometry conversion depending on topo geometry).
   const svgPaths = fc.features.map((f) => {
-    const name = f?.properties?.[NAME_FIELD] ?? f?.properties?.Name ?? f?.properties?.NAME ?? "UNKNOWN";
-    const id = `DFO_${slugRegionName(name)}`;
+    const rawName = f?.properties?.[NAME_FIELD] ?? "UNKNOWN";
+    const mappedId = REGION_ID_MAP.get(rawName);
+    const id = mappedId || `DFO_${slugRegionName(rawName)}`;
     const d = pathGen(f);
     if (!d) return "";
 
-    return `<path id="${escapeXml(id)}" class="dfo-region" data-name="${escapeXml(name)}" d="${d}"></path>`;
+    return `<path id="${escapeXml(id)}" class="dfo-region" data-name="${escapeXml(rawName)}" d="${d}"></path>`;
   });
 
   // NCR marker position in projection coords
@@ -126,7 +138,7 @@ async function main() {
     if (p) {
       const [x, y] = p;
       ncrCircle =
-        `<circle id="DFO_NCR" class="dfo-ncr" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="6"></circle>` +
+        `<circle id="DFO_NCR" class="dfo-ncr" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="12"></circle>` +
         `<text class="dfo-ncr-label" x="${(x + 10).toFixed(2)}" y="${(y + 4).toFixed(2)}">NCR</text>`;
     }
   }
@@ -135,7 +147,7 @@ async function main() {
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WIDTH} ${HEIGHT}" role="img" aria-label="DFO Regions map">
   <style>
     .dfo-region { fill: #e9ecef; stroke: #adb5bd; stroke-width: 0.8; }
-    .dfo-ncr { fill: #343a40; stroke: white; stroke-width: 1.2; }
+    .dfo-ncr { fill: #343a40; stroke: #000; stroke-width: 1.2;  }
     .dfo-ncr-label { font: 14px sans-serif; fill: #343a40; paint-order: stroke; stroke: white; stroke-width: 3px; }
   </style>
   <g id="DFO_REGIONS">

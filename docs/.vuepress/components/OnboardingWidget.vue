@@ -20,7 +20,12 @@
       </div>
 
       <div class="onboard-grid">
-        <div v-for="r in regions" :key="r.code" class="onboard-region">
+        <div
+           v-for="r in regions"
+           :key="r.code"
+           class="onboard-region"
+           :id="`region-${r.code}`"
+           >
           <div class="onboard-region-header">
             <div class="onboard-region-name">{{ r.name }}</div>
             <div class="onboard-region-count">
@@ -200,4 +205,11 @@ function label(status) {
 .group-date { color: var(--c-text-quote); font-variant-numeric: tabular-nums; }
 .onboard-upcoming { margin-top: 14px; }
 .onboard-upcoming-title { margin: 0 0 6px 0; }
+
+.region-flash {
+  outline: 3px solid var(--c-brand);
+  outline-offset: 4px;
+  border-radius: 12px;
+  transition: outline-color 0.9s ease;
+}
 </style>

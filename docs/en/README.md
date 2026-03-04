@@ -122,4 +122,9 @@ footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Ope
 }
 </style>
 
+<DfoRegionsMap />
+
 <OnboardingWidget />
+
+
+

@@ -2,21 +2,83 @@
     "definition": "Onboarded = a live demo + Q&A session has been delivered to the subgroup.",
     "regions": [
         {
+            "name": "Arctic",
+            "code": "ARCTIC",
+            "svgIds": ["DFO_ARCTIC"],
+            "groups": [
+                { "name": "Group 1", "status": "complete", "date": "2026-02-10" },
+                { "name": "Group 2", "status": "scheduled", "date": "2026-03-12" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
             "name": "Pacific",
             "code": "PAC",
+            "svgIds": ["DFO_PAC"],
             "groups": [
-                { "name": "Group A", "status": "complete", "date": "2026-02-10" },
-                { "name": "Group B", "status": "scheduled", "date": "2026-03-12" },
-                { "name": "Group C", "status": "not_started" }
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Ontario and Prairies",
+            "code": "ONT_PRA",
+            "svgIds": ["DFO_ONT_PRA"],
+            "groups": [
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
             ]
         },
         {
             "name": "Quebec",
             "code": "QC",
+            "svgIds": ["DFO_QC"],
             "groups": [
-                { "name": "Group A", "status": "in_progress" },
-                { "name": "Group B", "status": "not_started" },
-                { "name": "Group C", "status": "not_started" }
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Maritimes",
+            "code": "MAR",
+            "svgIds": ["DFO_MAR"],
+            "groups": [
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Gulf",
+            "code": "GULF",
+            "svgIds": ["DFO_GULF"],
+            "groups": [
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Newfoundland and Labrador",
+            "code": "NL",
+            "svgIds": ["DFO_NL"],
+            "groups": [
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "National Capital Region",
+            "code": "NCR",
+            "svgIds": ["DFO_NCR"],
+            "groups": [
+                { "name": "Group 1", "status": "not_started" },
+                { "name": "Group 2", "status": "not_started" },
+                { "name": "Group 3", "status": "not_started" }
             ]
         }
     ]
