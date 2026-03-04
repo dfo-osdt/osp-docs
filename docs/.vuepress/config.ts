@@ -2,6 +2,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { path } from "@vuepress/utils";
 import {
   head,
   sidebarEn,
@@ -102,6 +104,9 @@ export default
       ),
     plugins:
       [
+          registerComponentsPlugin({
+              componentsDir: path.resolve(__dirname, "./components"),
+          }),
         slimsearchPlugin
           ({
               indexContent: true,
