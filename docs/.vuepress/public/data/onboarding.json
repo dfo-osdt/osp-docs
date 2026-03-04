@@ -1,0 +1,23 @@
+{
+    "definition": "Onboarded = a live demo + Q&A session has been delivered to the subgroup.",
+    "regions": [
+        {
+            "name": "Pacific",
+            "code": "PAC",
+            "groups": [
+                { "name": "Group A", "status": "complete", "date": "2026-02-10" },
+                { "name": "Group B", "status": "scheduled", "date": "2026-03-12" },
+                { "name": "Group C", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Quebec",
+            "code": "QC",
+            "groups": [
+                { "name": "Group A", "status": "in_progress" },
+                { "name": "Group B", "status": "not_started" },
+                { "name": "Group C", "status": "not_started" }
+            ]
+        }
+    ]
+}
