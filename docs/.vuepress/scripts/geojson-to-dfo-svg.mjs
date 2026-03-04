@@ -138,8 +138,8 @@ async function main() {
     if (p) {
       const [x, y] = p;
       ncrCircle =
-        `<circle id="DFO_NCR" class="dfo-ncr" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="12"></circle>` +
-        `<text class="dfo-ncr-label" x="${(x + 10).toFixed(2)}" y="${(y + 4).toFixed(2)}">NCR</text>`;
+        `<circle id="DFO_NCR" class="dfo-ncr" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="25"></circle>` +
+        `<text class="dfo-ncr-label" x="${(x + 30).toFixed(2)}" y="${(y + 4).toFixed(2)}">NCR</text>`;
     }
   }
 
@@ -147,8 +147,8 @@ async function main() {
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WIDTH} ${HEIGHT}" role="img" aria-label="DFO Regions map">
   <style>
     .dfo-region { fill: #e9ecef; stroke: #adb5bd; stroke-width: 0.8; }
-    .dfo-ncr { fill: #343a40; stroke: #000; stroke-width: 1.2;  }
-    .dfo-ncr-label { font: 14px sans-serif; fill: #343a40; paint-order: stroke; stroke: white; stroke-width: 3px; }
+    .dfo-ncr { fill: #343a40; stroke-width: 1.2;  }
+    .dfo-ncr-label { font: 14px sans-serif; fill: #343a40; paint-order: stroke; stroke: white; stroke-width: 10px; }
   </style>
   <g id="DFO_REGIONS">
     ${svgPaths.join("\n    ")}

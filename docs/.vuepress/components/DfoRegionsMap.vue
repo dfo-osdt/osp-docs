@@ -129,7 +129,7 @@ onMounted(async () => {
 .map-title { margin: 0 0 10px 0; }
 .map-error {
   padding: 10px 12px;
-  border: 1px solid var(--c-border);
+  border: 1px solid var(--c-map-border);
   border-radius: 10px;
   background: var(--c-bg-soft);
 }
@@ -141,7 +141,7 @@ onMounted(async () => {
 }
 
 .map-wrap :deep(.region-fill) {
-  stroke: var(--c-border);
+  stroke: var(--c-map-border);
   stroke-width: 0.7;
 }
 
@@ -153,13 +153,13 @@ onMounted(async () => {
 
 /* Use your theme colors; these are intentionally subtle */
 .map-wrap :deep(.region-fill.s0) { fill: var(--c-bg-soft); }
-.map-wrap :deep(.region-fill.s1) { fill: color-mix(in srgb, var(--c-brand) 20%, white); }
-.map-wrap :deep(.region-fill.s2) { fill: color-mix(in srgb, var(--c-brand) 45%, white); }
-.map-wrap :deep(.region-fill.s3) { fill: color-mix(in srgb, var(--c-brand) 75%, white); }
+.map-wrap :deep(.region-fill.s1) { fill: color-mix(in srgb, var(--c-brand) 50%, white); }
+.map-wrap :deep(.region-fill.s2) { fill: color-mix(in srgb, var(--c-brand) 75%, white); }
+.map-wrap :deep(.region-fill.s3) { fill: color-mix(in srgb, var(--c-brand) 100%, white); }
 
 /* Hover hint */
 .map-wrap :deep(.region-fill:hover) {
-  filter: brightness(0.95);
+  filter: brightness(0.50);
   cursor: pointer;
 }
 

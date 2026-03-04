@@ -1,9 +1,10 @@
 <template>
   <div class="onboard-card">
+  <!---
     <h2 class="onboard-title">Regional onboarding</h2>
 
     <p v-if="data.definition" class="onboard-subtitle">{{ data.definition }}</p>
-
+--->
     <div v-if="error" class="onboard-error">
       Failed to load onboarding data: {{ error }}
     </div>
