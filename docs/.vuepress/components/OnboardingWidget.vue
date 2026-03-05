@@ -1,17 +1,20 @@
 <template>
   <div class="onboard-card">
-  <!---
-    <h2 class="onboard-title">Regional onboarding</h2>
-
+    <!-- Optional titles (keep commented if you want) -->
+    <!--
+    <h2 class="onboard-title">{{ t.onboardingTitle }}</h2>
     <p v-if="data.definition" class="onboard-subtitle">{{ data.definition }}</p>
---->
+    -->
+
     <div v-if="error" class="onboard-error">
       Failed to load onboarding data: {{ error }}
     </div>
 
     <template v-else>
       <div class="onboard-summary">
-        <div><strong>{{ completedCount }}</strong> / {{ totalCount }} subgroup sessions complete</div>
+        <div>
+          <strong>{{ completedCount }}</strong> / {{ totalCount }} {{ t.sessionsComplete }}
+        </div>
 
         <div class="onboard-bar">
           <div class="onboard-bar-fill" :style="{ width: percentComplete + '%' }"></div>
@@ -22,15 +25,15 @@
 
       <div class="onboard-grid">
         <div
-           v-for="r in regions"
-           :key="r.code"
-           class="onboard-region"
-           :id="`region-${r.code}`"
-           >
+          v-for="r in regions"
+          :key="r.code"
+          class="onboard-region"
+          :id="`region-${r.code}`"
+        >
           <div class="onboard-region-header">
             <div class="onboard-region-name">{{ r.name }}</div>
             <div class="onboard-region-count">
-              {{ regionComplete(r) }}/{{ (r.groups?.length ?? 0) }} complete
+              {{ regionComplete(r) }}/{{ (r.groups?.length ?? 0) }}
             </div>
           </div>
 
@@ -39,18 +42,24 @@
               <span class="badge" :class="'badge-' + (g.status || 'not_started')">
                 {{ label(g.status) }}
               </span>
+
               <span class="group-name">{{ g.name }}</span>
-              <span v-if="g.date" class="group-date">{{ g.date }}</span>
+
+              <span v-if="g.date" class="group-date">
+                {{ formatDate(g.date, locale) }}
+              </span>
             </li>
           </ul>
         </div>
       </div>
 
       <div v-if="upcoming.length" class="onboard-upcoming">
-        <h3 class="onboard-upcoming-title">Upcoming scheduled sessions</h3>
+        <h3 class="onboard-upcoming-title">{{ t.upcomingTitle }}</h3>
         <ul>
           <li v-for="u in upcoming" :key="u.key">
-            <strong>{{ u.date }}</strong> — {{ u.region }} ({{ u.group }})
+            <strong v-if="u.date">{{ formatDate(u.date, locale) }}</strong>
+            <strong v-else>—</strong>
+            — {{ u.region }} ({{ u.group }})
           </li>
         </ul>
       </div>
@@ -60,7 +69,16 @@
 
 <script setup>
 import { reactive, ref, computed, onMounted } from "vue";
+import { useSiteData } from "vuepress/client";
+import { I18N, formatDate } from "./i18n";
+import { useRoute } from "vue-router";
 
+const route = useRoute();
+const locale = route.path.startsWith("/fr/") ? "fr" : "en";
+const t = I18N[locale];
+
+const site = useSiteData();
+const base = computed(() => site.value.base);
 const error = ref("");
 
 const data = reactive({
@@ -70,8 +88,9 @@ const data = reactive({
 
 onMounted(async () => {
   try {
-    const res = await fetch("/data/onboarding.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status} loading /data/onboarding.json`);
+    const url = `/data/onboarding.${locale}.json`;
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} loading /data/onboarding.${locale}.json`);
     const json = await res.json();
 
     data.definition = json.definition ?? "";

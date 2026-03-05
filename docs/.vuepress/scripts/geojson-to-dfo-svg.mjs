@@ -139,7 +139,7 @@ async function main() {
       const [x, y] = p;
       ncrCircle =
         `<circle id="DFO_NCR" class="dfo-ncr" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="25"></circle>` +
-        `<text class="dfo-ncr-label" x="${(x + 30).toFixed(2)}" y="${(y + 4).toFixed(2)}">NCR</text>`;
+            `<text class="dfo-ncr-label" x="${(x + 30).toFixed(2)}" y="${(y + 4).toFixed(2)}">NCR</text>`;
     }
   }
 

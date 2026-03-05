@@ -9,7 +9,7 @@ actions:
       link: /en/general/introduction.html
       type: primary
 
-footer: Crown Copyright © 2025 Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada
+footer: Crown Copyright © 2026 Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada
 ---
 
 <div class="custom-cards">

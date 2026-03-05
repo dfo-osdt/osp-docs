@@ -1,6 +1,6 @@
 <template>
   <div class="map-card">
-    <h3 class="map-title">Onboarding by region (map)</h3>
+    <h3 class="map-title">{{ t.mapTitle }}</h3>
 
     <div v-if="error" class="map-error">Failed to load map/data: {{ error }}</div>
 
@@ -16,8 +16,17 @@
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick } from "vue";
+import { computed, ref, onMounted, nextTick } from "vue";
+import { useSiteData } from "vuepress/client";
+import { I18N } from "./i18n";
+import { useRoute } from "vue-router";
 
+const route = useRoute();
+const locale = route.path.startsWith("/fr/") ? "fr" : "en";
+const t = I18N[locale];
+
+const site = useSiteData();
+const base = computed(() => site.value.base);
 
 const svg = ref("");
 const error = ref("");
@@ -44,9 +53,10 @@ function classForScore(score) {
 
 onMounted(async () => {
   try {
+    const url = `/data/onboarding.${locale}.json`;
     const [svgRes, dataRes] = await Promise.all([
       fetch("/maps/dfo-regions.svg", { cache: "no-store" }),
-      fetch("/data/onboarding.json", { cache: "no-store" }),
+      fetch(url, { cache: "no-store" }),
     ]);
 
     if (!svgRes.ok) throw new Error(`HTTP ${svgRes.status} loading /maps/dfo-regions.svg`);
