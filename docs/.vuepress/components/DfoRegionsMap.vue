@@ -17,15 +17,17 @@
 
 <script setup>
 import { computed, ref, onMounted, nextTick } from "vue";
-import { useSiteData } from "vuepress/client";
+import { usePageData } from "vuepress/client";
 import { I18N } from "./i18n";
 import { useRoute } from "vue-router";
 
+const page = usePageData();
 const route = useRoute();
-const locale = route.path.startsWith("/fr/") ? "fr" : "en";
-const t = I18N[locale];
+const locale = computed(() =>
+  (page.value.lang || "").toLowerCase().startsWith("fr") ? "fr" : "en");
+const t = computed(() => I18N[locale.value] ?? I18N.en);
 
-const site = useSiteData();
+
 const base = computed(() => site.value.base);
 
 const svg = ref("");
@@ -53,7 +55,7 @@ function classForScore(score) {
 
 onMounted(async () => {
   try {
-    const url = `/data/onboarding.${locale}.json`;
+    const url = `/data/onboarding.${locale.value}.json`;
     const [svgRes, dataRes] = await Promise.all([
       fetch("/maps/dfo-regions.svg", { cache: "no-store" }),
       fetch(url, { cache: "no-store" }),
