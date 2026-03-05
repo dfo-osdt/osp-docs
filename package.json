@@ -6,6 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
       "docs:build": "vuepress build docs",
+      "docs:clean-dev": "vuepress dev docs --clean-cache --clean-temp",
       "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs"
   },
   "keywords": [],
