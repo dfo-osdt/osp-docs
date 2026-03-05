@@ -9,6 +9,7 @@ notes.txt
 **/.vuepress/.cache/
 **/.vuepress/.temp/
 **/.vuepress/dist/
+**/.vuepress/public/map/
 
 # Dist files
 dist/

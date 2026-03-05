@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+      "docs:build": "vuepress build docs",
+      "docs:clean-dev": "vuepress dev docs --clean-cache --clean-temp",
+      "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "OGL-Canada-2.0",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-register-components": "2.0.0-rc.124",
     "@vuepress/plugin-search": "2.0.0-rc.124",
     "@vuepress/theme-default": "2.0.0-rc.124",
+    "@vuepress/utils": "2.0.0-rc.2",
+    "d3-geo": "^3.1.1",
+    "d3-geo-projection": "^4.0.0",
     "sass-embedded": "^1.97.3",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3",
     "undici": ">=6.21.1",
     "vue": "^3.5.29",
     "vuepress": "2.0.0-rc.26"

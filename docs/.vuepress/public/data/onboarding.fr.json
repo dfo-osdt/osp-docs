@@ -1,0 +1,85 @@
+{
+    "definition": "Onboarded = a live demo + Q&A session has been delivered to the subgroup.",
+    "regions": [
+        {
+            "name": "Arctique",
+            "code": "ARCTIC",
+            "svgIds": ["DFO_ARCTIC"],
+            "groups": [
+                { "name": "Authors", "status": "complete", "date": "2026-03-03" },
+                { "name": "Editors", "status": "complete" },
+                { "name": "Division Managers", "status": "complete" }
+            ]
+        },
+        {
+            "name": "Pacifique",
+            "code": "PAC",
+            "svgIds": ["DFO_PAC"],
+            "groups": [
+                { "name": "Authors", "status": "not_started" },
+                { "name": "Editors", "status": "not_started" },
+                { "name": "Division Managers", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Ontario et Prairie",
+            "code": "ONT_PRA",
+            "svgIds": ["DFO_ONT_PRA"],
+            "groups": [
+                { "name": "Authors", "status": "complete", "date": "2026-02-20" },
+                { "name": "Editors", "status": "complete", "date": "2026-02-26" },
+                { "name": "Division Managers", "status": "complete" }
+            ]
+        },
+        {
+            "name": "Québec",
+            "code": "QC",
+            "svgIds": ["DFO_QC"],
+            "groups": [
+                { "name": "Authors", "status": "not_started" },
+                { "name": "Editors", "status": "not_started" },
+                { "name": "Division Managers", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "Maritimes",
+            "code": "MAR",
+            "svgIds": ["DFO_MAR"],
+            "groups": [
+                { "name": "Authors", "status": "complete", "date": "2026-01-15" },
+                { "name": "Editors", "status": "complete", "date": "2026-01-22" },
+                { "name": "Division Managers", "status": "complete" }
+            ]
+        },
+        {
+            "name": "Golfe",
+            "code": "GULF",
+            "svgIds": ["DFO_GULF"],
+            "groups": [
+                { "name": "Authors", "status": "complete" },
+                { "name": "Editors", "status": "completed" },
+                { "name": "Division Managers", "status": "complete" }
+            ]
+        },
+        {
+            "name": "Terre-Neuve-et-Labrador",
+            "code": "NL",
+            "svgIds": ["DFO_NL"],
+            "groups": [
+                { "name": "Authors", "status": "not_started" },
+                { "name": "Editors", "status": "not_started" },
+                { "name": "Division Managers", "status": "not_started" }
+            ]
+        },
+        {
+            "name": "région de la capitale nationale",
+            "code": "NCR",
+            "svgIds": ["DFO_NCR"],
+            "groups": [
+                { "name": "Authors", "status": "complete" },
+                { "name": "Editors", "status": "complete" },
+                { "name": "Division Managers", "status": "in_progress" }
+            ]
+        }
+    ]
+}

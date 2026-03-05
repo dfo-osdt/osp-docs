@@ -9,7 +9,7 @@ actions:
       link: /fr/general/introduction.html
       type: primary
 
-footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous licence du gouvernement ouvert – Canada
+footer: Droit d'auteur de la Couronne © 2026 Pêches et Océans Canada | Sous licence du gouvernement ouvert – Canada
 ---
 
 <div class="custom-cards">
@@ -123,3 +123,5 @@ footer: Droit d'auteur de la Couronne © 2025 Pêches et Océans Canada | Sous l
 }
 </style>
 
+<DfoRegionsMap />
+<OnboardingWidget />

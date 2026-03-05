@@ -58,10 +58,35 @@ pnpm install
 pnpm docs:build
 ```
 
-4. Start the local development server
+4. Build the on-boarding map
+
+```bash
+pnpm run docs:map
+```
+
+5. Start the local development server
 
 ```bash
 pnpm run docs:dev
+```
+
+## Maintaining
+
+### Updating VuePress 
+The version of VuePress can be updated by running the  updater script (included in this project)
+
+```bash
+pnpm dlx vp-update
+```
+
+### Updating the On-Boarding Map
+
+1. Update the status conditions in `/docs/.vuepress/public/data/onboarding.en.json` and `/docs/.vuepress/public/data/onboarding.fr.json`
+
+2. Rebuild the map
+
+```bash
+pnpm run docs:map
 ```
 
 ## Contributions
@@ -175,10 +200,36 @@ pnpm install
 pnpm docs:build
 ```
 
-4. Démarrez le serveur de développement local
+4. Construire la carte d’intégration
+
+```bash
+pnpm run docs:map
+```
+
+5. Démarrez le serveur de développement local
 
 ```bash
 pnpm run docs:dev
+```
+
+## Maintenance
+
+### Mise à jour de VuePress
+
+La version de VuePress peut être mise à jour en exécutant le script de mise à jour (inclus dans ce projet).
+
+```bash
+pnpm dlx vp-update
+```
+
+### Mise à jour de la carte d’intégration
+
+1. Mettre à jour les conditions d’état dans /docs/.vuepress/public/data/onboarding.en.json et /docs/.vuepress/public/data/onboarding.fr.json.
+
+2. Reconstruire la carte
+
+```bash
+pnpm run docs:map
 ```
 
 ## Contributions
