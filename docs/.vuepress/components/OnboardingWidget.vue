@@ -69,16 +69,17 @@
 
 <script setup>
 import { reactive, ref, computed, onMounted } from "vue";
-import { useSiteData } from "vuepress/client";
+import { usePageData } from "vuepress/client";
 import { I18N, formatDate } from "./i18n";
 import { useRoute } from "vue-router";
 
+const page = usePageData();
 const route = useRoute();
-const locale = route.path.startsWith("/fr/") ? "fr" : "en";
-const t = I18N[locale];
+const locale = computed(() =>
+  (page.value.lang || "").toLowerCase().startsWith("fr") ? "fr" : "en");
+const t = computed(() => I18N[locale.value] ?? I18N.en);
 
-const site = useSiteData();
-const base = computed(() => site.value.base);
+const base = computed(() => page.value.base);
 const error = ref("");
 
 const data = reactive({
@@ -88,9 +89,9 @@ const data = reactive({
 
 onMounted(async () => {
   try {
-    const url = `/data/onboarding.${locale}.json`;
+    const url = `/data/onboarding.${locale.value}.json`;
     const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status} loading /data/onboarding.${locale}.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status} loading /data/onboarding.${locale.value}.json`);
     const json = await res.json();
 
     data.definition = json.definition ?? "";
