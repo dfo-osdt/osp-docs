@@ -1,23 +1,23 @@
 {
   "name": "osp-docs",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-      "docs:build": "vuepress build docs",
-      "docs:clean-dev": "vuepress dev docs --clean-cache --clean-temp",
-      "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs"
+    "docs:build": "vuepress build docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "COSI",
   "license": "OGL-Canada-2.0",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-register-components": "2.0.0-rc.124",
     "@vuepress/plugin-search": "2.0.0-rc.124",
     "@vuepress/theme-default": "2.0.0-rc.124",
-    "@vuepress/utils": "2.0.0-rc.2",
+    "vuepress/utils": "2.0.0-rc.26",
     "d3-geo": "^3.1.1",
     "d3-geo-projection": "^4.0.0",
     "sass-embedded": "^1.97.3",
