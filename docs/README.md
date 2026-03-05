@@ -4,26 +4,22 @@ title: Redirecting…
 
 <script setup>
 import { onMounted } from "vue";
-import { useRouter } from "vue-router";
-import { useSiteData } from "vuepress/client";
+import { usePageData } from "vuepress/client";
 
-const router = useRouter();
-const site = useSiteData();
+const page = usePageData();
 
 onMounted(() => {
   const lang = (navigator.language || "").toLowerCase();
-  const base = site.value.base || "/";
 
-  // Ensure base ends with a single slash
-  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  // Use the current page path to compute the site root safely
+  // If you're at "/": root = "/"
+  // If you're at "/something/": root = "/"
+  const root = "/";
 
-  // If your site base is "/en/" and French lives at "/fr/" (sibling locale),
-  // then we need to redirect from "/" (root) server-side, not via router base.
-  // But if your base is "/" (recommended for your domain root deployment),
-  // this will correctly route to "/fr/" or "/en/".
-  const target = lang.startsWith("fr") ? `${normalizedBase}fr/` : `${normalizedBase}en/`;
+  const target = lang.startsWith("fr") ? `${root}fr/` : `${root}en/`;
 
-  router.replace(target);
+  // Hard redirect (works even when router isn't ready)
+  window.location.replace(target);
 });
 </script>
 

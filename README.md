@@ -61,13 +61,13 @@ pnpm docs:build
 4. Build the on-boarding map
 
 ```bash
-pnpm run docs:map
+pnpm docs:map
 ```
 
 5. Start the local development server
 
 ```bash
-pnpm run docs:dev
+pnpm docs:dev
 ```
 
 ## Maintaining
@@ -86,7 +86,7 @@ pnpm dlx vp-update
 2. Rebuild the map
 
 ```bash
-pnpm run docs:map
+pnpm docs:map
 ```
 
 ## Contributions
@@ -203,13 +203,13 @@ pnpm docs:build
 4. Construire la carte d’intégration
 
 ```bash
-pnpm run docs:map
+pnpm docs:map
 ```
 
 5. Démarrez le serveur de développement local
 
 ```bash
-pnpm run docs:dev
+pnpm docs:dev
 ```
 
 ## Maintenance
@@ -229,7 +229,7 @@ pnpm dlx vp-update
 2. Reconstruire la carte
 
 ```bash
-pnpm run docs:map
+pnpm docs:map
 ```
 
 ## Contributions
