@@ -57,7 +57,7 @@
             "svgIds": ["DFO_GULF"],
             "groups": [
                 { "name": "Authors", "status": "complete" },
-                { "name": "Editors", "status": "completed" },
+                { "name": "Editors", "status": "complete" },
                 { "name": "Division Managers", "status": "complete" }
             ]
         },
