@@ -164,11 +164,10 @@ To submit a Manuscript Management Review:
 
 ![Submit Decision](/images/publication-process/submit_decision.png)
 
-An email will automatically be sent to the selected next manager or the author, providing instructions on the next steps.
+### Email Notifications
 
-### Management Review Notifications
-
-The OSP will send you email notifications to remind you of pending manuscript management reviews. You will receive these notifications at the following intervals:
-
-- Weekly summary of all pending manuscript management reviews.
-- 2 working days before the 10-working-day timeline is reached (for third-party journal publications)
+The OSP will automatically send an email:
+- When a Manuscript Management Review Action is taken.
+  - Managers who have "Completed" their review will be Carbon Copied (CC'd) on all emails during the remainder of the review process.
+- Once a week with a summary of all of your pending Manuscript Management Reviews.
+- Two working days before the ten-working-day timeline is reached (for Third-Party Journal Publications)
