@@ -186,3 +186,14 @@ Le **groupe de notification** vous permet de sélectionner les utilisateurs que 
 1. Cliquez sur l’**icône Quitter** à la fin de la ligne du groupe.
 
 **Résultat** : Vous êtes retiré de ce groupe de notification. Le propriétaire du groupe est informé de ce changement par courriel.
+
+#### Plus de détails
+
+Les courriels d’examen de gestion des manuscrits que votre groupe de notification recevra comprennent :
+
+- Notifications des étapes d’examen (nouveau réviseur assigné)
+- Rappels d’échéance ou de retard pour l’examen de gestion
+- Résumés hebdomadaires des examens de gestion en attente
+- Notifications indiquant que l’examen de gestion est terminé
+- Notifications de création d’une délégation
+- Rappels concernant le cartable de planification

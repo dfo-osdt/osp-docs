@@ -195,3 +195,13 @@ Notification Group allow you to select which users you would like to have CC'd o
 1. Click the **Leave** icon next at the end of group row.
 
 **Result**: You are removed from that Notification Group. The group owner is updated on this change via email.
+
+#### More Details
+
+The Manuscript Management Review emails your notification group will receive include:
+- Review step notifications (new reviewer assigned)
+- Management review due/overdue reminders
+- Management review pending weekly summaries
+- Management review complete notifications
+- Delegation created notifications
+- Planning binder reminders
