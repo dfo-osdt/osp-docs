@@ -2,6 +2,7 @@
 lang: fr-CA
 title: Paramètres
 description:
+sidebarDepth: 1
 ---
 
 # Paramètres du compte
@@ -128,3 +129,71 @@ La colonne Déconnexion à indique la date et l’heure auxquelles votre compte 
 ![Invitation](/images/account/sent_invites.png)
 
 Les invitations que vous avez envoyées à des utilisateurs pour les inviter à accéder au PSO s’affichent sur la page Invitations envoyées. La date et l’heure auxquelles un utilisateur invité se connecte au PSO pour la première fois s’affichent dans la colonne **Inscrit le**.
+
+## Paramètres de gestion
+
+![Page des paramètres de gestion](/images/account/management_settings.png)
+
+### Délégation d’examen
+
+La **délégation d’examen** vous permet de déléguer temporairement vos responsabilités d’examen de gestion des manuscrits à un autre utilisateur. La délégation est utilisée lorsqu’un autre utilisateur agit en votre nom pendant une période déterminée.
+
+Les règles de délégation sont les suivantes :
+
+- **Durée limitée** : La délégation doit comporter une date de début et une date de fin. La délégation peut être terminée plus tôt si nécessaire.
+- **Pas de délégation en chaîne** : Un utilisateur ne peut avoir qu’une seule délégation active à la fois.
+- **Niveau équivalent** : L’utilisateur délégué ne peut pas avoir des permissions de rôle supérieures à celles du gestionnaire qui délègue.
+- **Pas d’auto-délégation** : Un utilisateur ne peut pas se déléguer à lui-même ni prolonger lui-même sa période de délégation.
+
+#### Déléguer un utilisateur
+
+![Déléguer un utilisateur](/images/account/delegate_a_user_fr.png)
+
+1. Cliquez sur **+ CRÉER UNE DÉLÉGATION**.
+2. Remplissez le formulaire :
+   - **Utilisateur** — Sélectionnez l’utilisateur qui recevra la délégation.
+   - **Date de début** — Saisissez la date à laquelle la délégation commence.
+   - **Date de fin** — Saisissez la date à laquelle la délégation se termine.
+   - **Commentaires** (facultatif) — Ajoutez des notes si nécessaire.
+3. Cliquez sur **ENREGISTRER**.
+
+**Résultat** : L’utilisateur sélectionné peut maintenant agir en votre nom pendant la période de délégation. Les détails de la période de délégation ont été envoyés par le PSO à vous, à l’utilisateur délégué et à votre groupe de notification.
+
+### Groupe de notification
+
+![Ajouter un membre](/images/account/add_member_fr.png)
+
+Le **groupe de notification** vous permet de sélectionner les utilisateurs que vous souhaitez mettre en copie conforme (CC) dans les courriels d’examen de gestion des manuscrits que vous recevez du PSO.
+
+#### Ajouter un membre à votre groupe de notification
+
+1. Cliquez sur **+ AJOUTER UN MEMBRE**.
+2. Remplissez le formulaire :
+   - **Utilisateur** — Sélectionnez l’utilisateur qui recevra les courriels.
+   - **Expire le** (facultatif) — Sélectionnez la date à laquelle l’utilisateur cessera de recevoir les courriels.
+3. Cliquez sur **ENREGISTRER**.
+
+**Résultat** : L’utilisateur est ajouté à votre groupe de notification.
+
+#### Retirer un membre de votre groupe de notification
+
+1. Cliquez sur l’**icône Supprimer** à la fin de la ligne de l’utilisateur.
+
+**Résultat** : L’utilisateur est retiré de votre groupe de notification. Vous recevrez un courriel vous informant de ce changement.
+
+#### Vous retirer d’un groupe de notification
+
+1. Cliquez sur l’**icône Quitter** à la fin de la ligne du groupe.
+
+**Résultat** : Vous êtes retiré de ce groupe de notification. Le propriétaire du groupe est informé de ce changement par courriel.
+
+#### Plus de détails
+
+Les courriels d’examen de gestion des manuscrits que votre groupe de notification recevra comprennent :
+
+- Notifications des étapes d’examen (nouveau réviseur assigné)
+- Rappels d’échéance ou de retard pour l’examen de gestion
+- Résumés hebdomadaires des examens de gestion en attente
+- Notifications indiquant que l’examen de gestion est terminé
+- Notifications de création d’une délégation
+- Rappels concernant le cartable de planification

@@ -163,9 +163,11 @@ Pour soumettre un examen de gestion des manuscrits :
 
 Un courriel sera automatiquement envoyé au gestionnaire suivant sélectionné ou à l’auteur, avec des instructions sur les prochaines étapes.
 
-### Notifications d’examen de gestion
+### Notifications par courriel
 
-Le PSO vous enverra des notifications par courriel pour vous rappeler les examens de gestion des manuscrits en attente. Vous recevrez ces notifications selon les échéances suivantes :
+Le PSO enverra automatiquement un courriel :
 
-- Résumé hebdomadaire de tous les examens de gestion des manuscrits en attente.
-- Deux jours ouvrables avant l’atteinte du délai de 10 jours ouvrables (pour les publications dans des revues de tiers).
+- Lorsqu’une action d’examen de gestion des manuscrits est effectuée.
+  - Les gestionnaires qui ont **complété** leur examen seront mis en copie conforme (CC) sur tous les courriels envoyés pendant le reste du processus d’examen.
+- Une fois par semaine avec un résumé de tous vos examens de gestion des manuscrits en attente.
+- Deux jours ouvrables avant l’échéance du délai de dix jours ouvrables (pour les publications dans des revues de tiers).
