@@ -2,6 +2,7 @@
 lang: en-US
 title: Account Settings
 description:
+sidebarDepth: 1
 ---
 
 # Account Settings
@@ -138,3 +139,59 @@ at. The time shown will be based upon your computer's time.
 Invitations you have sent to users to invite them to the OSP will be displayed on the Sent Invitation page. The time and
 date of when an invited user logs into the OSP for the first time will be displayed under the **Registered At**
 column.
+
+## Management Settings
+
+![Management Settings Page](/images/account/management_settings.png)
+
+### Review Delegation
+
+Review Delegation allows you to temporarily delegate your Manuscript Management Review responsibilities to another user. Delegating review responsibilities is done when another user will be acting on your behalf for a period of time.
+
+Rules when delegating include,
+- Time-Bounded: Delegation must have a start and end date. Delegation can be ended early.
+- No Chaining: A user cannot have more than one active delegation at a time.
+- Equivalent Level: A user cannot have higher role permissions than the delegating manager.
+- No Self Delegating: A user cannot self-delegate or extend their delegation period themselves.
+
+#### Delegate a user
+
+![Delegate a user](/images/account/delegate_a_user.png)
+
+1. Click **+ CREATE DELEGATION**.
+2. Complete the form:
+    - **User** - Select the user who will be receive the delegation.
+    - **Start Date** - Enter the date the delegation begins.
+    - **End Date** - Enter the date the delegation ends.
+    - **Comments** (optional) - Enter any notes.
+3. Click **SAVE**
+
+**Result**: The selected user can now act on your behalf during the delegation period. Details of the delegation period have been sent to you, the delegated user, and your notification group by the OSP.
+
+### Notification Group
+
+![Add Member](/images/account/add_member.png)
+
+Notification Group allow you to select which users you would like to have CC'd on Manuscript Management Review emails you receive from the OSP.
+
+#### Add Member to your Notification Group
+
+1. Click **+ ADD MEMBER**.
+2. Complete form:
+    - **User** - Select the user you want to receive the emails.
+    - **Expires** (optional) - Select the date you want the user to stop receiving the emails.
+3. Click **SAVE**.
+
+**Result** - The user is added to your Notification Group.
+
+#### Remove Member from your Notification Group
+
+1. Click the **Delete** icon at the end of the user's rows.
+
+**Result**: The user is removed from your Notification Group. You will receive an email updating you on this change.
+
+#### Remove yourself from a Notification Group
+
+1. Click the **Leave** icon next at the end of group row.
+
+**Result**: You are removed from that Notification Group. The group owner is updated on this change via email.
