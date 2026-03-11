@@ -89,6 +89,17 @@ pnpm dlx vp-update
 pnpm docs:map
 ```
 
+## Scripts
+```bash
+"scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs",
+    "docs:update": "pnpm dlx vp-update"
+    }
+```
+
 ## Contributions
 
 All changes must be done via a PR to the `main` branch. PR should be descriptive and provide

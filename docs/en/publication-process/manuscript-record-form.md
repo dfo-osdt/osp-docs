@@ -84,57 +84,56 @@ To upload a PDF copy of your manuscript:
 
 ### Author(s) and Affiliation(s) (Required)
 
-#### Adding Author(s) and Affiliation(s)
+#### Add Author(s) and Affiliation(s)
 
 ::: tip
 To speed up filling the form, DFO is preselected as the default affiliation. Please
 make sure to change it when creating authors with different affiliations.
 :::
+Repeat these steps to add all the authors:
+1. Click **+**.
+2. Complete the form:
+    - **Author** - Search author by name or email.
+    - **Corresponding Author** - Select **Yes** if this author will be the primary contact within DFO.
+    - **Group Author** - Select **Yes** if a group is credited as an author.  
+      If **Yes** is selected:
+      - Search for the group by name.
+      - Select the group from the Results.
+3. Click **SAVE**.  
 
-1. Click the **+ button**.
-2. Click the **Author** field.
-3. Begin typing the name of the author or affiliate you want to add.
-   - If the name exists in the database, it will appear. Click the name to select it.
-   - If the name does not appear, follow these steps:
-     1. Click the **+ button** to add a new author or affiliate record.
-     2. Enter their **First Name**, **Last Name**, **Organization Affiliation**, **E-Mail**, and **ORCID** (optional).
-     3. Click the **Create** button to add the new author record.
-4. Specify whether this author is the **DFO Corresponding Author**.
-5. Click the **Add** button to add this author or affiliate.
-6. Repeat steps 1–5 until all authors or affiliates have been added.
+**Result**: Selected authors will be added to the Manuscript Record Form. These authors will be able to make modifications to this Manuscript Record Form. These authors will not be able to delete the Manuscript Record Form, however.
+
+
 
 ![Adding Authors](/images/publication-process/adding_authors.png)
 
-#### Updating an Author or Affiliation
+#### Remove Author or Affiliate
 
-To update the **DFO Corresponding Author** status of an added author or affiliate:
+1. Click the **X** icon to the right of the author's name.
+2. Click **OK**.
 
-1. Click their name.
-2. Toggle the ***DFO Corresponding Author*** slider to the desired state.
+**Result**: The removed author will no longer be attributed to this Manuscript Record Form. The removed author will no longer be able to view or edit this Manuscript Record Form.
+
+#### Change Corresponding Author Status
+
 ::: important
 For a manuscript record, the corresponding author is someone who can answer questions
 related to the manuscript at DFO. It won't necessarily be the same author you intend to make
 the corresponding author for the official publication.
 :::
 
-It is possible to correct an author's name, email or affiliation by going to their profile. This is
-only possible if the author has no associated user account.
+1. Click the **Author**.
+2. Toggle the **DFO Corresponding Author** slider.
 
-Do modify an author's name, email or affiliation:
+**Result**: The DFO Corresponding Author status for the author has switched.
 
-1. Click on their name.
-2. Click on **View Author Profile**.
-3. Click on the **Pencil icon** next to their name.
+#### If the Author does not appear in the Author's List
 
-If you made a mistake in their affiliation, you can correct it there but will need to delete and re-add
-the author to have the change reflected in the MRF as each MRF stores a snapshot of the author's affiliation at
-the time of addition. This is so that we keep a clear history of the author's affiliation when the MRF was created.
+Please see the [Creating an Author](/en/general/additional-tasks.md) section.
 
-#### Removing an Author or Affiliate
+#### If the Group Author does not appear in the Organization List
 
-To remove an author or affiliate:
-
-Click the **X icon** on the right side of the author's name.
+Please email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have the Organization added to the list.
 
 ### Peer Reviewers
 

@@ -1,5 +1,5 @@
 ---
-lang: fr-FR
+lang: fr-CA
 title: Création du registre des manuscrits
 description:
 sidebarDepth: 1
@@ -87,49 +87,50 @@ Pour téléverser une copie PDF de votre manuscrit :
 #### Ajouter des auteur(s) et des affiliation(s)
 
 ::: tip
-Pour accélérer le remplissage du formulaire, le MPO est présélectionné comme affiliation par défaut. Assurez-vous de la modifier lorsque vous créez des auteurs ayant des affiliations différentes.
+Pour accélérer le remplissage du formulaire, le MPO est sélectionné par défaut comme affiliation. Veuillez vous assurer de le modifier lorsque vous créez des auteurs ayant des affiliations différentes.
 :::
 
-1. Cliquez sur le **bouton +**.
-2. Cliquez dans le champ **Auteur**.
-3. Commencez à taper le nom de l’auteur ou de l’affilié que vous souhaitez ajouter.
-   - Si le nom existe dans la base de données, il s’affichera. Cliquez sur le nom pour le sélectionner.
-   - Si le nom ne s’affiche pas, suivez les étapes suivantes :
-     1. Cliquez sur le **bouton +** pour ajouter un nouvel auteur ou une nouvelle affiliation.
-     2. Saisissez le **prénom**, le **nom**, l’**affiliation organisationnelle**, le **courriel** et l’**ORCID** (facultatif).
-     3. Cliquez sur le bouton **Créer** pour ajouter le nouveau dossier d’auteur.
-4. Indiquez si cet auteur est l’**auteur correspondant du MPO**.
-5. Cliquez sur le bouton **Ajouter** pour ajouter cet auteur ou cette affiliation.
-6. Répétez les étapes 1 à 5 jusqu’à ce que tous les auteurs ou affiliations aient été ajoutés.
+Répétez ces étapes pour ajouter tous les auteurs :
+
+1. Cliquez sur **+**.
+2. Remplissez le formulaire :
+   - **Auteur** — Recherchez l’auteur par nom ou par courriel.
+   - **Auteur correspondant** — Sélectionnez **Oui** si cet auteur sera la personne-ressource principale au MPO.
+   - **Auteur collectif** — Sélectionnez **Oui** si un groupe est crédité comme auteur.  
+     Si **Oui** est sélectionné :
+     - Recherchez le groupe par nom.
+     - Sélectionnez le groupe dans les résultats.
+3. Cliquez sur **ENREGISTRER**.
+
+**Résultat** : Les auteurs sélectionnés seront ajoutés au formulaire de dossier de manuscrit. Ces auteurs pourront apporter des modifications à ce formulaire de dossier de manuscrit. Toutefois, ils ne pourront pas supprimer le formulaire.
 
 ![Ajout d’auteurs](/images/publication-process/adding_authors_fr.png)
 
-#### Mise à jour d’un auteur ou d’une affiliation
-
-Pour mettre à jour le statut d’**auteur correspondant du MPO** d’un auteur ou d’un affilié ajouté :
-
-1. Cliquez sur son nom.
-2. Faites basculer le curseur ***Auteur correspondant du MPO*** à l’état souhaité.
-
-::: important
-Dans le cadre d’un dossier de manuscrit, l’auteur correspondant est une personne en mesure de répondre aux questions liées au manuscrit au sein du MPO. Il ne s’agit pas nécessairement du même auteur que celui qui sera désigné comme auteur correspondant pour la publication officielle.
-:::
-
-Il est possible de corriger le nom, le courriel ou l’affiliation d’un auteur en accédant à son profil. Cela est uniquement possible si l’auteur n’a aucun compte utilisateur associé.
-
-Pour modifier le nom, le courriel ou l’affiliation d’un auteur :
-
-1. Cliquez sur son nom.
-2. Cliquez sur **Voir le profil de l’auteur**.
-3. Cliquez sur l’**icône en forme de crayon** à côté de son nom.
-
-Si vous avez fait une erreur dans l’affiliation, vous pouvez la corriger à cet endroit, mais vous devrez supprimer puis ajouter de nouveau l’auteur pour que la modification soit reflétée dans le FDM, puisque chaque FDM conserve un instantané de l’affiliation de l’auteur au moment de son ajout. Cela permet de conserver un historique clair de l’affiliation de l’auteur lors de la création du FDM.
-
 #### Retirer un auteur ou un affilié
 
-Pour retirer un auteur ou un affilié :
+1. Cliquez sur l’icône **X** à droite du nom de l’auteur.
+2. Cliquez sur **OK**.
 
-Cliquez sur l’**icône X** située à droite du nom de l’auteur.
+**Résultat** : L’auteur retiré ne sera plus associé à ce formulaire de dossier de manuscrit. Il ne pourra plus voir ni modifier ce formulaire.
+
+#### Modifier le statut d’auteur correspondant
+
+::: important
+Dans un dossier de manuscrit, l’auteur correspondant est la personne qui peut répondre aux questions concernant le manuscrit au MPO. Il ne s’agit pas nécessairement du même auteur que celui désigné comme auteur correspondant dans la publication officielle.
+:::
+
+1. Cliquez sur l’**auteur**.
+2. Faites basculer le curseur **Auteur correspondant du MPO**.
+
+**Résultat** : Le statut d’auteur correspondant du MPO pour cet auteur est modifié.
+
+#### Si l’auteur n’apparaît pas dans la liste des auteurs
+
+Veuillez consulter la section [Création d’un auteur](/fr/general/additional-tasks.md).
+
+#### Si l’auteur collectif n’apparaît pas dans la liste des organisations
+
+Veuillez communiquer avec l’[équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour faire ajouter l’organisation à la liste.
 
 ### Évaluateurs externes
 
