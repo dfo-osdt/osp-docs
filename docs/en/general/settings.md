@@ -36,15 +36,23 @@ The default language for your account will appear in this box. If you would like
 
 ### User Roles
 
-User roles identify the type of account you have. User roles are generated upon account creation. If you feel your account does not have the appropriate role, please email the [Open Science Portal Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+User roles identify the type of account you have. All users are given the Author role upon account creation.
 
-Current available roles:
-- Admin
-- Author
-- Chief Editor
-- Director
-- Editor
-- Regional Editor
+Email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to add or remove roles to your account.
+
+#### Permission Summary Table
+
+| Permission | Author (default) | Director | Editor | Chief Editor | Regional Editor | Regional Observer |
+|------------|:----------------:|:--------:|:------:|:------------:|:---------------:|:-----------------:|
+| Create Manuscript Records | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Create Publications | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Update Authors | ✗ | ✗ | ✓ | ✓ | Regional | ✗ |
+| Complete Management Review | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| View Any Manuscript Record | ✗ | ✓ | ✓ | ✓ | Regional | Regional |
+| Update Publications | ✗ | ✗ | ✓ | ✓ | Regional | ✗ |
+| Delete Publications | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| Publish EOS Secondary Publications | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| Update Author Affiliations | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ |
 
 ## Author Profile Page
 
