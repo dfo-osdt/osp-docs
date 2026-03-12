@@ -349,17 +349,19 @@ Un numéro de catalogue peut être obtenu en remplissant le [formulaire de deman
 #### Soumettre le manuscrit
 
 1. Ouvrez le formulaire de dossier de manuscrit.
-2. Sélectionnez **Progression du manuscrit** dans le menu de gauche.
-3. Cliquez sur le **bouton SOUMETTRE LE MANUSCRIT**.
-4. Remplissez le formulaire de soumission :
-   1. Revue / Série (obligatoire)
-   2. Numéro de catalogue (obligatoire)
-   3. ISBN (facultatif)
-   4. Numéro de numéro (facultatif)
-   5. Copie du manuscrit en format .doc ou .docx (obligatoire)
-5. Cliquez sur le **bouton SOUMETTRE**.
+2. Sélectionnez **Progression du manuscrit**.
+3. Cliquez sur **SOUMETTRE LE MANUSCRIT**.
+4. Remplissez le formulaire :
+   - Revue/Série (obligatoire)
+   - Numéro de catalogue (obligatoire)
+   - Copie du manuscrit au format .docx (préféré), .doc ou .pdf (obligatoire)
+   - ISBN (facultatif)
+   - Numéro de numéro (facultatif)
+5. Cliquez sur **SOUMETTRE**.
 
-![Soumettre au guichet unique](/images/publication-process/submit_single_window_fr.png)
+![Soumettre à la Fenêtre unique](/images/publication-process/submit_single_window_fr.png)
+
+**Résultat** : Votre manuscrit a été soumis à la Fenêtre unique pour examen et publication. Vous serez informé lorsque le manuscrit sera publié ou si des modifications sont requises.
 
 ### Publication dans une revue de tiers
 

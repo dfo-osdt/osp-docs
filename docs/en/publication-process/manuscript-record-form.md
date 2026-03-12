@@ -365,17 +365,19 @@ A Catalogue Number can be acquired by completing a [Request Form for Publication
 #### Submit Manuscript
 
 1. Open the manuscript record form.
-2. Select **Manuscript Progress** from the left menu.
-3. Click the **SUBMIT MANUSCRIPT button**.
-4. Fill out the submission form,
-  1. Journal/Series (Required)
-  2. Catalogue Number (Required)
-  3. ISBN (Optional)
-  4. Issue Number (Optional)
-  5. Copy of Manuscript in .doc or .docx file format (Required)
-5. Click the **SUBMIT button**.
+2. Select **Manuscript Progress**.
+3. Click **SUBMIT MANUSCRIPT**.
+4. Complete the form:
+   - Journal/Series (required)
+   - Catalogue Number (required)
+   - Copy of Manuscript in .docx (preferred), .doc, or .pdf file format (required)
+   - ISBN (optional)
+   - Issue Number (optional)
+5. Click **SUBMIT**.
 
 ![Submit to Single Window](/images/publication-process/submit_single_window.png)
+
+**Result**: Your Manuscript has been submitted to the Single Window for review and publication. You will be notified when the manuscript is published or if any changes are required.
 
 ### Third-Party Journal Publication
 
