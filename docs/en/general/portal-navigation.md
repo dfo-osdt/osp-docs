@@ -2,6 +2,7 @@
 lang: en-US
 title: Portal Navigation
 description:
+sidebarDepth: 1
 ---
 
 # Portal Navigation
