@@ -1,5 +1,5 @@
 ---
-lang: fr-FR
+lang: fr-CA
 title: Création du registre des manuscrits
 description:
 sidebarDepth: 1
@@ -87,49 +87,50 @@ Pour téléverser une copie PDF de votre manuscrit :
 #### Ajouter des auteur(s) et des affiliation(s)
 
 ::: tip
-Pour accélérer le remplissage du formulaire, le MPO est présélectionné comme affiliation par défaut. Assurez-vous de la modifier lorsque vous créez des auteurs ayant des affiliations différentes.
+Pour accélérer le remplissage du formulaire, le MPO est sélectionné par défaut comme affiliation. Veuillez vous assurer de le modifier lorsque vous créez des auteurs ayant des affiliations différentes.
 :::
 
-1. Cliquez sur le **bouton +**.
-2. Cliquez dans le champ **Auteur**.
-3. Commencez à taper le nom de l’auteur ou de l’affilié que vous souhaitez ajouter.
-   - Si le nom existe dans la base de données, il s’affichera. Cliquez sur le nom pour le sélectionner.
-   - Si le nom ne s’affiche pas, suivez les étapes suivantes :
-     1. Cliquez sur le **bouton +** pour ajouter un nouvel auteur ou une nouvelle affiliation.
-     2. Saisissez le **prénom**, le **nom**, l’**affiliation organisationnelle**, le **courriel** et l’**ORCID** (facultatif).
-     3. Cliquez sur le bouton **Créer** pour ajouter le nouveau dossier d’auteur.
-4. Indiquez si cet auteur est l’**auteur correspondant du MPO**.
-5. Cliquez sur le bouton **Ajouter** pour ajouter cet auteur ou cette affiliation.
-6. Répétez les étapes 1 à 5 jusqu’à ce que tous les auteurs ou affiliations aient été ajoutés.
+Répétez ces étapes pour ajouter tous les auteurs :
+
+1. Cliquez sur **+**.
+2. Remplissez le formulaire :
+   - **Auteur** — Recherchez l’auteur par nom ou par courriel.
+   - **Auteur correspondant** — Sélectionnez **Oui** si cet auteur sera la personne-ressource principale au MPO.
+   - **Auteur collectif** — Sélectionnez **Oui** si un groupe est crédité comme auteur.  
+     Si **Oui** est sélectionné :
+     - Recherchez le groupe par nom.
+     - Sélectionnez le groupe dans les résultats.
+3. Cliquez sur **ENREGISTRER**.
+
+**Résultat** : Les auteurs sélectionnés seront ajoutés au formulaire de dossier de manuscrit. Ces auteurs pourront apporter des modifications à ce formulaire de dossier de manuscrit. Toutefois, ils ne pourront pas supprimer le formulaire.
 
 ![Ajout d’auteurs](/images/publication-process/adding_authors_fr.png)
 
-#### Mise à jour d’un auteur ou d’une affiliation
-
-Pour mettre à jour le statut d’**auteur correspondant du MPO** d’un auteur ou d’un affilié ajouté :
-
-1. Cliquez sur son nom.
-2. Faites basculer le curseur ***Auteur correspondant du MPO*** à l’état souhaité.
-
-::: important
-Dans le cadre d’un dossier de manuscrit, l’auteur correspondant est une personne en mesure de répondre aux questions liées au manuscrit au sein du MPO. Il ne s’agit pas nécessairement du même auteur que celui qui sera désigné comme auteur correspondant pour la publication officielle.
-:::
-
-Il est possible de corriger le nom, le courriel ou l’affiliation d’un auteur en accédant à son profil. Cela est uniquement possible si l’auteur n’a aucun compte utilisateur associé.
-
-Pour modifier le nom, le courriel ou l’affiliation d’un auteur :
-
-1. Cliquez sur son nom.
-2. Cliquez sur **Voir le profil de l’auteur**.
-3. Cliquez sur l’**icône en forme de crayon** à côté de son nom.
-
-Si vous avez fait une erreur dans l’affiliation, vous pouvez la corriger à cet endroit, mais vous devrez supprimer puis ajouter de nouveau l’auteur pour que la modification soit reflétée dans le FDM, puisque chaque FDM conserve un instantané de l’affiliation de l’auteur au moment de son ajout. Cela permet de conserver un historique clair de l’affiliation de l’auteur lors de la création du FDM.
-
 #### Retirer un auteur ou un affilié
 
-Pour retirer un auteur ou un affilié :
+1. Cliquez sur l’icône **X** à droite du nom de l’auteur.
+2. Cliquez sur **OK**.
 
-Cliquez sur l’**icône X** située à droite du nom de l’auteur.
+**Résultat** : L’auteur retiré ne sera plus associé à ce formulaire de dossier de manuscrit. Il ne pourra plus voir ni modifier ce formulaire.
+
+#### Modifier le statut d’auteur correspondant
+
+::: important
+Dans un dossier de manuscrit, l’auteur correspondant est la personne qui peut répondre aux questions concernant le manuscrit au MPO. Il ne s’agit pas nécessairement du même auteur que celui désigné comme auteur correspondant dans la publication officielle.
+:::
+
+1. Cliquez sur l’**auteur**.
+2. Faites basculer le curseur **Auteur correspondant du MPO**.
+
+**Résultat** : Le statut d’auteur correspondant du MPO pour cet auteur est modifié.
+
+#### Si l’auteur n’apparaît pas dans la liste des auteurs
+
+Veuillez consulter la section [Création d’un auteur](/fr/general/additional-tasks.md).
+
+#### Si l’auteur collectif n’apparaît pas dans la liste des organisations
+
+Veuillez communiquer avec l’[équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour faire ajouter l’organisation à la liste.
 
 ### Évaluateurs externes
 
@@ -348,17 +349,19 @@ Un numéro de catalogue peut être obtenu en remplissant le [formulaire de deman
 #### Soumettre le manuscrit
 
 1. Ouvrez le formulaire de dossier de manuscrit.
-2. Sélectionnez **Progression du manuscrit** dans le menu de gauche.
-3. Cliquez sur le **bouton SOUMETTRE LE MANUSCRIT**.
-4. Remplissez le formulaire de soumission :
-   1. Revue / Série (obligatoire)
-   2. Numéro de catalogue (obligatoire)
-   3. ISBN (facultatif)
-   4. Numéro de numéro (facultatif)
-   5. Copie du manuscrit en format .doc ou .docx (obligatoire)
-5. Cliquez sur le **bouton SOUMETTRE**.
+2. Sélectionnez **Progression du manuscrit**.
+3. Cliquez sur **SOUMETTRE LE MANUSCRIT**.
+4. Remplissez le formulaire :
+   - Revue/Série (obligatoire)
+   - Numéro de catalogue (obligatoire)
+   - Copie du manuscrit au format .docx (préféré), .doc ou .pdf (obligatoire)
+   - ISBN (facultatif)
+   - Numéro de numéro (facultatif)
+5. Cliquez sur **SOUMETTRE**.
 
-![Soumettre au guichet unique](/images/publication-process/submit_single_window_fr.png)
+![Soumettre à la Fenêtre unique](/images/publication-process/submit_single_window_fr.png)
+
+**Résultat** : Votre manuscrit a été soumis à la Fenêtre unique pour examen et publication. Vous serez informé lorsque le manuscrit sera publié ou si des modifications sont requises.
 
 ### Publication dans une revue de tiers
 
@@ -429,63 +432,46 @@ Pour afficher la liste des manuscrits régionaux :
    - Cliquez sur un état de manuscrit dans la section **Manuscrits régionaux** à gauche pour filtrer par état du manuscrit (facultatif).
 4. Cliquez sur le titre d’un manuscrit pour l’ouvrir.
 
-## Partage d’un FDM
+## Partager un formulaire de dossier de manuscrit (MRF)
 
 ::: tip
-Par défaut, tous les auteurs du MPO et les réviseurs du FDM peuvent voir et modifier
-(le cas échéant, selon l’état du FDM) le FDM. Il n’est donc pas nécessaire de le partager avec eux.
+Par défaut, tous les auteurs et réviseurs du MPO associés au MRF peuvent voir et modifier
+(selon son statut) le formulaire de dossier de manuscrit. Il n’est donc pas nécessaire de le partager avec eux.
 :::
 
-Vous pouvez partager l’accès à votre formulaire de dossier de manuscrit (FDM) avec un collègue, par exemple un administrateur ou un chef de section. Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler les autorisations accordées, notamment l’accès en lecture seule, la modification ou la suppression. De plus, vous pouvez définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès en tout temps.
+Vous pouvez partager l’accès à votre **formulaire de dossier de manuscrit (MRF)** avec un collègue, comme un administrateur ou un chef de section.  
+Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler leurs permissions, notamment l’accès en lecture seule, la modification ou la suppression.  
+Vous pouvez également définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès à tout moment.
 
 ![Partage](/images/publication-process/sharing_fr.png)
 
 Pour partager un manuscrit avec un autre utilisateur :
 
-1. À partir de la **page Mes dossiers de manuscrits**, ouvrez votre formulaire de manuscrit.
+1. À partir de la **page Mes dossiers de manuscrit**, ouvrez votre formulaire de manuscrit.
 2. Sélectionnez **Partage** dans le menu de gauche.
-3. Cliquez sur le **bouton Partager**.
-4. Dans le **champ de recherche d’utilisateur**, saisissez le nom ou le courriel de l’utilisateur.
-   - Si l’utilisateur a enregistré son compte, son nom s’affichera. Cliquez sur son nom pour le sélectionner.
-   - Si l’utilisateur ne figure pas dans la liste, veuillez consulter la section [Inviter un utilisateur](#inviter-un-utilisateur)
+3. Cliquez sur le **bouton PARTAGER**.
+4. Dans la **boîte de recherche Utilisateur**, saisissez le nom ou l’adresse courriel de l’utilisateur.
+   - Si l’utilisateur a déjà enregistré son compte, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.
+   - Si l’utilisateur n’apparaît pas dans la liste, veuillez consulter la section [Inviter un utilisateur](/fr/general/additional-tasks#inviter-un-utilisateur).
 5. Choisissez le niveau d’accès :
-   - Sélectionnez **Peut modifier** si vous souhaitez lui accorder des droits de modification.
-   - Sélectionnez **Peut supprimer** si vous souhaitez lui accorder des droits de suppression.
-6. Cliquez sur le champ **Expire le** et définissez la date à laquelle l’accès partagé doit expirer, ou cliquez sur l’**icône du calendrier** pour sélectionner une date à partir du calendrier. (Facultatif)
+   - Sélectionnez **Peut modifier** si vous souhaitez lui donner des permissions de modification.
+   - Sélectionnez **Peut supprimer** si vous souhaitez lui donner des permissions de suppression.
+6. Cliquez sur le **champ Expire le** et définissez la date à laquelle l’accès partagé doit expirer, ou cliquez sur l’**icône du calendrier** pour sélectionner une date dans le calendrier. (Facultatif)
 7. Cliquez sur le **bouton PARTAGER**.
 
 ![Nouveau partage](/images/publication-process/new_share_fr.png)
 
-### Inviter un utilisateur
+### Modifier une permission de partage
 
-::: tip
-L’invitation d’un utilisateur effectue une recherche dans l’annuaire actif du MPO à l’aide de l’adresse courriel de l’utilisateur. Faites preuve de prudence lors de la sélection, car certains utilisateurs ont des adresses courriel très similaires.
+Pour modifier les permissions d’un dossier de manuscrit partagé :
 
-Pour vous aider, la description du poste utilisée par l’utilisateur dans l’annuaire actif a été ajoutée aux éléments de la liste déroulante.
-:::
-
-![Invitation](/images/publication-process/invite_fr.png)
-
-Pour inviter un utilisateur au PSO :
-
-1. Cliquez sur le **bouton Vous ne trouvez pas l’utilisateur que vous cherchez ?**.
-2. Entrez son adresse courriel.
-3. Sélectionnez l’utilisateur approprié dans la liste déroulante.
-
-Pour vérifier l’état de l’invitation envoyée à un utilisateur, consultez la section [Invitations envoyées](/fr/general/settings#sent-invitations).
-
-### Modifier une autorisation de partage
-
-Pour modifier les autorisations associées à un dossier de manuscrit déjà partagé :
-
-1. Cliquez sur l’**icône en forme de crayon** sous la colonne **Actions**.
+1. Cliquez sur l’**icône Crayon** dans la colonne **Actions**.
 2. Mettez à jour les paramètres de partage souhaités.
 3. Cliquez sur le **bouton ENREGISTRER**.
 
-### Supprimer une autorisation de partage
+### Supprimer une permission de partage
 
-Pour retirer l’accès partagé à un dossier de manuscrit :
+Pour retirer l’accès à un dossier de manuscrit partagé :
 
-1. Cliquez sur l’**icône en forme de corbeille** sous la colonne **Actions**.
+1. Cliquez sur l’**icône Corbeille** dans la colonne **Actions**.
 2. Confirmez en cliquant sur le **bouton OK**.
-

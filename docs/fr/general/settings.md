@@ -34,17 +34,25 @@ La langue par défaut de votre compte s’affiche dans ce champ. Si vous souhait
 2. Sélectionnez la langue souhaitée.
 3. Cliquez sur le **bouton Enregistrer** pour sauvegarder les changements.
 
-### Rôles utilisateur
+### Rôles des utilisateurs
 
-Les rôles utilisateur indiquent le type de compte que vous possédez. Les rôles sont attribués lors de la création du compte. Si vous croyez que votre compte n’a pas le rôle approprié, veuillez communiquer avec l’[équipe de soutien du Portail de science ouverte](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+Les rôles d’utilisateur indiquent le type de compte que vous possédez. Tous les utilisateurs reçoivent le rôle **Auteur** lors de la création de leur compte.
 
-Rôles actuellement disponibles :
-- Administrateur
-- Auteur
-- Rédacteur en chef
-- Directeur
-- Éditeur
-- Éditeur régional
+Envoyez un courriel à l’[équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) pour ajouter ou retirer des rôles à votre compte.
+
+#### Tableau récapitulatif des permissions
+
+| Permission | Auteur (par défaut) | Directeur | Éditeur | Rédacteur en chef | Éditeur régional | Observateur régional |
+|------------|:-------------------:|:---------:|:-------:|:-----------------:|:----------------:|:--------------------:|
+| Créer des dossiers de manuscrit | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Créer des publications | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Mettre à jour les auteurs | ✗ | ✗ | ✓ | ✓ | Régional | ✗ |
+| Compléter l’examen de gestion | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Voir n’importe quel dossier de manuscrit | ✗ | ✓ | ✓ | ✓ | Régional | Régional |
+| Mettre à jour les publications | ✗ | ✗ | ✓ | ✓ | Régional | ✗ |
+| Supprimer des publications | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| Publier des publications secondaires du SSÉO | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| Mettre à jour les affiliations des auteurs | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ |
 
 ## Page du profil d’auteur
 

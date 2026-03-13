@@ -34,7 +34,7 @@ export const sidebarFr: SidebarOptions =
       {
         text: 'Support et ressources',
         children: [
-          '/fr/general/troubleshooting.md',
+          '/fr/general/additional-tasks.md',
           '/fr/general/contact-support.md',
           '/fr/general/appendices.md',
         ],

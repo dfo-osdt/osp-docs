@@ -84,57 +84,56 @@ To upload a PDF copy of your manuscript:
 
 ### Author(s) and Affiliation(s) (Required)
 
-#### Adding Author(s) and Affiliation(s)
+#### Add Author(s) and Affiliation(s)
 
 ::: tip
 To speed up filling the form, DFO is preselected as the default affiliation. Please
 make sure to change it when creating authors with different affiliations.
 :::
+Repeat these steps to add all the authors:
+1. Click **+**.
+2. Complete the form:
+    - **Author** - Search author by name or email.
+    - **Corresponding Author** - Select **Yes** if this author will be the primary contact within DFO.
+    - **Group Author** - Select **Yes** if a group is credited as an author.  
+      If **Yes** is selected:
+      - Search for the group by name.
+      - Select the group from the Results.
+3. Click **SAVE**.  
 
-1. Click the **+ button**.
-2. Click the **Author** field.
-3. Begin typing the name of the author or affiliate you want to add.
-   - If the name exists in the database, it will appear. Click the name to select it.
-   - If the name does not appear, follow these steps:
-     1. Click the **+ button** to add a new author or affiliate record.
-     2. Enter their **First Name**, **Last Name**, **Organization Affiliation**, **E-Mail**, and **ORCID** (optional).
-     3. Click the **Create** button to add the new author record.
-4. Specify whether this author is the **DFO Corresponding Author**.
-5. Click the **Add** button to add this author or affiliate.
-6. Repeat steps 1–5 until all authors or affiliates have been added.
+**Result**: Selected authors will be added to the Manuscript Record Form. These authors will be able to make modifications to this Manuscript Record Form. These authors will not be able to delete the Manuscript Record Form, however.
+
+
 
 ![Adding Authors](/images/publication-process/adding_authors.png)
 
-#### Updating an Author or Affiliation
+#### Remove Author or Affiliate
 
-To update the **DFO Corresponding Author** status of an added author or affiliate:
+1. Click the **X** icon to the right of the author's name.
+2. Click **OK**.
 
-1. Click their name.
-2. Toggle the ***DFO Corresponding Author*** slider to the desired state.
+**Result**: The removed author will no longer be attributed to this Manuscript Record Form. The removed author will no longer be able to view or edit this Manuscript Record Form.
+
+#### Change Corresponding Author Status
+
 ::: important
 For a manuscript record, the corresponding author is someone who can answer questions
 related to the manuscript at DFO. It won't necessarily be the same author you intend to make
 the corresponding author for the official publication.
 :::
 
-It is possible to correct an author's name, email or affiliation by going to their profile. This is
-only possible if the author has no associated user account.
+1. Click the **Author**.
+2. Toggle the **DFO Corresponding Author** slider.
 
-Do modify an author's name, email or affiliation:
+**Result**: The DFO Corresponding Author status for the author has switched.
 
-1. Click on their name.
-2. Click on **View Author Profile**.
-3. Click on the **Pencil icon** next to their name.
+#### If the Author does not appear in the Author's List
 
-If you made a mistake in their affiliation, you can correct it there but will need to delete and re-add
-the author to have the change reflected in the MRF as each MRF stores a snapshot of the author's affiliation at
-the time of addition. This is so that we keep a clear history of the author's affiliation when the MRF was created.
+Please see the [Creating an Author](/en/general/additional-tasks.md) section.
 
-#### Removing an Author or Affiliate
+#### If the Group Author does not appear in the Organization List
 
-To remove an author or affiliate:
-
-Click the **X icon** on the right side of the author's name.
+Please email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca) to have the Organization added to the list.
 
 ### Peer Reviewers
 
@@ -366,17 +365,19 @@ A Catalogue Number can be acquired by completing a [Request Form for Publication
 #### Submit Manuscript
 
 1. Open the manuscript record form.
-2. Select **Manuscript Progress** from the left menu.
-3. Click the **SUBMIT MANUSCRIPT button**.
-4. Fill out the submission form,
-  1. Journal/Series (Required)
-  2. Catalogue Number (Required)
-  3. ISBN (Optional)
-  4. Issue Number (Optional)
-  5. Copy of Manuscript in .doc or .docx file format (Required)
-5. Click the **SUBMIT button**.
+2. Select **Manuscript Progress**.
+3. Click **SUBMIT MANUSCRIPT**.
+4. Complete the form:
+   - Journal/Series (required)
+   - Catalogue Number (required)
+   - Copy of Manuscript in .docx (preferred), .doc, or .pdf file format (required)
+   - ISBN (optional)
+   - Issue Number (optional)
+5. Click **SUBMIT**.
 
 ![Submit to Single Window](/images/publication-process/submit_single_window.png)
+
+**Result**: Your Manuscript has been submitted to the Single Window for review and publication. You will be notified when the manuscript is published or if any changes are required.
 
 ### Third-Party Journal Publication
 
@@ -468,7 +469,7 @@ To share a manuscript with another user:
 3. Click the **Share button**.
 4. In the **User search box**, type the name or email of the user.
    - If the user has registered their account, their name will appear. Click on their name to select them.
-   - If the user is not listed, please see [Invite a User](#invite-a-user).
+   - If the user is not listed, please see [Invite a User](/en/general/additional-tasks.md#invite-a-user).
 5. Choose the level of access:
    - Select **Can Edit** if you want them to have editing permissions.
    - Select **Can Delete** if you want them to have delete permissions.
@@ -476,27 +477,6 @@ To share a manuscript with another user:
 7. Click the **SHARE button**.
 
 ![New Share](/images/publication-process/new_share.png)
-
-### Invite a User
-
-::: tip
-Inviting a user will search through the DFO active directory via the
-user's email. Be careful when selecting the user as some users have very
-similar emails.
-
-To help with this, we added the job description the user uses in active
-directory to the drop down items.
-:::
-
-![Invite](/images/publication-process/invite.png)
-
-To invite a user to the OSP,
-
-1. Click the **Can't find the user you're looking for? button**.
-2. Enter their email.
-3. Pick the correct user from the drop down list.
-
-To check on the status of your user invitation please see [Sent Invitations](/en/general/settings#sent-invitations).
 
 ### Edit a Share permission
 

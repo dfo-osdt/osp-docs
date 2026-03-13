@@ -55,7 +55,10 @@ Exemples de suspension du délai :
 
 @tab Publications du MPO
 
-Il n’y a pas de délai de 10 jours ouvrables pour les publications du MPO. Conformément à la politique, les gestionnaires doivent répondre dans un délai raisonnable.
+Il n’existe pas de délai obligatoire de 10 jours ouvrables pour les publications du MPO. Conformément à la politique, les gestionnaires doivent répondre en temps opportun.
+
+Le DRS d’une région peut toutefois choisir d’appliquer un délai de 10 jours ouvrables aux publications du MPO. Dans ce cas, les publications du MPO recevront une échéance d’examen de 10 jours ouvrables avec des rappels d’échéance et de retard.  
+Pour activer cette option, veuillez envoyer un courriel à l’[équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 :::
 
