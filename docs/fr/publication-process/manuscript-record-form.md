@@ -432,63 +432,46 @@ Pour afficher la liste des manuscrits régionaux :
    - Cliquez sur un état de manuscrit dans la section **Manuscrits régionaux** à gauche pour filtrer par état du manuscrit (facultatif).
 4. Cliquez sur le titre d’un manuscrit pour l’ouvrir.
 
-## Partage d’un FDM
+## Partager un formulaire de dossier de manuscrit (MRF)
 
 ::: tip
-Par défaut, tous les auteurs du MPO et les réviseurs du FDM peuvent voir et modifier
-(le cas échéant, selon l’état du FDM) le FDM. Il n’est donc pas nécessaire de le partager avec eux.
+Par défaut, tous les auteurs et réviseurs du MPO associés au MRF peuvent voir et modifier
+(selon son statut) le formulaire de dossier de manuscrit. Il n’est donc pas nécessaire de le partager avec eux.
 :::
 
-Vous pouvez partager l’accès à votre formulaire de dossier de manuscrit (FDM) avec un collègue, par exemple un administrateur ou un chef de section. Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler les autorisations accordées, notamment l’accès en lecture seule, la modification ou la suppression. De plus, vous pouvez définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès en tout temps.
+Vous pouvez partager l’accès à votre **formulaire de dossier de manuscrit (MRF)** avec un collègue, comme un administrateur ou un chef de section.  
+Lors du partage de votre formulaire de manuscrit, vous pouvez contrôler leurs permissions, notamment l’accès en lecture seule, la modification ou la suppression.  
+Vous pouvez également définir une date d’expiration pour l’accès partagé. Si aucune date d’expiration n’est définie, vous pouvez révoquer l’accès à tout moment.
 
 ![Partage](/images/publication-process/sharing_fr.png)
 
 Pour partager un manuscrit avec un autre utilisateur :
 
-1. À partir de la **page Mes dossiers de manuscrits**, ouvrez votre formulaire de manuscrit.
+1. À partir de la **page Mes dossiers de manuscrit**, ouvrez votre formulaire de manuscrit.
 2. Sélectionnez **Partage** dans le menu de gauche.
-3. Cliquez sur le **bouton Partager**.
-4. Dans le **champ de recherche d’utilisateur**, saisissez le nom ou le courriel de l’utilisateur.
-   - Si l’utilisateur a enregistré son compte, son nom s’affichera. Cliquez sur son nom pour le sélectionner.
-   - Si l’utilisateur ne figure pas dans la liste, veuillez consulter la section [Inviter un utilisateur](#inviter-un-utilisateur)
+3. Cliquez sur le **bouton PARTAGER**.
+4. Dans la **boîte de recherche Utilisateur**, saisissez le nom ou l’adresse courriel de l’utilisateur.
+   - Si l’utilisateur a déjà enregistré son compte, son nom apparaîtra. Cliquez sur son nom pour le sélectionner.
+   - Si l’utilisateur n’apparaît pas dans la liste, veuillez consulter la section [Inviter un utilisateur](/fr/general/additional-tasks#inviter-un-utilisateur).
 5. Choisissez le niveau d’accès :
-   - Sélectionnez **Peut modifier** si vous souhaitez lui accorder des droits de modification.
-   - Sélectionnez **Peut supprimer** si vous souhaitez lui accorder des droits de suppression.
-6. Cliquez sur le champ **Expire le** et définissez la date à laquelle l’accès partagé doit expirer, ou cliquez sur l’**icône du calendrier** pour sélectionner une date à partir du calendrier. (Facultatif)
+   - Sélectionnez **Peut modifier** si vous souhaitez lui donner des permissions de modification.
+   - Sélectionnez **Peut supprimer** si vous souhaitez lui donner des permissions de suppression.
+6. Cliquez sur le **champ Expire le** et définissez la date à laquelle l’accès partagé doit expirer, ou cliquez sur l’**icône du calendrier** pour sélectionner une date dans le calendrier. (Facultatif)
 7. Cliquez sur le **bouton PARTAGER**.
 
 ![Nouveau partage](/images/publication-process/new_share_fr.png)
 
-### Inviter un utilisateur
+### Modifier une permission de partage
 
-::: tip
-L’invitation d’un utilisateur effectue une recherche dans l’annuaire actif du MPO à l’aide de l’adresse courriel de l’utilisateur. Faites preuve de prudence lors de la sélection, car certains utilisateurs ont des adresses courriel très similaires.
+Pour modifier les permissions d’un dossier de manuscrit partagé :
 
-Pour vous aider, la description du poste utilisée par l’utilisateur dans l’annuaire actif a été ajoutée aux éléments de la liste déroulante.
-:::
-
-![Invitation](/images/publication-process/invite_fr.png)
-
-Pour inviter un utilisateur au PSO :
-
-1. Cliquez sur le **bouton Vous ne trouvez pas l’utilisateur que vous cherchez ?**.
-2. Entrez son adresse courriel.
-3. Sélectionnez l’utilisateur approprié dans la liste déroulante.
-
-Pour vérifier l’état de l’invitation envoyée à un utilisateur, consultez la section [Invitations envoyées](/fr/general/settings#sent-invitations).
-
-### Modifier une autorisation de partage
-
-Pour modifier les autorisations associées à un dossier de manuscrit déjà partagé :
-
-1. Cliquez sur l’**icône en forme de crayon** sous la colonne **Actions**.
+1. Cliquez sur l’**icône Crayon** dans la colonne **Actions**.
 2. Mettez à jour les paramètres de partage souhaités.
 3. Cliquez sur le **bouton ENREGISTRER**.
 
-### Supprimer une autorisation de partage
+### Supprimer une permission de partage
 
-Pour retirer l’accès partagé à un dossier de manuscrit :
+Pour retirer l’accès à un dossier de manuscrit partagé :
 
-1. Cliquez sur l’**icône en forme de corbeille** sous la colonne **Actions**.
+1. Cliquez sur l’**icône Corbeille** dans la colonne **Actions**.
 2. Confirmez en cliquant sur le **bouton OK**.
-

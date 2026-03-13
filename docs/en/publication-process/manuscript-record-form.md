@@ -469,7 +469,7 @@ To share a manuscript with another user:
 3. Click the **Share button**.
 4. In the **User search box**, type the name or email of the user.
    - If the user has registered their account, their name will appear. Click on their name to select them.
-   - If the user is not listed, please see [Invite a User](#invite-a-user).
+   - If the user is not listed, please see [Invite a User](/en/general/additional-tasks.md#invite-a-user).
 5. Choose the level of access:
    - Select **Can Edit** if you want them to have editing permissions.
    - Select **Can Delete** if you want them to have delete permissions.
@@ -477,27 +477,6 @@ To share a manuscript with another user:
 7. Click the **SHARE button**.
 
 ![New Share](/images/publication-process/new_share.png)
-
-### Invite a User
-
-::: tip
-Inviting a user will search through the DFO active directory via the
-user's email. Be careful when selecting the user as some users have very
-similar emails.
-
-To help with this, we added the job description the user uses in active
-directory to the drop down items.
-:::
-
-![Invite](/images/publication-process/invite.png)
-
-To invite a user to the OSP,
-
-1. Click the **Can't find the user you're looking for? button**.
-2. Enter their email.
-3. Pick the correct user from the drop down list.
-
-To check on the status of your user invitation please see [Sent Invitations](/en/general/settings#sent-invitations).
 
 ### Edit a Share permission
 
