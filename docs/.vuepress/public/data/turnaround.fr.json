@@ -1,0 +1,13 @@
+{
+    "definition": "Indique si la région a adopté le délai facultatif de 10 jours ouvrables pour les publications secondaires.",
+    "regions": [
+        { "name": "Arctique", "code": "ARCTIC", "svgIds": ["DFO_ARCTIC"], "enabled": false },
+        { "name": "Pacifique", "code": "PAC", "svgIds": ["DFO_PAC"], "enabled": false },
+        { "name": "Ontario et Prairies", "code": "ONT_PRA", "svgIds": ["DFO_ONT_PRA"], "enabled": true },
+        { "name": "Québec", "code": "QC", "svgIds": ["DFO_QC"], "enabled": false },
+        { "name": "Maritimes", "code": "MAR", "svgIds": ["DFO_MAR"], "enabled": false },
+        { "name": "Golfe", "code": "GULF", "svgIds": ["DFO_GULF"], "enabled": false },
+        { "name": "Terre-Neuve-et-Labrador", "code": "NL", "svgIds": ["DFO_NL"], "enabled": false },
+        { "name": "Région de la capitale nationale", "code": "NCR", "svgIds": ["DFO_NCR"], "enabled": false }
+    ]
+}

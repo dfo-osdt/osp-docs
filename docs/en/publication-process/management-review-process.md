@@ -64,6 +64,10 @@ To Opt-in please email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuve
 
 :::
 
+
+<TurnaroundMap/>
+
+
 ### Review the Manuscript Form
 
 ::: tip

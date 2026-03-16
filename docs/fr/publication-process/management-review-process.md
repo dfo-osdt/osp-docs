@@ -62,6 +62,8 @@ Pour activer cette option, veuillez envoyer un courriel à l’[équipe de souti
 
 :::
 
+<TurnaroundMap/>
+
 ### Examiner le formulaire de manuscrit
 
 ::: tip

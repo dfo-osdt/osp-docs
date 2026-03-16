@@ -1,0 +1,13 @@
+{
+    "definition": "Indicates whether the region has adopted the optional 10 business day turnaround for secondary publications.",
+    "regions": [
+        { "name": "Arctic", "code": "ARCTIC", "svgIds": ["DFO_ARCTIC"], "enabled": false },
+        { "name": "Pacific", "code": "PAC", "svgIds": ["DFO_PAC"], "enabled": false },
+        { "name": "Ontario and Prairies", "code": "ONT_PRA", "svgIds": ["DFO_ONT_PRA"], "enabled": true },
+        { "name": "Quebec", "code": "QC", "svgIds": ["DFO_QC"], "enabled": false },
+        { "name": "Maritimes", "code": "MAR", "svgIds": ["DFO_MAR"], "enabled": false },
+        { "name": "Gulf", "code": "GULF", "svgIds": ["DFO_GULF"], "enabled": false },
+        { "name": "Newfoundland and Labrador", "code": "NL", "svgIds": ["DFO_NL"], "enabled": false },
+        { "name": "National Capital Region", "code": "NCR", "svgIds": ["DFO_NCR"], "enabled": false }
+    ]
+}
