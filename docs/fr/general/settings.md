@@ -134,13 +134,13 @@ La colonne Déconnexion à indique la date et l’heure auxquelles votre compte 
 
 ## Invitations envoyées
 
-![Invitation](/images/account/sent_invites.png)
+![Invitation](/images/account/sent_invites_fr.png)
 
 Les invitations que vous avez envoyées à des utilisateurs pour les inviter à accéder au PSO s’affichent sur la page Invitations envoyées. La date et l’heure auxquelles un utilisateur invité se connecte au PSO pour la première fois s’affichent dans la colonne **Inscrit le**.
 
 ## Paramètres de gestion
 
-![Page des paramètres de gestion](/images/account/management_settings.png)
+![Page des paramètres de gestion](/images/account/management_settings_fr.png)
 
 ### Délégation d’examen
 

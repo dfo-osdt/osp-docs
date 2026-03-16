@@ -5,58 +5,114 @@ description:
 sidebarDepth: 1
 ---
 
-# Tâches supplémentaires
+# Autres fonctionnalités
 
-## Créer une affiliation
+## Créer une nouvelle organisation
+
+Créez une nouvelle organisation si l’organisation ou le groupe requis n’apparaît pas dans la **liste des organisations** du PSO. Cette fonctionnalité est généralement utilisée pour les groupes autochtones, les groupes de travail à long terme ou les organisations qui ne sont pas encore enregistrées dans le système.
+
+::: important
+Utilisez le **nom officiel** de l’organisation lors de la création d’un nouveau dossier.
+
+Les noms officiels des organisations peuvent être trouvés dans le **Research Organization Registry (ROR)** :  
+[Research Organization Registry](https://ror.org/)
+
+Si l’organisation n’est pas répertoriée dans le ROR, utilisez le nom officiel le plus récent disponible.
+:::
+
+### Étapes
+
 1. Cliquez sur **Impossible de trouver l’organisation que vous recherchez ?**.
-2. Remplissez le formulaire :
-   - Nom de l’organisation en anglais (obligatoire)
-   - Nom de l’organisation en français (obligatoire)
-   - Abréviation de l’organisation en anglais (facultatif)
-   - Abréviation de l’organisation en français (facultatif)
-3. Cliquez sur **CRÉER**.
+2. Remplissez le formulaire.
 
-**Résultat** : Une nouvelle organisation est créée et ajoutée à la liste des organisations pour une utilisation future.
+Remplissez les champs suivants :
 
-## Créer un auteur
+- **Nom de l’organisation (anglais)** – Saisissez le nom officiel de l’organisation en anglais.
+- **Nom de l’organisation (français)** – Saisissez le nom officiel de l’organisation en français.
+- **Abréviation (anglais)** – Saisissez l’abréviation de l’organisation en anglais, le cas échéant.
+- **Abréviation (français)** – Saisissez l’abréviation de l’organisation en français, le cas échéant.
+
+3. Cliquez sur **Créer**.
+
+### Résultat
+
+L’organisation est ajoutée à la **liste des organisations** et peut être sélectionnée comme **affiliation** ou **groupe de travail**.
+
+---
+## Créer un nouvel auteur
+
+Créez un nouvel auteur si la personne n’apparaît pas dans la **liste des auteurs**.
+
+### Étapes
+
 1. Cliquez sur **Impossible de trouver l’auteur que vous recherchez ?**.
-2. Remplissez le formulaire :
-   - Prénom (obligatoire)
-   - Nom de famille (obligatoire)
-   - Courriel (obligatoire)
-   - Affiliation (obligatoire)
-   - ORCID (facultatif)
-3. Cliquez sur **CRÉER**.
+2. Remplissez le formulaire.
 
-**Résultat** : Un nouvel auteur est créé et ajouté à la liste des auteurs pour une utilisation future.
+Remplissez les champs suivants :
 
-### Affiliation introuvable dans la liste
-Veuillez consulter la section [Créer une affiliation](#creer-une-affiliation).
+- **Prénom** – Saisissez le prénom de l’auteur.
+- **Nom de famille** – Saisissez le nom de famille de l’auteur.
+- **Courriel** – Saisissez l’adresse courriel de l’auteur.
+- **Affiliation** – Sélectionnez l’organisation de l’auteur.
+- **ORCID** – Saisissez l’identifiant ORCID de l’auteur s’il est disponible.
+
+3. Cliquez sur **Créer**.
+
+### Résultat
+
+L’auteur est ajouté à la **liste des auteurs** et peut être sélectionné lors de la création ou de la modification des formulaires de dossier de manuscrit (MRF).
+
+### Affiliation introuvable
+
+Si l’affiliation requise n’apparaît pas dans la liste, consultez la section **[Créer une nouvelle organisation](#creer-une-nouvelle-organisation)**.
+
+---
 
 ## Modifier un auteur
-Il est possible de corriger le nom, le courriel ou l’affiliation d’un auteur en accédant à son profil. Cette modification est uniquement possible si l’auteur n’a pas de compte utilisateur associé.
 
-Pour modifier le nom, le courriel ou l’affiliation d’un auteur :
+Vous pouvez mettre à jour le **nom**, le **courriel** ou l’**affiliation** d’un auteur en modifiant son profil d’auteur. Cette opération est seulement possible si l’auteur **n’a pas** de compte utilisateur associé.
 
-1. Cliquez sur son nom.
+### Étapes
+
+1. Cliquez sur le nom de l’auteur.
 2. Cliquez sur **Voir le profil de l’auteur**.
-3. Cliquez sur l’**icône Crayon** à côté de son nom.
+3. Cliquez sur l’icône **Crayon** à côté du nom de l’auteur.
+4. Mettez à jour les informations nécessaires.
+5. Enregistrez les modifications.
 
-Si vous avez fait une erreur dans l’affiliation, vous pouvez la corriger à cet endroit, mais vous devrez supprimer puis réajouter l’auteur afin que la modification soit reflétée dans le formulaire de dossier de manuscrit (MRF). Chaque MRF conserve un instantané de l’affiliation de l’auteur au moment où il a été ajouté afin de préserver l’historique de l’affiliation au moment de la création du MRF.
+### Résultat
 
+Les informations du profil de l’auteur sont mises à jour.
+
+### Informations supplémentaires
+
+Chaque formulaire de dossier de manuscrit conserve un **instantané de l’affiliation de l’auteur au moment où il a été ajouté**. Si vous mettez à jour l’affiliation d’un auteur, supprimez puis réajoutez cet auteur dans le MRF afin que la modification apparaisse dans ce dossier.
+
+---
 ## Inviter un utilisateur
-::: tip
-L’invitation d’un utilisateur effectue une recherche dans l’annuaire actif du MPO à l’aide de son adresse courriel. Soyez attentif lors de la sélection de l’utilisateur, car certaines adresses courriel sont très similaires.
 
-Pour faciliter cette étape, la description de poste associée à l’utilisateur dans l’annuaire actif a été ajoutée aux éléments de la liste déroulante.
+Invitez un utilisateur à accéder au Portail de la science ouverte (PSO).
+
+::: tip
+L’outil d’invitation effectue une recherche dans l’**annuaire actif du MPO** à l’aide de l’adresse courriel de l’utilisateur.
+
+Certaines adresses courriel peuvent être très similaires. Vérifiez que vous sélectionnez le bon utilisateur.
+
+Pour vous aider à identifier le bon utilisateur, le système affiche la **description de poste provenant de l’annuaire actif** dans les résultats de recherche.
 :::
 
 ![Invitation](/images/publication-process/invite_fr.png)
 
-Pour inviter un utilisateur au PSO :
+### Étapes
 
-1. Cliquez sur le **bouton Impossible de trouver l’utilisateur que vous recherchez ?**.
-2. Saisissez son adresse courriel.
+1. Cliquez sur **Impossible de trouver l’utilisateur que vous recherchez ?**.
+2. Saisissez l’**adresse courriel** de l’utilisateur.
 3. Sélectionnez le bon utilisateur dans la liste déroulante.
 
-Pour vérifier l’état de votre invitation d’utilisateur, veuillez consulter la section [Invitations envoyées](/fr/general/settings.html#invitations-envoyees).
+### Résultat
+
+L’utilisateur reçoit une invitation pour accéder au Portail de la science ouverte.
+
+### Informations supplémentaires
+
+Pour consulter l’état des invitations envoyées, veuillez consulter **[Invitations envoyées](/fr/general/settings#invitations-envoyees)**.
