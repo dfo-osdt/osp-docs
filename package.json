@@ -16,9 +16,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-register-components": "2.0.0-rc.125",
-    "@vuepress/plugin-search": "2.0.0-rc.125",
     "@vuepress/theme-default": "2.0.0-rc.125",
-    "@vuepress/utils": "2.0.0-rc.27",
     "d3-geo": "^3.1.1",
     "d3-geo-projection": "^4.0.0",
     "sass-embedded": "^1.98.0",
@@ -31,11 +29,10 @@
   "dependencies": {
     "@vue/server-renderer": "^3.5.30",
     "@vuepress/plugin-copy-code": "2.0.0-rc.125",
-    "@vuepress/plugin-external-link-icon": "2.0.0-rc.28",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.125",
     "esbuild": "^0.27.4",
     "markdown-it": "^14.1.1",
-    "undici": "^7.24.0",
+    "undici": "^7.24.4",
     "vite": "^7.3.1",
     "vue-router": "^5.0.3"
   },
