@@ -57,9 +57,16 @@ Example of paused timeline:
 
 @tab DFO Publications
 
-There is no 10-working-day timeline for DFO publications. As per the policy, managers are to reply in a timely manner.
+There is no mandatory 10-working-day timeline for DFO publications. As per the policy, managers are to reply in a timely manner.
+
+A Region's RDS can opt the Region into a 10-working-day timeline for DFO Publications. DFO Publications will receive a 10-working-day review deadline with due and overdue reminders.  
+To Opt-in please email the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 :::
+
+
+<TurnaroundMap/>
+
 
 ### Review the Manuscript Form
 

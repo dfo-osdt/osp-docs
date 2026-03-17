@@ -69,7 +69,9 @@ export default
                       ]
                   },
                 ],
-              sidebar: sidebarEn,
+                sidebar: sidebarEn,
+                docsRepo: 'https://github.com/dfo-osdt/osp-docs',
+                docsDir: 'docs',
             },
             '/fr/':
             {
@@ -97,7 +99,10 @@ export default
                   ]
                 }
               ],
-              sidebar: sidebarFr,
+                sidebar: sidebarFr,
+                docsRepo: 'https://github.com/dfo-osdt/osp-docs',
+                docsDir: 'docs',
+                editLinkText: 'Modifier cette page',
             }
           },
         }

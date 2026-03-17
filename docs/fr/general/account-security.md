@@ -2,6 +2,7 @@
 lang: fr-CA
 title: Sécurité du compte
 description:
+sidebarDepth: 1
 ---
 
 ## Historique des authentifications

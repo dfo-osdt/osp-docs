@@ -7,7 +7,11 @@ export const I18N = {
         inProgress: "In progress",
         notStarted: "Not started",
         sessionsComplete: "roles onboarded",
-        nrc: "NCR"
+        nrc: "NCR",
+
+        turnaroundMapTitle: "Optional 10 business day turnaround by region",
+        turnaroundEnabled: "Adopted",
+        turnaroundDisabled: "Not adopted",
     },
 
     fr: {
@@ -18,7 +22,11 @@ export const I18N = {
         inProgress: "En cours",
         notStarted: "Non commencé",
         sessionsComplete: "rôles intégrés",
-        ncr: "RCN"
+        ncr: "RCN",
+
+        turnaroundMapTitle: "Délai facultatif de 10 jours ouvrables par région",
+        turnaroundEnabled: "Adopté",
+        turnaroundDisabled: "Non adopté",
     }
 };
 
