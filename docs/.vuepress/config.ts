@@ -1,7 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { copyCodePlugin } from '@vuepress/plugin-copy-code'
-import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path } from "vuepress/utils";
 import {
@@ -112,24 +111,9 @@ export default
           registerComponentsPlugin({
               componentsDir: path.resolve(__dirname, "./components"),
           }),
-        slimsearchPlugin
+        searchPlugin
           ({
-              indexContent: true,
-            locales:
-            {
-              '/':
-              {
-                placeholder: 'Search',
-              },
-              '/fr/':
-              {
-                placeholder: 'Rechercher',
-              }
-            }
-          }),
-          copyCodePlugin
-          ({
-              // options
+              maxSuggestions: 10,
           }),
       ]
   }

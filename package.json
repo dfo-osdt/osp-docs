@@ -28,8 +28,7 @@
   },
   "dependencies": {
     "@vue/server-renderer": "^3.5.30",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.125",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.125",
+    "@vuepress/plugin-search": "2.0.0-rc.125",
     "esbuild": "^0.27.4",
     "markdown-it": "^14.1.1",
     "undici": "^7.24.4",
