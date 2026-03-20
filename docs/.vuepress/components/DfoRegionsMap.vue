@@ -86,7 +86,13 @@ onMounted(async () => {
         if (el) {
           el.classList.add("region-fill", cls);
           el.setAttribute("data-region", r.name);
-          el.setAttribute("title", `${r.name} — ${score}/3 complete`);
+          
+          const title = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "title"
+          );
+          title.textContent = `${r.name}\n${score}/3 complete`;
+          el.appendChild(title);
         }
       }
     }
