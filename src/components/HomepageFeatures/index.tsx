@@ -18,13 +18,13 @@ const FeatureList: FeatureItem[] = [
         Submit your manuscripts with ease:
         <ul className='text--left'>
           <li>
-            <Link to="/docs/general/getting-started">Getting Started</Link>{' '} - System requirements and initial setup
+            <Link to="/docs/getting-started">Getting Started</Link>{' '} - System requirements and initial setup
           </li>
           <li>
             <Link to="/docs/publication-process/manuscript-record-form">Manuscript Record Form</Link>{' '} - Create and manage your manuscript submissions
           </li>
           <li>
-            <Link to="/docs/features/author-explorer">Author Explorer</Link>{' '} - Find and connect with other researchers
+            <Link to="/docs/portal-features/author-explorer">Author Explorer</Link>{' '} - Find and connect with other researchers
           </li>
         </ul>
       </>
@@ -37,10 +37,10 @@ const FeatureList: FeatureItem[] = [
         Review and approve manuscript submissions:
         <ul className='text--left'>
           <li>
-            <Link to="/docs/publication-process/management-review-process">Manuscript Management Review Process</Link>{' '} - Step-by-step review procedures
+            <Link to="/docs/publication-process/manuscript-management-review">Manuscript Management Review Process</Link>{' '} - Step-by-step review procedures
           </li>
           <li>
-            <Link to="/docs/features/publication-explorer">Publication Explorer</Link>{' '} - Browse and manage publications
+            <Link to="/docs/portal-features/publication-explorer">Publication Explorer</Link>{' '} - Browse and manage publications
           </li>
         </ul>
       </>
