@@ -35,6 +35,8 @@ const config: Config = {
     locales: ['en', 'fr'],
   },
 
+  staticDirectories: ['static', 'src'],
+
   presets: [
     [
       'classic',

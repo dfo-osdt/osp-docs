@@ -1,0 +1,85 @@
+.mapCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--ifm-card-background-color);
+}
+
+.mapTitle {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.mapSubtitle {
+  margin: 0 0 12px 0;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+}
+
+.mapError {
+  padding: 10px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.mapWrap {
+  min-height: 220px;
+}
+
+.mapWrap :global(svg) {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+}
+
+.mapWrap :global(.dfo-region) {
+  fill: var(--ifm-color-emphasis-100);
+  stroke: var(--ifm-color-emphasis-400);
+  stroke-width: 0.7;
+}
+
+.mapWrap :global(.region-fill) {
+  stroke: var(--ifm-color-emphasis-400);
+  stroke-width: 0.7;
+}
+
+.mapWrap :global(.region-fill.enabled) {
+  fill: color-mix(in srgb, var(--ifm-color-primary) 75%, white);
+}
+
+.mapWrap :global(.region-fill.disabled) {
+  fill: var(--ifm-color-emphasis-100);
+}
+
+.mapWrap :global(.region-fill:hover) {
+  filter: brightness(0.85);
+  cursor: pointer;
+}
+
+.mapLegend {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  display: inline-block;
+  margin: 0 4px 0 12px;
+}
+
+.enabled {
+  background: color-mix(in srgb, var(--ifm-color-primary) 75%, white);
+}
+
+.disabled {
+  background: var(--ifm-color-emphasis-100);
+}

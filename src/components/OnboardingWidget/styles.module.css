@@ -1,0 +1,130 @@
+.onboardCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--ifm-card-background-color);
+}
+
+.onboardError {
+  padding: 10px 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.onboardSummary {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.onboardBar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.onboardBarFill {
+  height: 100%;
+  background: var(--ifm-color-primary);
+}
+
+.onboardPercent {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.onboardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .onboardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.onboardRegion {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  padding: 12px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.onboardRegionHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.onboardRegionName {
+  font-weight: 700;
+}
+
+.onboardRegionCount {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.onboardGroups {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.onboardGroup {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  white-space: nowrap;
+}
+
+.badge_complete {
+  border-color: rgba(0, 128, 0, 0.35);
+}
+
+.badge_scheduled {
+  border-color: rgba(255, 165, 0, 0.45);
+}
+
+.badge_in_progress {
+  border-color: rgba(0, 120, 255, 0.45);
+}
+
+.badge_not_started {
+  opacity: 0.8;
+}
+
+.groupDate {
+  color: var(--ifm-color-emphasis-700);
+  font-variant-numeric: tabular-nums;
+}
+
+.onboardUpcoming {
+  margin-top: 14px;
+}
+
+.onboardUpcomingTitle {
+  margin: 0 0 6px 0;
+}
+
+.regionFlash {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 4px;
+  border-radius: 12px;
+  transition: outline-color 0.9s ease;
+}

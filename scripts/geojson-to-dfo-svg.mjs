@@ -25,10 +25,10 @@ const REGION_ID_MAP = new Map([
 /**
  * CONFIG
  * - INPUT: GeoJSON of DFO region polygons
- * - OUTPUT: SVG written into VuePress public folder
+ * - OUTPUT: SVG written into static folder
  */
 const INPUT = path.resolve(__dirname, "./data/dfo-regions.geojson");
-const OUTPUT = path.resolve(__dirname, "../public/maps/dfo-regions.svg");
+const OUTPUT = path.resolve(__dirname, "../static/maps/dfo-regions.svg");
 
 /**
  * Which property contains the region name in your GeoJSON?
@@ -37,7 +37,7 @@ const OUTPUT = path.resolve(__dirname, "../public/maps/dfo-regions.svg");
  * You can override via env:
  *   DFO_NAME_FIELD=REGION pnpm node scripts/geojson-to-dfo-svg.mjs
  */
-const NAME_FIELD = process.env.DFO_NAME_FIELD || "REGION";
+const NAME_FIELD = process.env.DFO_NAME_FIELD || "Region_EN";
 
 /**
  * Simplification:

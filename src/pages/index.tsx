@@ -1,11 +1,12 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
-import Logo from '@site/static/img/logo.png';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import OnboardingWidget from '../components/OnboardingWidget';
+import DfoRegionsMap from '../components/DfoRegionsMap';
 
 import styles from './index.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
@@ -15,7 +16,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src={Logo} className={styles.heroLogo} alt="OSP-PSO Docs Logo" />
+        <img src={require('@site/static/img/logo.png').default} className={styles.heroLogo} alt="OSP-PSO Docs Logo" />
         <Heading as="h1" className="hero__title">
           <Translate id="homepage.title" description="The main title of the homepage">
           {siteConfig.title}
@@ -49,6 +50,10 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <section className={styles.onboardingSection}>
+          <DfoRegionsMap />
+          <OnboardingWidget />
+        </section>
       </main>
     </Layout>
   );

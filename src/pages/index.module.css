@@ -19,3 +19,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.onboardingSection {
+  padding: 3rem 0;
+}
