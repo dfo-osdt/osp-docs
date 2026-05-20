@@ -26,9 +26,5 @@
   "link.item.label.OSP-PSO Docs": {
     "message": "OSP-PSO Docs",
     "description": "The label of footer link with label=OSP-PSO Docs linking to https://github.com/dfo-osdt/osp-docs"
-  },
-  "copyright": {
-    "message": "Crown Copyright © 2026  Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada.",
-    "description": "The footer copyright"
   }
 }

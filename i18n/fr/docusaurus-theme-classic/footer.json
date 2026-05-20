@@ -1,10 +1,10 @@
 {
   "link.title.OSP": {
-    "message": "OSP",
+    "message": "PSO",
     "description": "The title of the footer links column with title=OSP in the footer"
   },
   "link.title.Contact Us": {
-    "message": "Contact Us",
+    "message": "Contactez-nous",
     "description": "The title of the footer links column with title=Contact Us in the footer"
   },
   "link.title.GitHub": {
@@ -12,7 +12,7 @@
     "description": "The title of the footer links column with title=GitHub in the footer"
   },
   "link.item.label.OSP": {
-    "message": "OSP",
+    "message": "PSO",
     "description": "The label of footer link with label=OSP linking to https://github.com/dfo-osdt/osp"
   },
   "link.item.label.Documentation": {
@@ -20,15 +20,11 @@
     "description": "The label of footer link with label=Documentation linking to docs/intro"
   },
   "link.item.label.Open Science Team": {
-    "message": "Open Science Team",
+    "message": "Équipe « Science ouverte »",
     "description": "The label of footer link with label=Open Science Team linking to mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca"
   },
   "link.item.label.OSP-PSO Docs": {
     "message": "OSP-PSO Docs",
     "description": "The label of footer link with label=OSP-PSO Docs linking to https://github.com/dfo-osdt/osp-docs"
-  },
-  "copyright": {
-    "message": "Crown Copyright © 2026  Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada.",
-    "description": "The footer copyright"
   }
 }

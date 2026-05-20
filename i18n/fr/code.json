@@ -1,15 +1,11 @@
 {
-  "item.label.copywrite": {
-    "message": "Droits d'auteur de la Couronne © ${new Date().getFullYear()}  Pêches et Océans Canada | Sous licence Open Government Licence – Canada.",
-    "description": "The copyright text in the footer"
+  "homepage.title": {
+    "message": "Guide de l'utilisateur du portail de la science ouverte",
+    "description": "The title of the site"
   },
-  "item.label.openScienceTeam": {
-    "message": "Équipe de la science ouverte",
-    "description": "The label of the open science team link in the navbar"
-  },
-  "item.label.contactUs": {
-    "message": "Contactez-nous",
-    "description": "The label of the contact us link in the navbar"
+  "homepage.subtitle": {
+    "message": "Bienvenue sur le portail de la science ouverte",
+    "description": "The subtitle of the homepage"
   },
   "homepage.features.managers.intro": {
     "message": "Examinez et approuvez les soumissions de manuscrits :",
@@ -23,10 +19,6 @@
     "message": "Soumettez vos manuscrits en toute simplicité :",
     "description": "The introductory text for the authors section on the homepage"
   },
-  "homepage.features.title": {
-    "message": "Fonctionnalités",
-    "description": "The title of the features section on the homepage"
-  },
   "homepage.features.authors.title": {
     "message": "👩‍🔬 Pour les auteurs",
     "description": "The title of the authors features section on the homepage"
@@ -34,14 +26,6 @@
   "homepage.features.authors.systemRequirements": {
     "message": "Exigences système et configuration initiale",
     "description": "The text for the 'System Requirements' link for authors"
-  },
-  "homepage.title": {
-    "message": "Guide de l'utilisateur du portail de la science ouverte",
-    "description": "The title of the site"
-  },
-  "homepage.subtitle": {
-    "message": "Bienvenue sur le portail de la science ouverte",
-    "description": "The subtitle of the homepage"
   },
   "homepage.getStarted": {
     "message": "Commencer",
@@ -394,5 +378,4 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   }
-
 }

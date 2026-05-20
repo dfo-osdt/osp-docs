@@ -116,7 +116,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Crown Copyright © ${new Date().getFullYear()}  Fisheries and Oceans Canada | Licensed under Open Government Licence – Canada.`,
+      copyright: ` `,
     },
     prism: {
       theme: prismThemes.github,
