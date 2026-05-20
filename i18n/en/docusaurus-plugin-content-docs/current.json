@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "What you need to get started with the OSP.",
+    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Portal-Features": {
+    "message": "Portal-Features",
+    "description": "The label for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Portal-Features.link.generated-index.description": {
+    "message": "What you can find in the OSP.",
+    "description": "The generated-index page description for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Publishing-Process": {
+    "message": "Publishing-Process",
+    "description": "The label for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Publishing-Process.link.generated-index.description": {
+    "message": "How to navigate the publication process.",
+    "description": "The generated-index page description for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Support and Resources": {
+    "message": "Support and Resources",
+    "description": "The label for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Support and Resources.link.generated-index.description": {
+    "message": "Extra features and how to get support.",
+    "description": "The generated-index page description for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  }
+}

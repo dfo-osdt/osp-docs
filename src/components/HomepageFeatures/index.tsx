@@ -4,43 +4,76 @@ import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: ReactNode;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '👩‍🔬 For Authors',
+    title: <Translate id="homepage.features.authors.title" description="The title of the authors features section on the homepage">👩‍🔬 For Authors</Translate>,
     description: (
       <>
+      <Translate id="homepage.features.authors.intro" description="The introductory text for the authors section on the homepage">
         Submit your manuscripts with ease:
+      </Translate>
         <ul className='text--left'>
           <li>
-            <Link to="/docs/getting-started">Getting Started</Link>{' '} - System requirements and initial setup
+            <Link to="/docs/getting-started">
+              <Translate id="homepage.features.authors.gettingStarted" description="The text for the 'Getting Started' link for authors">
+                Getting Started
+              </Translate>
+            </Link>{' '} 
+            <Translate id="homepage.features.authors.systemRequirements" description="The text for the 'System Requirements' link for authors">
+              System requirements and initial setup
+            </Translate>
           </li>
           <li>
-            <Link to="/docs/publication-process/manuscript-record-form">Manuscript Record Form</Link>{' '} - Create and manage your manuscript submissions
+            <Link to="/docs/publication-process/manuscript-record-form">
+              <Translate id="homepage.features.authors.manuscriptRecordForm" description="The text for the 'Manuscript Record Form' link for authors">
+                Manuscript Record Form
+              </Translate>
+            </Link>{' '} - Create and manage your manuscript submissions
           </li>
           <li>
-            <Link to="/docs/portal-features/author-explorer">Author Explorer</Link>{' '} - Find and connect with other researchers
+            <Link to="/docs/portal-features/author-explorer">
+              <Translate id="homepage.features.authors.authorExplorer" description="The text for the 'Author Explorer' link for authors">
+                Author Explorer
+              </Translate>
+            </Link>{' '} - Find and connect with other researchers
           </li>
         </ul>
       </>
     ),
   },
   {
-    title: '👨‍💼 For Managers',
+    title:
+    <>
+    <Translate id="homepage.features.managers.title" description="The title of the managers features section on the homepage">
+      👨‍💼 For Managers
+      </Translate>
+      </>,
     description: (
       <>
+        <Translate id="homepage.features.managers.intro" description="The introductory text for the managers section on the homepage">
         Review and approve manuscript submissions:
+        </Translate>
         <ul className='text--left'>
           <li>
-            <Link to="/docs/publication-process/manuscript-management-review">Manuscript Management Review Process</Link>{' '} - Step-by-step review procedures
+            <Link to="/docs/publication-process/manuscript-management-review">
+              <Translate id="homepage.features.managers.manuscriptManagementReview" description="The text for the 'Manuscript Management Review' link for managers">
+                Manuscript Management Review Process
+              </Translate>
+            </Link>{' '} - Step-by-step review procedures
           </li>
           <li>
-            <Link to="/docs/portal-features/publication-explorer">Publication Explorer</Link>{' '} - Browse and manage publications
+            <Link to="/docs/portal-features/publication-explorer">
+              <Translate id="homepage.features.managers.publicationExplorer" description="The text for the 'Publication Explorer' link for managers">
+                Publication Explorer
+              </Translate>
+            </Link>{' '} - Browse and manage publications
           </li>
         </ul>
       </>

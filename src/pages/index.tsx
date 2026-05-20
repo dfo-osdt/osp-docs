@@ -8,6 +8,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -16,14 +17,22 @@ function HomepageHeader() {
       <div className="container">
         <img src={Logo} className={styles.heroLogo} alt="OSP-PSO Docs Logo" />
         <Heading as="h1" className="hero__title">
+          <Translate id="homepage.title" description="The main title of the homepage">
           {siteConfig.title}
+          </Translate>
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate id="homepage.subtitle" description="The subtitle of the homepage">
+            {siteConfig.tagline}
+          </Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
+              <Translate id="homepage.getStarted" description="The text of the get started button on the homepage">
             Get Started
+            </Translate>
           </Link>
         </div>
       </div>

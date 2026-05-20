@@ -55,7 +55,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/osp_social_card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -71,6 +71,10 @@ const config: Config = {
           position: 'left',
           label: 'OSP-PSO',
         },  
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
       ],
     },
     footer: {

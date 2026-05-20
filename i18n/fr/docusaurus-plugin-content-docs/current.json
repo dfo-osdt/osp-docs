@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Premiers pas",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Ce dont vous avez besoin pour commencer à utiliser le OSP.",
+    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Portal-Features": {
+    "message": "Fonctionnalités du portail",
+    "description": "The label for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Portal-Features.link.generated-index.description": {
+    "message": "Ce que vous pouvez trouver dans le PSO.",
+    "description": "The generated-index page description for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Publishing-Process": {
+    "message": "Processus de publication",
+    "description": "The label for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Publishing-Process.link.generated-index.description": {
+    "message": "Comment naviguer dans le processus de publication.",
+    "description": "The generated-index page description for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Support and Resources": {
+    "message": "Soutien et ressources",
+    "description": "The label for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Support and Resources.link.generated-index.description": {
+    "message": "Fonctionnalités supplémentaires et comment obtenir du soutien.",
+    "description": "The generated-index page description for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  }
+}
