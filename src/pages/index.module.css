@@ -1,0 +1,25 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroLogo {
+  width: 180px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  filter: drop-shadow(0 0 12px rgba(0, 148, 127, 0.25));
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onboardingSection {
+  padding: 3rem 0;
+}

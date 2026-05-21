@@ -1,0 +1,44 @@
+{
+  "regions": [
+    {
+      "code": "ARCTIC",
+      "svgIds": ["DFO_ARCTIC"],
+      "enabled": false
+    },
+    {
+      "code": "PAC",
+      "svgIds": ["DFO_PAC"],
+      "enabled": false
+    },
+    {
+      "code": "ONT_PRA",
+      "svgIds": ["DFO_ONT_PRA"],
+      "enabled": true
+    },
+    {
+      "code": "QC",
+      "svgIds": ["DFO_QC"],
+      "enabled": false
+    },
+    {
+      "code": "MAR",
+      "svgIds": ["DFO_MAR"],
+      "enabled": false
+    },
+    {
+      "code": "GULF",
+      "svgIds": ["DFO_GULF"],
+      "enabled": false
+    },
+    {
+      "code": "NL",
+      "svgIds": ["DFO_NL"],
+      "enabled": false
+    },
+    {
+      "code": "NCR",
+      "svgIds": ["DFO_NCR"],
+      "enabled": false
+    }
+  ]
+}

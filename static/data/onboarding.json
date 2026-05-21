@@ -1,0 +1,76 @@
+{
+  "regions": [
+    {
+      "code": "ARCTIC",
+      "svgIds": ["DFO_ARCTIC"],
+      "groups": [
+        { "role": "authors", "status": "complete", "date": "2026-03-03" },
+        { "role": "editors", "status": "complete" },
+        { "role": "division_managers", "status": "complete" }
+      ]
+    },
+    {
+      "code": "PAC",
+      "svgIds": ["DFO_PAC"],
+      "groups": [
+        { "role": "authors", "status": "not_started" },
+        { "role": "editors", "status": "not_started" },
+        { "role": "division_managers", "status": "not_started" }
+      ]
+    },
+    {
+      "code": "ONT_PRA",
+      "svgIds": ["DFO_ONT_PRA"],
+      "groups": [
+        { "role": "authors", "status": "complete", "date": "2026-02-20" },
+        { "role": "editors", "status": "complete", "date": "2026-02-26" },
+        { "role": "division_managers", "status": "complete" }
+      ]
+    },
+    {
+      "code": "QC",
+      "svgIds": ["DFO_QC"],
+      "groups": [
+        { "role": "authors", "status": "not_started" },
+        { "role": "editors", "status": "not_started" },
+        { "role": "division_managers", "status": "not_started" }
+      ]
+    },
+    {
+      "code": "MAR",
+      "svgIds": ["DFO_MAR"],
+      "groups": [
+        { "role": "authors", "status": "complete", "date": "2026-01-15" },
+        { "role": "editors", "status": "complete", "date": "2026-01-22" },
+        { "role": "division_managers", "status": "complete" }
+      ]
+    },
+    {
+      "code": "GULF",
+      "svgIds": ["DFO_GULF"],
+      "groups": [
+        { "role": "authors", "status": "complete" },
+        { "role": "editors", "status": "complete" },
+        { "role": "division_managers", "status": "complete" }
+      ]
+    },
+    {
+      "code": "NL",
+      "svgIds": ["DFO_NL"],
+      "groups": [
+        { "role": "authors", "status": "not_started" },
+        { "role": "editors", "status": "not_started" },
+        { "role": "division_managers", "status": "not_started" }
+      ]
+    },
+    {
+      "code": "NCR",
+      "svgIds": ["DFO_NCR"],
+      "groups": [
+        { "role": "authors", "status": "complete" },
+        { "role": "editors", "status": "complete" },
+        { "role": "division_managers", "status": "in_progress" }
+      ]
+    }
+  ]
+}

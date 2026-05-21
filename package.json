@@ -1,39 +1,53 @@
 {
-  "name": "osp-docs",
-  "version": "3.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "osp-pso-docs",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs",
-    "docs:update": "pnpm dlx vp-update"
-  },
-  "keywords": [],
-  "author": "COSI",
-  "license": "OGL-Canada-2.0",
-  "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.29",
-    "@vuepress/plugin-register-components": "2.0.0-rc.128",
-    "@vuepress/theme-default": "2.0.0-rc.128",
-    "d3-geo": "^3.1.1",
-    "d3-geo-projection": "^4.0.0",
-    "sass-embedded": "^1.99.0",
-    "topojson-server": "^3.0.1",
-    "topojson-simplify": "^3.0.3",
-    "undici": ">=6.21.1",
-    "vue": "^3.5.34",
-    "vuepress": "2.0.0-rc.29"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "maps:build": "node scripts/geojson-to-dfo-svg.mjs"
   },
   "dependencies": {
-    "@vue/server-renderer": "^3.5.34",
-    "@vuepress/plugin-search": "2.0.0-rc.128",
-    "esbuild": "^0.27.7",
-    "markdown-it": "^14.1.1",
-    "undici": "^7.25.0",
-    "vite": "^7.3.3",
-    "vue-router": "^5.0.6"
+    "@docusaurus/core": "3.10.1",
+    "@docusaurus/faster": "3.10.1",
+    "@docusaurus/preset-classic": "3.10.1",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
-  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6"
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.10.1",
+    "@docusaurus/tsconfig": "3.10.1",
+    "@docusaurus/types": "3.10.1",
+    "@types/react": "^19.0.0",
+    "d3-geo": "^3.1.1",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3",
+    "typescript": "~6.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
 }
