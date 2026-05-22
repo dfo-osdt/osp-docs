@@ -2,12 +2,16 @@
 sidebar_position: 4
 description: Explore what publications have been added to the OSP.
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Publication Explorer
 
 ![Publication Explorer](./images/publication_explorer.png)
 
 You can explore publications and their details that have been submitted to the OSP. Please note that if a publication is under embargo, only its details can be viewed.
+
+## Filtering {/* #filtering */}
 
 You can filter publications by type using the **Publication Filter Menu** located on the left side of the page.
 
@@ -18,3 +22,48 @@ The filtering table is also available for roles with access to the Regional Manu
 :::
 
 ![Filter](./images/publication_explorer_filter.png)
+
+## Download Publications Information {/* #download-publications-information */}
+
+Information on searched publications in the Publication Explorer can be downloaded as a Microsoft Excel (`.xlsx`) file or as a [Research Information Systems (RIS)](https://en.wikipedia.org/wiki/RIS_(file_format)) (`.ris`) file.
+:::info
+If you do not apply any filters, information on all publications in the OSP will be downloaded!
+:::
+
+The tabs below contain an example of what information is downloaded for a publication with three authors in each file type:
+<Tabs>
+<TabItem value="excel" label="Excel" default>
+Sheet 1: **Publications**
+| Title / Titre | Journal / Series / Série | Publisher / Éditeur | ISSN | Year / Année | Published On / Date de publication | Accepted On / Date d'acceptation | Embargoed Until / Sous embargo jusqu'au | Open Access / Libre accès | Status / Statut | DOI | ISBN | Catalogue Number / Numéro de catalogue | Region / Région | Functional Area / Secteur fonctionnel | Author Count / Nombre d'auteurs |
+|---------------|:------------------------:|:-------------------:|:----:|:------------:|:----------------------------------:|:--------------------------------:|:---------------------------------------:|:-------------------------:|:---------------:|:---:|:----:|:--------------------------------------:|:---------------:|:-------------------------------------:|:-------------------------------:|
+| Dolor dolorum suscipit repellendus facilis quo perspiciatis. | Canadian contractor reports of hydrography and ocean sciences | Fisheries and Oceans Canada - Pêches et Océans Canada | 1488-5425 | 2025 | 2025-07-21 | 2025-06-21 |  | No | published | 10.3408/6$/i |  |  | Newfoundland and Labrador Region / Région de Terre-Neuve-et-Labrador |  | 3 |
+
+Sheet 2: **Authors Auteurs**
+| Publication Title / Titre de la publication | Published On / Date de publication | Author / Auteur | ORCID | Organization / Organisation | ROR | Corresponding Author / Auteur correspondant |
+|--------------------------------------------|:----------------------------------:|-----------------|:-----:|-----------------------------|-----|:------------------------------------------:|
+| Dolor dolorum suscipit repellendus facilis quo perspiciatis. | 2025-07-21 | Crist, Gregorio |  | Velit quos deleniti quia cupiditate. / Atque doloribus inventore nesciunt ut. | https://ror.org/0n9f7hu1 | No |
+| Dolor dolorum suscipit repellendus facilis quo perspiciatis. | 2025-07-21 | Wyman, Daphne |  | Deserunt eaque id voluptas eum. / Suscipit repudiandae suscipit. | https://ror.org/072ar585 | No |
+| Dolor dolorum suscipit repellendus facilis quo perspiciatis. | 2025-07-21 | Homenick, Diamond |  | Occaecati aliquid delectus. / Quia aut atque tempore exercitationem. | https://ror.org/0ee7bxs9 | No |
+
+</TabItem>
+<TabItem value="ris" label="RIS">
+```mdx
+TY  - RPRT
+TI  - Dolor dolorum suscipit repellendus facilis quo perspiciatis.
+AU  - Crist, Gregorio
+AD  - Velit quos deleniti quia cupiditate. (https://ror.org/0n9f7hu1)
+AU  - Wyman, Daphne
+AD  - Deserunt eaque id voluptas eum. (https://ror.org/072ar585)
+AU  - Homenick, Diamond
+AD  - Occaecati aliquid delectus. (https://ror.org/0ee7bxs9)
+PY  - 2025
+DA  - 2025/07/21
+JO  - Canadian contractor reports of hydrography and ocean sciences
+PB  - Fisheries and Oceans Canada - Pêches et Océans Canada
+SN  - 1488-5425
+DO  - 10.3408/6$/i
+ER  - 
+```
+</TabItem>
+</Tabs>
+
