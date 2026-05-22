@@ -200,12 +200,6 @@ export default function OnboardingWidget(): React.JSX.Element {
                         </span>
 
                         <span className={styles.groupName}>{t.roles[group.role]}</span>
-
-                        {group.date ? (
-                          <span className={styles.groupDate}>
-                            {formatDate(group.date, locale)}
-                          </span>
-                        ) : null}
                       </li>
                     );
                   })}
