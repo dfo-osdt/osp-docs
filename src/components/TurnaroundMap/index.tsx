@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Heading from '@theme/Heading'
 
 import {I18N, type RegionCode} from '@site/src/components/i18n';
 import styles from './styles.module.css';
@@ -182,7 +183,7 @@ export default function TurnaroundMap(): React.JSX.Element {
 
   return (
     <div className={styles.mapCard}>
-      <h3 className={styles.mapTitle}>{t.turnaroundMapTitle}</h3>
+      <Heading as='h3' className={styles.mapTitle}>{t.turnaroundMapTitle}</Heading>
 
       {data.definition ? (
         <p className={styles.mapSubtitle}>{t.turnaroundDefinition}</p>
