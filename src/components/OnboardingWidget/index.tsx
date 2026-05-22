@@ -2,6 +2,7 @@ import React, {useEffect, useMemo, useState} from 'react';
 import clsx from 'clsx';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Heading from '@theme/Heading'
 
 import {I18N, formatDate, type RegionCode, RoleKey} from '@site/src/components/i18n';
 import styles from './styles.module.css';
@@ -199,12 +200,6 @@ export default function OnboardingWidget(): React.JSX.Element {
                         </span>
 
                         <span className={styles.groupName}>{t.roles[group.role]}</span>
-
-                        {group.date ? (
-                          <span className={styles.groupDate}>
-                            {formatDate(group.date, locale)}
-                          </span>
-                        ) : null}
                       </li>
                     );
                   })}
@@ -215,7 +210,7 @@ export default function OnboardingWidget(): React.JSX.Element {
 
           {upcoming.length > 0 ? (
             <div className={styles.onboardUpcoming}>
-              <h3 className={styles.onboardUpcomingTitle}>{t.upcomingTitle}</h3>
+              <Heading as='h3' className={styles.onboardUpcomingTitle}>{t.upcomingTitle}</Heading>
 
               <ul>
                 {upcoming.map((item) => (

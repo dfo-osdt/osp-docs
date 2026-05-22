@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
+import React from 'react';
 
 type FeatureItem = {
   title: ReactNode;
@@ -88,7 +89,9 @@ function Feature({title, description}: FeatureItem) {
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <div className={styles.featureDescription}>
+          {description}
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Heading from '@theme/Heading'
 
 import {I18N, type RegionCode, RoleKey} from '@site/src/components/i18n';
 import styles from './styles.module.css';
@@ -210,7 +211,7 @@ export default function DfoRegionsMap(): React.JSX.Element {
 
   return (
     <div className={styles.mapCard}>
-      <h3 className={styles.mapTitle}>{t.mapTitle}</h3>
+      <Heading as='h3' className={styles.mapTitle}>{t.mapTitle}</Heading>
 
       {error ? (
         <div className={styles.mapError}>Failed to load map/data: {error}</div>

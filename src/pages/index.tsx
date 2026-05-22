@@ -10,6 +10,7 @@ import DfoRegionsMap from '../components/DfoRegionsMap';
 
 import styles from './index.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
+import React from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -18,13 +19,13 @@ function HomepageHeader() {
       <div className="container">
         <img src={require('@site/static/img/logo.png').default} className={styles.heroLogo} alt="OSP-PSO Docs Logo" />
         <Heading as="h1" className="hero__title">
-          <Translate id="homepage.title" description="The main title of the homepage">
-          {siteConfig.title}
+          <Translate id="homepage.title" description="The main title of the homepage" values={{siteTitle: siteConfig.title}}>
+          {'{siteTitle}'}
           </Translate>
         </Heading>
         <p className="hero__subtitle">
-          <Translate id="homepage.subtitle" description="The subtitle of the homepage">
-            {siteConfig.tagline}
+          <Translate id="homepage.subtitle" description="The subtitle of the homepage" values={{siteTagline: siteConfig.tagline}}>
+            {'{siteTagline}'}
           </Translate>
         </p>
         <div className={styles.buttons}>
@@ -46,7 +47,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="OSP-PSO User Docs <head />">
+      description="OSP-PSO User Docs">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
