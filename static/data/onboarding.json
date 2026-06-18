@@ -13,9 +13,9 @@
       "code": "PAC",
       "svgIds": ["DFO_PAC"],
       "groups": [
-        { "role": "authors", "status": "not_started" },
-        { "role": "editors", "status": "not_started" },
-        { "role": "division_managers", "status": "not_started" }
+        { "role": "authors", "status": "complete" },
+        { "role": "editors", "status": "complete" },
+        { "role": "division_managers", "status": "complete" }
       ]
     },
     {
