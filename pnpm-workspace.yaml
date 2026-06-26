@@ -1,3 +1,5 @@
 allowBuilds:
   '@swc/core': true
   core-js: true
+  core-js-pure: true
+  typesense-instantsearch-adapter: true

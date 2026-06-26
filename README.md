@@ -34,8 +34,10 @@ Unless otherwise stated, content is licensed under the [Open Government Licence 
 
 Ensure you have the following tools installed to build the documentation site:
 
-- [**Node.js v18.19.0+**](https://nodejs.org/en) — A JavaScript runtime used to run `pnpm` and build the VuePress site.
-- [**pnpm v9.4.0+**](https://pnpm.io/) — A fast, disk space-efficient package manager.
+- [**Node.js v24.x.x+**](https://nodejs.org/en) — A JavaScript runtime used to run `pnpm` and build the Docusaurus site.
+- [**pnpm v10.x.x+**](https://pnpm.io/) — A fast, disk space-efficient package manager.
+- [**jq v1.7.1**](https://jqlang.org/) - A command-line JSON processor.
+- [**Docker**](https://docs.docker.com/engine/install/) - A application container management system.
 
 ### Debian/Ubuntu
 
@@ -55,48 +57,59 @@ pnpm install
 3. Build the site
 
 ```bash
-pnpm docs:build
+pnpm build
 ```
 
 4. Build the on-boarding map
 
 ```bash
-pnpm docs:map
+pnpm maps:build
+```
+
+5. Start the Typesense search server
+
+```bash
+docker compose up -d typesense
+```
+
+6. Run the crawler to build the index
+
+```bash
+docker compose --profile scraper run --rm scraper
 ```
 
 5. Start the local development server
 
 ```bash
-pnpm docs:dev
-```
-
-## Maintaining
-
-### Updating VuePress 
-The version of VuePress can be updated by running the  updater script (included in this project)
-
-```bash
-pnpm dlx vp-update
+pnpm start
 ```
 
 ### Updating the On-Boarding Map
 
-1. Update the status conditions in `/docs/.vuepress/public/data/onboarding.en.json` and `/docs/.vuepress/public/data/onboarding.fr.json`
+1. Update the status conditions in `/static/data/onboarding.json`.
 
 2. Rebuild the map
 
 ```bash
-pnpm docs:map
+pnpm maps:build
 ```
 
 ## Scripts
 ```bash
 "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "docs:map": "DFO_NAME_FIELD=Region_EN node ./docs/.vuepress/scripts/geojson-to-dfo-svg.mjs",
-    "docs:update": "pnpm dlx vp-update"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "maps:build": "node scripts/geojson-to-dfo-svg.mjs",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
     }
 ```
 
@@ -137,141 +150,155 @@ The commit message should be structured as follows:
 
 ## Additional Resources
 
-- [**VuePress 2**](https://v2.vuepress.vuejs.org/) - A static site generator powered by Vue.js 3, used for building the documentation site.
-- [**Vue.js 3**](https://vuejs.org/) - The progressive JavaScript framework that powers VuePress 2.
+- [**Docusaurus 3**](https://docusaurus.io/) - Docusaurus is a static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive.
 - [**Markdown**](https://www.markdownguide.org/) - A lightweight markup language with plain text formatting syntax, used for writing the documentation content.
 - [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)/[**TypeScript**](https://www.typescriptlang.org/)
-- For scripting and building custom features or plugins within the VuePress site.
 
 ___
 [English](#open-science-portal-user-documentation-site)
 
-# Site de documentation utilisateur du Portail de la science ouverte
+# Site de documentation pour les utilisateurs du Portail de la science ouverte
 
-## Description
+## Descriptif
 
-Ce projet génère le site de documentation utilisateur statique pour
-le [Portail de la science ouverte](https://github.com/dfo-osdt/osp).
-Il est créé et maintenu par la Direction de la science ouverte de
-Pêches et Océans Canada.
+Ce projet génère le site statique de documentation de l’utilisateur pour le [Portail de la science ouverte](https://github.com/dfo-osdt/osp). Il est créé et tenu à jour par la Direction générale de la science ouverte de Pêches et Océans Canada.
 
 ## Site de documentation utilisateur
 
 Accédez à la documentation ici :
 [https://osp-pso-docs.ent.dfo-mpo.ca/](https://osp-pso-docs.ent.dfo-mpo.ca/)
 
-## Signaler des corrections de documentation
+## Corrections des documents de déclaration
 
-Si vous remarquez des erreurs grammaticales ou des inexactitudes dans la documentation,
-veuillez les signaler par l’un des moyens suivants :
+Si vous remarquez des erreurs grammaticales ou des inexactitudes dans la documentation, veuillez les signaler par l’une des méthodes suivantes :
 
-- **GitHub Issues :** Soumettez un problème directement dans le dépôt.
-- **Courriel :** Contactez l’[équipe de soutien du PSO](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+- **Problèmes GitHub :** Soumettre un problème directement dans le dépôt.
+- **Email :** Contactez le [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
 
 ## Licence
 
-### Licence du logiciel
+### Licence de logiciel
 
-Le code du projet, y compris les fichiers de configuration et les composants VuePress 2,
-est sous licence [MIT](https://opensource.org/licenses/MIT).
+Le code du projet, y compris les fichiers de configuration et les composants VuePress 2, est sous licence [MIT License](https://opensource.org/licenses/MIT).
 Vous êtes libre d’utiliser, de modifier et de distribuer le code selon les termes de cette licence.
 
-### Licence du contenu de la documentation
+### Licence de contenu de documentation
 
-Le contenu du site est protégé par le [droit d’auteur de la Couronne du gouvernement du Canada](LICENSE).
-Sauf indication contraire, le contenu est sous licence
-[Licence du gouvernement ouvert – Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada).
+Le contenu du site est protégé par le [droit d’auteur de la Couronne du gouvernement du Canada] (LICENCE).
+Sauf indication contraire, le contenu est sous licence en vertu de la [Licence du gouvernement ouvert – Canada](https://open.canada.ca/en/open-government-licence-canada).
 
-## Démarrage rapide
+## Pour commencer
 
-Assurez-vous d’avoir les outils suivants installés pour compiler le site de documentation :
+Assurez-vous d’avoir installé les outils suivants pour créer le site de documentation :
 
-- [**Node.js v18.19.0+**](https://nodejs.org/en) — Un environnement d’exécution JavaScript
-  utilisé pour exécuter `pnpm` et compiler le site VuePress.
-- [**pnpm v9.4.0+**](https://pnpm.io/) — Un gestionnaire de paquets rapide et efficace en espace disque.
+- [**Node.js v24.x.x+**](https://nodejs.org/en) — Un environnement d’exécution JavaScript utilisé pour exécuter 'pnpm' et construire le site Docusaurus.
+- [**pnpm v10.x.x+**](https://pnpm.io/) — Un gestionnaire de paquets rapide et économe en espace disque.
+- [**jq v1.7.1**](https://jqlang.org/) - Un processeur JSON en ligne de commande.
+- [**Docker**](https://docs.docker.com/engine/install/) - Un système de gestion de conteneurs d’applications.
 
 ### Debian/Ubuntu
 
-1. Clonez le dépôt sur votre machine locale
+1. Cloner le référentiel sur une machine locale
 
-```bash
-git clone git@github.com:dfo-osdt/osp-docs.git
+```Bash
+git clone git@github.com :dfo-osdt/osp-docs.git
 ```
 
-2. Accédez au répertoire `osp-docs` et installez les dépendances
+2. Passez au répertoire 'osp-docs' et installez les dépendances
 
-```bash
+```Bash
 cd ./osp-docs
 pnpm install
 ```
 
-3. Compilez le site
+3. Construisez le site
 
-```bash
-pnpm docs:build
+```Bash
+pnpm build
 ```
 
 4. Construire la carte d’intégration
 
-```bash
-pnpm docs:map
+```Bash
+pnpm maps:build
 ```
 
-5. Démarrez le serveur de développement local
+5. Démarrez le serveur de recherche Typesense
 
-```bash
-pnpm docs:dev
+```Bash
+Docker compose up -d typesense
 ```
 
-## Maintenance
+6. Exécutez le robot d’exploration pour créer l’index
 
-### Mise à jour de VuePress
+```Bash
+docker compose --profile scraper run --rm scraper
+```
 
-La version de VuePress peut être mise à jour en exécutant le script de mise à jour (inclus dans ce projet).
+7. Démarrez le serveur de développement local
 
-```bash
-pnpm dlx vp-update
+```Bash
+pnpm start
 ```
 
 ### Mise à jour de la carte d’intégration
 
-1. Mettre à jour les conditions d’état dans /docs/.vuepress/public/data/onboarding.en.json et /docs/.vuepress/public/data/onboarding.fr.json.
+1. Mettez à jour les conditions d’état dans '/static/data/onboarding.json'.
 
 2. Reconstruire la carte
 
-```bash
-pnpm docs:map
+```Bash
+pnpm maps:build
+```
+
+## Scripts
+```Bash
+"scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "maps:build": "node scripts/geojson-to-dfo-svg.mjs",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  }
 ```
 
 ## Contributions
 
-Toutes les modifications doivent être effectuées via une PR vers la branche `main`.
-Les PR doivent être descriptives et inclure des références aux issues, si nécessaire.
+Tous les changements doivent être effectués au moyen d’une DA à la branche « principale ». Les RP doivent être descriptifs et fournir
+des références à tout problème, au besoin.
 
-Pour les messages de commit, utilisez [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+Pour les commits, les messages, utilisez [Commits conventionnels](https://www.conventionalcommits.org/en/v1.0.0/)
 
-Le message de commit doit être structuré comme suit :
+Le message de validation doit être structuré comme suit :
 
-```text
-<type>[portée optionnelle] : <description>
+```texte
+<type>[portée facultative] : <description>
 
-[corps optionnel]
+[corps facultatif]
 
-[pied(s) de page optionnel(s)]
+[pied de page facultatif]
 ```
 
-### Types de Commit
+### Types de validation
 
 ```js
 [
-  'build',
-  'chore',
+  « construire »,
+  « corvée »,
   'ci',
   'docs',
-  'feat',
-  'fix',
+  'exploit',
+  'réparer',
   'perf',
-  'refactor',
+  'refactorisation',
   'revert',
   'style',
   'test'
@@ -280,7 +307,6 @@ Le message de commit doit être structuré comme suit :
 
 ## Ressources supplémentaires
 
-- [**VuePress 2**](https://v2.vuepress.vuejs.org/) - Un générateur de site statique alimenté par Vue.js 3, utilisé pour construire le site de documentation.
-- [**Vue.js 3**](https://vuejs.org/) - Le framework JavaScript progressif qui alimente VuePress 2.
-- [**Markdown**](https://www.markdownguide.org/) - Un langage de balisage léger avec une syntaxe de formatage en texte brut, utilisé pour rédiger le contenu de la documentation.
-- [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)/[**TypeScript**](https://www.typescriptlang.org/) - Pour les scripts et la création de fonctionnalités ou de plugins personnalisés dans le site VuePress.
+- [**Docusaurus 3**](https://docusaurus.io/) - Docusaurus est un générateur de sites statiques. Il crée une application d’une seule page avec une navigation rapide côté client, tirant parti de toute la puissance de React pour rendre votre site interactif.
+- [**Markdown**](https://www.markdownguide.org/) - Un langage de balisage léger avec une syntaxe de formatage de texte brut, utilisé pour écrire le contenu de la documentation.
+- [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)/[**TypeScript**](https://www.typescriptlang.org/)
