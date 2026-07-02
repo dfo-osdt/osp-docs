@@ -1,0 +1,33 @@
+{
+  "index_name": "osp_pso_docs",
+  "start_urls": [
+    "https://osp-pso-docs.ent.dfo-mpo.ca/"
+  ],
+  "sitemap_urls": [
+    "https://osp-pso-docs.ent.dfo-mpo.ca/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "article h1",
+      "global": true,
+      "default_value": "OSP-PSO Docs"
+    },
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li, article td"
+  },
+  "selectors_exclude": [
+    ".navbar",
+    ".menu",
+    ".theme-doc-toc-desktop",
+    ".theme-doc-footer",
+    ".pagination-nav",
+    "footer"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_/"
+  }
+}

@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -55,6 +56,8 @@ const config: Config = {
     ],
   ],
 
+  themes: ['docusaurus-theme-search-typesense'],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/osp_social_card.png',
@@ -79,6 +82,24 @@ const config: Config = {
         }
       ],
     },
+    typesense: {
+  typesenseCollectionName: 'osp_pso_docs',
+
+  typesenseServerConfig: {
+    nodes: [
+      {
+        host: process.env.TYPESENSE_HOST ?? 'localhost',
+        port: Number(process.env.TYPESENSE_PORT ?? 8108),
+        protocol: process.env.TYPESENSE_PROTOCOL ?? 'http',
+      },
+    ],
+    apiKey: process.env.TYPESENSE_SEARCH_API_KEY ?? '',
+  },
+
+  contextualSearch: true,
+
+  typesenseSearchParameters: {},
+},
     footer: {
       style: 'dark',
       links: [

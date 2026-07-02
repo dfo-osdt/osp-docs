@@ -1,0 +1,36 @@
+services:
+  typesense:
+    image: typesense/typesense:30.2
+    container_name: osp-docs-typesense
+    restart: on-failure
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:${TYPESENSE_PORT:-8108}:8108"
+    volumes:
+      - ./typesense-data:/data
+    command: > 
+      --data-dir /data 
+      --api-key=${TYPESENSE_API_KEY} 
+      --enable-cors
+  
+  scraper:
+    image: typesense/docsearch-scraper:0.12.2
+    profiles:
+      - scraper
+    depends_on:
+      - typesense
+    env_file:
+      - .env
+    environment:
+      TYPESENSE_HOST: typsense
+      TYPESENSE_PORT: "8108"
+      TYPESENSE_PROTOCOL: http
+    volumes:
+      - ./docsearch.config.json:/docsearch/config.json:ro
+    entrypoint: ["/bin/bash", "-lc"]
+    command: >
+      export CONFIG="$$(python -c 'import json; print(json.dumps(json.load(open("/docsearch/config.json"))))')" &&
+      exec pipenv run python -m src.index
+volumes:
+  typesense-data:
