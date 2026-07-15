@@ -18,9 +18,9 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
-    "@docusaurus/core": "3.10.1",
-    "@docusaurus/faster": "3.10.1",
-    "@docusaurus/preset-classic": "3.10.1",
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/faster": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "docusaurus-theme-search-typesense": "0.26.0-0",
@@ -30,14 +30,15 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.10.1",
-    "@docusaurus/module-type-aliases": "3.10.1",
-    "@docusaurus/tsconfig": "3.10.1",
-    "@docusaurus/types": "3.10.1",
+    "@docusaurus/eslint-plugin": "^3.10.2",
+    "@docusaurus/module-type-aliases": "3.10.2",
+    "@docusaurus/tsconfig": "3.10.2",
+    "@docusaurus/types": "3.10.2",
     "@types/react": "^19.0.0",
     "@typescript-eslint/eslint-plugin": "^8.59.4",
     "@typescript-eslint/parser": "^8.59.4",
     "d3-geo": "^3.1.1",
+    "eslint": "8.57.1",
     "topojson-server": "^3.0.1",
     "topojson-simplify": "^3.0.3",
     "typescript": "~6.0.3"
