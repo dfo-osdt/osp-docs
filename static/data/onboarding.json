@@ -33,7 +33,7 @@
       "groups": [
         { "role": "authors", "status": "not_started" },
         { "role": "editors", "status": "not_started" },
-        { "role": "division_managers", "status": "not_started" }
+        { "role": "division_managers", "status": "complete" }
       ]
     },
     {
@@ -69,7 +69,7 @@
       "groups": [
         { "role": "authors", "status": "complete" },
         { "role": "editors", "status": "complete" },
-        { "role": "division_managers", "status": "in_progress" }
+        { "role": "division_managers", "status": "complete" }
       ]
     }
   ]
