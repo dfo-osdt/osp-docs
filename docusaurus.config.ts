@@ -5,6 +5,20 @@ import 'dotenv/config';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Check required typesense environment variables
+
+const typesenseSearchApiKey = process.env.TYPESENSE_SEARCH_API_KEY;
+
+if (!typesenseSearchApiKey) {
+  throw new Error('TYPESENSE_SEARCH_API_KEY must be set.');
+}
+
+const typesenseHost = process.env.TYPESENSE_HOST;
+
+if (!typesenseHost) {
+  throw new Error('TYPESENSE_HOST must be set.');
+}
+
 const config: Config = {
   title: 'Open Science Portal User Guide',
   tagline: 'Complete documentation for researchers, authors, and managers',
@@ -88,12 +102,12 @@ const config: Config = {
   typesenseServerConfig: {
     nodes: [
       {
-        host: process.env.TYPESENSE_HOST ?? 'localhost',
-        port: Number(process.env.TYPESENSE_PORT ?? 8108),
-        protocol: process.env.TYPESENSE_PROTOCOL ?? 'http',
+        host: typesenseHost,
+        port: Number(process.env.TYPESENSE_PORT ?? 443),
+        protocol: process.env.TYPESENSE_PROTOCOL ?? 'https',
       },
     ],
-    apiKey: process.env.TYPESENSE_SEARCH_API_KEY ?? '',
+    apiKey: typesenseSearchApiKey,
   },
 
   contextualSearch: true,

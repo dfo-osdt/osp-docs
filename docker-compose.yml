@@ -6,7 +6,7 @@ services:
     env_file:
       - .env
     ports:
-      - "127.0.0.1:${TYPESENSE_PORT:-8108}:8108"
+      - "127.0.0.1:8108:8108"
     volumes:
       - ./typesense-data:/data
     command: > 
@@ -23,7 +23,7 @@ services:
     env_file:
       - .env
     environment:
-      TYPESENSE_HOST: typsense
+      TYPESENSE_HOST: typesense
       TYPESENSE_PORT: "8108"
       TYPESENSE_PROTOCOL: http
     volumes:
