@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import 'dotenv/config';
 
@@ -13,10 +13,10 @@ if (!typesenseSearchApiKey) {
   throw new Error('TYPESENSE_SEARCH_API_KEY must be set.');
 }
 
-const typesenseHost = process.env.TYPESENSE_HOST;
+const typesensePublicHost = process.env.TYPESENSE_PUBLIC_HOST;
 
-if (!typesenseHost) {
-  throw new Error('TYPESENSE_HOST must be set.');
+if (!typesensePublicHost) {
+  throw new Error('TYPESENSE_PUBLIC_HOST must be set.');
 }
 
 const config: Config = {
@@ -89,7 +89,7 @@ const config: Config = {
           href: 'https://osp-pso.ent.dfo-mpo.ca/#/',
           position: 'left',
           label: 'OSP-PSO',
-        },  
+        },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -97,23 +97,20 @@ const config: Config = {
       ],
     },
     typesense: {
-  typesenseCollectionName: 'osp_pso_docs',
-
-  typesenseServerConfig: {
-    nodes: [
-      {
-        host: typesenseHost,
-        port: Number(process.env.TYPESENSE_PORT ?? 443),
-        protocol: process.env.TYPESENSE_PROTOCOL ?? 'https',
+      typesenseCollectionName: 'osp_pso_docs',
+      typesenseServerConfig: {
+        nodes: [
+          {
+            host: typesensePublicHost,
+            port: Number(process.env.TYPESENSE_PORT ?? 8108),
+            protocol: process.env.TYPESENSE_PROTOCOL ?? 'http',
+          },
+        ],
+        apiKey: typesenseSearchApiKey,
       },
-    ],
-    apiKey: typesenseSearchApiKey,
-  },
-
-  contextualSearch: true,
-
-  typesenseSearchParameters: {},
-},
+      contextualSearch: false,
+      typesenseSearchParameters: {},
+    },
     footer: {
       style: 'dark',
       links: [
