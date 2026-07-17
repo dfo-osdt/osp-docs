@@ -34,6 +34,9 @@ services:
       - ./docsearch.config.production.json:/docsearch/config.json:ro
       - /home/osp/certs/company-ca.crt:/etc/ssl/certs/company-ca.crt:ro
     entrypoint: ["/bin/bash", "-lc"]
-    command: >
-      export CONFIG="$$(cat /docsearch/config.json)" &&
-      exec pipenv run python -m src.index
+    command:
+      - |
+        set -e
+        export CONFIG="$$(cat /docsearch/config.json)"
+        echo "CONFIG length: $${#CONFIG}"
+        exec pipenv run python -m src.index
