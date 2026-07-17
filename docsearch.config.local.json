@@ -1,0 +1,44 @@
+{
+  "index_name": "osp_pso_docs",
+  "start_urls": [
+    {
+      "url": "http://host.docker.internal:3000/",
+      "selectors_key": "docusaurus"
+    }
+  ],
+  "sitemap_urls": [
+    "http://host.docker.internal:3000/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "/search"
+  ],
+  "selectors": {
+    "docusaurus": {
+      "lvl0": {
+        "selector": "article h1, header h1",
+        "global": true,
+        "default_value": "OSP-PSO Docs"
+      },
+      "lvl1": "article h1, header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li, article td, article th"
+    }
+  },
+  "selectors_exclude": [
+    ".navbar",
+    ".menu",
+    ".theme-doc-toc-desktop",
+    ".theme-doc-footer",
+    ".pagination-nav",
+    "footer"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_/"
+  }
+}

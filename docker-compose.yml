@@ -2,18 +2,20 @@ services:
   typesense:
     image: typesense/typesense:30.2
     container_name: osp-docs-typesense
-    restart: on-failure
+    restart: unless-stopped
     env_file:
-      - .env
+      - /home/osp/.typesense/.env
     ports:
       - "127.0.0.1:8108:8108"
     volumes:
-      - ./typesense-data:/data
-    command: > 
-      --data-dir /data 
-      --api-key=${TYPESENSE_API_KEY} 
+      - /var/lib/osp-typesense:/data
+    command: >
+      --data-dir /data
+      --api-key=${TYPESENSE_API_KEY}
+      --api-address 0.0.0.0
+      --api-port 8108
       --enable-cors
-  
+
   scraper:
     image: typesense/docsearch-scraper:0.12.2
     profiles:
@@ -21,16 +23,17 @@ services:
     depends_on:
       - typesense
     env_file:
-      - .env
+      - /home/osp/.typesense/.env
     environment:
+      TYPESENSE_API_KEY: ${TYPESENSE_SCRAPER_API_KEY}
       TYPESENSE_HOST: typesense
       TYPESENSE_PORT: "8108"
       TYPESENSE_PROTOCOL: http
+      REQUESTS_CA_BUNDLE: /etc/ssl/certs/company-ca.crt
     volumes:
-      - ./docsearch.config.json:/docsearch/config.json:ro
+      - ./docsearch.config.production.json:/docsearch/config.json:ro
+      - /home/osp/certs/company-ca.crt:/etc/ssl/certs/company-ca.crt:ro
     entrypoint: ["/bin/bash", "-lc"]
     command: >
-      export CONFIG="$$(python -c 'import json; print(json.dumps(json.load(open("/docsearch/config.json"))))')" &&
+      export CONFIG="$$(cat /docsearch/config.json)" &&
       exec pipenv run python -m src.index
-volumes:
-  typesense-data:
