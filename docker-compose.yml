@@ -4,11 +4,11 @@ services:
     container_name: osp-docs-typesense
     restart: unless-stopped
     env_file:
-      - .env
+      - /home/osp/.typesense/.env
     ports:
       - "127.0.0.1:8108:8108"
     volumes:
-      - typesense-data:/data
+      - /var/lib/osp-typesense:/data
     command: >
       --data-dir /data
       --api-key=${TYPESENSE_API_KEY}
@@ -23,18 +23,17 @@ services:
     depends_on:
       - typesense
     env_file:
-      - .env
+      - /home/osp/.typesense/.env
     environment:
       TYPESENSE_API_KEY: ${TYPESENSE_SCRAPER_API_KEY}
       TYPESENSE_HOST: typesense
       TYPESENSE_PORT: "8108"
       TYPESENSE_PROTOCOL: http
+      REQUESTS_CA_BUNDLE: /etc/ssl/certs/company-ca.crt
     volumes:
-      - ./docsearch.config.local.json:/docsearch/config.json:ro
+      - ./docsearch.config.production.json:/docsearch/config.json:ro
+      - /home/osp/certs/company-ca.crt:/etc/ssl/certs/company-ca.crt:ro
     entrypoint: ["/bin/bash", "-lc"]
     command: >
       export CONFIG="$$(cat /docsearch/config.json)" &&
       exec pipenv run python -m src.index
-
-volumes:
-  typesense-data:
