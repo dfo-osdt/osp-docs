@@ -108,7 +108,7 @@ const config: Config = {
         ],
         apiKey: typesenseSearchApiKey,
       },
-      contextualSearch: false,
+      contextualSearch: true,
       typesenseSearchParameters: {},
     },
     footer: {

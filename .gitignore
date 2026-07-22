@@ -61,11 +61,13 @@ yarn-error.log*
 .env
 .env.*
 !.env.example
+/certs
 
 # Local Typesense test data
 typesense-data/
 .typesense-data/
 .typesense-scraper.env
+docker-compose.local.yml
 
 # Local scraper/debug output
 scraper-output.txt
