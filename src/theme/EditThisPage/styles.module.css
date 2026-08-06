@@ -1,0 +1,10 @@
+.feedbackRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.feedbackLink {
+  font-size: 1.0rem;
+}
