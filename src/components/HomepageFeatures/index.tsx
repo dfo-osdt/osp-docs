@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
       </Translate>
         <ul className='text--left'>
           <li>
-            <Link to="/docs/getting-started">
+            <Link to="/docs/">
               <Translate id="homepage.features.authors.gettingStarted" description="The text for the 'Getting Started' link for authors">
                 Getting Started
               </Translate>
@@ -32,14 +32,14 @@ const FeatureList: FeatureItem[] = [
             </Translate>
           </li>
           <li>
-            <Link to="/docs/publication-process/manuscript-record-form">
+            <Link to="/docs/manuscript-record-forms/">
               <Translate id="homepage.features.authors.manuscriptRecordForm" description="The text for the 'Manuscript Record Form' link for authors">
                 Manuscript Record Form
               </Translate>
             </Link>{' '} - Create and manage your manuscript submissions
           </li>
           <li>
-            <Link to="/docs/portal-features/author-explorer">
+            <Link to="/docs/portal-basics/find-and-explore-authors">
               <Translate id="homepage.features.authors.authorExplorer" description="The text for the 'Author Explorer' link for authors">
                 Author Explorer
               </Translate>
@@ -63,14 +63,14 @@ const FeatureList: FeatureItem[] = [
         </Translate>
         <ul className='text--left'>
           <li>
-            <Link to="/docs/publication-process/manuscript-management-review">
+            <Link to="/docs/manuscript-management-review/">
               <Translate id="homepage.features.managers.manuscriptManagementReview" description="The text for the 'Manuscript Management Review' link for managers">
                 Manuscript Management Review Process
               </Translate>
             </Link>{' '} - Step-by-step review procedures
           </li>
           <li>
-            <Link to="/docs/portal-features/publication-explorer">
+            <Link to="/docs/portal-basics/find-and-explore-content">
               <Translate id="homepage.features.managers.publicationExplorer" description="The text for the 'Publication Explorer' link for managers">
                 Publication Explorer
               </Translate>

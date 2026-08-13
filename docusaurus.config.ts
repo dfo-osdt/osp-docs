@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: 'Documentation',
-              to: 'docs/intro',
+              to: 'docs/',
             },
           ],
         },
