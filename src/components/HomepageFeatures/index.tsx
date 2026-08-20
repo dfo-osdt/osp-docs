@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
             </Link>{' '} - Create and manage your manuscript submissions
           </li>
           <li>
-            <Link to="/docs/portal-basics/find-and-explore-authors">
+            <Link to="/docs/portal-basics/author-explorer">
               <Translate id="homepage.features.authors.authorExplorer" description="The text for the 'Author Explorer' link for authors">
                 Author Explorer
               </Translate>
@@ -70,7 +70,7 @@ const FeatureList: FeatureItem[] = [
             </Link>{' '} - Step-by-step review procedures
           </li>
           <li>
-            <Link to="/docs/portal-basics/find-and-explore-content">
+            <Link to="/docs/portal-basics/publication-explorer">
               <Translate id="homepage.features.managers.publicationExplorer" description="The text for the 'Publication Explorer' link for managers">
                 Publication Explorer
               </Translate>

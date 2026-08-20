@@ -1,14 +1,14 @@
 {
   "title": {
     "message": "OSP-PSO Docs",
-    "description": "The title in the navbar"
+    "description": "Le titre dans la barre de navigation"
   },
   "logo.alt": {
     "message": "OSP-PSO Docs Logo",
-    "description": "The alt text of navbar logo"
+    "description": "Le texte de remplacement du logo de la barre de navigation"
   },
   "item.label.OSP-PSO": {
     "message": "OSP-PSO",
-    "description": "Navbar item with label OSP-PSO"
+    "description": "L’élément de la barre de navigation portant l’étiquette OSP-PSO"
   }
 }
