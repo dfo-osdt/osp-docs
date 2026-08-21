@@ -30,7 +30,7 @@ export const I18N = {
 
     turnaroundDefinition:
       'Indicates whether the region has adopted the optional 10 business day turnaround for secondary publications.',
-    turnaroundMapTitle: 'Optional 10 business day turnaround by region',
+    turnaroundMapTitle: '10-Working Day Timeline for EOS Secondary Scientific and Technical Publications',
     turnaroundEnabled: 'Adopted',
     turnaroundDisabled: 'Not adopted',
   },
@@ -66,7 +66,7 @@ export const I18N = {
 
     turnaroundDefinition:
       'Indique si la région a adopté le délai facultatif de 10 jours ouvrables pour les publications secondaires.',
-    turnaroundMapTitle: 'Délai facultatif de 10 jours ouvrables par région',
+    turnaroundMapTitle: 'Délai de 10 jours ouvrables pour les publications scientifiques et techniques secondaires du SSEO',
     turnaroundEnabled: 'Adopté',
     turnaroundDisabled: 'Non adopté',
   },
