@@ -7,7 +7,7 @@ description: Autres fonctionnalités de la section Formulaire de dossier de manu
 
 ## Supprimer un formulaire de dossier de manuscrit {/* #delete-a-manuscript-record-form */}
 
-Un formulaire de dossier de manuscrit (MRF) peut être supprimé du PSO s’il est actuellement à l’état **Brouillon**.
+Un formulaire de dossier de manuscrit peut être supprimé du PSO s’il est actuellement à l’état **BROUILLON**.
 
 **Étapes**
 
@@ -17,9 +17,9 @@ Un formulaire de dossier de manuscrit (MRF) peut être supprimé du PSO s’il e
 
 **Résultat**
 
-Le MRF est supprimé du PSO et n’apparaît plus dans votre liste de formulaires de dossier de manuscrit.
+Le MRF a été supprimé du PSO et n’apparaîtra plus dans votre liste de formulaires de dossier de manuscrit.
 
-![Supprimer un MRF](./images/manuscript-record-form-features/delete-mrf.png)
+![Supprimer le MRF](./images/manuscript-record-form-features/delete-mrf.png)
 
 ## Dupliquer un formulaire de dossier de manuscrit {/* #duplicate-a-manuscript-record-form */}
 
@@ -36,19 +36,19 @@ La duplication d’un MRF vous permet de créer un nouveau dossier de manuscrit 
 
 - Un nouveau MRF est créé et prérempli avec les mêmes renseignements que le dossier original.
 - Le nouveau MRF est à l’état **Brouillon**.
-- Le texte « (Clone) » est ajouté à la fin du titre du nouveau MRF.
+- La mention « (Clone) » est ajoutée à la fin du titre du nouveau MRF.
 
 **Informations supplémentaires**
 
-- Les MRF dont le processus est terminé ou qui sont fermés peuvent également être dupliqués.
+- Les MRF qui sont terminés ou fermés peuvent également être dupliqués.
 
-![Dupliquer un MRF](./images/manuscript-record-form-features/duplicate-mrf.png)
+![Dupliquer le MRF](./images/manuscript-record-form-features/duplicate-mrf.png)
 
 ## Courriels de rappel mensuels {/* #monthly-reminder-emails */}
 
-Le PSO envoie un **courriel de rappel mensuel** si vous avez des formulaires de dossier de manuscrit dont l’étape **Examen de gestion** est marquée comme **Terminée**.
+Le PSO envoie un **courriel de rappel mensuel** si vous avez des formulaires de dossier de manuscrit pour lesquels l’étape **Examen de gestion** est indiquée comme **Terminée**.
 
-Ces rappels permettent d’assurer un suivi précis du cycle de vie des publications et de maintenir à jour les renseignements sur les manuscrits dans le PSO.
+Ces rappels permettent de s’assurer que le cycle de vie de la publication fait l’objet d’un suivi précis et que les renseignements sur le manuscrit demeurent à jour dans le PSO.
 
 ![Rappel](./images/manuscript-record-form-features/reminder.png)
 
@@ -57,42 +57,58 @@ Ces rappels permettent d’assurer un suivi précis du cycle de vie des publicat
 Partagez l’accès à un formulaire de dossier de manuscrit (MRF) avec un autre utilisateur, comme un administrateur ou un chef de section.
 
 :::tip
-Les auteurs du MPO et les examinateurs associés au MRF y ont déjà accès en fonction de leur rôle et n’ont pas besoin d’être ajoutés manuellement.
+Les auteurs du MPO et les examinateurs associés au MRF ont déjà accès au dossier en fonction de leur rôle et n’ont pas besoin d’y être ajoutés manuellement.
 :::
-
-![Partage](./images/manuscript-record-form-features/sharing.png)
 
 **Étapes**
 
-1. Ouvrez le manuscrit à partir de la page **Mes dossiers de manuscrit**.
-2. Sélectionnez **Partage** dans le menu de la section.
+1. Ouvrez le MRF.
+2. Sélectionnez **Partage** dans le menu du dossier de manuscrit.
 3. Cliquez sur **Partager**.
-4. Entrez le nom ou l’adresse courriel de l’utilisateur dans le champ de recherche **Utilisateur**.
-5. Sélectionnez l’utilisateur dans les résultats de recherche.
-6. Sélectionnez le niveau d’accès.
-
-Choisissez l’une des options suivantes :
-
-- **Peut modifier** – Permet à l’utilisateur de consulter et de modifier le MRF.
-- **Peut supprimer** – Permet à l’utilisateur de supprimer le MRF.
-
-7. (Facultatif) Définissez une date d’expiration dans le champ **Expire le**.
+4. Recherchez l’utilisateur par son nom ou son adresse courriel.
+5. Sélectionnez l’utilisateur.
+6. Sélectionnez le niveau d’accès :
+    - **Peut modifier** – Permet à l’utilisateur de consulter et de modifier le MRF.
+    - **Peut supprimer** – Permet à l’utilisateur de supprimer le MRF.
+7. Définissez une date d’expiration (facultatif).
 8. Cliquez sur **Partager**.
-
-**Étapes conditionnelles**
-
-Si l’utilisateur n’apparaît pas dans les résultats de recherche :
-
-- Suivez les étapes de la section **[Inviter un utilisateur](../common-features/invite-a-user)**.
 
 **Résultat**
 
-L’utilisateur sélectionné obtient l’accès au formulaire de dossier de manuscrit avec les autorisations attribuées.
+- L’utilisateur sélectionné peut maintenant accéder au MRF avec les autorisations qui lui ont été attribuées.
 
-![Nouveau partage](./images/manuscript-record-form-features/new-share.png)
+![Partage](./images/manuscript-record-form-features/sharing.png)
+
+### Inviter un utilisateur
+
+Si l’utilisateur ne figure pas dans la liste des auteurs, vous pouvez l’inviter à accéder au PSO!
+
+Dans la boîte de dialogue **Partager ce manuscrit** :
+
+**Étapes**
+
+1. Recherchez l’utilisateur par son nom ou son adresse courriel.
+2. Cliquez sur **Vous ne trouvez pas l’utilisateur que vous recherchez?**.
+3. Remplissez le formulaire **Inviter un utilisateur** :
+    - Prénom
+    - Nom de famille
+    - Adresse courriel
+    - Langue préférée
+4. Cliquez sur **Inviter**.
+
+**Résultat**
+
+- Une invitation à utiliser le PSO est envoyée à l’adresse courriel de l’utilisateur.
+
+**Informations supplémentaires**
+
+- Vous pouvez consulter l’état de votre invitation dans [Invitations envoyées](../settings/sent-invitations).
+
+![Inviter un utilisateur](./images/manuscript-record-form-features/invite-user.png)
+
 ### Modifier les autorisations de partage {/* #edit-share-permissions */}
 
-Modifiez les autorisations d’un formulaire de dossier de manuscrit déjà partagé.
+Modifiez les autorisations d’un utilisateur ayant déjà accès à un formulaire de dossier de manuscrit partagé.
 
 **Étapes**
 
@@ -102,8 +118,7 @@ Modifiez les autorisations d’un formulaire de dossier de manuscrit déjà part
 
 **Résultat**
 
-Les autorisations mises à jour sont appliquées au formulaire de dossier de manuscrit partagé.
-
+- Les autorisations mises à jour sont appliquées au formulaire de dossier de manuscrit partagé.
 
 ### Supprimer les autorisations de partage {/* #remove-share-permissions */}
 
@@ -111,12 +126,12 @@ Supprimez l’accès partagé d’un utilisateur au formulaire de dossier de man
 
 **Étapes**
 
-1. Cliquez sur l’icône **Corbeille** dans la colonne **Actions**.
-2. Cliquez sur **OK** pour confirmer.
+1. Cliquez sur le bouton d’action **Supprimer**.
+2. Confirmez l’action.
 
 **Résultat**
 
-L’accès de l’utilisateur au formulaire de dossier de manuscrit est supprimé.
+- L’accès de l’utilisateur au formulaire de dossier de manuscrit est supprimé.
 
 ## Consulter la progression du manuscrit {/* #view-manuscript-progress */}
 
@@ -124,11 +139,11 @@ Utilisez la page **Progression du manuscrit** pour suivre l’état du manuscrit
 
 **Étapes**
 
-1. Ouvrez le manuscrit à partir de la page **Mes dossiers de manuscrit**.
+1. Ouvrez le MRF.
 2. Cliquez sur **Progression du manuscrit** dans le menu du dossier de manuscrit.
 
 **Résultat**
 
-La page **Progression du manuscrit** affiche l’état actuel du processus ainsi que les étapes importantes de la publication du manuscrit.
+- La page **Progression du manuscrit** affiche l’état actuel du flux de travail et les étapes importantes du processus de publication du manuscrit.
 
 ![Progression](./images/manuscript-record-form-features/manuscript-progress.png)
