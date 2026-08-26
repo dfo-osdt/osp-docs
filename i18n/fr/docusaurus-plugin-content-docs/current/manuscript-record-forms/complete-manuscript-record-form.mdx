@@ -2,6 +2,7 @@
 sidebar_position: 4
 description: Comment remplir un MRF
 ---
+import ExternalLocalizedLink from '@site/src/components/ExternalLocalizedLink';
 
 # Remplir un formulaire de dossier de manuscrit
 
@@ -15,10 +16,10 @@ Vous pouvez enregistrer votre progression en :
 - cliquant sur le bouton circulaire **Disquette** dans le coin inférieur droit de la page;
 - faisant défiler la page jusqu’au bas du formulaire et en cliquant sur **Enregistrer**.
 
-Après avoir enregistré votre progression, vous pouvez fermer votre session du PSO en toute sécurité.
+Après avoir enregistré votre travail, vous pouvez vous déconnecter du PSO en toute sécurité.
 :::
 
-![Top of MRF](./images/complete-manuscript-record-form/mrf-top.png)
+![Haut du MRF](./images/complete-manuscript-record-form/mrf-top.png)
 
 ## Manuscrit {/* #manuscript */}
 
@@ -39,9 +40,8 @@ Le fichier PDF du manuscrit est téléversé et joint au formulaire de dossier d
 Ajoutez tous les auteurs qui ont contribué au manuscrit et précisez leurs affiliations.
 
 **Attributs de l’auteur**
-
-- **Auteur-ressource du MPO** : La principale personne-ressource au sein du MPO pour ce manuscrit et cette publication.
-  - Il doit y avoir au moins un auteur-ressource du MPO.
+- **Auteur correspondant du MPO** : La principale personne-ressource au sein du MPO pour ce manuscrit et cette publication.
+  - Il doit y avoir au moins un auteur correspondant du MPO.
 - **Auteur collectif** : L’organisation dont l’auteur fait partie.
 
 **Étapes**
@@ -50,7 +50,7 @@ Répétez les étapes suivantes pour chaque auteur :
 
 1. Cliquez sur **+**.
 2. Recherchez l’auteur dans le champ **Auteur** à l’aide de son nom ou de son adresse courriel.
-3. Sélectionnez **Oui** pour **Auteur-ressource du MPO** si l’auteur sera la principale personne-ressource au sein du MPO.
+3. Sélectionnez **Oui** pour **Auteur correspondant** si l’auteur sera la principale personne-ressource au sein du MPO.
 4. Sélectionnez **Oui** pour **Auteur collectif** si l’auteur représente un groupe.
 
 Si **Auteur collectif** est sélectionné :
@@ -65,25 +65,24 @@ Si **Auteur collectif** est sélectionné :
 L’auteur sélectionné est ajouté au formulaire de dossier de manuscrit. Les auteurs ajoutés peuvent consulter et modifier le MRF, mais ne peuvent pas le supprimer.
 
 **Informations supplémentaires**
-
-- Consultez [Créer un auteur](../common-features/author-and-affilliate-management) si un auteur n’apparaît pas dans la liste de recherche.
-- Consultez [Créer une organisation](../common-features/author-and-affiliate-management) si une organisation n’apparaît pas dans la liste de recherche.
+- Consultez [Créer un nouvel auteur](../common-features/author-and-affiliate-management#create-a-new-author) si un auteur ne figure pas dans la liste de recherche.
+- Consultez [Créer une nouvelle organisation](../common-features/author-and-affiliate-management#create-a-new-organization) si une organisation ne figure pas dans la liste de recherche.
 
 ![Ajouter des auteurs](./images/complete-manuscript-record-form/adding_authors.png)
 
-## Examen par les pairs {/* #peer-review */}
+## Évaluation par les pairs {/* #peer-review */}
 
 :::info
-Cette section est visible uniquement dans les formulaires de dossier de manuscrit pour les publications scientifiques et techniques secondaires de la DGSE!
+Cette section est visible uniquement dans les formulaires de dossier de manuscrit pour les publications scientifiques et techniques secondaires de la DGEO!
 
-L’examen par les pairs est facultatif pour les rapports de données, les rapports d’entrepreneurs et les bulletins!
+L’évaluation par les pairs est facultative pour les rapports sur les données, les rapports d’entrepreneurs et les bulletins!
 :::
 
-Ajoutez au moins deux experts en la matière qui ont effectué un examen par les pairs du rapport.
+Ajoutez au moins deux experts en la matière qui ont effectué une évaluation par les pairs du rapport.
 
 **Étapes**
 
-Répétez les étapes suivantes pour chaque pair examinateur :
+Répétez les étapes suivantes pour chaque évaluateur :
 
 1. Cliquez sur **+**.
 2. Recherchez l’auteur dans le champ **Auteur** à l’aide de son nom ou de son adresse courriel.
@@ -91,11 +90,10 @@ Répétez les étapes suivantes pour chaque pair examinateur :
 
 **Résultat**
 
-Le pair examinateur sélectionné est ajouté au formulaire de dossier de manuscrit.
+L’évaluateur sélectionné est ajouté au formulaire de dossier de manuscrit.
 
 **Informations supplémentaires**
-
-- Consultez [Créer un auteur](../common-features/author-and-affilliate-management) si un auteur n’apparaît pas dans la liste de recherche.
+- Consultez [Créer un nouvel auteur](../common-features/author-and-affiliate-management#create-a-new-author) si un auteur ne figure pas dans la liste de recherche.
 
 ## Renseignements généraux {/* #general-information */}
 
@@ -108,7 +106,7 @@ Le titre provisoire est automatiquement rempli à partir du titre saisi lors de 
 **Étapes**
 
 1. Cliquez sur le champ **Titre**.
-2. Entrez le titre mis à jour du manuscrit.
+2. Saisissez le titre mis à jour du manuscrit.
 3. Enregistrez les modifications.
 
 **Résultat**
@@ -146,11 +144,9 @@ Le résumé est enregistré dans le formulaire de dossier de manuscrit.
 ### Résumé en langage clair {/* #plain-language-summary */}
 
 Fournissez un résumé en langage clair (RLC) afin d’améliorer l’accessibilité de la publication.
-
-- Les résumés en langage clair sont obligatoires pour toutes les publications scientifiques.
-- Le résumé devrait être rédigé à un niveau de lecture correspondant approximativement à une **8e année** afin d’en faciliter la compréhension par un large public.
-- Des conseils sur la rédaction en langage clair sont disponibles auprès du gouvernement du Canada :  
-  [Bureau de la communauté des communications](https://www.canada.ca/fr/conseil-prive/services/bureau-collectivite-communications/communications-101-camp-entrainement-fonctionnaires-canadiens/langage-clair-accessibilite-communications-inclusives.html)
+- Un résumé en langage clair est requis pour toutes les publications scientifiques.
+- Le résumé devrait être rédigé à un niveau de lecture correspondant approximativement à la **8e année** afin d’en faciliter la compréhension par un plus vaste public.
+- Des conseils sur la rédaction en langage clair sont disponibles auprès du gouvernement du Canada : <ExternalLocalizedLink linkKey="communicationsCommunityOffice">Bureau de la collectivité des communications</ExternalLocalizedLink>.
 
 #### Langue source du RLC {/* #source-language-for-the-pls */}
 
@@ -166,27 +162,26 @@ La langue sélectionnée devient la langue requise pour le résumé en langage c
 
 #### Outils alimentés par l’IA {/* #ai-powered-tools */}
 
-Générez une ébauche de résumé en langage clair (RLC) à partir du résumé du manuscrit et de la langue sélectionnée.
+Générez une ébauche du résumé en langage clair (RLC) à partir du résumé du manuscrit et de la langue sélectionnée.
 
 :::note
-L’outil **Générer un RLC** utilise le grand modèle de langage (LLM) d’intelligence artificielle (IA) [Llama 3.2](https://www.llama.com/), développé par Meta.
+L’outil **Générer le RLC** utilise le grand modèle de langage (GML) d’intelligence artificielle (IA) [Llama 3.2](https://www.llama.com/), développé par Meta.
 
-Cet outil fonctionne entièrement à l’intérieur du réseau du MPO. Les renseignements soumis à l’outil **ne quittent pas l’intranet du MPO** et **ne peuvent pas être transmis à Meta ni à des systèmes externes**.
+Cet outil fonctionne entièrement au sein du réseau du MPO. Les renseignements soumis à l’outil **ne quittent pas l’intranet du MPO** et **ne peuvent pas être transmis à Meta ou à des systèmes externes**.
 
-Lors de l’utilisation d’outils d’IA au sein du réseau du gouvernement du Canada, consultez les lignes directrices du Secrétariat du Conseil du Trésor du Canada sur l’utilisation responsable de l’IA :  
-[Guide sur l’utilisation de l’intelligence artificielle générative](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernement-numerique/utilisation-responsable-ia/guide-utilisation-intelligence-artificielle-generative.html)
+Lorsque vous utilisez des outils d’IA au sein du réseau du gouvernement du Canada, consultez les directives du Secrétariat du Conseil du Trésor du Canada sur l’utilisation responsable de l’IA : <ExternalLocalizedLink linkKey="useOfAI">Guide sur l’utilisation de l’intelligence artificielle générative</ExternalLocalizedLink>.
 :::
 
 :::tip
-La fonctionnalité **Générer un RLC** produit une ébauche à partir du résumé de votre manuscrit. Vous pouvez générer plusieurs ébauches afin d’affiner le résumé.
+La fonctionnalité **Générer le RLC** crée une ébauche à partir du résumé de votre manuscrit. Vous pouvez générer plusieurs ébauches afin de peaufiner le résumé.
 
-Une fois le RLC finalisé, vous pouvez utiliser **Traduire le RLC** pour générer une version dans l’autre langue officielle.
+Après avoir finalisé le RLC, vous pouvez utiliser **Traduire le RLC** pour générer une version dans l’autre langue officielle.
 :::
 
 **Étapes**
 
-1. Cliquez sur **Générer un RLC**.
-2. Passez en revue l’ébauche générée.
+1. Cliquez sur **Générer le RLC**.
+2. Examinez l’ébauche générée.
 3. Modifiez le résumé au besoin.
 
 **Résultat**
@@ -199,22 +194,22 @@ Confirmez que l’auteur a examiné et approuvé le résumé en langage clair.
 
 **Étapes**
 
-1. Passez en revue le résumé en langage clair terminé.
+1. Examinez le résumé en langage clair terminé.
 2. Sélectionnez la confirmation **Approbation de l’auteur**.
 
 **Résultat**
 
-Le système indique que l’auteur a examiné et approuvé le résumé en langage clair.
+Le système enregistre que l’auteur a examiné et approuvé le résumé en langage clair.
 
 :::important
-Si vous remplissez le formulaire au nom de l’auteur, assurez-vous que celui-ci a examiné le résumé en langage clair avant de confirmer son approbation. Les auteurs peuvent accéder à leur propre MRF en ouvrant une session dans le portail.
+Si vous remplissez le formulaire au nom de l’auteur, assurez-vous que l’auteur a examiné le résumé en langage clair avant de confirmer son approbation. Les auteurs peuvent accéder à leur propre MRF en se connectant au portail.
 :::
 
 ![Résumé en langage clair](./images/complete-manuscript-record-form/pls.png)
 
 ### Secteur fonctionnel {/* #functional-area */}
 
-Appliquez une étiquette de **Secteur fonctionnel** pour classifier le domaine de recherche du manuscrit.
+Appliquez une étiquette de **Secteur fonctionnel** afin de classifier le domaine de recherche du manuscrit.
 
 **Étapes**
 
@@ -227,54 +222,54 @@ Le secteur fonctionnel sélectionné est appliqué au formulaire de dossier de m
 
 **Informations supplémentaires**
 
-Les étiquettes de secteur fonctionnel permettent d’améliorer la production de rapports et le suivi des domaines de recherche scientifique du MPO.
+Les étiquettes de secteur fonctionnel permettent d’améliorer la production de rapports et le suivi des domaines prioritaires de la recherche scientifique du MPO.
 
-### Pertinence pour les programmes, les initiatives et la gestion {/* #relevance-to-programsinitiativesmanagement-section */}
+### Pertinence pour les programmes, les initiatives ou le secteur de gestion {/* #relevance-to-programsinitiativesmanagement-section */}
 
-Fournissez un résumé décrivant comment le manuscrit appuie le programme qui l’a financé et comment il s’harmonise avec le mandat, le plan stratégique ou les priorités régionales du Ministère.
+Fournissez un résumé décrivant comment le manuscrit appuie le programme qui l’a financé et comment il s’harmonise avec le mandat du Ministère, son plan stratégique ou les priorités régionales.
 
 **Étapes**
 
-1. Entrez le résumé dans le champ **Pertinence pour les programmes/initiatives/secteur client**.
+1. Saisissez le résumé dans le champ **Pertinence pour les programmes/initiatives/secteur client**.
 2. Enregistrez les modifications.
 
 **Résultat**
 
 Le résumé de la pertinence est enregistré dans le formulaire de dossier de manuscrit.
 
-### Intérêt potentiel pour le public {/* #potential-public-interest */}
+### Intérêt public potentiel {/* #potential-public-interest */}
 
-Indiquez si le manuscrit pourrait présenter un intérêt pour le public.
+Indiquez si le manuscrit peut présenter un intérêt public.
 
 :::info
 
-Une publication peut être signalée pour le [Cahier de planification](../manuscript-management-review/manuscript-management-review.mdx#planning-binder) uniquement si elle présente un intérêt potentiel pour le public!
+Une publication ne peut être signalée pour le [Cahier de planification](../manuscript-management-review/submit-review#planning-binder) que si elle présente un intérêt public potentiel!
 
 :::
 
 **Étapes**
 
-1. Sélectionnez **Oui** ou **Non** dans le champ **Intérêt potentiel pour le public**.
+1. Sélectionnez **Oui** ou **Non** dans le champ **Intérêt public potentiel**.
 
 **Étapes conditionnelles**
 
 Si vous sélectionnez **Oui** :
 
-- Entrez les détails concernant l’intérêt potentiel pour le public dans le champ de texte.
+- Saisissez les détails concernant l’intérêt public potentiel dans le champ de texte.
 
 **Résultat**
 
-Le dossier de manuscrit indique si la publication pourrait présenter un intérêt pour le public.
+Le dossier du manuscrit indique si la publication peut présenter un intérêt public.
 
-![Intérêt potentiel pour le public](./images/complete-manuscript-record-form/public_interest.png)
+![Intérêt public](./images/complete-manuscript-record-form/public_interest.png)
 
-### Licence du rapport {/* #reporting-licensing */}
+### Octroi de licences pour les rapports {/* #reporting-licensing */}
 
 :::info
-Cette section est visible uniquement pour les publications de type **Publication scientifique et technique secondaire de la DGSE**.
+Cette section est visible uniquement pour les publications de type **Publications scientifiques et techniques secondaires de la DGEO**.
 :::
 
-Indiquez si le rapport doit être publié sous la **[Licence du gouvernement ouvert – Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)**.
+Indiquez si le rapport doit être publié sous la <ExternalLocalizedLink linkKey="openGovernmentLicence">**Licence du gouvernement ouvert – Canada**</ExternalLocalizedLink>.
 
 **Étapes**
 
@@ -284,7 +279,7 @@ Indiquez si le rapport doit être publié sous la **[Licence du gouvernement ouv
 
 Si vous sélectionnez **Non** :
 
-- Fournissez une explication indiquant pourquoi la **Licence du gouvernement ouvert – Canada** ne peut pas être appliquée.
+- Saisissez une explication indiquant pourquoi la **Licence du gouvernement ouvert – Canada** ne peut pas être appliquée.
 
 **Résultat**
 
@@ -292,9 +287,9 @@ Le statut de licence sélectionné est enregistré dans le formulaire de dossier
 
 **Informations supplémentaires**
 
-Le MPO applique le principe de la science ouverte **« ouvert dès la conception et par défaut »**. Dans la mesure du possible, les publications devraient être diffusées sous la version la plus récente de la **Licence du gouvernement ouvert – Canada**.
+Le MPO applique le principe de science ouverte **Ouvert par conception et par défaut**. Dans la mesure du possible, les publications devraient être publiées sous la version la plus récente de la **Licence du gouvernement ouvert – Canada**.
 
-La licence ne devrait pas être appliquée lorsqu’il existe des obligations de licence incompatibles.
+La licence ne devrait pas être appliquée s’il existe des obligations de licence incompatibles.
 
 ### Publication ouverte {/* #open-publication */}
 
@@ -302,7 +297,7 @@ La licence ne devrait pas être appliquée lorsqu’il existe des obligations de
 Cette section est visible uniquement pour les types de publication **Publication par un tiers** et **Prépublication**.
 :::
 
-Indiquez si la publication sera rendue librement accessible.
+Indiquez si la publication sera offerte en libre accès.
 
 **Étapes**
 
@@ -312,17 +307,17 @@ Indiquez si la publication sera rendue librement accessible.
 
 Si vous sélectionnez **Non** :
 
-- Expliquez pourquoi le libre accès ne peut pas être appliqué.
+- Saisissez la justification expliquant pourquoi le libre accès ne peut pas être appliqué.
 
 **Résultat**
 
-Le dossier de manuscrit indique si la publication sera librement accessible.
+Le dossier du manuscrit indique si la publication sera offerte en libre accès.
 
 **Informations supplémentaires**
 
-L’approche **« ouvert dès la conception et par défaut »** exige que les publications soient librement et publiquement accessibles, sauf si une exception s’applique.
+L’approche **Ouvert par conception et par défaut** exige que les publications soient accessibles gratuitement et publiquement, sauf si une exception s’applique.
 
-Les exceptions peuvent comprendre les situations où des renseignements, des données ou du code font l’objet de restrictions en raison de :
+Les exceptions peuvent comprendre des situations où des renseignements, des données ou du code sont soumis à des restrictions en raison de :
 
 - la sécurité de la recherche;
 - droits de propriété;
@@ -340,8 +335,8 @@ Ajoutez les sources de financement si les travaux ayant contribué au manuscrit 
 1. Cliquez sur **+ AJOUTER UNE SOURCE DE FINANCEMENT**.
 2. Cliquez sur le champ **Bailleur de fonds**.
 3. Sélectionnez le bailleur de fonds approprié dans la liste.
-4. Entrez le nom du programme dans le champ **Titre**.
-5. Entrez une description du programme de financement et de ses exigences dans le champ **Description**.
+4. Saisissez le nom du programme dans le champ **Titre**.
+5. Saisissez une description du programme de financement et de ses exigences dans le champ **Description**.
 6. Cliquez sur **Créer**.
 
 Répétez ces étapes pour ajouter d’autres sources de financement.
