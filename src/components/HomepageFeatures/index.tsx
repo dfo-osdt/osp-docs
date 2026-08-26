@@ -63,7 +63,7 @@ const FeatureList: FeatureItem[] = [
         </Translate>
         <ul className='text--left'>
           <li>
-            <Link to="/docs/manuscript-management-review/">
+            <Link to="/docs/manuscript-management-review/my-management-reviews-page">
               <Translate id="homepage.features.managers.manuscriptManagementReview" description="The text for the 'Manuscript Management Review' link for managers">
                 Manuscript Management Review Process
               </Translate>
