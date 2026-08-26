@@ -6,5 +6,12 @@
 }
 
 .feedbackLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   font-size: 1.0rem;
+}
+
+.feedbackIcon {
+  flex-shrink: 0;
 }

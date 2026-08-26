@@ -1,38 +1,62 @@
 {
   "version.label": {
     "message": "Suivant",
-    "description": "The label for version current"
+    "description": "L’étiquette de la version actuelle"
   },
-  "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Premiers pas",
-    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Portal-Basics": {
+    "message": "Portal-Basics",
+    "description": "L’étiquette de la catégorie 'Portal-Basics' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "Ce dont vous avez besoin pour commencer à utiliser le OSP.",
-    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Portal-Basics.link.generated-index.description": {
+    "message": "What you can find in the OSP.",
+    "description": "La description de la page d’index générée pour la catégorie 'Portal-Basics' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Portal-Features": {
-    "message": "Fonctionnalités du portail",
-    "description": "The label for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Manuscript Record Forms": {
+    "message": "Manuscript Record Forms",
+    "description": "L’étiquette de la catégorie 'Manuscript Record Forms' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Portal-Features.link.generated-index.description": {
-    "message": "Ce que vous pouvez trouver dans le PSO.",
-    "description": "The generated-index page description for category 'Portal-Features' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Manuscript Record Forms.link.generated-index.description": {
+    "message": "How to create and manage Manuscript Record Forms",
+    "description": "La description de la page d’index générée pour la catégorie 'Manuscript Record Forms' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Publishing-Process": {
-    "message": "Processus de publication",
-    "description": "The label for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Manuscript-Management-Review": {
+    "message": "Manuscript-Management-Review",
+    "description": "L’étiquette de la catégorie 'Manuscript-Management-Review' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Publishing-Process.link.generated-index.description": {
-    "message": "Comment naviguer dans le processus de publication.",
-    "description": "The generated-index page description for category 'Publishing-Process' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Manuscript-Management-Review.link.generated-index.description": {
+    "message": "How to manage Manuscript Management Reviews.",
+    "description": "La description de la page d’index générée pour la catégorie 'Manuscript-Management-Review' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Support and Resources": {
-    "message": "Soutien et ressources",
-    "description": "The label for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Publications": {
+    "message": "Publications",
+    "description": "L’étiquette de la catégorie 'Publications' dans la barre latérale 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Support and Resources.link.generated-index.description": {
-    "message": "Fonctionnalités supplémentaires et comment obtenir du soutien.",
-    "description": "The generated-index page description for category 'Support and Resources' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.Publications.link.generated-index.description": {
+    "message": "How to create and manage Publications.",
+    "description": "La description de la page d’index générée pour la catégorie 'Publications' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Common Features": {
+    "message": "Common Features",
+    "description": "L’étiquette de la catégorie 'Common Features' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Common Features.link.generated-index.description": {
+    "message": "Features found throughout the OSP.",
+    "description": "La description de la page d’index générée pour la catégorie 'Common Features' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Settings",
+    "description": "L’étiquette de la catégorie 'Settings' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Settings.link.generated-index.description": {
+    "message": "Configure your experience.",
+    "description": "La description de la page d’index générée pour la catégorie 'Settings' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.References": {
+    "message": "References",
+    "description": "L’étiquette de la catégorie 'References' dans la barre latérale 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.References.link.generated-index.description": {
+    "message": "What does it all mean.",
+    "description": "La description de la page d’index générée pour la catégorie 'References' dans la barre latérale 'tutorialSidebar'"
   }
 }

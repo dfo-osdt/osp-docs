@@ -1,34 +1,34 @@
 {
   "link.title.OSP": {
     "message": "PSO",
-    "description": "The title of the footer links column with title=OSP in the footer"
+    "description": "Le titre de la colonne des liens de pied de page avec title=OSP dans le pied de page"
   },
   "link.title.Contact Us": {
     "message": "Contactez-nous",
-    "description": "The title of the footer links column with title=Contact Us in the footer"
+    "description": "Le titre de la colonne des liens de pied de page avec title=Contact Us dans le pied de page"
   },
   "link.title.GitHub": {
     "message": "GitHub",
-    "description": "The title of the footer links column with title=GitHub in the footer"
+    "description": "Le titre de la colonne des liens de pied de page avec title=GitHub dans le pied de page"
   },
   "link.item.label.OSP": {
     "message": "PSO",
-    "description": "The label of footer link with label=OSP linking to https://github.com/dfo-osdt/osp"
+    "description": "L’étiquette du lien de pied de page avec label=OSP menant à https://github.com/dfo-osdt/osp"
   },
   "link.item.label.Documentation": {
     "message": "Documentation",
-    "description": "The label of footer link with label=Documentation linking to docs/intro"
+    "description": "L’étiquette du lien de pied de page avec label=Documentation menant à docs/"
   },
   "link.item.label.Open Science Team": {
     "message": "Équipe « Science ouverte »",
-    "description": "The label of footer link with label=Open Science Team linking to mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca"
+    "description": "L’étiquette du lien de pied de page avec label=Open Science Team menant à mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca"
   },
   "link.item.label.OSP-PSO Docs": {
     "message": "OSP-PSO Docs",
-    "description": "The label of footer link with label=OSP-PSO Docs linking to https://github.com/dfo-osdt/osp-docs"
+    "description": "L’étiquette du lien de pied de page avec label=OSP-PSO Docs menant à https://github.com/dfo-osdt/osp-docs"
   },
   "copyright": {
     "message": " ",
-    "description": "The footer copyright"
+    "description": "Le droit d’auteur du pied de page"
   }
 }
