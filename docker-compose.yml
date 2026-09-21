@@ -4,7 +4,7 @@ services:
     container_name: osp-docs-typesense
     restart: unless-stopped
     env_file:
-      - /home/osp/.typesense/.env
+      - ${TYPESENSE_ENV}
     ports:
       - "127.0.0.1:8108:8108"
     volumes:
@@ -23,16 +23,16 @@ services:
     depends_on:
       - typesense
     env_file:
-      - /home/osp/.typesense/.env
+      - ${TYPESENSE_ENV}
     environment:
       TYPESENSE_API_KEY: ${TYPESENSE_SCRAPER_API_KEY}
       TYPESENSE_HOST: typesense
       TYPESENSE_PORT: "8108"
       TYPESENSE_PROTOCOL: http
-      REQUESTS_CA_BUNDLE: /etc/ssl/certs/company-ca.crt
+      REQUESTS_CA_BUNDLE: ${CERT_BUNDLE}
     volumes:
       - ./docsearch.config.production.json:/docsearch/config.json:ro
-      - /home/osp/certs/company-ca.crt:/etc/ssl/certs/company-ca.crt:ro
+      - ${CERT_ALIAS}:${CERT_BUNDLE}:ro
     entrypoint: ["/bin/bash", "-lc"]
     command:
       - |
