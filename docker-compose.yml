@@ -3,8 +3,6 @@ services:
     image: typesense/typesense:30.2
     container_name: osp-docs-typesense
     restart: unless-stopped
-    env_file:
-      - ${TYPESENSE_ENV}
     ports:
       - "127.0.0.1:8108:8108"
     volumes:
@@ -22,8 +20,6 @@ services:
       - scraper
     depends_on:
       - typesense
-    env_file:
-      - ${TYPESENSE_ENV}
     environment:
       TYPESENSE_API_KEY: ${TYPESENSE_SCRAPER_API_KEY}
       TYPESENSE_HOST: typesense
