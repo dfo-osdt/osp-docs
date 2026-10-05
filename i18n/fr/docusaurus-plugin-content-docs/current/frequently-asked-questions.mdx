@@ -2,6 +2,7 @@
 position: 10
 description: Foire aux questions sur le PSO
 ---
+
 import ExternalLocalizedLink from '@site/src/components/ExternalLocalizedLink';
 
 # Foire aux questions
@@ -15,7 +16,7 @@ import ExternalLocalizedLink from '@site/src/components/ExternalLocalizedLink';
 
 Consultez [**Créer un nouveau dossier de publication publiée**](./publications/create-publication-details-form.mdx#creating-a-record-for-an-existing-publication) si votre manuscrit a déjà été publié.
 
-Consultez [**Créer un nouveau dossier de publication acceptée**](./publications/create-publication-details-form.mdx#creating-a-record-from-an-old-form-mrf-approval-prior-publication) si vous créez un dossier de publication pour une publication scientifique et technique secondaire de la DGEO aux fins de soumission à Publications scientifiques, ou si votre manuscrit n’a pas encore été publié par un éditeur.
+Consultez [**Créer un nouveau dossier de publication acceptée**](./publications/create-publication-details-form.mdx#creating-a-record-from-an-old-form-mrf-approval-prior-publication) si vous créez un dossier de publication pour une publication scientifique et technique secondaire de la DGEO à soumettre à Publications scientifiques, ou si votre manuscrit n’a pas encore été publié par un éditeur.
 
 </details>
 
@@ -25,9 +26,9 @@ Consultez [**Créer un nouveau dossier de publication acceptée**](./publication
 ### J’ai créé mon formulaire de dossier de manuscrit avec le mauvais type de publication {/* #i-created-my-manuscript-record-form-with-the-wrong-publication-type */}
 </summary>
 
-Consultez [**Dupliquer un formulaire de dossier de manuscrit**](./manuscript-record-forms/manuscript-record-form-features.mdx#duplicate-a-manuscript-record-form) pour dupliquer votre MRF avec le bon type de publication.
+Consultez [**Dupliquer un formulaire de dossier de manuscrit**](./manuscript-record-forms/manuscript-record-form-features.mdx#duplicate-a-manuscript-record-form) pour dupliquer votre MRF en sélectionnant le bon type de publication.
 
-Consultez [**Supprimer un formulaire de dossier de manuscrit**](./manuscript-record-forms/manuscript-record-form-features.mdx#delete-a-manuscript-record-form) pour supprimer le MRF ayant le mauvais type de publication.
+Consultez [**Supprimer un formulaire de dossier de manuscrit**](./manuscript-record-forms/manuscript-record-form-features.mdx#delete-a-manuscript-record-form) pour supprimer le MRF associé au mauvais type de publication.
 
 </details>
 
@@ -37,20 +38,73 @@ Consultez [**Supprimer un formulaire de dossier de manuscrit**](./manuscript-rec
 ### Je souhaite soumettre mon manuscrit sous deux types de publication différents {/* #i-want-to-submit-my-manuscript-as-two-different-publication-types */}
 </summary>
 
-Pour soumettre votre manuscrit sous deux types de publication différents, deux formulaires de dossier de manuscrit distincts doivent être créés. Les deux MRF doivent suivre le processus de publication.
+Pour soumettre votre manuscrit sous deux types de publication différents, vous devez créer deux formulaires de dossier de manuscrit distincts. Les deux MRF doivent suivre le processus de publication.
 
 Par exemple, si vous souhaitez soumettre votre manuscrit à un éditeur tiers et à un serveur de prépublication, vous devez créer un formulaire de dossier de manuscrit de type **Publication par un tiers** et un autre de type **Prépublication**. Chacun de ces MRF doit faire l’objet de son propre examen de gestion du manuscrit.
 
 **Étapes**
 
-1. Créez et remplissez le MRF du premier type de publication.
+1. Créez et remplissez un MRF pour le premier type de publication.
 2. [**Dupliquez le formulaire de dossier de manuscrit**](./manuscript-record-forms/manuscript-record-form-features.mdx#duplicate-a-manuscript-record-form) et sélectionnez le deuxième type de publication.
 3. Téléversez de nouveau le PDF du manuscrit dans le deuxième MRF.
-4. Soumettez les deux MRF à l’examen de gestion du manuscrit.
+4. Soumettez les deux MRF aux fins d’examen de gestion du manuscrit.
 
 **Résultat**
 
-- Deux MRF de types de publication différents, mais contenant le même contenu, ont été créés.
+- Deux MRF de types de publication différents, mais contenant les mêmes renseignements, ont été créés.
+
+</details>
+
+## Fonctionnalités communes {/* #common-features */}
+
+### Gestion des auteurs et des affiliations {/* #author-and-affiliate-management */}
+
+<details>
+
+<summary>
+#### Quelle adresse courriel ou affiliation dois-je utiliser pour un auteur qui ne travaille plus au MPO? {/* #what-email-or-affiliation-do-i-use-for-an-author-who-no-longer-works-at-dfo */}
+</summary>
+
+- Si l’auteur était employé par le MPO au moment où il a contribué à l’article, son adresse courriel du MPO doit être utilisée et son affiliation doit être Pêches et Océans Canada.
+- Si l’auteur n’était pas employé par le MPO ni par une autre institution au moment où il a contribué au manuscrit, son adresse courriel personnelle doit être utilisée et l’option **Chercheur indépendant** doit être activée.
+  - Il est fortement recommandé d’associer un ORCID à l’auteur s’il est un chercheur indépendant.
+
+</details>
+
+## Paramètres {/* #settings */}
+
+### Profil d’utilisateur {/* #user-profile */}
+
+<details>
+
+<summary>
+#### Comment puis-je mettre à jour le nom associé à mon profil d’utilisateur du PSO? {/* #how-can-i-update-the-name-associated-with-my-osp-user-profile */}
+</summary>
+
+Consultez [**Prénom et nom de famille**](./settings/user-profile.mdx#first-and-last-name) pour modifier le nom associé à votre profil d’utilisateur du PSO.
+
+La modification du nom de votre profil d’utilisateur du PSO mettra automatiquement à jour votre nom dans tous les dossiers du PSO.
+
+</details>
+
+### Profil d’auteur {/* #author-profile */}
+
+<details>
+
+<summary>
+#### À quoi sert l’option Chercheur indépendant? {/* #what-is-the-purpose-of-the-independant-researcher-toggle */}
+</summary>
+
+L’option **Chercheur indépendant** permet une gestion plus précise du cycle de vie des auteurs. Un auteur peut devenir chercheur indépendant lorsqu’il ne représente plus une institution, par exemple à la suite d’un départ à la retraite ou d’un changement d’emploi.
+
+</details>
+
+<details>
+<summary>
+#### L’affiliation associée à mes dossiers de publication changera-t-elle si je change d’affiliation ou si je deviens chercheur indépendant? {/* #will-my-affiliation-associated-with-my-publication-records-change-if-change-affiliations-or-become-an-independant-researcher */}
+</summary>
+
+Non. Un changement d’affiliation ne remplacera pas les renseignements sur l’auteur dans les dossiers de publication existants. Seuls les dossiers créés après le changement d’affiliation afficheront votre nouvelle affiliation.
 
 </details>
 
@@ -62,22 +116,6 @@ Par exemple, si vous souhaitez soumettre votre manuscrit à un éditeur tiers et
 ### Quelle politique le Portail de science ouverte a-t-il été conçu pour appuyer? {/* #what-policy-was-the-open-science-portal-built-to-serve */}
 </summary>
 
-Le Portail de science ouverte a été conçu selon le cadre de **politique dès la conception (Policy-by-Design)**, en fonction de la modernisation de la <ExternalLocalizedLink linkKey="sciencePubPolicy">**Politique nationale sur les publications scientifiques**</ExternalLocalizedLink>.
-
-</details>
-
-## Paramètres {/* #settings */}
-
-### Profil d’utilisateur {/* #user-profile */}
-
-<details>
-
-<summary>
-#### Comment puis-je modifier le nom associé à mon profil d’utilisateur du PSO? {/* #how-can-i-update-the-name-associated-with-my-osp-user-profile */}
-</summary>
-
-Consultez [**Prénom et nom de famille**](./settings/user-profile.mdx#first-and-last-name) pour modifier le nom de votre profil d’utilisateur du PSO.
-
-La modification du nom de votre profil d’utilisateur du PSO mettra automatiquement à jour votre nom dans tous les dossiers du PSO.
+Le Portail de science ouverte a été conçu selon le cadre de **politique dès la conception (Policy-by-Design)**, en fonction de la modernisation de la <ExternalLocalizedLink linkKey="sciencePubPolicy">**Politique nationale sur les publications scientifiques de Pêches et Océans Canada**</ExternalLocalizedLink>.
 
 </details>
