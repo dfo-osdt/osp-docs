@@ -1,17 +1,18 @@
-import React, {type ReactNode} from 'react';
 import EditThisPage from '@theme-original/EditThisPage';
-import type EditThisPageType from '@theme/EditThisPage';
-import type {WrapperProps} from '@docusaurus/types';
+import Link from '@docusaurus/Link';
+import React, {type ReactNode} from 'react';
+import SupportEmail from '@site/src/components/SupportEmail';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {useLocation} from '@docusaurus/router';
-import Link from '@docusaurus/Link';
-import Translate from '@docusaurus/Translate';
+import type EditThisPageType from '@theme/EditThisPage';
+import type {WrapperProps} from '@docusaurus/types';
 
 import styles from './styles.module.css';
 
 type Props = WrapperProps<typeof EditThisPageType>;
 
-const feedbackEmail = 'DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca'
+const feedbackEmail = 'DFO.SciencePublications-PublicationsScientifiques.MPO@dfo-mpo.gc.ca'
 
 function FeedbackIcon(): JSX.Element {
   return (

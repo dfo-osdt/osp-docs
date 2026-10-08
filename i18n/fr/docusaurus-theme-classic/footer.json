@@ -21,7 +21,7 @@
   },
   "link.item.label.Open Science Team": {
     "message": "Équipe « Science ouverte »",
-    "description": "L’étiquette du lien de pied de page avec label=Open Science Team menant à mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca"
+    "description": "L’étiquette du lien de pied de page avec label=Open Science Team menant à mailto:DFO.SciencePublications-PublicationsScientifiques.MPO@dfo-mpo.gc.ca"
   },
   "link.item.label.OSP-PSO Docs": {
     "message": "OSP-PSO Docs",
