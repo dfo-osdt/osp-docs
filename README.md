@@ -16,7 +16,7 @@ Access the documentation here:
 If you notice grammatical errors or inaccuracies in the documentation, please report them through one of the following methods:
 
 - **GitHub Issues:** Submit an issue directly in the repository.
-- **Email:** Contact the [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+- **Email:** Contact the [OSP Support Team](mailto:DFO.SciencePublications-PublicationsScientifiques.MPO@dfo-mpo.gc.ca).
 
 ## License
 
@@ -173,7 +173,7 @@ Accédez à la documentation ici :
 Si vous remarquez des erreurs grammaticales ou des inexactitudes dans la documentation, veuillez les signaler par l’une des méthodes suivantes :
 
 - **Problèmes GitHub :** Soumettre un problème directement dans le dépôt.
-- **Email :** Contactez le [OSP Support Team](mailto:DFO.OpenScience-ScienceOuverte.MPO@dfo-mpo.gc.ca).
+- **Email :** Contactez le [OSP Support Team](mailto:DFO.SciencePublications-PublicationsScientifiques.MPO@dfo-mpo.gc.ca).
 
 ## Licence
 
