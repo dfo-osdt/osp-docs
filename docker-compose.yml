@@ -25,10 +25,10 @@ services:
       TYPESENSE_HOST: typesense
       TYPESENSE_PORT: "8108"
       TYPESENSE_PROTOCOL: http
-      REQUESTS_CA_BUNDLE: ${CERT_BUNDLE}
+      REQUESTS_CA_BUNDLE: /etc/ssl/certs/host-ca-certificates.crt
     volumes:
-      - ./docsearch.config.production.json:/docsearch/config.json:ro
-      - ${CERT_ALIAS}:${CERT_BUNDLE}:ro
+      - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/host-ca-certificates.crt:ro
+      - ./docsearch.config.json:/docsearch/config.json:ro
     entrypoint: ["/bin/bash", "-lc"]
     command:
       - |
