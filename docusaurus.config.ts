@@ -49,6 +49,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en', 'fr'],
   },
+  
+  markdown: {
+    mermaid: true,
+  },
 
   staticDirectories: ['static', 'src'],
 
@@ -71,7 +75,7 @@ const config: Config = {
     ],
   ],
 
-  themes: ['docusaurus-theme-search-typesense'],
+  themes: ['docusaurus-theme-search-typesense', '@docusaurus/theme-mermaid'],
 
   themeConfig: {
     // Replace with your project's social card
