@@ -43,6 +43,11 @@ export const externalLinks = {
     en: 'https://dfo-mpo.libguides.com/en/preparing-dfo-scientific-reports/formatting/colophon-page',
     fr: 'https://dfo-mpo.libguides.com/fr/preparation-rapports-scientifiques-techniques-mpo/mise-en-forme/colophon',
   },
+
+  eosCheckList: {
+    en: 'https://086gc.sharepoint.com/:b:/s/CSASWebandPubTeam/IQDzF8ySiPREQLAevSILePyxAZc8K0E7sRldf_Ueps2QBPs?e=K1yKFq',
+    fr: 'https://086gc.sharepoint.com/:b:/s/CSASWebandPubTeam/IQDvIj1ecjGvTJ3VFeoqXbsGAayJzl-RFtN_SHOwg0FkC_A?e=x9qy45',
+  },
   
 } as const;
 
