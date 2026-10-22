@@ -1,0 +1,78 @@
+name: Deploy-Docs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-docs:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout OSP Docs
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js 24.x
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build maps
+        run: pnpm maps:build
+
+      - name: Build documentation
+        run: pnpm build
+        env:
+          TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
+          TYPESENSE_PUBLIC_HOST: ${{ secrets.TYPESENSE_PUBLIC_HOST }}
+          TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
+          TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
+
+      - name: Create deployment artifact
+        run: |
+          temp_dir="$(mktemp -d "osp-docs-release.XXXXXX")"
+          mkdir -p "$temp_dir/public"
+          cp -a build/. "$temp_dir/public/"
+          cp docsearch.config.json "$temp_dir"
+          tar -czf osp-docs_${{github.sha}}.tar.gz -C "$temp_dir" .
+          rm -rf "$temp_dir"
+
+      - name: Store artifact for uploading
+        uses: actions/upload-artifact@v7
+        with:
+          name: osp-docs-build
+          path: osp-docs_${{github.sha}}.tar.gz
+
+  deploy:
+    runs-on: self-hosted
+    needs: build-docs
+    steps:
+      - name: Get artifact from build-docs
+        uses: actions/download-artifact@v8
+        with:
+          name: osp-docs-build
+          path: .
+
+      - name: Upload to osp-docs and start deploy script
+        uses: appleboy/scp-action@v1
+        with:
+          source: osp-docs_${{github.sha}}.tar.gz
+          target: /var/www/${{secrets.SERVER}}/html/artifacts
+          host: ${{ secrets.SERVER }}
+          port: 22
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Run activation script
+        uses: appleboy/ssh-action@v1
+        script: /usr/bin/python3 /home/${{ secrets.DEPLOY_USER }}/activate-docs-release.py
