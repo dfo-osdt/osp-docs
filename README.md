@@ -22,7 +22,7 @@ If you notice grammatical errors or inaccuracies in the documentation, please re
 
 ### Software License
 
-The project's code, including configuration files and VuePress 2 components, is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+The project's code, including configuration files and Docusaurus components, is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 You are free to use, modify, and distribute the code under the terms of this license.
 
 ### Documentation Content License
@@ -35,9 +35,8 @@ Unless otherwise stated, content is licensed under the [Open Government Licence 
 Ensure you have the following tools installed to build the documentation site:
 
 - [**Node.js v24.x.x+**](https://nodejs.org/en) — A JavaScript runtime used to run `pnpm` and build the Docusaurus site.
-- [**pnpm v10.x.x+**](https://pnpm.io/) — A fast, disk space-efficient package manager.
+- [**pnpm v12.x.x**](https://pnpm.io/) — A fast, disk space-efficient package manager. The exact version is pinned by `packageManager` in `package.json` (enable it with `corepack enable`).
 - [**jq v1.7.1**](https://jqlang.org/) - A command-line JSON processor.
-- [**Docker**](https://docs.docker.com/engine/install/) - A application container management system.
 
 ### Debian/Ubuntu
 
@@ -54,10 +53,10 @@ cd ./osp-docs
 pnpm install
 ```
 
-3. Build the site
+3. Create a `.env` file from `.env.example`. `TYPESENSE_SEARCH_API_KEY` and `TYPESENSE_PUBLIC_HOST` are required; the build and dev server fail without them. Point them at the deployed search server; Typesense is not run from this repository.
 
 ```bash
-pnpm build
+cp .env.example .env
 ```
 
 4. Build the on-boarding map
@@ -66,19 +65,13 @@ pnpm build
 pnpm maps:build
 ```
 
-5. Start the Typesense search server
+5. Build the site
 
 ```bash
-docker compose up -d typesense
+pnpm build
 ```
 
-6. Run the crawler to build the index
-
-```bash
-docker compose --profile scraper run --rm scraper
-```
-
-5. Start the local development server
+6. Start the local development server
 
 ```bash
 pnpm start
@@ -112,6 +105,12 @@ pnpm maps:build
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
     }
 ```
+
+## Deployment
+
+Pushes to `main` run `.github/workflows/deploy.yml` on a self-hosted runner (`production` environment). It builds the site, uploads the artifact to the documentation server and runs the release activation script there. The server configuration (nginx, Typesense, activation script) is managed in the `osp-ansible` repository.
+
+The workflow uses the secrets `SERVER`, `DEPLOY_USER`, `DEPLOY_SSH_KEY` and `TYPESENSE_SEARCH_API_KEY`, and the optional variables `TYPESENSE_PORT` (default `443`) and `TYPESENSE_PROTOCOL` (default `https`).
 
 ## Contributions
 
@@ -179,7 +178,7 @@ Si vous remarquez des erreurs grammaticales ou des inexactitudes dans la documen
 
 ### Licence de logiciel
 
-Le code du projet, y compris les fichiers de configuration et les composants VuePress 2, est sous licence [MIT License](https://opensource.org/licenses/MIT).
+Le code du projet, y compris les fichiers de configuration et les composants Docusaurus, est sous licence [MIT License](https://opensource.org/licenses/MIT).
 Vous êtes libre d’utiliser, de modifier et de distribuer le code selon les termes de cette licence.
 
 ### Licence de contenu de documentation
@@ -192,9 +191,8 @@ Sauf indication contraire, le contenu est sous licence en vertu de la [Licence d
 Assurez-vous d’avoir installé les outils suivants pour créer le site de documentation :
 
 - [**Node.js v24.x.x+**](https://nodejs.org/en) — Un environnement d’exécution JavaScript utilisé pour exécuter 'pnpm' et construire le site Docusaurus.
-- [**pnpm v10.x.x+**](https://pnpm.io/) — Un gestionnaire de paquets rapide et économe en espace disque.
+- [**pnpm v12.x.x**](https://pnpm.io/) — Un gestionnaire de paquets rapide et économe en espace disque. La version exacte est définie par `packageManager` dans `package.json` (activez-la avec `corepack enable`).
 - [**jq v1.7.1**](https://jqlang.org/) - Un processeur JSON en ligne de commande.
-- [**Docker**](https://docs.docker.com/engine/install/) - Un système de gestion de conteneurs d’applications.
 
 ### Debian/Ubuntu
 
@@ -211,10 +209,10 @@ cd ./osp-docs
 pnpm install
 ```
 
-3. Construisez le site
+3. Créez un fichier `.env` à partir de `.env.example`. `TYPESENSE_SEARCH_API_KEY` et `TYPESENSE_PUBLIC_HOST` sont obligatoires; la construction et le serveur de développement échouent sans eux. Faites-les pointer vers le serveur de recherche déployé; Typesense n’est pas exécuté à partir de ce dépôt.
 
 ```Bash
-pnpm build
+cp .env.example .env
 ```
 
 4. Construire la carte d’intégration
@@ -223,19 +221,13 @@ pnpm build
 pnpm maps:build
 ```
 
-5. Démarrez le serveur de recherche Typesense
+5. Construisez le site
 
 ```Bash
-Docker compose up -d typesense
+pnpm build
 ```
 
-6. Exécutez le robot d’exploration pour créer l’index
-
-```Bash
-docker compose --profile scraper run --rm scraper
-```
-
-7. Démarrez le serveur de développement local
+6. Démarrez le serveur de développement local
 
 ```Bash
 pnpm start
@@ -269,6 +261,12 @@ pnpm maps:build
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   }
 ```
+
+## Déploiement
+
+Chaque poussée vers `main` exécute `.github/workflows/deploy.yml` sur un exécuteur auto-hébergé (environnement `production`). Le flux de travail construit le site, téléverse l’artefact sur le serveur de documentation et y exécute le script d’activation de la version. La configuration du serveur (nginx, Typesense, script d’activation) est gérée dans le dépôt `osp-ansible`.
+
+Le flux de travail utilise les secrets `SERVER`, `DEPLOY_USER`, `DEPLOY_SSH_KEY` et `TYPESENSE_SEARCH_API_KEY`, ainsi que les variables facultatives `TYPESENSE_PORT` (par défaut `443`) et `TYPESENSE_PROTOCOL` (par défaut `https`).
 
 ## Contributions
 
