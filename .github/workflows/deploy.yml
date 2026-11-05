@@ -9,6 +9,7 @@ on:
 jobs:
   build-docs:
     runs-on: self-hosted
+    environment: production
 
     steps:
       - name: Checkout OSP Docs
@@ -34,16 +35,15 @@ jobs:
         run: pnpm build
         env:
           TYPESENSE_SEARCH_API_KEY: ${{ secrets.TYPESENSE_SEARCH_API_KEY }}
-          TYPESENSE_PUBLIC_HOST: ${{ secrets.TYPESENSE_PUBLIC_HOST }}
-          TYPESENSE_PORT: ${{ secrets.TYPESENSE_PORT }}
-          TYPESENSE_PROTOCOL: ${{ secrets.TYPESENSE_PROTOCOL }}
+          TYPESENSE_PUBLIC_HOST: ${{ secrets.SERVER }}
+          TYPESENSE_PORT: ${{ vars.TYPESENSE_PORT || 443 }}
+          TYPESENSE_PROTOCOL: ${{ vars.TYPESENSE_PROTOCOL || 'https' }}
 
       - name: Create deployment artifact
         run: |
           temp_dir="$(mktemp -d "osp-docs-release.XXXXXX")"
           mkdir -p "$temp_dir/public"
           cp -a build/. "$temp_dir/public/"
-          cp docsearch.config.json "$temp_dir"
           tar -czf osp-docs_${{github.sha}}.tar.gz -C "$temp_dir" .
           rm -rf "$temp_dir"
 
@@ -56,6 +56,8 @@ jobs:
   deploy:
     runs-on: self-hosted
     needs: build-docs
+    environment: production
+    
     steps:
       - name: Get artifact from build-docs
         uses: actions/download-artifact@v8
@@ -75,4 +77,9 @@ jobs:
 
       - name: Run activation script
         uses: appleboy/ssh-action@v1
-        script: /usr/bin/python3 /home/${{ secrets.DEPLOY_USER }}/activate-docs-release.py
+        with:
+          host: ${{ secrets.SERVER }}
+          port: 22
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: /usr/bin/python3 /home/${{ secrets.DEPLOY_USER }}/activate-docs-release.py ${{ github.sha }}
