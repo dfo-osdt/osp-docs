@@ -17,7 +17,7 @@ export default function ExternalLocalizedLink({
   linkKey,
   children,
   className,
-}: ExternalLocalizedLinkProps): JSX.Element {
+}: ExternalLocalizedLinkProps): React.JSX.Element {
   const {i18n} = useDocusaurusContext();
 
   const href = getExternalLink(linkKey, i18n.currentLocale);

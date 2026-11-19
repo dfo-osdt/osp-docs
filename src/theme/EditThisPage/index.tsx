@@ -14,7 +14,7 @@ type Props = WrapperProps<typeof EditThisPageType>;
 
 const feedbackEmail = 'DFO.SciencePublications-PublicationsScientifiques.MPO@dfo-mpo.gc.ca'
 
-function FeedbackIcon(): JSX.Element {
+function FeedbackIcon(): React.JSX.Element {
   return (
     <svg
       className={styles.feedbackIcon}

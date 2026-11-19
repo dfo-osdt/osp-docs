@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout OSP Docs
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js 24.x
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build maps
+        run: pnpm maps:build
+
+      - name: Build documentation
+        run: pnpm build
+        env:
+          # Placeholders: the build only needs these defined, and PRs get no secrets.
+          TYPESENSE_SEARCH_API_KEY: placeholder
+          TYPESENSE_PUBLIC_HOST: localhost
