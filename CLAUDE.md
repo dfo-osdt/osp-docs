@@ -89,6 +89,7 @@ Workflow secrets: `SERVER`, `DEPLOY_USER`, `DEPLOY_SSH_KEY`, `TYPESENSE_SEARCH_A
 ## Git Workflow
 
 - **Main branch:** `main` (all PRs target this branch)
+- **PR check:** `.github/workflows/build.yml` runs lint, typecheck and the full build (both locales) on every PR, with placeholder Typesense values and no secrets. The `build` job must pass before merging (enforced by the `main` ruleset).
 - **Commit format:** Use [Conventional Commits](https://www.conventionalcommits.org/)
   - Types: `build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`
   - Format: `<type>[optional scope]: <description>`

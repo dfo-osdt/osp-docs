@@ -13,7 +13,7 @@ export default function SupportEmail({
   subject,
   body,
   children,
-}: SupportEmailProps): JSX.Element {
+}: SupportEmailProps): React.JSX.Element {
   const email = contactInfo.ospSupportEmail;
 
   const query = new URLSearchParams();
