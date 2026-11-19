@@ -31,7 +31,7 @@
       "code": "QC",
       "svgIds": ["DFO_QC"],
       "groups": [
-        { "role": "authors", "status": "in_progress" },
+        { "role": "authors", "status": "complete" },
         { "role": "editors", "status": "complete" },
         { "role": "division_managers", "status": "complete" }
       ]
@@ -58,9 +58,9 @@
       "code": "NL",
       "svgIds": ["DFO_NL"],
       "groups": [
-        { "role": "authors", "status": "scheduled" },
-        { "role": "editors", "status": "scheduled" },
-        { "role": "division_managers", "status": "scheduled" }
+        { "role": "authors", "status": "complete" },
+        { "role": "editors", "status": "complete" },
+        { "role": "division_managers", "status": "complete" }
       ]
     },
     {
